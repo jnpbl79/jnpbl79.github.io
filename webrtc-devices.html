@@ -18,7 +18,7 @@
       videoSourceInputs = [];
       mediaVideoDevices = [];
       combinedDevices = [];
-      
+
       var audio = true,
         video = new fm.icelink.VideoConfig(640, 480, 24),
         localMedia = new fm.icelink.LocalMedia(audio, video, false);
@@ -70,6 +70,7 @@
         }
         result += "<hr/>";
       });
+      return result;
     }
   </script>
 </body>
