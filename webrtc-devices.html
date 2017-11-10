@@ -102,6 +102,9 @@
         .then(function() {
           localMedia = null;
           promise.resolve(_videoSourceInputs);
+        }).fail(function(ex) {
+          fm.icelink.Log.error(ex.message, ex);
+          promise.reject(ex);
         });
       }
 
