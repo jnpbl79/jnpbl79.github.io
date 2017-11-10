@@ -93,7 +93,7 @@
         promise.resolve(_videoSourceInputs);
       }
       else {
-        localMedia = new fm.icelink.LocalMedia(false, false, false);
+        localMedia = new fm.icelink.LocalMedia(true, true, false);
         localMedia.start().then(function() {
           return localMedia.getVideoSourceInputs().then(function(videoInputs) {
             _videoSourceInputs = videoInputs;
