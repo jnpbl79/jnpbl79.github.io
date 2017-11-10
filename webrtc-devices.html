@@ -90,18 +90,18 @@
       var promise = new fm.icelink.Promise();
 
       if (videoSourceInputs) {
-        promise.resolve(_videoSourceInputs);
+        promise.resolve(videoSourceInputs);
       }
       else {
         localMedia = new fm.icelink.LocalMedia(true, true, false);
         localMedia.start().then(function() {
           return localMedia.getVideoSourceInputs().then(function(videoInputs) {
-            _videoSourceInputs = videoInputs;
+            videoSourceInputs = videoInputs;
           });
         }).then(function() {
           return localMedia.stop().then(function() {
             localMedia = null;
-            promise.resolve(_videoSourceInputs);
+            promise.resolve(videoSourceInputs);
           });
         }).fail(function(ex) {
           fm.icelink.Log.error(ex.message, ex);
