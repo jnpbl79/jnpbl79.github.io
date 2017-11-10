@@ -14,50 +14,58 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="fm/fm.js"></script>
   <script>
-    $(function() {
-      videoSourceInputs = [];
-      mediaVideoDevices = [];
-      combinedDevices = [];
+    var localMedia = null;
+    var videoSourceInputs = null;
 
-      var audio = true,
-        video = new fm.icelink.VideoConfig(640, 480, 24),
-        localMedia = new fm.icelink.LocalMedia(audio, video, false);
-
-      // localMedia.start().then(function() {
-
-        localMedia.getVideoSourceInputs().then(function(videoInputs) {
-          videoSourceInputs = videoInputs;
-          combinedDevices = videoInputs;
-
-          if (navigator.mediaDevices && navigator.mediaDevices.enumerateDevices) {
-            navigator.mediaDevices.enumerateDevices().then(function(devices) {
-              mediaVideoDevices = devices.filter(function(device) {
-                return device.kind == "videoinput";
-              });
-
-              mediaVideoDevices.forEach(function(device) {
-                var deviceIndex = combinedDevices.findIndex(function(source) {
-                  return source.getId() == device.deviceId;
-                });
-
-                if (deviceIndex > -1) {
-                  if (combinedDevices[deviceIndex].getId() == combinedDevices[deviceIndex].getName() && device.label) {
-                    combinedDevices[deviceIndex]._name = device.label;
-                  }
-                }
-              });
-
-              $(".log").append("<h3>videoSourceInputs <small>fm -> localMedia.getVideoSourceInputs</small></h3>");
-              $(".log").append(printObjectArray(videoSourceInputs));
-              $(".log").append("<h3>mediaVideoDevices <small>native -> navigator.mediaDevices.enumerateDevices()</small></h3>");
-              $(".log").append(printObjectArray(mediaVideoDevices));
-              $(".log").append("<h3>combinedDevices</h3>");
-              $(".log").append(printObjectArray(combinedDevices));
-            });
-          }
-        });
-      // });
+    getVideoSourceInputs().then(function(inputs) {
+      $(".log").append("<h3>videoSourceInputs <small>fm -> localMedia.getVideoSourceInputs</small></h3>");
+      $(".log").append(printObjectArray(videoSourceInputs));
     });
+
+    // $(function() {
+    //   videoSourceInputs = [];
+    //   mediaVideoDevices = [];
+    //   combinedDevices = [];
+    //
+    //   var audio = true,
+    //     video = new fm.icelink.VideoConfig(640, 480, 24),
+    //     localMedia = new fm.icelink.LocalMedia(false, false, false);
+    //
+    //   localMedia.start().then(function() {
+    //
+    //     localMedia.getVideoSourceInputs().then(function(videoInputs) {
+    //       videoSourceInputs = videoInputs;
+    //       combinedDevices = videoInputs;
+    //
+    //       if (navigator.mediaDevices && navigator.mediaDevices.enumerateDevices) {
+    //         navigator.mediaDevices.enumerateDevices().then(function(devices) {
+    //           mediaVideoDevices = devices.filter(function(device) {
+    //             return device.kind == "videoinput";
+    //           });
+    //
+    //           mediaVideoDevices.forEach(function(device) {
+    //             var deviceIndex = combinedDevices.findIndex(function(source) {
+    //               return source.getId() == device.deviceId;
+    //             });
+    //
+    //             if (deviceIndex > -1) {
+    //               if (combinedDevices[deviceIndex].getId() == combinedDevices[deviceIndex].getName() && device.label) {
+    //                 combinedDevices[deviceIndex]._name = device.label;
+    //               }
+    //             }
+    //           });
+    //
+    //           $(".log").append("<h3>videoSourceInputs <small>fm -> localMedia.getVideoSourceInputs</small></h3>");
+    //           $(".log").append(printObjectArray(videoSourceInputs));
+    //           $(".log").append("<h3>mediaVideoDevices <small>native -> navigator.mediaDevices.enumerateDevices()</small></h3>");
+    //           $(".log").append(printObjectArray(mediaVideoDevices));
+    //           $(".log").append("<h3>combinedDevices</h3>");
+    //           $(".log").append(printObjectArray(combinedDevices));
+    //         });
+    //       }
+    //     });
+    //   });
+    // });
 
     function log(msg) {
       $('.log').append('<div>' + msg + '</div>');
@@ -76,6 +84,28 @@
         result += "<hr/>";
       });
       return result;
+    }
+
+    function getVideoSourceInputs() {
+      var promise = new fm.icelink.Promise();
+
+      if (videoSourceInputs) {
+        promise.resolve(_videoSourceInputs);
+      }
+      else {
+        localMedia = new fm.icelink.LocalMedia(false, false, false);
+        localMedia.start().then(function() {
+          return localMedia.getVideoSourceInputs().then(function(videoInputs) {
+            _videoSourceInputs = videoInputs;
+          });
+        }).then(_localMedia.stop)
+        .then(function() {
+          localMedia = null;
+          promise.resolve(_videoSourceInputs);
+        });
+      }
+
+      return promise;
     }
   </script>
 </body>
