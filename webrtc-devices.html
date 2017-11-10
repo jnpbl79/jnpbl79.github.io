@@ -18,7 +18,7 @@
     var videoSourceInputs = null;
 
     getVideoSourceInputs().then(function(inputs) {
-      $(".log").append("<h3>videoSourceInputs <small>fm -> localMedia.getVideoSourceInputs</small></h3>");
+      $(".log").append("<h3>videoSourceInputs <small>fm -> localMedia.getVideoSourceInputs</small></h3><hr/>");
       $(".log").append(printObjectArray(videoSourceInputs));
     });
 
