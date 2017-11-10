@@ -33,7 +33,7 @@
                 });
 
                 mediaVideoDevices.forEach(function(device) {
-                  var deviceIndex = _videoSourceInputs.findIndex(function(source) {
+                  var deviceIndex = combinedDevices.findIndex(function(source) {
                     return source.getId() == device.deviceId;
                   });
 
