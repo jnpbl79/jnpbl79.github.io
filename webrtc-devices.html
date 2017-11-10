@@ -15,10 +15,11 @@
   <script src="fm/fm.js"></script>
   <script>
     $(function() {
-      var videoSourceInputs = [],
-        mediaVideoDevices = [],
-        combinedDevices = [],
-        audio = true,
+      videoSourceInputs = [];
+      mediaVideoDevices = [];
+      combinedDevices = [];
+      
+      var audio = true,
         video = new fm.icelink.VideoConfig(640, 480, 24),
         localMedia = new fm.icelink.LocalMedia(audio, video, false);
 
