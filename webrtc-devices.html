@@ -98,10 +98,11 @@
           return localMedia.getVideoSourceInputs().then(function(videoInputs) {
             _videoSourceInputs = videoInputs;
           });
-        }).then(localMedia.stop)
-        .then(function() {
-          localMedia = null;
-          promise.resolve(_videoSourceInputs);
+        }).then(function() {
+          return localMedia.stop().then(function() {
+            localMedia = null;
+            promise.resolve(_videoSourceInputs);
+          });
         }).fail(function(ex) {
           fm.icelink.Log.error(ex.message, ex);
           promise.reject(ex);
