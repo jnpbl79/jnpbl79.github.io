@@ -23,7 +23,7 @@
         video = new fm.icelink.VideoConfig(640, 480, 24),
         localMedia = new fm.icelink.LocalMedia(audio, video, false);
 
-      localMedia.start().then(function() {
+      // localMedia.start().then(function() {
 
         localMedia.getVideoSourceInputs().then(function(videoInputs) {
           videoSourceInputs = videoInputs;
@@ -56,7 +56,7 @@
             });
           }
         });
-      })
+      // });
     });
 
     function log(msg) {
