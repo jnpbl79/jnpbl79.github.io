@@ -45,15 +45,14 @@
               }
             });
 
+            $(".log").append("<h3>videoSourceInputs</h3>");
+            $(".log").append(printObjectArray(videoSourceInputs));
+            $(".log").append("<h3>mediaVideoDevices</h3>");
+            $(".log").append(printObjectArray(mediaVideoDevices));
+            $(".log").append("<h3>combinedDevices</h3>");
+            $(".log").append(printObjectArray(combinedDevices));
           });
         }
-
-        $(".log").append("<h3>videoSourceInputs</h3>");
-        $(".log").append(printObjectArray(videoSourceInputs));
-        $(".log").append("<h3>mediaVideoDevices</h3>");
-        $(".log").append(printObjectArray(mediaVideoDevices));
-        $(".log").append("<h3>combinedDevices</h3>");
-        $(".log").append(printObjectArray(combinedDevices));
       });
     });
 
