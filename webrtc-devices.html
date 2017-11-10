@@ -98,7 +98,7 @@
           return localMedia.getVideoSourceInputs().then(function(videoInputs) {
             _videoSourceInputs = videoInputs;
           });
-        }).then(_localMedia.stop)
+        }).then(localMedia.stop)
         .then(function() {
           localMedia = null;
           promise.resolve(_videoSourceInputs);
