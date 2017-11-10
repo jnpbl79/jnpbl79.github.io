@@ -39,7 +39,7 @@
               });
 
               if (deviceIndex > -1) {
-                if (combinedDevices[deviceIndex].getId() == combinedDevices[deviceIndex].getName()) {
+                if (combinedDevices[deviceIndex].getId() == combinedDevices[deviceIndex].getName() && device.label) {
                   combinedDevices[deviceIndex]._name = device.label;
                 }
               }
