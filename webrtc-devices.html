@@ -73,7 +73,7 @@
       var result = '';
 
       for (key in bowser) {
-        if (typeof key != 'function') {
+        if (typeof bowser[key] != 'function') {
           result += "<span>" + key + ":</span> ";
           result += "<span>" + bowser[key] + "</span> ";
           result += "<br/>";
