@@ -70,7 +70,7 @@
     }
 
     function getBowserInfo() {
-      var result = '';
+      var result = "<span>userAgent:</span> <span>" + navigator.userAgent + "</span><br/>";
 
       for (key in bowser) {
         if (typeof bowser[key] != 'function') {
