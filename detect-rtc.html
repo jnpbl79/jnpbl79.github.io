@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+  <div>&nbsp;</div>
+  <div class="container">
+    <div class="log well"></div>
+    <div class="bowser well"></div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bowser/1.8.1/bowser.min.js"></script>
+  <script src="fm/fm.js"></script>
+  <script>
+    var isWebRTCSupported = false;
+    ['RTCPeerConnection', 'webkitRTCPeerConnection', 'mozRTCPeerConnection', 'RTCIceGatherer'].forEach(function(item) {
+        if (isWebRTCSupported) {
+            return;
+        }
+    
+        if (item in window) {
+            isWebRTCSupported = true;
+        }
+    });
+
+    $(function() {
+      if (isWebRTCSupported) {
+        $('.log').append("<div>YAY! RTC is supported!</div>");
+      }
+      else {
+        $('.log').append("<div>BUU! RTC is NOT supported!</div>");
+      }
+    });
+  </script>
+</body>
+
+</html>
