@@ -8,8 +8,9 @@
 <body>
   <div>&nbsp;</div>
   <div class="container">
-    <h1>Support</h1>
-    <dl id="list" class="dl-horizontal"></dl>
+    <table id="list" class="table">
+      <caption>WebRTC Support</caption>
+    </table>
   </div>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -75,12 +76,13 @@
 
       var dl = document.getElementById('list');
       for (var item in webrtcsupport) {
-        var dt = document.createElement('dt');
-        var dd = document.createElement('dd');
-        dt.innerHTML = item;
-        dd.innerHTML = webrtcsupport[item];
-        dl.appendChild(dt);
-        dl.appendChild(dd);
+        var tr = document.createElement('tr');
+        var td1 = document.createElement('td');
+        var td2 = document.createElement('td');
+        td1.innerHTML = item;
+        td2.innerHTML = webrtcsupport[item];
+        tr.appendChild(td1);
+        tr.appendChild(td2);
       }
     });
   </script>
