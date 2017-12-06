@@ -47,7 +47,12 @@
 
       var c = '<table class="table table-striped"><thead><th colspan="2">WebRTC Support <small><a href="https://github.com/HenrikJoreteg/webrtcsupport" target="blank">more</a></small></th></thead>';
       for (var item in webrtcsupport) {
-        c += '<tr data-p="{0}" data-v="{1}"><td>{0}</td><td>{1}</td></tr>'.format(item, webrtcsupport[item]);
+        var value = webrtcsupport[item];
+
+        if (typeof webrtcsupport[item] != 'boolean')
+          value = webrtcsupport[item] || 'undefined';
+
+        c += '<tr data-p="{0}" data-v="{1}"><td>{0}</td><td>{1}</td></tr>'.format(item, value);
       }
       c += '</table>'
       $('.container').append(c);
