@@ -17,6 +17,7 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bowser/1.8.1/bowser.min.js"></script>
   <script src="js/webrtcsupport.js"></script>
+  <script src="js/fm/fm.js"></script>
   <script>
     $(function() {
       printUserAgent();
@@ -39,21 +40,21 @@
 
     function printUserAgent() {
       $('.container').append('<table class="table"><thead><th>UserAgent</th></thead><tr><td>{0}</td><tr></table>'.format(navigator.userAgent));
-    }
+    };
 
     function printWebRTCSupport() {
       console.log(webrtcsupport);
 
-      var c = '<table class="table table-striped"><thead><th colspan="2">WebRTC Support</th></thead>';
+      var c = '<table class="table table-striped"><thead><th colspan="2">WebRTC Support <small><a href="https://github.com/HenrikJoreteg/webrtcsupport" target="blank">more</a></small></th></thead>';
       for (var item in webrtcsupport) {
         c += '<tr data-p="{0}" data-v="{1}"><td>{0}</td><td>{1}</td></tr>'.format(item, webrtcsupport[item]);
       }
       c += '</table>'
       $('.container').append(c);
-    }
+    };
 
     function printBowserInfo() {
-      var c = '<table class="table table-striped"><thead><th colspan="2">Browser Info</th></thead>';
+      var c = '<table class="table table-striped"><thead><th colspan="2">Browser Info <small><a href="https://github.com/lancedikson/bowser" target="blank">more</a></small></th></thead>';
 
       for (key in bowser) {
         if (typeof bowser[key] != 'function') {
@@ -63,7 +64,7 @@
 
       c += '</table>'
       $('.container').append(c);
-    }
+    };
 
     function printAdditionalBrowserFlags() {
       var c = '<table class="table table-striped"><thead><th>Additional Browser Flags</th></thead>';
@@ -81,7 +82,7 @@
       c += '<tr><td>{0}</td></tr>'.format(flags.join(', '));
       c += '</table>'
       $('.container').append(c);
-    }
+    };
   </script>
 </body>
 
