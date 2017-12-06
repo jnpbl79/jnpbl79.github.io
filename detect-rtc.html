@@ -20,8 +20,10 @@
   <script>
     $(function() {
       printUserAgent();
-      printBowserInfo();
       printWebRTCSupport();
+      printBowserInfo();
+      printAdditionalBrowserFlags();
+      
     });
 
     if (!String.prototype.format) {
@@ -44,7 +46,7 @@
 
       var c = '<table class="table table-striped"><thead><th colspan="2">WebRTC Support</th></thead>';
       for (var item in webrtcsupport) {
-        c += "<tr><td>{0}</td><td>{1}</td></tr>".format(item, webrtcsupport[item]);
+        c += '<tr data-p="{0}" data-v="{1}"><td>{0}</td><td>{1}</td></tr>'.format(item, webrtcsupport[item]);
       }
       c += '</table>'
       $('.container').append(c);
@@ -55,24 +57,28 @@
 
       for (key in bowser) {
         if (typeof bowser[key] != 'function') {
-          c += '<tr><td>{0}</td><td>{1}</td></tr>'.format(key, bowser[key]);
+          c += '<tr data-p="{0}" data-v="{1}"><td>{0}</td><td>{1}</td></tr>'.format(key, bowser[key]);
         }
       }
 
-      c += '<thead><th colspan="2">Additional browser flags</th></thead>';
-      var flags = [];
+      c += '</table>'
+      $('.container').append(c);
+    }
+
+    function printAdditionalBrowserFlags() {
+      var c = '<table class="table table-striped"><thead><th>Additional Browser Flags</th></thead>';
+
+        var flags = [];
       // flags
       ['mobile', 'tablet', 'chrome', 'firefox', 'msie', 'msedge', 'safari', 'android', 'ios', 'opera', 'samsungBrowser', 
       'phantom', 'blackberry', 'webos', 'silk', 'bada', 'tizen', 'seamonkey', 'sailfish', 'ucbrowser', 'qupzilla', 
       'vivaldi', 'sleipnir', 'kMeleon', 'mac', 'windows', 'windowsphone', 'linux', 'chromeos', 'android', 'ios', 
       'blackberry', 'firefoxos', 'webos', 'bada', 'tizen', 'sailfish', 'ios', 'iphone', 'ipad', 'ipod'].forEach(function(item) {
         if (!(item in bowser)) {
-          flags.push('{0}: {1}'.format(item, bowser[item] || false));
+          flags.push(item);
         }
       });
-      c += '<tr><td colspan="2">{0}</td></tr>'.format(flags.join('<br/>'));
-
-
+      c += '<tr><td>{0}</td></tr>'.format(flags.join(', '));
       c += '</table>'
       $('.container').append(c);
     }
