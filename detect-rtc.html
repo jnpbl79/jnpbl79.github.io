@@ -46,7 +46,7 @@
 
       var c = '<table class="table table-striped"><thead><th colspan="2">WebRTC Support</th></thead>';
       for (var item in webrtcsupport) {
-        c += '<tr data-p="{0}" data-v="{1}"><td>{0}</td><td>{1}</td></tr>'.format(item, webrtcsupport[item] || 'undefined');
+        c += '<tr data-p="{0}" data-v="{1}"><td>{0}</td><td>{1}</td></tr>'.format(item, webrtcsupport[item]);
       }
       c += '</table>'
       $('.container').append(c);
