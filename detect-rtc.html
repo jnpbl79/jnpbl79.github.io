@@ -2,37 +2,80 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <style>
-    body { margin-top: 10px; }
+    body {
+      margin-top: 20px;
+    }
   </style>
 </head>
 
 <body>
   <div class="container">
-
-    <div class="panel panel-default">
-      <div class="panel-heading">WebRTC Support</div>
-      <ul id="list" class="list-group">
-      </ul>
-    </div>
-
   </div>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="scripts/webrtcsupport.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bowser/1.8.1/bowser.min.js"></script>
+  <script src="js/webrtcsupport.js"></script>
   <script>
     $(function() {
+      printUserAgent();
+      printBowserInfo();
+      printWebRTCSupport();
+    });
+
+    if (!String.prototype.format) {
+      String.prototype.format = function() {
+        var args = arguments;
+        return this.replace(/{(\d+)}/g, function(match, number) {
+          return typeof args[number] != 'undefined' ?
+            args[number] :
+            match;
+        });
+      };
+    }
+
+    function printUserAgent() {
+      $('.container').append('<table class="table"><thead><th>UserAgent</th></thead><tr><td>{0}</td><tr></table>'.format(navigator.userAgent));
+    }
+
+    function printWebRTCSupport() {
       console.log(webrtcsupport);
 
-      var c = document.getElementById('list');
+      var c = '<table class="table table-striped"><thead><th colspan="2">WebRTC Support</th></thead>';
       for (var item in webrtcsupport) {
-        var li = document.createElement('li');
-        li.className = "list-group-item";
-        li.innerHTML = '<strong>' + item + ':</strong> ' + webrtcsupport[item];
-        c.appendChild(li);
+        c += "<tr><td>{0}</td><td>{1}</td></tr>".format(item, webrtcsupport[item]);
       }
-    });
+      c += '</table>'
+      $('.container').append(c);
+    }
+
+    function printBowserInfo() {
+      var c = '<table class="table table-striped"><thead><th colspan="2">Browser Info</th></thead>';
+
+      for (key in bowser) {
+        if (typeof bowser[key] != 'function') {
+          c += '<tr><td>{0}</td><td>{1}</td></tr>'.format(key, bowser[key]);
+        }
+      }
+
+      c += '<thead><th colspan="2">Additional browser flags</th></thead>';
+      var flags = [];
+      // flags
+      ['mobile', 'tablet', 'chrome', 'firefox', 'msie', 'msedge', 'safari', 'android', 'ios', 'opera', 'samsungBrowser', 
+      'phantom', 'blackberry', 'webos', 'silk', 'bada', 'tizen', 'seamonkey', 'sailfish', 'ucbrowser', 'qupzilla', 
+      'vivaldi', 'sleipnir', 'kMeleon', 'mac', 'windows', 'windowsphone', 'linux', 'chromeos', 'android', 'ios', 
+      'blackberry', 'firefoxos', 'webos', 'bada', 'tizen', 'sailfish', 'ios', 'iphone', 'ipad', 'ipod'].forEach(function(item) {
+        if (!(item in bowser)) {
+          flags.push('{0}: {1}'.format(item, bowser[item] || false));
+        }
+      });
+      c += '<tr><td colspan="2">{0}</td></tr>'.format(flags.join('<br/>'));
+
+
+      c += '</table>'
+      $('.container').append(c);
+    }
   </script>
 </body>
 
