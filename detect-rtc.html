@@ -6,13 +6,11 @@
 </head>
 
 <body>
-  <div>&nbsp;</div>
-  <div class="page-header">
-    <h1>WebRTC Support</h1>
-  </div>
   <div class="container">
+    <div class="page-header">
+      <h1>WebRTC Support</h1>
+    </div>
     <table id="list" class="table">
-      <caption>WebRTC Support</caption>
     </table>
   </div>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
@@ -25,16 +23,13 @@
       if (window.mozRTCPeerConnection || navigator.mozGetUserMedia) {
         prefix = 'moz';
         version = parseInt(navigator.userAgent.match(/Firefox\/([0-9]+)\./)[1], 10);
-      } 
-      else if (navigator.userAgent.match(/Edge\/([0-9]+)\./)) {
+      } else if (navigator.userAgent.match(/Edge\/([0-9]+)\./)) {
         prefix = 'ms';
         version = parseInt(navigator.userAgent.match(/Edge\/([0-9]+)\./)[1], 10);
-      }
-      else if (navigator.userAgent.match(/Trident\/([0-9]+)\./)) {
+      } else if (navigator.userAgent.match(/Trident\/([0-9]+)\./)) {
         prefix = 'ms';
         version = parseInt(navigator.userAgent.match(/rv:([0-9]+)\./)[1], 10);
-      }
-      else if (window.webkitRTCPeerConnection || navigator.webkitGetUserMedia) {
+      } else if (window.webkitRTCPeerConnection || navigator.webkitGetUserMedia) {
         prefix = 'webkit';
         version = navigator.userAgent.match(/Chrom(e|ium)/) && parseInt(navigator.userAgent.match(/Chrom(e|ium)\/([0-9]+)\./)[2], 10);
       }
