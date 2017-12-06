@@ -25,6 +25,7 @@
       var c = document.getElementById('list');
       for (var item in webrtcsupport) {
         var li = document.createElement('li');
+        li.className = "list-group-item";
         li.innerHTML = '<strong>' + item + ':</strong> ' + webrtcsupport[item];
         c.appendChild(li);
       }
