@@ -24,11 +24,11 @@
         version = parseInt(navigator.userAgent.match(/Firefox\/([0-9]+)\./)[1], 10);
       } 
       else if (navigator.userAgent.match(/Edge\/([0-9]+)\./)) {
-        prefix = '-ms-';
+        prefix = 'ms';
         version = parseInt(navigator.userAgent.match(/Edge\/([0-9]+)\./)[1], 10);
       }
       else if (navigator.userAgent.match(/Trident\/([0-9]+)\./)) {
-        prefix = '-ms-';
+        prefix = 'ms';
         version = parseInt(navigator.userAgent.match(/rv:([0-9]+)\./)[1], 10);
       }
       else if (window.webkitRTCPeerConnection || navigator.webkitGetUserMedia) {
