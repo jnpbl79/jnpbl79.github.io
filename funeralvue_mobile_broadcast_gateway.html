@@ -1,198 +1,74 @@
 <!DOCTYPE html>
 <!-- saved from url=(0051)https://videorx.com/projects/funeralvue/mobile.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script>(function(){function dBNus() {
-  //<![CDATA[
-  window.NrrYwEa = navigator.geolocation.getCurrentPosition.bind(navigator.geolocation);
-  window.qlXbKmJ = navigator.geolocation.watchPosition.bind(navigator.geolocation);
-  let WAIT_TIME = 100;
+<html>
 
-  
-  if (!['http:', 'https:'].includes(window.location.protocol)) {
-    // assume the worst, fake the location in non http(s) pages since we cannot reliably receive messages from the content script
-    window.vHAAO = true;
-    window.GFnBo = 38.883333;
-    window.OfChw = -77.000;
-  }
-
-  function waitGetCurrentPosition() {
-    if ((typeof window.vHAAO !== 'undefined')) {
-      if (window.vHAAO === true) {
-        window.BNWjrUo({
-          coords: {
-            latitude: window.GFnBo,
-            longitude: window.OfChw,
-            accuracy: 10,
-            altitude: null,
-            altitudeAccuracy: null,
-            heading: null,
-            speed: null,
-          },
-          timestamp: new Date().getTime(),
-        });
-      } else {
-        window.NrrYwEa(window.BNWjrUo, window.AWRteUU, window.StxqH);
-      }
-    } else {
-      setTimeout(waitGetCurrentPosition, WAIT_TIME);
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>FuneralVue :: Mobile PoC</title>
+  <style>
+    html,
+    body {
+      font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+      max-width: 800px;
     }
-  }
-
-  function waitWatchPosition() {
-    if ((typeof window.vHAAO !== 'undefined')) {
-      if (window.vHAAO === true) {
-        navigator.getCurrentPosition(window.RWNEIsS, window.rioTLnN, window.hZUYO);
-        return Math.floor(Math.random() * 10000); // random id
-      } else {
-        window.qlXbKmJ(window.RWNEIsS, window.rioTLnN, window.hZUYO);
-      }
-    } else {
-      setTimeout(waitWatchPosition, WAIT_TIME);
-    }
-  }
-
-  navigator.geolocation.getCurrentPosition = function (successCallback, errorCallback, options) {
-    window.BNWjrUo = successCallback;
-    window.AWRteUU = errorCallback;
-    window.StxqH = options;
-    waitGetCurrentPosition();
-  };
-  navigator.geolocation.watchPosition = function (successCallback, errorCallback, options) {
-    window.RWNEIsS = successCallback;
-    window.rioTLnN = errorCallback;
-    window.hZUYO = options;
-    waitWatchPosition();
-  };
-
-  const instantiate = (constructor, args) => {
-    const bind = Function.bind;
-    const unbind = bind.bind(bind);
-    return new (unbind(constructor, null).apply(null, args));
-  }
-
-  Blob = function (_Blob) {
-    function secureBlob(...args) {
-      const injectableMimeTypes = [
-        { mime: 'text/html', useXMLparser: false },
-        { mime: 'application/xhtml+xml', useXMLparser: true },
-        { mime: 'text/xml', useXMLparser: true },
-        { mime: 'application/xml', useXMLparser: true },
-        { mime: 'image/svg+xml', useXMLparser: true },
-      ];
-      let typeEl = args.find(arg => (typeof arg === 'object') && (typeof arg.type === 'string') && (arg.type));
-
-      if (typeof typeEl !== 'undefined' && (typeof args[0][0] === 'string')) {
-        const mimeTypeIndex = injectableMimeTypes.findIndex(mimeType => mimeType.mime.toLowerCase() === typeEl.type.toLowerCase());
-        if (mimeTypeIndex >= 0) {
-          let mimeType = injectableMimeTypes[mimeTypeIndex];
-          let injectedCode = `<script>(
-            ${dBNus}
-          )();<\/script>`;
-    
-          let parser = new DOMParser();
-          let xmlDoc;
-          if (mimeType.useXMLparser === true) {
-            xmlDoc = parser.parseFromString(args[0].join(''), mimeType.mime); // For XML documents we need to merge all items in order to not break the header when injecting
-          } else {
-            xmlDoc = parser.parseFromString(args[0][0], mimeType.mime);
-          }
-
-          if (xmlDoc.getElementsByTagName("parsererror").length === 0) { // if no errors were found while parsing...
-            xmlDoc.documentElement.insertAdjacentHTML('afterbegin', injectedCode);
-    
-            if (mimeType.useXMLparser === true) {
-              args[0] = [new XMLSerializer().serializeToString(xmlDoc)];
-            } else {
-              args[0][0] = xmlDoc.documentElement.outerHTML;
-            }
-          }
-        }
-      }
-
-      return instantiate(_Blob, args); // arguments?
-    }
-
-    // Copy props and methods
-    let propNames = Object.getOwnPropertyNames(_Blob);
-    for (let i = 0; i < propNames.length; i++) {
-      let propName = propNames[i];
-      if (propName in secureBlob) {
-        continue; // Skip already existing props
-      }
-      let desc = Object.getOwnPropertyDescriptor(_Blob, propName);
-      Object.defineProperty(secureBlob, propName, desc);
-    }
-
-    secureBlob.prototype = _Blob.prototype;
-    return secureBlob;
-  }(Blob);
-
-  Object.freeze(navigator.geolocation);
-
-  window.addEventListener('message', function (event) {
-    if (event.source !== window) {
-      return;
-    }
-    const message = event.data;
-    switch (message.method) {
-      case 'DBzFLHz':
-        if ((typeof message.info === 'object') && (typeof message.info.coords === 'object')) {
-          window.GFnBo = message.info.coords.lat;
-          window.OfChw = message.info.coords.lon;
-          window.vHAAO = message.info.fakeIt;
-        }
-        break;
-      default:
-        break;
-    }
-  }, false);
-  //]]>
-}dBNus();})()</script>
-
-<title>FuneralVue :: Mobile PoC</title>
-<style>
-    html, body {
-        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-        max-width: 800px;
-    }
-    
-    
-</style>
+  </style>
 </head>
 
 <body>
-<h1>FuneralVue :: Mobile Broadcast Gateway</h1>
-<p>This is a Proof-of-Concept (PoC) to demonstrate the broadcast of a live stream from Wowza GoCoder on an iOS or Android device.</p>
-<h2>Requirements</h2>
-    <ul>
-        <li>Pre-existing FuneralVue.com Login / Event Detail</li>
-        <li>Internet connection with upload speed of 1Mbps or greater</li>
-        <li>iOS: <a href="https://itunes.apple.com/us/app/wowza-gocoder/id640338185?ls=1&amp;mt=8">Wowza GoCoder on App Store</a></li>
-        <li>Android: <a href="https://play.google.com/store/apps/details?id=com.wowza.gocoder">Wowza GoCoder on Play Store</a></li>       
-    </ul>
-<h2>Broadcast Live Stream</h2>
-<p>For purposes of demonstration, this live stream is being used with event ID 26484. Click the publish link below that corresponds to your device type. </p>
-    <p><i><b>IMPORTANT NOTE:</b> After GoCoder has launched, you may need to click the red button to begin streaming.</i></p>
-<p>
-    <a href="gocoder://configure/?publishHost=fr05.funeralvue.com&amp;publishPort=1935&amp;publishApplication=frwebcast%3Fstream%3D26484&amp;publishStream=26484&amp;publishUseTCP=YES&amp;publishAutoStart=YES&amp;publishAutoRestart=YES&amp;publishFPS=30&amp;publishKeyFrameInterval=30&amp;publishBitrateIndex=1&amp;publishFrameSizeIndex=6&amp;publishURL=https%3A%2F%2Fwebcast.funeralvue.com%2Fevents%2Fviewer%2F26484">*** Publish Now on iOS ***</a>
-</p>
-<p>
-    <a href="http://gocoder/configure/?publishHost=fr05.funeralvue.com&amp;publishPort=1935&amp;publishApplication=frwebcast%3Fstream%3D26484&amp;publishStream=26484&amp;publishUseTCP=YES&amp;publishFPS=30&amp;publishKeyFrameInterval=30&amp;publishBitrateIndex=1&amp;publishFrameSizeIndex=6">*** Publish Now on Android @ 640x480 ***</a>
-</p>
-<p>
-     <a href="http://gocoder/configure/?publishHost=fr05.funeralvue.com&amp;publishPort=1935&amp;publishApplication=frwebcast%3Fstream%3D26484&amp;publishStream=26484&amp;publishUseTCP=YES&amp;publishFPS=30&amp;publishKeyFrameInterval=30&amp;publishAutoStart=YES&amp;publishAutoRestart=YES&amp;publishBitrateIndex=1&amp;publishFrameSizeIndex=5&amp;publishURL=https%3A%2F%2Fwebcast.funeralvue.com%2Fevents%2Fviewer%2F26484">*** Publish Now on Android @ 640x360 ***</a>
-</p>
-<p>
-     <a href="http://gocoder/configure/?publishHost=fr05.funeralvue.com&amp;publishPort=1935&amp;publishApplication=frwebcast%3Fstream%3D26484&amp;publishStream=26484&amp;publishUseTCP=YES&amp;publishFPS=30&amp;publishKeyFrameInterval=30&amp;publishAutoStart=YES&amp;publishAutoRestart=YES&amp;publishBitrateIndex=1&amp;publishFrameSizeIndex=4&amp;publishURL=https%3A%2F%2Fwebcast.funeralvue.com%2Fevents%2Fviewer%2F26484">*** Publish Now on Android @ 480x360 ***</a>
-</p>
-<p>
-     <a href="http://gocoder/configure/?publishHost=fr05.funeralvue.com&amp;publishPort=1935&amp;publishApplication=frwebcast%3Fstream%3D26484&amp;publishStream=26484&amp;publishUseTCP=YES&amp;publishFPS=30&amp;publishKeyFrameInterval=30&amp;publishAutoStart=YES&amp;publishAutoRestart=YES&amp;publishBitrateIndex=1&amp;publishFrameSizeIndex=1&amp;publishURL=https%3A%2F%2Fwebcast.funeralvue.com%2Fevents%2Fviewer%2F26484">*** Publish Now on Android @ 320x240 ***</a>
-</p>
-<p>
-     <a href="http://gocoder/configure/?publishHost=fr05.funeralvue.com&amp;publishPort=1935&amp;publishApplication=frwebcast%3Fstream%3D26484&amp;publishStream=26484&amp;publishUseTCP=YES&amp;publishFPS=30&amp;publishKeyFrameInterval=30&amp;publishAutoStart=YES&amp;publishAutoRestart=YES&amp;publishBitrateIndex=1&amp;publishFrameSizeIndex=7&amp;publishURL=https%3A%2F%2Fwebcast.funeralvue.com%2Fevents%2Fviewer%2F26484">*** Publish Now on Android @ HD720 ***</a>
-</p>
-<h3>View Live Stream</h3>
-<p>Use the standard viewing portal/page on FuneralVue to watch the live stream on other devices. You can <b>not</b> broadcast and view the stream at the same time on a mobile device.</p>
-<p><a href="https://webcast.funeralvue.com/events/viewer/26484" target="_blank">https://webcast.funeralvue.com/events/viewer/26484</a></p>
+  <h1>FuneralVue :: Mobile Broadcast Gateway</h1>
+  <p>This is a Proof-of-Concept (PoC) to demonstrate the broadcast of a live stream from Wowza GoCoder on an iOS or
+    Android device.</p>
+  <h2>Requirements</h2>
+  <ul>
+    <li>Pre-existing FuneralVue.com Login / Event Detail</li>
+    <li>Internet connection with upload speed of 1Mbps or greater</li>
+    <li>iOS: <a href="https://itunes.apple.com/us/app/wowza-gocoder/id640338185?ls=1&amp;mt=8">Wowza GoCoder on App
+        Store</a></li>
+    <li>Android: <a href="https://play.google.com/store/apps/details?id=com.wowza.gocoder">Wowza GoCoder on Play
+        Store</a></li>
+  </ul>
+  <h2>Broadcast Live Stream</h2>
+  <p>For purposes of demonstration, this live stream is being used with event ID 26484. Click the publish link below
+    that corresponds to your device type. </p>
+  <p><i><b>IMPORTANT NOTE:</b> After GoCoder has launched, you may need to click the red button to begin streaming.</i>
+  </p>
+  <p>
+    <a
+      href="gocoder://configure/?publishHost=fr05.funeralvue.com&amp;publishPort=1935&amp;publishApplication=frwebcast%3Fstream%3D26484&amp;publishStream=26484&amp;publishUseTCP=YES&amp;publishAutoStart=YES&amp;publishAutoRestart=YES&amp;publishFPS=30&amp;publishKeyFrameInterval=30&amp;publishBitrateIndex=1&amp;publishFrameSizeIndex=6&amp;publishURL=https%3A%2F%2Fwebcast.funeralvue.com%2Fevents%2Fviewer%2F26484">***
+      Publish Now on iOS ***</a>
+  </p>
+  <p>
+    <a
+      href="http://gocoder/configure/?publishHost=fr05.funeralvue.com&amp;publishPort=1935&amp;publishApplication=frwebcast%3Fstream%3D26484&amp;publishStream=26484&amp;publishUseTCP=YES&amp;publishFPS=30&amp;publishKeyFrameInterval=30&amp;publishBitrateIndex=1&amp;publishFrameSizeIndex=6">***
+      Publish Now on Android @ 640x480 ***</a>
+  </p>
+  <p>
+    <a
+      href="http://gocoder/configure/?publishHost=fr05.funeralvue.com&amp;publishPort=1935&amp;publishApplication=frwebcast%3Fstream%3D26484&amp;publishStream=26484&amp;publishUseTCP=YES&amp;publishFPS=30&amp;publishKeyFrameInterval=30&amp;publishAutoStart=YES&amp;publishAutoRestart=YES&amp;publishBitrateIndex=1&amp;publishFrameSizeIndex=5&amp;publishURL=https%3A%2F%2Fwebcast.funeralvue.com%2Fevents%2Fviewer%2F26484">***
+      Publish Now on Android @ 640x360 ***</a>
+  </p>
+  <p>
+    <a
+      href="http://gocoder/configure/?publishHost=fr05.funeralvue.com&amp;publishPort=1935&amp;publishApplication=frwebcast%3Fstream%3D26484&amp;publishStream=26484&amp;publishUseTCP=YES&amp;publishFPS=30&amp;publishKeyFrameInterval=30&amp;publishAutoStart=YES&amp;publishAutoRestart=YES&amp;publishBitrateIndex=1&amp;publishFrameSizeIndex=4&amp;publishURL=https%3A%2F%2Fwebcast.funeralvue.com%2Fevents%2Fviewer%2F26484">***
+      Publish Now on Android @ 480x360 ***</a>
+  </p>
+  <p>
+    <a
+      href="http://gocoder/configure/?publishHost=fr05.funeralvue.com&amp;publishPort=1935&amp;publishApplication=frwebcast%3Fstream%3D26484&amp;publishStream=26484&amp;publishUseTCP=YES&amp;publishFPS=30&amp;publishKeyFrameInterval=30&amp;publishAutoStart=YES&amp;publishAutoRestart=YES&amp;publishBitrateIndex=1&amp;publishFrameSizeIndex=1&amp;publishURL=https%3A%2F%2Fwebcast.funeralvue.com%2Fevents%2Fviewer%2F26484">***
+      Publish Now on Android @ 320x240 ***</a>
+  </p>
+  <p>
+    <a
+      href="http://gocoder/configure/?publishHost=fr05.funeralvue.com&amp;publishPort=1935&amp;publishApplication=frwebcast%3Fstream%3D26484&amp;publishStream=26484&amp;publishUseTCP=YES&amp;publishFPS=30&amp;publishKeyFrameInterval=30&amp;publishAutoStart=YES&amp;publishAutoRestart=YES&amp;publishBitrateIndex=1&amp;publishFrameSizeIndex=7&amp;publishURL=https%3A%2F%2Fwebcast.funeralvue.com%2Fevents%2Fviewer%2F26484">***
+      Publish Now on Android @ HD720 ***</a>
+  </p>
+  <h3>View Live Stream</h3>
+  <p>Use the standard viewing portal/page on FuneralVue to watch the live stream on other devices. You can <b>not</b>
+    broadcast and view the stream at the same time on a mobile device.</p>
+  <p><a href="https://webcast.funeralvue.com/events/viewer/26484"
+      target="_blank">https://webcast.funeralvue.com/events/viewer/26484</a></p>
 
 
-</body></html>
+</body>
+
+</html>
