@@ -1,510 +1,514 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>resume-pablo-lopez</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
-html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
-body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
-iframe { margin: auto; }
-a.url { word-break: break-all; }
-a:active, a:hover { outline: 0px; }
-.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
-#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
-#write.first-line-indent p { text-indent: 2em; }
-#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
-#write.first-line-indent li { margin-left: 2em; }
-.for-image #write { padding-left: 8px; padding-right: 8px; }
-body.typora-export { padding-left: 30px; padding-right: 30px; }
-.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
-@media screen and (max-width: 500px) {
-  body.typora-export { padding-left: 0px; padding-right: 0px; }
-  #write { padding-left: 20px; padding-right: 20px; }
-  .CodeMirror-sizer { margin-left: 0px !important; }
-  .CodeMirror-gutters { display: none !important; }
-}
-#write li > figure:last-child { margin-bottom: 0.5rem; }
-#write ol, #write ul { position: relative; }
-img { max-width: 100%; vertical-align: middle; }
-button, input, select, textarea { color: inherit; font: inherit; }
-input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
-*, ::after, ::before { box-sizing: border-box; }
-#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
-#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
-p { line-height: inherit; }
-h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
-p { orphans: 4; }
-h1 { font-size: 2rem; }
-h2 { font-size: 1.8rem; }
-h3 { font-size: 1.6rem; }
-h4 { font-size: 1.4rem; }
-h5 { font-size: 1.2rem; }
-h6 { font-size: 1rem; }
-.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
-.hidden { display: none; }
-.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
-a { cursor: pointer; }
-sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
-sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
-#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
-figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
-figure > table { margin: 0px !important; }
-tr { break-inside: avoid; break-after: auto; }
-thead { display: table-header-group; }
-table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
-table.md-table td { min-width: 32px; }
-.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
-.CodeMirror-linenumber { user-select: none; }
-.CodeMirror { text-align: left; }
-.CodeMirror-placeholder { opacity: 0.3; }
-.CodeMirror pre { padding: 0px 4px; }
-.CodeMirror-lines { padding: 0px; }
-div.hr:focus { cursor: none; }
-#write pre { white-space: pre-wrap; }
-#write.fences-no-line-wrapping pre { white-space: pre; }
-#write pre.ty-contain-cm { white-space: normal; }
-.CodeMirror-gutters { margin-right: 4px; }
-.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
-.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
-#write .md-fences.mock-cm { white-space: pre-wrap; }
-.md-fences.md-fences-with-lineno { padding-left: 0px; }
-#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
-.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
-.CodeMirror-line, twitterwidget { break-inside: avoid; }
-.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
-.footnotes + .footnotes { margin-top: 0px; }
-.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
-li div { padding-top: 0px; }
-blockquote { margin: 1rem 0px; }
-li .mathjax-block, li p { margin: 0.5rem 0px; }
-li { margin: 0px; position: relative; }
-blockquote > :last-child { margin-bottom: 0px; }
-blockquote > :first-child, li > :first-child { margin-top: 0px; }
-.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
-#write .footnote-line { white-space: pre-wrap; }
-@media print {
-  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
-  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
-  .typora-export * { -webkit-print-color-adjust: exact; }
-  html.blink-to-pdf { font-size: 13px; }
-  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
-  .typora-export #write::after { height: 0px; }
-}
-.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
-a img, img a { cursor: pointer; }
-pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
-p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
-p > .md-image:only-child { display: inline-block; width: 100%; }
-#write .MathJax_Display { margin: 0.8em 0px 0px; }
-.md-math-block { width: 100%; }
-.md-math-block:not(:empty)::after { display: none; }
-[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
-.md-task-list-item { position: relative; list-style-type: none; }
-.task-list-item.md-task-list-item { padding-left: 0px; }
-.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
-.math { font-size: 1rem; }
-.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
-.md-toc-content { position: relative; margin-left: 0px; }
-.md-toc-content::after, .md-toc::after { display: none; }
-.md-toc-item { display: block; color: rgb(65, 131, 196); }
-.md-toc-item a { text-decoration: none; }
-.md-toc-inner:hover { text-decoration: underline; }
-.md-toc-inner { display: inline-block; cursor: pointer; }
-.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
-.md-toc-h2 .md-toc-inner { margin-left: 2em; }
-.md-toc-h3 .md-toc-inner { margin-left: 4em; }
-.md-toc-h4 .md-toc-inner { margin-left: 6em; }
-.md-toc-h5 .md-toc-inner { margin-left: 8em; }
-.md-toc-h6 .md-toc-inner { margin-left: 10em; }
-@media screen and (max-width: 48em) {
-  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
-  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
-  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
-  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
-}
-a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
-.footnote-line a:not(.reversefootnote) { color: inherit; }
-.md-attr { display: none; }
-.md-fn-count::after { content: "."; }
-code, pre, samp, tt { font-family: var(--monospace); }
-kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
-.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
-code { text-align: left; vertical-align: initial; }
-a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
-.md-inline-math .MathJax_SVG .noError { display: none !important; }
-.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
-.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
-.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
-.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
-.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
-.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
-.MathJax_SVG * { transition: none 0s ease 0s; }
-.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
-.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
-.md-diagram-panel > svg { max-width: 100%; }
-[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
-[lang="mermaid"] .node text { font-size: 1rem; }
-table tr th { border-bottom: 0px; }
-video { max-width: 100%; display: block; margin: 0px auto; }
-iframe { max-width: 100%; width: 100%; border: none; }
-.highlight td, .highlight tr { border: 0px; }
-svg[id^="mermaidChart"] { line-height: 1em; }
-mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
-.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
-mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+<title>resume.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 
-
-:root {
-    --side-bar-bg-color: #fafafa;
-    --control-text-color: #777;
-}
-
-@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
-
-html {
-    font-size: 16px;
-}
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
 
 body {
-    font-family: "Open Sans","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: rgb(51, 51, 51);
-    line-height: 1.6;
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
 }
 
-#write {
-    max-width: 860px;
-  	margin: 0 auto;
-  	padding: 30px;
-    padding-bottom: 100px;
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
 }
-#write > ul:first-child,
-#write > ol:first-child{
-    margin-top: 30px;
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
 }
 
 a {
-    color: #4183C4;
+	text-decoration: none;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    position: relative;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-weight: bold;
-    line-height: 1.4;
-    cursor: text;
+
+a:hover {
+	text-decoration: underline;
 }
-h1:hover a.anchor,
-h2:hover a.anchor,
-h3:hover a.anchor,
-h4:hover a.anchor,
-h5:hover a.anchor,
-h6:hover a.anchor {
-    text-decoration: none;
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
 }
-h1 tt,
-h1 code {
-    font-size: inherit;
-}
-h2 tt,
-h2 code {
-    font-size: inherit;
-}
-h3 tt,
-h3 code {
-    font-size: inherit;
-}
-h4 tt,
-h4 code {
-    font-size: inherit;
-}
-h5 tt,
-h5 code {
-    font-size: inherit;
-}
-h6 tt,
-h6 code {
-    font-size: inherit;
-}
-h1 {
-    padding-bottom: .3em;
-    font-size: 2.25em;
-    line-height: 1.2;
-    border-bottom: 1px solid #eee;
-}
-h2 {
-   padding-bottom: .3em;
-    font-size: 1.75em;
-    line-height: 1.225;
-    border-bottom: 1px solid #eee;
-}
-h3 {
-    font-size: 1.5em;
-    line-height: 1.43;
-}
-h4 {
-    font-size: 1.25em;
-}
-h5 {
-    font-size: 1em;
-}
-h6 {
-   font-size: 1em;
-    color: #777;
-}
-p,
-blockquote,
-ul,
-ol,
-dl,
-table{
-    margin: 0.8em 0;
-}
-li>ol,
-li>ul {
-    margin: 0 0;
-}
+
 hr {
-    height: 2px;
-    padding: 0;
-    margin: 16px 0;
-    background-color: #e7e7e7;
-    border: 0 none;
-    overflow: hidden;
-    box-sizing: content-box;
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
 }
 
-li p.first {
-    display: inline-block;
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
 }
-ul,
-ol {
-    padding-left: 30px;
+
+h1, h2, h3 {
+	font-weight: normal;
 }
-ul:first-child,
-ol:first-child {
-    margin-top: 0;
-}
-ul:last-child,
-ol:last-child {
-    margin-bottom: 0;
-}
-blockquote {
-    border-left: 4px solid #dfe2e5;
-    padding: 0 15px;
-    color: #777777;
-}
-blockquote blockquote {
-    padding-right: 0;
-}
+
 table {
-    padding: 0;
-    word-break: initial;
-}
-table tr {
-    border-top: 1px solid #dfe2e5;
-    margin: 0;
-    padding: 0;
-}
-table tr:nth-child(2n),
-thead {
-    background-color: #f8f8f8;
-}
-table tr th {
-    font-weight: bold;
-    border: 1px solid #dfe2e5;
-    border-bottom: 0;
-    margin: 0;
-    padding: 6px 13px;
-}
-table tr td {
-    border: 1px solid #dfe2e5;
-    margin: 0;
-    padding: 6px 13px;
-}
-table tr th:first-child,
-table tr td:first-child {
-    margin-top: 0;
-}
-table tr th:last-child,
-table tr td:last-child {
-    margin-bottom: 0;
+	border-collapse: collapse;
 }
 
-.CodeMirror-lines {
-    padding-left: 4px;
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
 }
 
-.code-tooltip {
-    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
-    border-top: 1px solid #eef2f2;
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
 }
 
-.md-fences,
-code,
-tt {
-    border: 1px solid #e7eaed;
-    background-color: #f8f8f8;
-    border-radius: 3px;
-    padding: 0;
-    padding: 2px 4px 0px 4px;
-    font-size: 0.9em;
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
 }
 
 code {
-    background-color: #f3f4f4;
-    padding: 0 2px 0 2px;
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
 }
 
-.md-fences {
-    margin-bottom: 15px;
-    margin-top: 15px;
-    padding-top: 8px;
-    padding-bottom: 6px;
+body.wordWrap pre {
+	white-space: pre-wrap;
 }
 
-
-.md-task-list-item > input {
-  margin-left: -1.3em;
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
 }
 
-@media print {
-    html {
-        font-size: 13px;
-    }
-    table,
-    pre {
-        page-break-inside: avoid;
-    }
-    pre {
-        word-wrap: break-word;
-    }
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
 }
 
-.md-fences {
-	background-color: #f8f8f8;
-}
-#write pre.md-meta-block {
-	padding: 1rem;
-    font-size: 85%;
-    line-height: 1.45;
-    background-color: #f7f7f7;
-    border: 0;
-    border-radius: 3px;
-    color: #777777;
-    margin-top: 0 !important;
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
 }
 
-.mathjax-block>.code-tooltip {
-	bottom: .375rem;
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
 }
 
-.md-mathjax-midline {
-    background: #fafafa;
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
 }
 
-#write>h3.md-focus:before{
-	left: -1.5625rem;
-	top: .375rem;
-}
-#write>h4.md-focus:before{
-	left: -1.5625rem;
-	top: .285714286rem;
-}
-#write>h5.md-focus:before{
-	left: -1.5625rem;
-	top: .285714286rem;
-}
-#write>h6.md-focus:before{
-	left: -1.5625rem;
-	top: .285714286rem;
-}
-.md-image>.md-meta {
-    /*border: 1px solid #ddd;*/
-    border-radius: 3px;
-    padding: 2px 0px 0px 4px;
-    font-size: 0.9em;
-    color: inherit;
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
 }
 
-.md-tag {
-    color: #a7a7a7;
-    opacity: 1;
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
 }
 
-.md-toc { 
-    margin-top:20px;
-    padding-bottom:20px;
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
 }
 
-.sidebar-tabs {
-    border-bottom: none;
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
 }
 
-#typora-quick-open {
-    border: 1px solid #ddd;
-    background-color: #f8f8f8;
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
 }
-
-#typora-quick-open-item {
-    background-color: #FAFAFA;
-    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
-    border-style: solid;
-    border-width: 1px;
-}
-
-/** focus mode */
-.on-focus-mode blockquote {
-    border-left-color: rgba(85, 85, 85, 0.12);
-}
-
-header, .context-menu, .megamenu-content, footer{
-    font-family: "Segoe UI", "Arial", sans-serif;
-}
-
-.file-node-content:hover .file-node-icon,
-.file-node-content:hover .file-node-open-state{
-    visibility: visible;
-}
-
-.mac-seamless-mode #typora-sidebar {
-    background-color: #fafafa;
-    background-color: var(--side-bar-bg-color);
-}
-
-.md-lang {
-    color: #b4654d;
-}
-
-.html-for-mac .context-menu {
-    --item-hover-bg-color: #E6F0FE;
-}
-
-#md-notification .btn {
-    border: 0;
-}
-
-.dropdown-menu .divider {
-    border-color: #e5e5e5;
-}
-
-.ty-preferences .window-content {
-    background-color: #fafafa;
-}
-
-.ty-preferences .nav-group-item.active {
-    color: white;
-    background: #999;
-}
-
 
 </style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
 </head>
-<body class='typora-export os-windows' >
-<div  id='write'  class = 'is-node'><h1><a name="pablo-lopez" class="md-header-anchor"></a><span>Pablo Lopez</span></h1><p><span>Contact: </span><a href='mailto:jnpbl79@gmail.com'><span>jnpbl79@gmail.com</span></a>
-<span>Last Updated: April 5, 2020 </span></p><h2><a name="software-developer" class="md-header-anchor"></a><span>Software Developer</span></h2><p><span>I am Self-driven, motivated and quickly adjust to new conditions. I possess good communication skills and am hard working, energetic and have the ability to take on challenges. I can work well independently as well within a team and I am able to tackle problems and situations with sensitivity and pro-actively.  I have over twenty years of experience writing applications, mostly web applications and I am always interested in new challenges.</span></p><h2><a name="experience" class="md-header-anchor"></a><span>Experience</span></h2><h3><a name="advanced-audio-systemshttpswwwadvancedaudiosystemsorg-smallmarch-2020---currentsmall" class="md-header-anchor"></a><a href='https://www.advancedaudiosystems.org/'><span>Advanced Audio Systems</span></a><span> </span><small><span>March 2020 - Current</span></small></h3><p><span>Joined the team to help move forward with their next version of FuneralVue Broadcaster targeting desktop and mobile devices.</span></p><h4><a name="tools--technologies" class="md-header-anchor"></a><span>Tools &amp; Technologies:</span></h4><p><span>C#, Windows Forms, PHP, CakePHP, MySQL, React, React Redux, Docker.</span></p><h3><a name="evolution-softwarehttpevolutionsoftwarecoza-smallmarch-2019---january-2020small" class="md-header-anchor"></a><a href='http://evolutionsoftware.co.za/'><span>Evolution Software</span></a><span> </span><small><span>March 2019 - January 2020</span></small></h3><ul><li><span>Created modules using their custom framework built on top of ASP.NET for specific clients.</span></li><li><span>Added an Entity Framework data layer replicating and automating actions taken by their custom data access layer which works with ADO.NET and with it reducing considerably the amount of code that has to be written to perform some of those tasks.</span></li><li><span>Added Web Api to reduce full-page postbacks in several commonly used pages.</span></li><li><span>Added Knockout.js to several commonly used pages to provide a better user experience.</span></li><li><span>Edited database queries and columns to get faster results. Some of these enhancements helped the customer&#39;s client to get much more work done in less time.</span></li></ul><blockquote><p><span>Evolution Software removes the complicated and inaccessible systems and replaces them with electronic, integrated business software that centralises your business tasks. This allows you to run a smarter, faster and more profitable business. </span></p></blockquote><p><span>Evolution Software has a web application to visually create web applications which with little to no developer intervention can create custom modules for different customers’ needs. </span></p><p><span>Evolution Software is based in Cape Town, South Africa.</span></p><h4><a name="tools--technologies-n837" class="md-header-anchor"></a><span>Tools &amp; Technologies: </span></h4><p><span>ASP.NET Web Forms, ASP.NET Web API, SQL Server, Knockout.js, jQuery</span></p><h3><a name="nearsofthttpsnearsoftcom---mdlive-inchttpswwwmdlivecom-smallseptember-2015---august-2019small" class="md-header-anchor"></a><a href='https://nearsoft.com/'><span>Nearsoft</span></a><span> - </span><a href='https://www.mdlive.com/'><span>MDLive, Inc.</span></a><span> </span><small><span>September 2015 - August 2019</span></small></h3><ul><li><span>Created a WebRTC client for the web using Icelink&#39;s JavaScript library and React.</span></li><li><span>Created a WebRTC client for C# to use for audio recording.</span></li><li><span>Installed and set up infrastructure for WebRTC, signaling, STUN, and TURN servers.</span></li><li><span>Integrated WebRTC clients into Ruby on Rails websites so patients and providers with supported browsers could have their online appointments without having to install any third-party software to support video and audio conferencing.</span></li><li><span>Integrated Office 365 login with UWP application.</span></li><li><span>Created a Ruby gem to map request/response JSON messages from applications to Surescripts&#39; XML API.</span></li></ul><blockquote><p><span>MDLIVE is a telehealth provider focused on digital delivery of high-quality, convenient, and cost-efficient medical care. The company provides patients, health plans, health systems and self-insured employers with 24/7/365 access to board-certified doctors, pediatricians and licensed therapists via secure online video, phone or a smartphone app.</span></p></blockquote><p><span>When I started working with MDLIVE their providers for videoconferencing were VSee and Adobe Connect. This was the challenge, to start using an open source provider, instead of a third party vendor that sometimes had connectivity issues. I replaced the third party provider for the open source, Web RTC. The change was made from scratch for the web version of MDLIVEConnect. The new option is also native in most browsers, giving users the possibility of using it without any downloads. The trick was to make it run with Internet Explorer. Once the product was finished for modern browsers, support for IE was added. I also supported the teams in charge of the iOS and Android versions.</span></p><p><span>MDLive can now offer MDLiveConnect as its primary video calling service, instead of third parties. With no third party fees!</span></p><p><span>MDLive is based in Sunrise, Florida.</span></p><h4><a name="tools--technologies-n858" class="md-header-anchor"></a><span>Tools &amp; Technologies: </span></h4><p><span>C#, Ruby on Rails, JavaScript, React, Docker, Frozen Mountain&#39;s Websync and IceLink, Azure Storage, Node.js</span></p><h3><a name="toptalhttpswwwtoptalcom--d4-softwarehttpsweared4com-smallapril-2015---june-2015small" class="md-header-anchor"></a><a href='https://www.toptal.com/'><span>Toptal</span></a><span> / </span><a href='https://weared4.com/'><span>D4 Software</span></a><span> </span><small><span>April 2015 - June 2015</span></small></h3><ul><li><span>Worked with Sass, Twitter Bloodhound, and Entity framework migrations.</span></li><li><span>Implemented background tasks for sending emails.</span></li><li><span>Handled email view tracking.</span></li></ul><p><span>D4 Software is based in Birmingham, United Kingdom.</span></p><h4><a name="tools--technologies-n869" class="md-header-anchor"></a><span>Tools &amp; Technologies: </span></h4><p><span>C#, ASP.NET MVC, Web API, ASP.NET Identity, SQL Server, Entity Framework, Knockout.js</span></p><h3><a name="toptalhttpswwwtoptalcom---rxchange-gmbhhttpswwwrxchange-smalloctober-2014---february-2015small" class="md-header-anchor"></a><a href='https://www.toptal.com/'><span>Toptal</span></a><span> - </span><a href='https://www.rxchan.ge/'><span>Rxchange GmbH</span></a><span> </span><small><span>October 2014 - February 2015</span></small></h3><ul><li><span>Created page widgets to ease access to information across orders.</span></li><li><span>Updated the page to view and handle price change requests.</span></li><li><span>Created new feature to keep track of acceptance states for batches in orders.</span></li><li><span>Created a new page to view and handle acceptance state for batches in orders.</span></li><li><span>Fixed bugs.</span></li></ul><blockquote><p><span>Rxchan.ge is an online marketplace for wholesale dealers located in the EU, trading EU or EU-registered medicinal products. </span></p></blockquote><p><span>Rxchange is based in Munich, Germany.</span></p><h4><a name="tools--technologies-n886" class="md-header-anchor"></a><span>Tools &amp; Technologies: </span></h4><p><span>C#, ASP.NET MVC, JavaScript, Entity Framework, SQL Server</span></p><h3><a name="toptalhttpswwwtoptalcom---american-mortgage-consultantshttpswwwamcfirstcom-smalljanuary-2013---september-2014small" class="md-header-anchor"></a><a href='https://www.toptal.com/'><span>Toptal</span></a><span> - </span><a href='https://www.amcfirst.com/'><span>American Mortgage Consultants</span></a><span> </span><small><span>January 2013 - September 2014</span></small></h3><ul><li><span>Created a tool to create due diligence tests to loans using ASP.NET Web API and Knockout.js.</span></li><li><span>Created a component to manage loan stipulations using ASP.NET web services and Knockout.js.</span></li><li><span>Added a new section for claims review.</span></li><li><span>Migrated code from ADO.NET to using .netTiers data access.</span></li><li><span>Rewrote several pages to improve performance and resource handling.</span></li></ul><blockquote><p><span>American Mortgage Consultants (AMC) is a leading nationwide due diligence and consulting services provider with offices in New York, Tampa, Denver, Des Moines, Farmington Hills (Detroit), and Vernon Hills (Chicago). With a market leading team of mortgage professionals, AMC can create solutions for both large and small clients.</span></p></blockquote><p><span>When I started at AMC they were required to build forms from excel sheets that company personnel printed out and manually filled during due diligence. They handed me about 7 different sheets to get started but a first wave of little over a hundred variations was on the way. It would have taken ages for me to build forms for all of them so I instead built a tool for them to build their own tests which anyone could use.</span></p><p><span>Then I was tasked to create a component to include in a section of their internal web application that displayed Loan Stipulations with some search features. All I was handed was a few database table names, some UI specs, a warning that pretty much no one in the dev department fully understood the requirements and a contact name to reach out if help was needed. That contact was rarely available and I never got answers to my questions so I started documenting every assumption I made and was able to continue development based on almost only assumptions. After three months of delivery I was congratulated because the feature was sent to production without passing through QA, was widely used and no bugs had been reported.</span></p><h4><a name="tools--technologies-n904" class="md-header-anchor"></a><span>Tools &amp; Technologies: </span></h4><p><span>C#, ASP.NET, ASP.NET Web Services, ASP.NET Web API, SQL Server, .netTiers, Knockout.js, jQuery</span></p><h3><a name="serpico-devhttpswwwfoundersworkshopcom-smalloctober-2011---january-2013small" class="md-header-anchor"></a><a href='https://www.foundersworkshop.com/'><span>Serpico DEV</span></a><span> </span><small><span>October 2011 - January 2013</span></small></h3><ul><li><span>Integrated a web application with LinkedIn&#39;s Open Authentication.</span></li><li><span>Integrated Flypaper presentations with JavaScript API with back-end database connectivity.</span></li><li><span>Worked with the Appointment-Plus dev team to create an Outlook add-in for synchronizing calendar events with Appointment-Plus appointments and contacts.</span></li></ul><blockquote><p><span>Serpico DEV provides fully-managed, outsourced application software development. Implementing a unique blend of on-site business analysis, architecting and project management and off-site application development, Serpico DEV delivers world-class agile software development at near-shore development rates. Specializing in prototypes, start-ups and early stage projects, Serpico DEV works closely with your stakeholders to deliver your vision on-time and within-budget.</span></p></blockquote><h4><a name="tools--technologies-n915" class="md-header-anchor"></a><span>Tools &amp; Technologies: </span></h4><p><span>C#, ASP.NET MVC, Entity Framework, Flypaper, JavaScript/jQuery, Twitter Bootstrap, LinkedIn API, jQuery-UI, SQL Server, Appointment-Plus API</span></p><h3><a name="esurancehttpswwwesurancecom-smallmarch-2011----october-2011small" class="md-header-anchor"></a><a href='https://www.esurance.com/'><span>Esurance</span></a><span> </span><small><span>March 2011 – October 2011</span></small></h3><p><span>Collaborated in the migration of several sections of an application written in ASP/VBScript, used for managing insurance claims, to ASP.NET/C#.</span></p><blockquote><p><span>Esurance Insurance Services, Inc. is an American insurance company. It sells auto, home, motorcycle, and renters insurance direct to consumers online and by phone.</span></p></blockquote><h4><a name="tools--technologies-n921" class="md-header-anchor"></a><span>Tools &amp; Technologies: </span></h4><p><span>C#, ASP.NET Web Forms, LINQ to SQL, JavaScript/jQuery, SQL Server, DevExpress Web Controls</span></p><h3><a name="nearsofthttpsnearsoftcom---yottamarkhttpwww2yottamarkcom-smalljuly-2010---march-2011small" class="md-header-anchor"></a><a href='https://nearsoft.com/'><span>Nearsoft</span></a><span> - </span><a href='http://www2.yottamark.com/'><span>YottaMark</span></a><span> </span><small><span>July 2010 - March 2011</span></small></h3><ul><li><span>Developed DailyShopper application, a traceability system that provides customers product age and quality information. </span></li><li><span>EventProcessor which gathered tracking event information from several sources to merge in a single database and </span></li><li><span>ETLProcessor which gathered information from several internal databases and loaded into a single one used for creating reports for management and clients. </span></li><li><span>Created web services to show information gathered by DailyShopper and EventProcessor in HarvestMark web portal.</span></li></ul><blockquote><p><span>YottaMark is a SaaS-based platform providing traceability and authentication solutions to enhance the transparency in food suppliers. HarvestMark’s platform and tools enable food producers, distributors and retailers to establish a transparent supply chain, optimize product quality and freshness, and build consumer loyalty.</span></p></blockquote><h4><a name="tools--technologies-n934" class="md-header-anchor"></a><span>Tools &amp; Technologies: </span></h4><p><span>ASP.NET, MVC, JavaScript/jQuery, Windows Services, C#, SQL Server, XML, ADO.NET, Compact Framework, SQL Server CE, WCF, Windows Forms, Motorola MC75A SDK</span></p><h3><a name="tiempo-developmenthttpswwwtiempodevcom-smallnovember-2007---january-2010small" class="md-header-anchor"></a><a href='https://www.tiempodev.com/'><span>Tiempo Development</span></a><span> </span><small><span>November 2007 - January 2010</span></small></h3><ul><li><span>Built Sanction, used for synchronizing video and time stamped deposition transcripts using WPF and MVVM.</span></li><li><span>Created libraries to synchronize video and audio and compress using lossless codecs.</span></li><li><span>Created a self extracting stub file that opened a Flash-based full screen presentation using C++.</span></li><li><span>Integrated several image and video search APIs to add web search capabilities to Flypaper Studio.</span></li><li><span>Integrated a chart component into Flypaper Studio.</span></li><li><span>Spearheaded the development of ZoomTalent website.</span></li></ul><h4><a name="tools--technologies-n950" class="md-header-anchor"></a><span>Tools &amp; Technologies: </span></h4><p><span>ASP.NET, C#, C++, SQL Server, InstallShield, Dundas Charts, Rich Chart Server, Google Atom Feeds, Flick/Google/Yahoo!/YouTube Search APIs, Telerik Web Controls, JavaScript, jQuery, Ajax, LINQ, Web Services, Provider Model, WPF, MVVM</span></p><h3><a name="e-business-consultores-smalljanuary-2006---november-2007small" class="md-header-anchor"></a><span>e-Business Consultores </span><small><span>January 2006 - November 2007</span></small></h3><ul><li><span>Built an e-learning website used by Telcel to train resellers.</span></li><li><span>Created a task tracker for government dependency using digital signatures to secure and validate assigned responsibilities.</span></li><li><span>Handled digital signature integration to a web-based publishing system.</span></li><li><span>Built Tu Casa Nueva magazine&#39;s website.</span></li></ul><h4><a name="tools--technologies-n962" class="md-header-anchor"></a><span>Tools &amp; Technologies: </span></h4><p><span>C#, VB.NET, ASP/VBScript, ASP.NET, SQL Server, ADO.NET, SeguriData, HTML, JavaScript, CSS</span></p><h3><a name="cambio-sonora-smalloctober-2004---january-2006small" class="md-header-anchor"></a><span>Cambio Sonora </span><small><span>October 2004 - January 2006</span></small></h3><ul><li><span>Handled development, maintenance, and renewal of the company&#39;s Intranet modules.</span></li><li><span>Provided support for the IT department when needed.</span></li></ul><h4><a name="tools--technologies-n970" class="md-header-anchor"></a><span>Tools &amp; Technologies: </span></h4><p><span>ASP/VBScript, HTML, JavaScript, CSS, Dreamweaver, SQL Server</span></p><h3><a name="dextro-international-corporation-smallmay-2000---october-2004small" class="md-header-anchor"></a><span>Dextro International Corporation </span><small><span>May 2000 - October 2004</span></small></h3><ul><li><span>Designed and developed dynamic websites.</span></li><li><span>Handled content management, news publishing, poll management, image galleries, hit counters, product catalogs, shopping carts, online payment processing, and mailing lists.</span></li></ul><p><span>Dextro International Corporation was based in Phoenix, Arizona.</span></p><h4><a name="tools--technologies-n979" class="md-header-anchor"></a><span>Tools &amp; Technologies: </span></h4><p><span>ASP/VBScript, HTML, JavaScript, CSS, Dreamweaver, MS Access, SQL Server</span></p><h2><a name="certifications" class="md-header-anchor"></a><span>Certifications</span></h2><figure><table><thead><tr><th><strong><span>Certification History</span></strong></th><th><strong><span>Achievement Date</span></strong></th></tr></thead><tbody><tr><td><span>Microsoft® Certified Technology Specialist: .Net Framework 2.0, Web Applications</span></td><td><span>June 16, 2008</span></td></tr><tr><td><span>Microsoft® Certified Professional Developer: Web Developer</span></td><td><span>June 16, 2008</span></td></tr><tr><td><span>Microsoft® Certified Application Developer: Microsoft .NET</span></td><td><span>June 1, 2006</span></td></tr><tr><td><span>Microsoft® Certified Professional: Microsoft Certified Professional</span></td><td><span>May 18, 2006</span></td></tr></tbody></table></figure><p>&nbsp;</p></div>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="pablo-l%C3%B3pez">Pablo López</h1>
+<p><a href="mailto:contact@pablolopez.dev">email</a> · <a href="https://cv.pablolopez.dev">website</a> · <a href="https://www.linkedin.com/in/jplopezg/">linkedin</a> · <a href="https://github.com/jnpbl79">github</a> · <a href="https://twitter.com/twjpablo">twitter</a></p>
+<h2 id="software-developer">Software Developer</h2>
+<p>I am Self-driven, motivated and quickly adjust to new conditions. I possess good communication skills and have the ability to tackle problems and situations with sensitivity and pro-actively. I always thrive to help my team accomplish their goals and also my own, don't hesitate to ask what I don't know, do the research and get things done.</p>
+<h2 id="languages">Languages</h2>
+<ul>
+<li>Spanish (Native)</li>
+<li>English (Professional)</li>
+</ul>
+<h2 id="experience">Experience</h2>
+<h3 id="alteryx">Alteryx</h3>
+<p>August, 2020 - January, 2024</p>
+<p>Alteryx is Self-Service Analytics, Data Science &amp; Process Automation software. I was part of the Designer A11Y team implementing accessibility guidelines and requirements throughout the Alteryx Designer Desktop and Cloud applications.</p>
+<p><em>A11Y</em>, <em>C#</em>, <em>C++</em>, <em>Windows Forms</em>, <em>SourceGrid</em>, <em>Telerik WinForms Rad Controls</em>, <em>Javascript</em>, <em>React</em></p>
+<h3 id="advanced-audio-systemsfuneralvue">Advanced Audio Systems/FuneralVue</h3>
+<p>March, 2020 - June, 2022</p>
+<p>FuneralVue offers recording and webcasting services to funeral homes around the World. I contribute by maintaining and adding new features to the desktop and web applications.</p>
+<ul>
+<li>Created a web application aimed at Android and iOS devices with which users can stream their live events directly from a mobile device. This helped reduce the time customers can be ready to use FuneralVue services without having the need to have cameras delivered and can now stream easily from different locations.</li>
+<li>Created desktop application to automate DVD image creation which drastically reduced the amount of time spent on that task.</li>
+</ul>
+<p><em>C#</em>, <em>Windows Forms</em>, <em>WPF</em>, <em>ASP.NET Core</em>, <em>Powershell</em>, <em>ClickOnce</em>, <em>PHP</em>, <em>CakePHP</em>, <em>MySQL</em>, <em>Javascript</em>, <em>NodeJS</em>, <em>React</em>, <em>Redux</em>, <em>Docker</em>, <em>Mailhog</em>, <em>VueJS</em>, <em>Wowza</em>, <em>Stripe</em></p>
+<h3 id="evolution-software">Evolution Software</h3>
+<p>March, 2019 - January, 2020</p>
+<p>Evolution Software has a web application to visually create web applications which with little to no developer intervention can create custom modules for different customers’ needs.</p>
+<ul>
+<li>Created modules using their custom framework built on top of ASP.NET for specific clients.</li>
+<li>Added an Entity Framework data layer replicating and automating actions taken by their custom data access layer which works with ADO.NET, and with it, reducing considerably the amount of code that has to be written to perform some of those tasks.</li>
+<li>Added Web Api to reduce full-page postbacks in several commonly used pages and more client scripting which greatly improved overall user experience.</li>
+<li>Edited database queries and columns to get faster results. Some of these enhancements helped the customer's client to get much more work done in less time.</li>
+</ul>
+<p><em>C#</em>, <em>ASP.NET Web Forms</em>, <em>ASP.NET Web API</em>, <em>SQL Server</em>, <em>Javascript</em>, <em>Knockout</em>, <em>jQuery</em></p>
+<h3 id="mdlive-inc">MDLive, Inc.</h3>
+<p>September, 2015 - August, 2019</p>
+<p>MDLIVE is a telehealth provider which provides patients, health plans, health systems and self-insured employers access to board-certified doctors, pediatricians and licensed therapists via secure online video, phone or a smartphone app.</p>
+<p>I created a WebRTC video conferencing application to replace third party providers and now it can offer MDLiveConnect as its primary video calling service with no third party fees. The change was made from scratch for the web version of MDLIVEConnect. The new option is now also native in most browsers, giving users the possibility of using it without any additional downloads. Once the product was finished for modern browsers, support for IE was added. I also supported the teams in charge of the iOS and Android versions.</p>
+<ul>
+<li>Created a WebRTC client for the web using Icelink's Javascript library and React.</li>
+<li>Created a WebRTC client for C# to use for audio recording.</li>
+<li>Created Azure Function to synchronize, merge and encode audio recordings.</li>
+<li>Installed and set up infrastructure for WebRTC, signaling, STUN, and TURN servers.</li>
+<li>Integrated WebRTC clients into Ruby on Rails websites.</li>
+<li>Integrated Office 365 login with UWP application.</li>
+<li>Created a Ruby gem to map request/response JSON messages from applications to Surescripts' XML API. With this, other developers could more rapidly create tools using json request/response vs xml.</li>
+</ul>
+<p><em>C#</em>, <em>Ruby on Rails</em>, <em>ASP.NET Web API</em>, <em>Javascript</em>, <em>React</em>, <em>Docker for Windows</em>, <em>Frozen Mountain</em>, <em>Websync</em>, <em>IceLink</em>, <em>Azure Storage</em>, <em>Azure Queues</em>, <em>Azure Functions</em>, <em>WebRTC</em>, <em>STUN</em>, <em>TURN</em>, <em>ffmpeg</em></p>
+<h3 id="d4-software">D4 Software</h3>
+<p>April, 2015 - June, 2015</p>
+<ul>
+<li>Worked with Sass, Twitter Bloodhound, and Entity framework migrations.</li>
+<li>Implemented background tasks for sending emails on ASP.NET websites.</li>
+<li>Handled email view tracking.</li>
+</ul>
+<p><em>C#</em>, <em>ASP.NET MVC</em>, <em>ASP.NET Web API</em>, <em>SQL Server</em>, <em>Entity Framework</em>, <em>Javascript</em>, <em>Knockout</em>, <em>Sass</em></p>
+<h3 id="rxchange-gmbh">Rxchange GmbH</h3>
+<p>October, 2014 - February, 2015</p>
+<p>Rxchange is an online marketplace for wholesale dealers located in the EU, trading EU or EU-registered medicinal products.</p>
+<ul>
+<li>Created page widgets to ease access to information across orders.</li>
+<li>Updated the page to view and handle price change requests.</li>
+<li>Created new feature to keep track of, and handle, acceptance states for batches in orders.</li>
+</ul>
+<p><em>C#</em>, <em>ASP.NET MVC</em>, <em>Javascript</em>, <em>Entity Framework</em>, <em>SQL Server</em></p>
+<h3 id="american-mortgage-consultants">American Mortgage Consultants</h3>
+<p>January, 2013 - September, 2014</p>
+<ul>
+<li>Developed a tool to create and automate Due Diligence tests to Loans.</li>
+<li>Created a component to manage Loan Stipulations.</li>
+<li>Created a new component for reviewing Claims.</li>
+<li>Migrated data access code from ADO.NET to .netTiers.</li>
+<li>Rewrote several pages to improve performance and resource handling.</li>
+</ul>
+<p><em>C#</em>, <em>ASP.NET</em>, <em>ASP.NET Web Services</em>, <em>ASP.NET Web API</em>, <em>SQL Server</em>, <em>.netTiers</em>, <em>Knockout</em>, <em>jQuery</em></p>
+<h3 id="serpico-dev">Serpico DEV</h3>
+<p>October, 2011 - January, 2013</p>
+<ul>
+<li>Integrated a web application with LinkedIn's Open Authentication.</li>
+<li>Integrated Flypaper presentations with Javascript API with back-end database connectivity.</li>
+<li>Worked with the Appointment-Plus dev team to create an Outlook add-in for synchronizing calendar events with Appointment-Plus appointments and contacts.</li>
+</ul>
+<p><em>C#</em>, <em>ASP.NET MVC</em>, <em>Entity Framework</em>, <em>Flypaper</em>, <em>Javascript</em>, <em>LinkedIn API</em>, <em>jQuery</em>, <em>jQuery-UI</em>, <em>SQL Server</em>, <em>Appointment-Plus API</em>, <em>PHP</em></p>
+<h3 id="esurance">Esurance</h3>
+<p>March, 2011 - October, 2011</p>
+<p>Migration from ASP/VBScript to ASP.NET/C# of several sections of an application used for managing insurance claims.</p>
+<ul>
+<li>Migrate ASP/VBScript web applications to ASP.NET and C#.</li>
+<li>Create new web forms for managing Claims.</li>
+</ul>
+<p><em>C#</em>, <em>ASP.NET Web Forms</em>, <em>ASP</em>, <em>VBScript</em>, <em>LINQ to SQL</em>, <em>Javascript</em>, <em>jQuery</em>, <em>SQL Server</em>, <em>DevExpress Web Controls</em></p>
+<h3 id="yottamarkharvestmark">YottaMark/HarvestMark</h3>
+<p>July, 2010 - March, 2011</p>
+<ul>
+<li>Developed DailyShopper application, a traceability system that provides customers information about origin and freshness of food.</li>
+<li>EventProcessor which gathered tracking event information from several sources to merge in a single database and</li>
+<li>ETLProcessor which gathered information from several internal databases and loaded into a single one used for creating reports for management and clients.</li>
+<li>Created web services to show information gathered by DailyShopper and EventProcessor in HarvestMark web portal.</li>
+</ul>
+<p><em>C#</em>, <em>ASP.NET MVC</em>, <em>Javascript</em>, <em>jQuery</em>, <em>Windows Services</em>, <em>SQL Server</em>, <em>XML</em>, <em>ADO.NET</em>, <em>Compact Framework</em>, <em>SQL Server CE</em>, <em>WCF</em>, <em>Windows Forms</em>, <em>Motorola MC75A SDK</em></p>
+<h3 id="tiempo-development">Tiempo Development</h3>
+<p>November, 2007 - January, 2010</p>
+<ul>
+<li>Built Sanction, used for synchronizing video and time stamped deposition transcripts using WPF and MVVM.</li>
+<li>Created libraries to synchronize video and audio and compress using lossless codecs.</li>
+<li>Created a self extracting stub file that opened a Flash-based full screen presentation using C++.</li>
+<li>Integrated several image and video search APIs to add web search capabilities to Flypaper Studio.</li>
+<li>Integrated a chart component into Flypaper Studio.</li>
+<li>Spearheaded the development of ZoomTalent website.</li>
+</ul>
+<p><em>C#</em>, <em>C++</em>, <em>ASP.NET</em>, <em>SQL Server</em>, <em>InstallShield</em>, <em>Dundas Charts</em>, <em>Rich Chart Server</em>, <em>Google Atom Feeds</em>, <em>Flick/Google/Yahoo!/YouTube Search APIs</em>, <em>Telerik Web Controls</em>, <em>Javascript</em>, <em>jQuery</em>, <em>LINQ</em>, <em>Web Services</em>, <em>WPF</em>, <em>MVVM</em></p>
+<h3 id="e-business-consultores">e-Business Consultores</h3>
+<p>January, 2006 - November, 2007</p>
+<p>Administrative website development and maintenance for various government dependencies and private companies.</p>
+<ul>
+<li>Built an e-learning website used by Telcel to train resellers.</li>
+<li>Created a task tracker for government dependency using digital signatures to secure and validate assigned responsibilities.</li>
+<li>Handled digital signature integration to a web-based publishing system.</li>
+<li>Built Tu Casa Nueva magazine's website.</li>
+</ul>
+<p><em>C#</em>, <em>VB.NET</em>, <em>ASP</em>, <em>VBScript</em>, <em>ASP.NET</em>, <em>SQL Server</em>, <em>ADO.NET</em>, <em>SeguriData</em></p>
+<h3 id="cambio-sonora">Cambio Sonora</h3>
+<p>October, 2004 - January, 2006</p>
+<ul>
+<li>Development, maintenance, and renewal of the company's Intranet modules and website.</li>
+<li>Provided support for the IT department when needed.</li>
+</ul>
+<p><em>ASP</em>, <em>VBScript</em>, <em>SQL Server</em>, <em>HTML</em>, <em>Javascript</em>, <em>CSS</em>, <em>Dreamweaver</em></p>
+<h3 id="dextro-international-corporation">Dextro International Corporation</h3>
+<p>May, 2000 - October, 2004</p>
+<ul>
+<li>Designed and developed dynamic websites.</li>
+<li>Handled content management, news publishing, poll management, image galleries, hit counters, product catalogs, shopping carts, online payment processing, and mailing lists.</li>
+</ul>
+<p><em>ASP</em>, <em>VBScript</em>, <em>HTML</em>, <em>Javascript</em>, <em>CSS</em>, <em>Dreamweaver</em>, <em>MS Access</em>, <em>SQL Server</em></p>
+<h2 id="projects">Projects</h2>
+<h3 id="fremantle-productions">Fremantle Productions</h3>
+<p>April, 2021</p>
+<p>Web application to allow Show Producers to continue their work from home while still being able to view all camera angles live while a TV show is being broadcasted.</p>
+<p><em>C#</em>, <em>ASP.NET Core</em>, <em>MariaDb</em>, <em>Millicast</em></p>
+<h3 id="reebok-crossfit-games-2020">Reebok Crossfit Games 2020</h3>
+<p>July, 2020</p>
+<p>Web application to enable Athletes to stream or upload their trial and competition videos for Judges to review. This application allowed Athletes and Judges to interact without having to travel around the world and prevent Covid-19 infections.</p>
+<p><em>C#</em>, <em>ASP.NET Core</em>, <em>MariaDb</em>, <em>S3 Storage</em></p>
+<hr>
+<p>Last Modified: <em>January, 2024</em></p>
+
 </body>
 </html>
