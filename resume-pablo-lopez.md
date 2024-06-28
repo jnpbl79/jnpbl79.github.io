@@ -1,5 +1,5 @@
 # Pablo Lopez
-Contact: [jnpbl79@gmail.com](mailto:jnpbl79@gmail.com)
+Contact: [pablo@pablolopez.dev](mailto:pablo@pablolopez.dev)
 Last Updated: April 5, 2020 
 
 
