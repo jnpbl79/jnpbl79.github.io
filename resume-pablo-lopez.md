@@ -14,7 +14,7 @@ Joined the team to help move forward with their next version of FuneralVue Broad
 
 #### Tools & Technologies:
 
-C#, Windows Forms, PHP, CakePHP, MySQL, React, React Redux, Docker.
+C#, Windows Forms, PHP, CakePHP, MySQL, React, Redux, Docker.
 
 ### [Evolution Software](http://evolutionsoftware.co.za/) <small>March 2019 - January 2020</small>
 
@@ -32,7 +32,7 @@ Evolution Software is based in Cape Town, South Africa.
 
 #### Tools & Technologies: 
 
-ASP.NET Web Forms, ASP.NET Web API, SQL Server, Knockout.js, jQuery
+ASP.NET Web Forms, ASP.NET Web API, SQL Server, Entity Framework, ADO.NET, Knockout.js, jQuery
 
 ### [Nearsoft](https://nearsoft.com/) - [MDLive, Inc.](https://www.mdlive.com/) <small>September 2015 - August 2019</small>
 
@@ -53,7 +53,7 @@ MDLive is based in Sunrise, Florida.
 
 #### Tools & Technologies: 
 
-C#, Ruby on Rails, JavaScript, React, Docker, Frozen Mountain's Websync and IceLink, Azure Storage, Node.js
+C#, Ruby on Rails, JavaScript, React, Docker, Frozen Mountain's Websync and IceLink, Azure Storage, Queues and Functions, Node.js
 
 ### [Toptal](https://www.toptal.com/) / [D4 Software](https://weared4.com/) <small>April 2015 - June 2015</small>
 
@@ -70,7 +70,7 @@ C#, ASP.NET MVC, Web API, ASP.NET Identity, SQL Server, Entity Framework, Knocko
 ### [Toptal](https://www.toptal.com/) - [Rxchange GmbH](https://www.rxchan.ge/) <small>October 2014 - February 2015</small>
 
 - Created page widgets to ease access to information across orders.
-- Updated the page to view and handle price change requests.
+- Updated pages to view and handle price change requests.
 - Created new feature to keep track of acceptance states for batches in orders.
 - Created a new page to view and handle acceptance state for batches in orders.
 - Fixed bugs.
@@ -81,7 +81,7 @@ Rxchange is based in Munich, Germany.
 
 #### Tools & Technologies: 
 
-C#, ASP.NET MVC, JavaScript, Entity Framework, SQL Server
+C#, ASP.NET MVC, Javascript, Entity Framework, SQL Server
 
 ### [Toptal](https://www.toptal.com/) - [American Mortgage Consultants](https://www.amcfirst.com/) <small>January 2013 - September 2014</small>
 
