@@ -36,7 +36,7 @@ ASP.NET Web Forms, ASP.NET Web API, SQL Server, Entity Framework, ADO.NET, Knock
 
 ### [Nearsoft](https://nearsoft.com/) - [MDLive, Inc.](https://www.mdlive.com/) <small>September 2015 - August 2019</small>
 
-- Created a WebRTC client for the web using Icelink's JavaScript library and React.
+- Created a WebRTC client for the web using Icelink's Javascript library and React.
 - Created a WebRTC client for C# to use for audio recording.
 - Installed and set up infrastructure for WebRTC, signaling, STUN, and TURN servers.
 - Integrated WebRTC clients into Ruby on Rails websites so patients and providers with supported browsers could have their online appointments without having to install any third-party software to support video and audio conferencing.
@@ -102,7 +102,7 @@ C#, ASP.NET, ASP.NET Web Services, ASP.NET Web API, SQL Server, .netTiers, Javas
 ### [Serpico DEV](https://www.foundersworkshop.com/) <small>October 2011 - January 2013</small>
 
 - Integrated a web application with LinkedIn's Open Authentication.
-- Integrated Flypaper presentations with JavaScript API with back-end database connectivity.
+- Integrated Flypaper presentations with Javascript API with back-end database connectivity.
 - Worked with the Appointment-Plus dev team to create an Outlook add-in for synchronizing calendar events with Appointment-Plus appointments and contacts.
 
 > Serpico DEV provides fully-managed, outsourced application software development. Implementing a unique blend of on-site business analysis, architecting and project management and off-site application development, Serpico DEV delivers world-class agile software development at near-shore development rates. Specializing in prototypes, start-ups and early stage projects, Serpico DEV works closely with your stakeholders to deliver your vision on-time and within-budget.
@@ -165,7 +165,7 @@ C#, VB.NET, ASP, VBScript, ASP.NET, ASP.NET Web Services, SQL Server, ADO, ADO.N
 
 #### Tools & Technologies: 
 
-ASP/VBScript, HTML, JavaScript, CSS, Dreamweaver, SQL Server
+ASP/VBScript, HTML, Javascript, CSS, Dreamweaver, SQL Server
 
 ### Dextro International Corporation <small>May 2000 - October 2004</small>
 
@@ -176,7 +176,7 @@ Dextro International Corporation was based in Phoenix, Arizona.
 
 #### Tools & Technologies: 
 
-ASP/VBScript, HTML, JavaScript, CSS, Dreamweaver, MS Access, SQL Server
+ASP/VBScript, HTML, Javascript, CSS, Dreamweaver, MS Access, SQL Server
 
 ## Certifications
 
