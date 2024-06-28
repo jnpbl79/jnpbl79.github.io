@@ -19,7 +19,7 @@ C#, Windows Forms, PHP, CakePHP, MySQL, React, Redux, Docker.
 ### [Evolution Software](http://evolutionsoftware.co.za/) <small>March 2019 - January 2020</small>
 
 - Created modules using their custom framework built on top of ASP.NET for specific clients.
-- Added an Entity Framework data layer replicating and automating actions taken by their custom data access layer which works with ADO.NET and with it reducing considerably the amount of code that has to be written to perform some of those tasks.
+- Added an Entity Framework data layer replicating and automating actions taken by their custom data access layer which works with ADO.NET and with it considerably reducing the amount code needed to be written to perform some of those tasks leading to reduced development time.
 - Added Web Api to reduce full-page postbacks in several commonly used pages.
 - Added Knockout.js to several commonly used pages to provide a better user experience.
 - Edited database queries and columns to get faster results. Some of these enhancements helped the customer's client to get much more work done in less time.
@@ -41,7 +41,7 @@ ASP.NET Web Forms, ASP.NET Web API, SQL Server, Entity Framework, ADO.NET, Knock
 - Installed and set up infrastructure for WebRTC, signaling, STUN, and TURN servers.
 - Integrated WebRTC clients into Ruby on Rails websites so patients and providers with supported browsers could have their online appointments without having to install any third-party software to support video and audio conferencing.
 - Integrated Office 365 login with UWP application.
-- Created a Ruby gem to map request/response JSON messages from applications to Surescripts' XML API.
+- Created a Ruby gem to map request/response JSON messages from applications to Surescripts XML API. This enabled developers to work with known tools like ruby and json and not having to worry about extra complexities when accessing Suresctipts api.
 
 > MDLIVE is a telehealth provider focused on digital delivery of high-quality, convenient, and cost-efficient medical care. The company provides patients, health plans, health systems and self-insured employers with 24/7/365 access to board-certified doctors, pediatricians and licensed therapists via secure online video, phone or a smartphone app.
 
