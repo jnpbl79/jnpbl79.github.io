@@ -51,7 +51,7 @@ MDLive is based in Sunrise, Florida.
 
 #### Tools & Technologies: 
 
-C#, Ruby on Rails, Javascript, React, Docker, Frozen Mountain Websync. Frozen Mountain IceLink, Azure Storage, Azure Queues, Azure Functions, Node.js
+C#, Ruby on Rails, Javascript, React, Docker for Windows, Frozen Mountain Websync, Frozen Mountain IceLink, Azure Storage, Azure Queues, Azure Functions, Node.js
 
 ### [Toptal](https://www.toptal.com/) / [D4 Software](https://weared4.com/) <small>April 2015 - June 2015</small>
 
