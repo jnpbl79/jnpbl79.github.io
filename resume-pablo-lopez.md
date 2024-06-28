@@ -4,7 +4,7 @@ Last Updated: April 5, 2020
 
 
 ## Software Developer
-I am Self-driven, motivated and quickly adjust to new conditions. I possess good communication skills and am hard working, energetic and have the ability to take on challenges. I can work well independently as well within a team and I am able to tackle problems and situations with sensitivity and pro-actively.  I have over twenty years of experience writing applications, mostly web applications and I am always interested in new challenges.
+I am Self-driven, motivated and quickly adjust to new conditions. I possess good communication skills and am hard working, energetic and have the ability to take on challenges. I can work well independently as well as within a team. I am able to tackle problems and situations with sensitivity and pro-actively. I have over twenty years of experience writing applications, mostly web applications and I am always interested in new challenges.
 
 ## Experience
 
