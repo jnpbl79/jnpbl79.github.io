@@ -45,15 +45,13 @@ ASP.NET Web Forms, ASP.NET Web API, SQL Server, Entity Framework, ADO.NET, Knock
 
 > MDLIVE is a telehealth provider focused on digital delivery of high-quality, convenient, and cost-efficient medical care. The company provides patients, health plans, health systems and self-insured employers with 24/7/365 access to board-certified doctors, pediatricians and licensed therapists via secure online video, phone or a smartphone app.
 
-When I started working with MDLIVE their providers for videoconferencing were VSee and Adobe Connect. This was the challenge, to start using an open source provider, instead of a third party vendor that sometimes had connectivity issues. I replaced the third party provider for the open source, Web RTC. The change was made from scratch for the web version of MDLIVEConnect. The new option is also native in most browsers, giving users the possibility of using it without any downloads. The trick was to make it run with Internet Explorer. Once the product was finished for modern browsers, support for IE was added. I also supported the teams in charge of the iOS and Android versions.
-
-MDLive can now offer MDLiveConnect as its primary video calling service, instead of third parties. With no third party fees!
+When I started working with MDLIVE their providers for videoconferencing were VSee and Adobe Connect. This was the challenge, to start using an open source provider, instead of a third party vendor that sometimes had connectivity issues and costly licenses. I replaced the third party providers with the new Web RTC one. The change was made from scratch for the web version of MDLIVEConnect. The new option was also native in most browsers, giving users the possibility of using it without any additional downloads and software installs. Once the product was finished for modern browsers, support for IE was added. I also supported the teams in charge of the iOS and Android versions. MDLive was now able to use MDLiveConnect as its primary video conferencing and reduced costs by minimizing the amount of licensing fees.
 
 MDLive is based in Sunrise, Florida.
 
 #### Tools & Technologies: 
 
-C#, Ruby on Rails, JavaScript, React, Docker, Frozen Mountain's Websync and IceLink, Azure Storage, Queues and Functions, Node.js
+C#, Ruby on Rails, Javascript, React, Docker, Frozen Mountain Websync. Frozen Mountain IceLink, Azure Storage, Azure Queues, Azure Functions, Node.js
 
 ### [Toptal](https://www.toptal.com/) / [D4 Software](https://weared4.com/) <small>April 2015 - June 2015</small>
 
@@ -65,7 +63,7 @@ D4 Software is based in Birmingham, United Kingdom.
 
 #### Tools & Technologies: 
 
-C#, ASP.NET MVC, Web API, ASP.NET Identity, SQL Server, Entity Framework, Knockout.js
+C#, ASP.NET MVC, Web API, ASP.NET Identity, SQL Server, Entity Framework, Javascript, Knockout.js
 
 ### [Toptal](https://www.toptal.com/) - [Rxchange GmbH](https://www.rxchan.ge/) <small>October 2014 - February 2015</small>
 
@@ -99,7 +97,7 @@ Then I was tasked to create a component to include in a section of their interna
 
 #### Tools & Technologies: 
 
-C#, ASP.NET, ASP.NET Web Services, ASP.NET Web API, SQL Server, .netTiers, Knockout.js, jQuery
+C#, ASP.NET, ASP.NET Web Services, ASP.NET Web API, SQL Server, .netTiers, Javascript, Knockout.js, jQuery
 
 ### [Serpico DEV](https://www.foundersworkshop.com/) <small>October 2011 - January 2013</small>
 
@@ -111,17 +109,17 @@ C#, ASP.NET, ASP.NET Web Services, ASP.NET Web API, SQL Server, .netTiers, Knock
 
 #### Tools & Technologies: 
 
-C#, ASP.NET MVC, Entity Framework, Flypaper, JavaScript/jQuery, Twitter Bootstrap, LinkedIn API, jQuery-UI, SQL Server, Appointment-Plus API
+C#, ASP.NET MVC, Entity Framework, Flypaper, Javascript, jQuery, jQuery-UI, Twitter Bootstrap, LinkedIn API, SQL Server, Appointment-Plus API
 
 ### [Esurance](https://www.esurance.com/) <small>March 2011 – October 2011</small>
 
-Collaborated in the migration of several sections of an application written in ASP/VBScript, used for managing insurance claims, to ASP.NET/C#.
+Collaborated in the migration of several sections of an application written in ASP/VBScript, used for managing insurance claims, to ASP.NET and C#.
 
 > Esurance Insurance Services, Inc. is an American insurance company. It sells auto, home, motorcycle, and renters insurance direct to consumers online and by phone.
 
 #### Tools & Technologies: 
 
-C#, ASP.NET Web Forms, LINQ to SQL, JavaScript/jQuery, SQL Server, DevExpress Web Controls
+C#, ASP.NET Web Forms, LINQ to SQL, ASP, VBScript, ADO, Javascript, jQuery, SQL Server, DevExpress Web Controls
 
 ### [Nearsoft](https://nearsoft.com/) - [YottaMark](http://www2.yottamark.com/) <small>July 2010 - March 2011</small>
 
@@ -134,7 +132,7 @@ C#, ASP.NET Web Forms, LINQ to SQL, JavaScript/jQuery, SQL Server, DevExpress We
 
 #### Tools & Technologies: 
 
-ASP.NET, MVC, JavaScript/jQuery, Windows Services, C#, SQL Server, XML, ADO.NET, Compact Framework, SQL Server CE, WCF, Windows Forms, Motorola MC75A SDK
+ASP.NET, MVC, Javascript, jQuery, Windows Services, C#, SQL Server, XML, ADO.NET, Compact Framework, SQL Server CE, WCF, Windows Forms, Motorola MC75A SDK
 
 ### [Tiempo Development](https://www.tiempodev.com/) <small>November 2007 - January 2010</small>
 
@@ -147,7 +145,7 @@ ASP.NET, MVC, JavaScript/jQuery, Windows Services, C#, SQL Server, XML, ADO.NET,
 
 #### Tools & Technologies: 
 
-ASP.NET, C#, C++, SQL Server, InstallShield, Dundas Charts, Rich Chart Server, Google Atom Feeds, Flick/Google/Yahoo!/YouTube Search APIs, Telerik Web Controls, JavaScript, jQuery, Ajax, LINQ, Web Services, Provider Model, WPF, MVVM
+ASP.NET, C#, C++, SQL Server, InstallShield, Dundas Charts, Rich Chart Server, Google Atom Feeds, Flick/Google/Yahoo!/YouTube Search APIs, Telerik Web Controls, Javascript, jQuery, Ajax, LINQ to SQL, Web Services, Provider Model, WPF, MVVM
 
 ### e-Business Consultores <small>January 2006 - November 2007</small>
 
@@ -158,7 +156,7 @@ ASP.NET, C#, C++, SQL Server, InstallShield, Dundas Charts, Rich Chart Server, G
 
 #### Tools & Technologies: 
 
-C#, VB.NET, ASP/VBScript, ASP.NET, SQL Server, ADO.NET, SeguriData, HTML, JavaScript, CSS
+C#, VB.NET, ASP, VBScript, ASP.NET, ASP.NET Web Services, SQL Server, ADO, ADO.NET, SeguriData, HTML, Javascript, CSS, XML
 
 ### Cambio Sonora <small>October 2004 - January 2006</small>
 
