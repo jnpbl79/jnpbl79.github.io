@@ -26,9 +26,6 @@ Implemented accessibility guidelines and requirements on flagship desktop and cl
 * Developed custom accessibility objects for in house and third party components.
 * Updated and created new user interface automated tests.
 
-
-> Alteryx is Self-Service Analytics, Data Science & Process Automation software.
-
 <small>*Accessibility*, *NVDA*, *C#*, *Windows Forms*, *SourceGrid*, *Telerik WinForms*, *Javascript*, *React*, *GoJS*, *Material UI*, *MindFusion Diagrams*, *Syncfussion*, *Chromium Embedded Framework (CEF)*, *TestStack.White*, *Automated UI Testing*</small>
 
 ### Fremantle Productions
@@ -62,9 +59,6 @@ Added features to existing desktop and web applications. Created new application
 * Created web application using Reactjs with which users can stream their live events directly from a mobile device, reducing the time customers need to start using FuneralVue services and enable mobility.
 * Created application to automate DVD ISO image creation from mp4 videos using Windows Services for executing long-running tasks and a WPF desktop application used for configuring and controlling the service and displaying desktop notifications which drastically reduced the amount of time and attention spent on that task.
 
-
-> FuneralVue offers recording and webcasting services to funeral homes around the World.
-
 <small>*C#*, *Windows Forms*, *WPF*, *ASP.NET Core*, *Powershell*, *PHP*, *CakePHP*, *SQL*, *MySQL*, *Javascript*, *React*, *Redux*, *Docker*, *Vue*, *Wowza*, *Stripe*, *Larix Broadcaster*, *XAML*, *FFmpeg*</small>
 
 ### Evolution Software
@@ -77,9 +71,6 @@ Introduced entity framework to replicate and automate repetitive database action
 * Added an Entity Framework data layer replicating and automating actions taken by their custom data access layer which works with ADO.NET, and with it, considerably reducing the amount code needed to be written to perform some of those tasks leading to reduced development time.
 * Added Web Api to reduce full-page postbacks in several commonly used pages and KnockoutJS for client side datagrid processing which greatly improved overall performance and user experience.
 * Edited database queries, columns and stored procedures to get faster results.
-
-
-> Evolution Software has a web application to visually create web applications which with little to no developer intervention can create custom modules for different customers’ needs.
 
 <small>*C#*, *ASP.NET*, *ASP.NET Web Forms*, *ASP.NET Web API*, *Entity Framework*, *SQL*, *SQL Server*, *Javascript*, *KnockoutJS*</small>
 
@@ -98,9 +89,6 @@ I was involved and worked alongside product design, ux, dev ops and other develo
 * Created a ruby gem to map between json and xml request/response messages from internal applications to Surescripts xml api.
 * Worked with iOS and Android development teams to help with integration of video conferencing application
 * Worked with DevOps team to help with infrastructure provisioning and deployment of server side applications on Azure.
-
-
-> MDLIVE is a telehealth provider which provides patients, health plans, health systems and self-insured employers online access to board-certified doctors, pediatricians and licensed therapists.
 
 <small>*C#*, *Ruby*, *Ruby on Rails*, *ASP.NET*, *ASP.NET MVC*, *ASP.NET Web API*, *Javascript*, *React*, *Docker for Windows*, *Surescripts*, *Websync*, *IceLink*, *Azure Storage*, *Azure Queues*, *Azure Functions*, *WebRTC*, *FFmpeg*, *Powershell*, *JSON*, *XML*</small>
 
@@ -129,9 +117,6 @@ Updated and created web based components to manage and keep track of medication 
 * Created page controls to ease access to information across orders.
 * Updated components to view and handle price change requests.
 * Created feature to keep track and process acceptance states for batches in orders.
-
-
-> Rxchange is an online marketplace for wholesale dealers located in the EU, trading EU or EU-registered medicinal products.
 
 <small>*C#*, *ASP.NET*, *ASP.NET MVC*, *Entity Framework*, *SQL Server*</small>
 
