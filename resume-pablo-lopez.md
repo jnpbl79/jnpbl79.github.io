@@ -1,190 +1,253 @@
-# Pablo Lopez
-Contact: [pablo@pablolopez.dev](mailto:pablo+contact@pablolopez.dev)
-Last Updated: April 5, 2020 
-
+# Pablo López
 
 ## Software Developer
-I am Self-driven, motivated and quickly adjust to new conditions. I possess good communication skills and am hard working, energetic and have the ability to take on challenges. I can work well independently as well as within a team. I am able to tackle problems and situations with sensitivity and pro-actively. I have over twenty years of experience writing applications, mostly web applications and I am always interested in new challenges.
+
+I have great adaptability, the ability to work collaboratively with cross-functional teams, learn new skills quickly and always interested in new challenges. I am Self-driven, motivated and quickly adjust to new conditions. I possess good communication skills and have the ability to tackle problems and situations with sensitivity and pro-actively. I consistently contribute to the achievement of both team and personal goals, don't hesitate to ask what I don't know, do the research and get things done.
+
+## Languages
+
+* Spanish (Native)
+* English (Professional)
 
 ## Experience
 
-### [Advanced Audio Systems](https://www.advancedaudiosystems.org/) <small>March 2020 - Current</small>
+### Toptal
 
-Joined the team to help move forward with their next version of FuneralVue Broadcaster targeting desktop and mobile devices.
+Nov 2012 - Current
 
-#### Tools & Technologies:
+### Alteryx
 
-C#, Windows Forms, PHP, CakePHP, MySQL, React, Redux, Docker.
+Aug 2020 - Jan 2024
 
-### [Evolution Software](http://evolutionsoftware.co.za/) <small>March 2019 - January 2020</small>
+Implemented accessibility guidelines and requirements on flagship desktop and cloud products, enabling users of assistive technologies to create and edit workflows with screen reader support and ensuring that all content can be accessed with the keyboard alone.
 
-- Created modules using their custom framework built on top of ASP.NET for specific clients.
-- Added an Entity Framework data layer replicating and automating actions taken by their custom data access layer which works with ADO.NET and with it considerably reducing the amount code needed to be written to perform some of those tasks leading to reduced development time.
-- Added Web Api to reduce full-page postbacks in several commonly used pages.
-- Added Knockout.js to several commonly used pages to provide a better user experience.
-- Edited database queries and columns to get faster results. Some of these enhancements helped the customer's client to get much more work done in less time.
+* Created keyboard accessible workflow diagrams and data grids.
+* Updated and refactored user controls to better integrate accessibility features and usability.
+* Developed custom accessibility objects for in house and third party components.
+* Updated and created new user interface automated tests.
 
-> Evolution Software removes the complicated and inaccessible systems and replaces them with electronic, integrated business software that centralises your business tasks. This allows you to run a smarter, faster and more profitable business. 
 
-Evolution Software has a web application to visually create web applications which with little to no developer intervention can create custom modules for different customers’ needs. 
+> Alteryx is Self-Service Analytics, Data Science & Process Automation software.
 
-Evolution Software is based in Cape Town, South Africa.
+<small>*Accessibility*, *NVDA*, *C#*, *Windows Forms*, *SourceGrid*, *Telerik WinForms*, *Javascript*, *React*, *GoJS*, *Material UI*, *MindFusion Diagrams*, *Syncfussion*, *Chromium Embedded Framework (CEF)*, *TestStack.White*, *Automated UI Testing*</small>
 
-#### Tools & Technologies: 
+### Fremantle Productions
 
-ASP.NET Web Forms, ASP.NET Web API, SQL Server, Entity Framework, ADO.NET, Knockout.js, jQuery
+Apr 2021 - May 2021
 
-### [Nearsoft](https://nearsoft.com/) - [MDLive, Inc.](https://www.mdlive.com/) <small>September 2015 - August 2019</small>
+Developed a web application to allow Show Producers to continue their work from home during COVID-19 restrictions and still be able to view all camera angles live while a TV show is being broadcasted.
 
-- Created a WebRTC client for the web using Icelink's Javascript library and React.
-- Created a WebRTC client for C# to use for audio recording.
-- Installed and set up infrastructure for WebRTC, signaling, STUN, and TURN servers.
-- Integrated WebRTC clients into Ruby on Rails websites so patients and providers with supported browsers could have their online appointments without having to install any third-party software to support video and audio conferencing.
-- Integrated Office 365 login with UWP application.
-- Created a Ruby gem to map request/response JSON messages from applications to Surescripts XML API. This enabled developers to work with known tools like ruby and json and not having to worry about extra complexities when accessing Suresctipts api.
+* Developed millicast javascript api client to use on website.
+* Developed web application to view all camera angles of a live tv show.
 
-> MDLIVE is a telehealth provider focused on digital delivery of high-quality, convenient, and cost-efficient medical care. The company provides patients, health plans, health systems and self-insured employers with 24/7/365 access to board-certified doctors, pediatricians and licensed therapists via secure online video, phone or a smartphone app.
+<small>*C#*, *ASP.NET Core*, *ASP.NET Core Identity*, *Razor Pages*, *Javascript*, *Entity Framework Core*, *MariaDb*, *Millicast*, *Dolby.io*, *AWS EC2*</small>
 
-When I started working with MDLIVE their providers for videoconferencing were VSee and Adobe Connect. This was the challenge, to start using an open source provider, instead of a third party vendor that sometimes had connectivity issues and costly licenses. I replaced the third party providers with the new Web RTC one. The change was made from scratch for the web version of MDLIVEConnect. The new option was also native in most browsers, giving users the possibility of using it without any additional downloads and software installs. Once the product was finished for modern browsers, support for IE was added. I also supported the teams in charge of the iOS and Android versions. MDLive was now able to use MDLiveConnect as its primary video conferencing and reduced costs by minimizing the amount of licensing fees.
+### Reebok Crossfit Games 2020
 
-MDLive is based in Sunrise, Florida.
+Jul 2020 - Aug 2020
 
-#### Tools & Technologies: 
+Developed a web application to enable Athletes to stream or upload their trial and competition videos for Judges to review. This application allowed Athletes and Judges to interact without having to travel around the world during COVID-19 restrictions.
 
-C#, Ruby on Rails, Javascript, React, Docker for Windows, Frozen Mountain Websync, Frozen Mountain IceLink, Azure Storage, Azure Queues, Azure Functions, Node.js
+<small>*C#*, *ASP.NET Core*, *ASP.NET Core Identity*, *Razor Pages*, *Javascript*, *Entity Framework Core*, *MariaDb*, *AWS EC2*, *AWS S3 Storage*</small>
 
-### [Toptal](https://www.toptal.com/) / [D4 Software](https://weared4.com/) <small>April 2015 - June 2015</small>
+### Advanced Audio Systems / FuneralVue
 
-- Worked with Sass, Twitter Bloodhound, and Entity framework migrations.
-- Implemented background tasks for sending emails.
-- Handled email view tracking.
+Mar 2020 - Aug 2020
 
-D4 Software is based in Birmingham, United Kingdom.
+Added features to existing desktop and web applications. Created new applications to help provide better service to customers and automate long tedious tasks for personnel.
 
-#### Tools & Technologies: 
+* Updated the client's main Windows Forms application with their new brand and brought some code closer to up to date, added new features along with some layout fixes.
+* Added updates and new features to the web back-end website written in PHP.
+* Created checkout page with DVD packaging customization and Stripe payment using Vuejs.
+* Created web application using Reactjs with which users can stream their live events directly from a mobile device, reducing the time customers need to start using FuneralVue services and enable mobility.
+* Created application to automate DVD ISO image creation from mp4 videos using Windows Services for executing long-running tasks and a WPF desktop application used for configuring and controlling the service and displaying desktop notifications which drastically reduced the amount of time and attention spent on that task.
 
-C#, ASP.NET MVC, Web API, ASP.NET Identity, SQL Server, Entity Framework, Javascript, Knockout.js
 
-### [Toptal](https://www.toptal.com/) - [Rxchange GmbH](https://www.rxchan.ge/) <small>October 2014 - February 2015</small>
+> FuneralVue offers recording and webcasting services to funeral homes around the World.
 
-- Created page widgets to ease access to information across orders.
-- Updated pages to view and handle price change requests.
-- Created new feature to keep track of acceptance states for batches in orders.
-- Created a new page to view and handle acceptance state for batches in orders.
-- Fixed bugs.
+<small>*C#*, *Windows Forms*, *WPF*, *ASP.NET Core*, *Powershell*, *PHP*, *CakePHP*, *SQL*, *MySQL*, *Javascript*, *React*, *Redux*, *Docker*, *Vue*, *Wowza*, *Stripe*, *Larix Broadcaster*, *XAML*, *FFmpeg*</small>
 
-> Rxchan.ge is an online marketplace for wholesale dealers located in the EU, trading EU or EU-registered medicinal products. 
+### Evolution Software
 
-Rxchange is based in Munich, Germany.
+Mar 2019 - Aug 2019
 
-#### Tools & Technologies: 
+Introduced entity framework to replicate and automate repetitive database actions, updated database queries to get faster results and created modules using their custom framework.
 
-C#, ASP.NET MVC, Javascript, Entity Framework, SQL Server
+* Created modules using their custom framework built on top of ASP.NET for specific clients.
+* Added an Entity Framework data layer replicating and automating actions taken by their custom data access layer which works with ADO.NET, and with it, considerably reducing the amount code needed to be written to perform some of those tasks leading to reduced development time.
+* Added Web Api to reduce full-page postbacks in several commonly used pages and KnockoutJS for client side datagrid processing which greatly improved overall performance and user experience.
+* Edited database queries, columns and stored procedures to get faster results.
 
-### [Toptal](https://www.toptal.com/) - [American Mortgage Consultants](https://www.amcfirst.com/) <small>January 2013 - September 2014</small>
 
-- Created a tool to create due diligence tests to loans using ASP.NET Web API and Knockout.js.
-- Created a component to manage loan stipulations using ASP.NET web services and Knockout.js.
-- Added a new section for claims review.
-- Migrated code from ADO.NET to using .netTiers data access.
-- Rewrote several pages to improve performance and resource handling.
+> Evolution Software has a web application to visually create web applications which with little to no developer intervention can create custom modules for different customers’ needs.
 
-> American Mortgage Consultants (AMC) is a leading nationwide due diligence and consulting services provider with offices in New York, Tampa, Denver, Des Moines, Farmington Hills (Detroit), and Vernon Hills (Chicago). With a market leading team of mortgage professionals, AMC can create solutions for both large and small clients.
+<small>*C#*, *ASP.NET*, *ASP.NET Web Forms*, *ASP.NET Web API*, *Entity Framework*, *SQL*, *SQL Server*, *Javascript*, *KnockoutJS*</small>
 
-When I started at AMC they were required to build forms from excel sheets that company personnel printed out and manually filled during due diligence. They handed me about 7 different sheets to get started but a first wave of little over a hundred variations was on the way. It would have taken ages for me to build forms for all of them so I instead built a tool for them to build their own tests which anyone could use.
+### Breakthrough / MDLive, Inc.
 
-Then I was tasked to create a component to include in a section of their internal web application that displayed Loan Stipulations with some search features. All I was handed was a few database table names, some UI specs, a warning that pretty much no one in the dev department fully understood the requirements and a contact name to reach out if help was needed. That contact was rarely available and I never got answers to my questions so I started documenting every assumption I made and was able to continue development based on almost only assumptions. After three months of delivery I was congratulated because the feature was sent to production without passing through QA, was widely used and no bugs had been reported.
+Sep 2015 - Aug 2019
 
-#### Tools & Technologies: 
+I was involved and worked alongside product design, ux, dev ops and other development teams to build, integrate and deploy great products that were composed of several back and front end services and components.
 
-C#, ASP.NET, ASP.NET Web Services, ASP.NET Web API, SQL Server, .netTiers, Javascript, Knockout.js, jQuery
+* Created WebRTC Signalling server using Websync C# libraries.
+* Created a WebRTC client for the web using Icelink Javascript library and React.
+* Created C# WebRTC client to use for audio recording.
+* Developed Azure Function to synchronize, merge, encode and backup audio recordings and make them available for review if necessary.
+* Integrated WebRTC clients into Ruby on Rails websites.
+* Integrated Office 365 login with UWP application.
+* Created a ruby gem to map between json and xml request/response messages from internal applications to Surescripts xml api.
+* Worked with iOS and Android development teams to help with integration of video conferencing application
+* Worked with DevOps team to help with infrastructure provisioning and deployment of server side applications on Azure.
 
-### [Serpico DEV](https://www.foundersworkshop.com/) <small>October 2011 - January 2013</small>
 
-- Integrated a web application with LinkedIn's Open Authentication.
-- Integrated Flypaper presentations with Javascript API with back-end database connectivity.
-- Worked with the Appointment-Plus dev team to create an Outlook add-in for synchronizing calendar events with Appointment-Plus appointments and contacts.
+> MDLIVE is a telehealth provider which provides patients, health plans, health systems and self-insured employers online access to board-certified doctors, pediatricians and licensed therapists.
 
-> Serpico DEV provides fully-managed, outsourced application software development. Implementing a unique blend of on-site business analysis, architecting and project management and off-site application development, Serpico DEV delivers world-class agile software development at near-shore development rates. Specializing in prototypes, start-ups and early stage projects, Serpico DEV works closely with your stakeholders to deliver your vision on-time and within-budget.
+<small>*C#*, *Ruby*, *Ruby on Rails*, *ASP.NET*, *ASP.NET MVC*, *ASP.NET Web API*, *Javascript*, *React*, *Docker for Windows*, *Surescripts*, *Websync*, *IceLink*, *Azure Storage*, *Azure Queues*, *Azure Functions*, *WebRTC*, *FFmpeg*, *Powershell*, *JSON*, *XML*</small>
 
-#### Tools & Technologies: 
+### Nearsoft
 
-C#, ASP.NET MVC, Entity Framework, Flypaper, Javascript, jQuery, jQuery-UI, Twitter Bootstrap, LinkedIn API, SQL Server, Appointment-Plus API
+Sep 2015 - Aug 2019
 
-### [Esurance](https://www.esurance.com/) <small>March 2011 – October 2011</small>
+### D4 Software
 
-Collaborated in the migration of several sections of an application written in ASP/VBScript, used for managing insurance claims, to ASP.NET and C#.
+Apr 2015 - Jun 2015
 
-> Esurance Insurance Services, Inc. is an American insurance company. It sells auto, home, motorcycle, and renters insurance direct to consumers online and by phone.
+Helped with several development tasks on asp.net mvc websites.
 
-#### Tools & Technologies: 
+* Worked with Sass, Twitter Bloodhound, and Entity framework migrations.
+* Created background tasks for sending emails on ASP.NET websites.
+* Implemented email view tracking.
 
-C#, ASP.NET Web Forms, LINQ to SQL, ASP, VBScript, ADO, Javascript, jQuery, SQL Server, DevExpress Web Controls
+<small>*C#*, *ASP.NET*, *ASP.NET MVC*, *ASP.NET Web API*, *SQL Server*, *Entity Framework*, *Javascript*, *KnockoutJS*, *Sass*</small>
 
-### [Nearsoft](https://nearsoft.com/) - [YottaMark](http://www2.yottamark.com/) <small>July 2010 - March 2011</small>
+### arex Rxchange GmbH
 
-- Developed DailyShopper application, a traceability system that provides customers product age and quality information. 
-- EventProcessor which gathered tracking event information from several sources to merge in a single database and 
-- ETLProcessor which gathered information from several internal databases and loaded into a single one used for creating reports for management and clients. 
-- Created web services to show information gathered by DailyShopper and EventProcessor in HarvestMark web portal.
+Oct 2014 - Feb 2015
 
-> YottaMark is a SaaS-based platform providing traceability and authentication solutions to enhance the transparency in food suppliers. HarvestMark’s platform and tools enable food producers, distributors and retailers to establish a transparent supply chain, optimize product quality and freshness, and build consumer loyalty.
+Updated and created web based components to manage and keep track of medication in a B2B environment.
 
-#### Tools & Technologies: 
+* Created page controls to ease access to information across orders.
+* Updated components to view and handle price change requests.
+* Created feature to keep track and process acceptance states for batches in orders.
 
-ASP.NET, MVC, Javascript, jQuery, Windows Services, C#, SQL Server, XML, ADO.NET, Compact Framework, SQL Server CE, WCF, Windows Forms, Motorola MC75A SDK
 
-### [Tiempo Development](https://www.tiempodev.com/) <small>November 2007 - January 2010</small>
+> Rxchange is an online marketplace for wholesale dealers located in the EU, trading EU or EU-registered medicinal products.
 
-- Built Sanction, used for synchronizing video and time stamped deposition transcripts using WPF and MVVM.
-- Created libraries to synchronize video and audio and compress using lossless codecs.
-- Created a self extracting stub file that opened a Flash-based full screen presentation using C++.
-- Integrated several image and video search APIs to add web search capabilities to Flypaper Studio.
-- Integrated a chart component into Flypaper Studio.
-- Spearheaded the development of ZoomTalent website.
+<small>*C#*, *ASP.NET*, *ASP.NET MVC*, *Entity Framework*, *SQL Server*</small>
 
-#### Tools & Technologies: 
+### American Mortgage Consultants
 
-ASP.NET, C#, C++, SQL Server, InstallShield, Dundas Charts, Rich Chart Server, Google Atom Feeds, Flick/Google/Yahoo!/YouTube Search APIs, Telerik Web Controls, Javascript, jQuery, Ajax, LINQ to SQL, Web Services, Provider Model, WPF, MVVM
+Jan 2013 - Sep 2014
 
-### e-Business Consultores <small>January 2006 - November 2007</small>
+Developed several web based tools and components to speed up claims and due diligence.
 
-- Built an e-learning website used by Telcel to train resellers.
-- Created a task tracker for government dependency using digital signatures to secure and validate assigned responsibilities.
-- Handled digital signature integration to a web-based publishing system.
-- Built Tu Casa Nueva magazine's website.
+* Web based tool to create and automate Due Diligence tests to Loans.
+* Component to manage Loan Stipulations.
+* Created a new component for reviewing Claims.
+* Migrated data access code from ADO.NET to .netTiers.
+* Updated and refactored several pages to improve performance and resource handling.
 
-#### Tools & Technologies: 
+<small>*C#*, *ASP.NET*, *ASP.NET Web Forms*, *ASP.NET Web API*, *SQL*, *SQL Server*, *ADO.NET*, *.netTiers*, *Javascript*, *KnockoutJS*, *jQuery*</small>
 
-C#, VB.NET, ASP, VBScript, ASP.NET, ASP.NET Web Services, SQL Server, ADO, ADO.NET, SeguriData, HTML, Javascript, CSS, XML
+### Serpico DEV
 
-### Cambio Sonora <small>October 2004 - January 2006</small>
+Oct 2011 - Jan 2013
 
-- Handled development, maintenance, and renewal of the company's Intranet modules.
-- Provided support for the IT department when needed.
+Web development for several clients like Allsup and AppointmentPlus.
 
-#### Tools & Technologies: 
+* Integrated a web application with LinkedIn's Open Authentication.
+* Integrated Flypaper presentations with Javascript API clients and back-end database connectivity.
+* Worked with the AppointmentPlus dev team to create an Outlook add-in for synchronizing calendar events with AppointmentPlus appointments and contacts.
 
-ASP/VBScript, HTML, Javascript, CSS, Dreamweaver, SQL Server
+<small>*C#*, *ASP.NET*, *ASP.NET Web Forms*, *ASP.NET Web API*, *Entity Framework*, *Flypaper*, *jQuery*, *jQuery-UI*, *SQL*, *SQL Server*, *MySQL*, *AppointmentPlus*, *PHP*, *CakePHP*, *Kendo UI*, *JSON*</small>
 
-### Dextro International Corporation <small>May 2000 - October 2004</small>
+### Esurance
 
-- Designed and developed dynamic websites.
-- Handled content management, news publishing, poll management, image galleries, hit counters, product catalogs, shopping carts, online payment processing, and mailing lists.
+Mar 2011 - Oct 2011
 
-Dextro International Corporation was based in Phoenix, Arizona.
+Migration from ASP/VBScript to ASP.NET/C# of several sections of an application used for managing insurance claims.
 
-#### Tools & Technologies: 
+* Migrate ASP/VBScript web applications to ASP.NET and C#.
+* Create new web forms for managing Claims.
 
-ASP/VBScript, HTML, Javascript, CSS, Dreamweaver, MS Access, SQL Server
+<small>*C#*, *ASP.NET*, *ASP.NET Web Forms*, *ASP*, *VBScript*, *ADO*, *ADO.NET*, *LINQ to SQL*, *SQL*, *SQL Server*, *DevExpress Web Controls*</small>
 
-## Certifications
+### Hildebrando
 
-| **Certification History**                                                        | **Achievement Date** |
-| -------------------------------------------------------------------------------- | -------------------- |
-| Microsoft® Certified Technology Specialist: .Net Framework 2.0, Web Applications | June 16, 2008        |
-| Microsoft® Certified Professional Developer: Web Developer                       | June 16, 2008        |
-| Microsoft® Certified Application Developer: Microsoft .NET                       | June 1, 2006         |
-| Microsoft® Certified Professional: Microsoft Certified Professional              | May 18, 2006         |
+Mar 2011 - Oct 2011
 
+### YottaMark
 
+Jul 2010 - Mar 2011
+
+Developed many components for traceability software that provides customers information about origin and freshness of food.
+
+* Developed DailyShopper application, a traceability system that provides customers information about origin and freshness of food.
+* EventProcessor which gathered tracking event information from several sources to merge in a single database and
+* ETLProcessor which gathered information from several internal databases and loaded into a single one used for creating reports for management and clients.
+* Created web services to show information gathered by DailyShopper and EventProcessor in HarvestMark web portal.
+
+<small>*C#*, *ASP.NET*, *ASP.NET Web Forms*, *ASP.NET Web Services*, *Windows Services*, *SQL*, *SQL Server*, *XML*, *ADO.NET*, *Compact Framework*, *SQL Server CE*, *WCF*, *Windows Forms*, *Motorola MC75A SDK*, *SOAP Services*, *WSDL*</small>
+
+### Nearsoft
+
+Jul 2010 - Mar 2011
+
+### Tiempo Development
+
+Nov 2007 - Jan 2010
+
+Software development for various clients like Flypaper and others.
+
+* Built application used for synchronizing video and time stamped deposition transcripts named Sanction using WPF and MVVM.
+* Created libraries to synchronize audio and video and compress using lossless codecs.
+* Self extracting stub file that opened a stand alone Flash-based full screen presentation using C++.
+* Integrated several image and video search APIs to add web search capabilities to Flypaper Studio.
+* Integrated chart components into Flypaper Studio.
+
+<small>*C#*, *C++*, *ASP.NET*, *ASP.NET Web Forms*, *ASP.NET Web Services*, *Entity Framework*, *LINQ to SQL*, *SQL*, *SQL Server*, *Flypaper*, *InstallShield*, *Dundas Charts*, *Rich Chart Server*, *Telerik*, *WPF*, *WSDL*, *Javascript*, *jQuery*</small>
+
+### e-Business Consultores
+
+Jan 2006 - Nov 2007
+
+Administrative website development and maintenance for various government dependencies and private companies.
+
+* E-learning website used by Telcel to train resellers.
+* Task tracker for government dependency using digital signatures to secure and validate assigned responsibilities.
+* Digital signature PKI integration to a web-based publishing system.
+* TuCasaNueva magazine's website.
+
+<small>*C#*, *VB.NET*, *ASP*, *VBScript*, *ASP.NET*, *ASP.NET Web Forms*, *ASP.NET Web Services*, *SQL Server*, *ADO*, *ADO.NET*, *SeguriData*, *PKI*, *Javascript*, *XML*, *WSDL*</small>
+
+### Cambio Sonora
+
+Oct 2004 - Jan 2006
+
+Developed and maintained newspaper public website and intranet and IT support.
+
+* Development, maintenance, and renewal of the company's intranet modules and public website.
+* Provided support for the IT department when needed.
+
+<small>*ASP*, *VBScript*, *SQL*, *SQL Server*, *Javascript*</small>
+
+### Dextro International
+
+May 2000 - Oct 2004
+
+Design and development of dynamic websites using ASP and VBScript.
+
+* Designed and developed dynamic websites.
+* Handled content management, news publishing, poll management, image galleries, hit counters, product catalogs, shopping carts, online payment processing, and mailing lists.
+
+<small>*ASP*, *VBScript*, *SQL Server*</small>
+
+## Contact
+
+Email: [pablo@pablolopez.dev](mailto:pablo+contact@pablolopez.dev)  
+Website: [resume.pablolopez.dev](https://resume.pablolopez.dev)  
+LinkedIn: [linkedin.com/in/jplopezg](https://www.linkedin.com/in/jplopezg/)  
+Github: [github.com/jnpbl79](https://github.com/jnpbl79)  
+
+---
+<sup>Jul 2024</sup>
