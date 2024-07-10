@@ -224,7 +224,7 @@ May 2000 - Oct 2004
 
 Design and development of dynamic websites using ASP and VBScript which included news publishing, content, news and image galleries management, product catalogs, shopping carts, online payment, mailing lists and others.
 
-* Designed and developed dynamic websites.
+* Designed and developed dynamic websites using ASP and VBScript.
 * Handled content management, news publishing, poll management, image galleries, hit counters, product catalogs, shopping carts, online payment processing, and mailing lists.
 
 <small>*ADO*, *ASP*, *SQL*, *SQL Server*, *VBScript*</small>
