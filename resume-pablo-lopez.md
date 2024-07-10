@@ -15,7 +15,7 @@ I have great adaptability, the ability to work collaboratively with cross-functi
 
 Nov 2012 - Current
 
-### Alteryx
+### Alteryx <small>- via Toptal</small>
 
 Aug 2020 - Jan 2024
 
@@ -53,7 +53,7 @@ Developed a web application to enable Athletes to stream or upload their trial a
 
 <small>*ASP.NET Core*, *ASP.NET Core Identity*, *AWS EC2*, *AWS S3 Storage*, *C#*, *Entity Framework Core*, *FFmpeg*, *Javascript*, *MariaDb*, *Razor Pages*</small>
 
-### Advanced Audio Systems / FuneralVue
+### Advanced Audio Systems / FuneralVue <small>- via Toptal</small>
 
 Mar 2020 - Aug 2020
 
@@ -67,11 +67,11 @@ Added new and updated existing features desktop and web applications. Created ne
 
 <small>*ASP.NET Core*, *C#*, *CakePHP*, *Docker*, *FFmpeg*, *Javascript*, *Larix Broadcaster*, *MySQL*, *PHP*, *Powershell*, *React*, *Redux*, *SQL*, *Stripe*, *Vue*, *Windows Forms*, *Wowza*, *WPF*, *XAML*</small>
 
-### Evolution Software
+### Evolution Software <small>- via Toptal</small>
 
-Mar 2019 - Aug 2019
+Mar 2019 - Jan 2020
 
-Introduced entity framework to replicate and automate repetitive database actions, updated database queries to get faster results and created modules using their custom framework.
+Introduced entity framework to replicate and automate repetitive database actions, updated database queries to get faster results and created modules using their custom framework built on top of ASP.NET Web Forms.
 
 * Created modules using their custom framework built on top of ASP.NET for specific clients.
 * Added an Entity Framework data layer replicating and automating actions taken by their custom data access layer which works with ADO.NET, and with it, considerably reducing the amount code needed to be written to perform some of those tasks leading to reduced development time.
@@ -80,7 +80,7 @@ Introduced entity framework to replicate and automate repetitive database action
 
 <small>*ASP.NET*, *ASP.NET Web API*, *ASP.NET Web Forms*, *C#*, *Entity Framework*, *Javascript*, *KnockoutJS*, *SQL*, *SQL Server*</small>
 
-### Breakthrough / MDLive, Inc.
+### Breakthrough / MDLive, Inc. <small>- via Nearsoft</small>
 
 Sep 2015 - Aug 2019
 
@@ -102,7 +102,7 @@ I was involved and worked alongside product design, ux, dev ops and other develo
 
 Sep 2015 - Aug 2019
 
-### D4 Software
+### D4 Software <small>- via Toptal</small>
 
 Apr 2015 - Jun 2015
 
@@ -110,7 +110,7 @@ Helped with several development tasks on ASP.NET MVC websites like adding typeah
 
 <small>*ASP.NET*, *ASP.NET MVC*, *ASP.NET Web API*, *C#*, *Entity Framework*, *Javascript*, *jQuery*, *KnockoutJS*, *Sass*, *SQL Server*</small>
 
-### arex Rxchange GmbH
+### arex Rxchange GmbH <small>- via Toptal</small>
 
 Oct 2014 - Feb 2015
 
@@ -122,7 +122,7 @@ Updated and created ASP.NET MVC components to manage and keep track of medicatio
 
 <small>*ASP.NET*, *ASP.NET MVC*, *C#*, *Entity Framework*, *Javascript*, *jQuery*, *SQL Server*</small>
 
-### American Mortgage Consultants
+### American Mortgage Consultants <small>- via Toptal</small>
 
 Jan 2013 - Sep 2014
 
@@ -148,14 +148,11 @@ Web development for several clients like Allsup and AppointmentPlus.
 
 <small>*AppointmentPlus*, *ASP.NET*, *ASP.NET Web API*, *ASP.NET Web Forms*, *C#*, *CakePHP*, *Entity Framework*, *Flypaper*, *Javascript*, *jQuery*, *jQuery-UI*, *JSON*, *Kendo UI*, *MySQL*, *PHP*, *Scrum*, *SQL*, *SQL Server*</small>
 
-### Esurance
+### Esurance <small>- via Hildebrando</small>
 
 Mar 2011 - Oct 2011
 
 Migrated several sections of a web application used for managing insurance claims from ASP and VBScript to ASP.NET Web Forms and C# and developed web forms for new features.
-
-* Migrate ASP/VBScript web applications to ASP.NET and C#.
-* Create new web forms for managing Claims.
 
 <small>*ADO*, *ADO.NET*, *ASP*, *ASP.NET*, *ASP.NET Web Forms*, *C#*, *DevExpress Web Controls*, *Javascript*, *jQuery*, *LINQ to SQL*, *Scrum*, *SQL*, *SQL Server*, *VBScript*</small>
 
@@ -163,16 +160,11 @@ Migrated several sections of a web application used for managing insurance claim
 
 Mar 2011 - Oct 2011
 
-### YottaMark
+### YottaMark <small>- via Nearsoft</small>
 
 Jul 2010 - Mar 2011
 
-Developed many components for traceability software that provides customers information about origin and freshness of food which included a mobile application to scan bar and QR codes to display produce traceability information, backend services to gather and process tracking events from several sources, web services and websites to also display and managed gathered information.
-
-* Developed DailyShopper application, a traceability system that provides customers information about origin and freshness of food.
-* EventProcessor which gathered tracking event information from several sources to merge in a single database and
-* ETLProcessor which gathered information from several internal databases and loaded into one used for creating reports for management and clients.
-* Created web services to show information gathered by DailyShopper and EventProcessor in HarvestMark web portal.
+Developed many components for traceability software that provides information to customers about origin and freshness of food, including a mobile application to scan bar and QR codes to display produce traceability information, back-end services to gather and process tracking events from several sources, web services and websites to display and manage gathered information.
 
 <small>*ADO.NET*, *ASP.NET*, *ASP.NET Web Forms*, *ASP.NET Web Services*, *C#*, *Compact Framework*, *Scrum*, *SOAP Services*, *SQL*, *SQL Server*, *SQL Server CE*, *WCF*, *Windows Forms*, *Windows Services*, *WSDL*, *XML*</small>
 
@@ -200,12 +192,7 @@ Jan 2006 - Nov 2007
 
 Website and web application development for several government dependencies and private businesses which included content management systems, e-learning websites, task trackers, digital signature integrations and verifications, product catalogs, file processing with windows services and client support.
 
-* E-learning website used by Telcel to train resellers.
-* Task tracker for government dependency using digital signatures to secure and validate assigned responsibilities.
-* Digital signature PKI integration to a web-based publishing system.
-* TuCasaNueva magazine's website.
-
-<small>*ADO*, *ADO.NET*, *ASP*, *ASP.NET*, *ASP.NET Web Forms*, *ASP.NET Web Services*, *C#*, *Javascript*, *PKI*, *Scrum*, *SeguriData*, *SQL Server*, *VB.NET*, *VBScript*, *WSDL*, *XML*</small>
+<small>*ADO*, *ADO.NET*, *ASP*, *ASP.NET*, *ASP.NET Web Forms*, *ASP.NET Web Services*, *C#*, *CSS*, *HTML*, *Javascript*, *PKI*, *Scrum*, *SeguriData*, *SQL Server*, *VB.NET*, *VBScript*, *WSDL*, *XML*</small>
 
 ### Cambio Sonora
 
@@ -213,10 +200,7 @@ Oct 2004 - Jan 2006
 
 Developed, maintained and upgraded newspaper's public website, intranet modules and worked with the IT department when needed.
 
-* Development, maintenance, and renewal of the company's intranet modules and public website.
-* Provided support for the IT department when needed.
-
-<small>*ASP*, *Javascript*, *SQL*, *SQL Server*, *VBScript*</small>
+<small>*ASP*, *CSS*, *HTML*, *Javascript*, *SQL*, *SQL Server*, *VBScript*</small>
 
 ### Dextro International
 
@@ -224,10 +208,7 @@ May 2000 - Oct 2004
 
 Design and development of dynamic websites using ASP and VBScript which included news publishing, content, news and image galleries management, product catalogs, shopping carts, online payment, mailing lists and others.
 
-* Designed and developed dynamic websites using ASP and VBScript.
-* Handled content management, news publishing, poll management, image galleries, hit counters, product catalogs, shopping carts, online payment processing, and mailing lists.
-
-<small>*ADO*, *ASP*, *SQL*, *SQL Server*, *VBScript*</small>
+<small>*ADO*, *ASP*, *CSS*, *HTML*, *SQL*, *SQL Server*, *VBScript*</small>
 
 ## Contact
 
