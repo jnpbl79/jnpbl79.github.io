@@ -211,7 +211,7 @@
         "C#",
         "WinForms",
         "WPF",
-        "PHP",
+        "CakePHP",
         "MySQL",
         "Javascript",
         "React",
@@ -517,50 +517,12 @@
         "jQuery-UI",
         "SQL Server",
         "MySQL",
-        "PHP",
+        "CakePHP",
         "Bootstrap"
       ],
       "otherKeywords": [
         "MVC",
         "Entity Framework"
-      ]
-    },
-    {
-      "id": "esurance",
-      "display": false,
-      "full": false,
-      "current": false,
-      "name": "Esurance",
-      "via": "Hildebrando",
-      "location": [
-        "Sacramento, CA, US",
-        "Remote"
-      ],
-      "showHighlights": false,
-      "showSummary": false,
-      "description": "",
-      "position": "Software Developer",
-      "url": "",
-      "startDate": "2011-03-01",
-      "endDate": "2011-10-01",
-      "summary": "Migrated several sections of a web application used for managing insurance claims from ASP and VBScript to ASP.NET Web Forms and C# and created new Web Forms for new features.",
-      "_highlights": [
-        "Migrate ASP and VBScript web applications to ASP.NET Web Forms and C#.",
-        "Create new ASP.NET Web Forms for managing Claims using C#."
-      ],
-      "keywords": [
-        "C#",
-        "ASP.NET",
-        "Web Forms",
-        "Web Services",
-        "ASP",
-        "VBScript",
-        "ADO",
-        "ADO.NET",
-        "SQL Server",
-        "DevExpress",
-        "Javascript",
-        "jQuery"
       ]
     },
     {
@@ -594,50 +556,6 @@
         "Web Forms",
         "ADO",
         "ADO.NET"
-      ]
-    },
-    {
-      "id": "yotta",
-      "display": false,
-      "full": false,
-      "current": false,
-      "name": "YottaMark",
-      "via": "Nearsoft",
-      "location": [
-        "Redwood City, CA, US",
-        "Remote"
-      ],
-      "showHighlights": false,
-      "showSummary": false,
-      "description": "",
-      "position": "Software Developer",
-      "url": "",
-      "startDate": "2010-07-01",
-      "endDate": "2011-03-01",
-      "_summary": "Developed many components for traceability software that provides information to customers about origin and freshness of food, including a mobile application to scan bar and QR codes to display produce traceability information, back-end services to gather and process tracking events from several sources, web services and websites to display and manage gathered information.",
-      "summary": "Developed various components for a traceability software that tracks the origin and freshness of food.",
-      "_highlights": [
-        "Developed applications to aggregate tracking event information from numerous sources to then process for reporting and ",
-        "Developed DailyShopper application, a traceability system that provides customers information about origin and freshness of food.",
-        "EventProcessor which gathered tracking event information from several sources to merge in a single database and",
-        "ETLProcessor which gathered information from several internal databases and loaded into one used for creating reports for management and clients.",
-        "Created web services to show information gathered by DailyShopper and EventProcessor in HarvestMark web portal."
-      ],
-      "keywords": [
-        "C#",
-        "ASP.NET",
-        "Web Services",
-        "Windows Services",
-        "SQL Server",
-        "WCF",
-        "WinForms"
-      ],
-      "otherKeywords": [
-        "Web Forms",
-        "XML",
-        "ADO.NET",
-        "SQL Server CE",
-        "Motorola MC75A SDK"
       ]
     },
     {
@@ -733,8 +651,8 @@
       "url": "",
       "startDate": "2006-01-01",
       "endDate": "2007-11-01",
-      "_summary": "Website and web application development for several government dependencies and private businesses which included content management systems, e-learning websites, task trackers, digital signature integrations and verifications, product catalogs, file processing with windows services and client support.",
-      "summary": "Developed web applications for various government agencies and private companies, creating a range of solutions that included content management systems, e-learning, e-commerce, task tracking, digital signature integration, and others.",
+      "_summary": "Web application development which included content management systems, e-learning websites, task trackers, digital signature integrations and verifications, product catalogs, file processing with windows services and client support.",
+      "summary": "Developed web applications creating a range of solutions that included content management systems, e-learning, e-commerce, task tracking, digital signature integration, and others.",
       "_highlights": [
         "E-learning website used by Telcel to train resellers using ASP.NET Web Forms and C#.",
         "Task tracker for government dependency using digital signatures to secure and validate assigned responsibilities.",

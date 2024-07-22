@@ -47,7 +47,7 @@ Developed and updated various desktop and web applications to improve customer s
 * Designed and developed a mobile web app allowing users to stream live events directly from their mobile devices, enhancing customer experience by reducing wait times and enabling on-the-go access to the company's services.
 * Developed an application to automate DVD ISO image creation from MP4 videos, utilizing Windows Services for efficient execution of lengthy tasks, and paired with a WPF desktop app for service management and notification display.
 
-<small>*Amazon EC2*, *Amazon S3*, *Bootstrap*, *C#*, *Docker*, *Javascript*, *Larix Broadcaster*, *MySQL*, *PHP*, *React*, *RTMP*, *Stripe*, *Vue*, *Web API*, *WinForms*, *Wowza*, *WPF*</small>
+<small>*Amazon EC2*, *Amazon S3*, *Bootstrap*, *C#*, *CakePHP*, *Docker*, *Javascript*, *Larix Broadcaster*, *MySQL*, *React*, *RTMP*, *Stripe*, *Vue*, *Web API*, *WinForms*, *Wowza*, *WPF*</small>
 
 ### Evolution Software <small>- via Toptal</small>
 
@@ -112,7 +112,7 @@ Platform for Career Tutors to manage and review professional profiles created by
 * Integrated Flypaper presentations into websites using Javascript API clients and Back-end database connectivity.
 * Worked with the AppointmentPlus development team to create a Web API and Outlook Plugin for synchronizing calendar events with AppointmentPlus appointments and contacts.
 
-<small>*ASP.NET*, *Bootstrap*, *C#*, *Javascript*, *jQuery*, *jQuery-UI*, *MySQL*, *PHP*, *SQL Server*, *Web API*</small>
+<small>*ASP.NET*, *Bootstrap*, *C#*, *CakePHP*, *Javascript*, *jQuery*, *jQuery-UI*, *MySQL*, *SQL Server*, *Web API*</small>
 
 ### Hildebrando
 
@@ -126,7 +126,7 @@ Migrated multiple sections of an existing web application used for insurance cla
 
 Jul 2010 - Mar 2011
 
-As part of the YottaMark engeneering team, I Developed various components for a traceability software that tracks the origin and freshness of food.
+As part of the YottaMark engineering team, I Developed various components for a traceability software that tracks the origin and freshness of food.
 
 <small>*ASP.NET*, *C#*, *SQL Server*, *WCF*, *Web Services*, *Windows Services*, *WinForms*</small>
 
@@ -142,7 +142,7 @@ Implemented several software components, including synchronization and compressi
 
 Jan 2006 - Nov 2007
 
-Developed web applications for various government agencies and private companies, creating a range of solutions that included content management systems, e-learning, e-commerce, task tracking, digital signature integration, and others.
+Developed web applications creating a range of solutions that included content management systems, e-learning, e-commerce, task tracking, digital signature integration, and others.
 
 <small>*ASP*, *ASP.NET*, *C#*, *Javascript*, *SQL Server*, *VB.NET*, *VBScript*, *Web Services*</small>
 
