@@ -32,7 +32,7 @@ Sports, Video Streaming
 
 **Technologies & Skills:**
 
-<span title='Keyword'>*advinstaller*</span>, <span title='Keyword'>*apiintegration*</span>, <span title='Keyword'>*awss3*</span>, <span title='Keyword'>*c#*</span>, <span title='Keyword'>*dotnet*</span>, <span title='Keyword'>*dotnetfx*</span>, <span title='Keyword'>*git*</span>, <span title='Keyword'>*gitlabrunners*</span>, <span title='Keyword'>*keylok*</span>, <span title='Keyword'>*mssql*</span>, <span title='Keyword'>*mvvm*</span>, <span title='Keyword'>*netreactor*</span>, <span title='Keyword'>*obfuscation*</span>, <span title='Keyword'>*pwsh*</span>, <span title='Keyword'>*winforms*</span>, <span title='Keyword'>*wpf*</span>, <span title='Keyword'>*wpfui*</span>, <span title='Keyword'>*xaml*</span>
+<span title='Advanced Installer'>*Advanced Installer*</span>, <span title='API Integration'>*API Integration*</span>, <span title='Amazon S3 Storage'>*AWS S3*</span>, <span title='C#'>*C#*</span>, <span title='.NET'>*.NET*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='Git Version Control'>*Git*</span>, <span title='GitLab CI/CD Runners'>*GitLab Runners*</span>, <span title='Driverless, cross-platform usb dongle security key'>*KEYLOK*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View ViewModel'>*MVVM*</span>, <span title='NetReactor .NET Obfuscator'>*NetReactor*</span>, <span title='Code Obfuscation'>*Obfuscation*</span>, <span title='Windows PowerShell'>*Powershell*</span>, <span title='Windows Forms'>*WinForms*</span>, <span title='Windows Presentation Foundation'>*WPF*</span>, <span title='WPF UI Libraries'>*WPF UI*</span>, <span title='eXtensible Application Markup Language'>*XAML*</span>
 
 ---
 ### Jul 2024 - Feb 2025 [CGi, LLC](https://www.toptal.com)
@@ -52,7 +52,7 @@ Business Services, Research & Development
 
 **Technologies & Skills:**
 
-<span title='Keyword'>*aspnet*</span>, <span title='Keyword'>*dotnetfx*</span>, <span title='Keyword'>*git*</span>, <span title='Keyword'>*mssql*</span>, <span title='Keyword'>*mysql*</span>, <span title='Keyword'>*vbnet*</span>, <span title='Keyword'>*webforms*</span>
+<span title='ASP.NET'>*ASP.NET*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='Git Version Control'>*Git*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='MySQL Database'>*MySQL*</span>, <span title='Visual Basic .NET'>*VB.NET*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>
 
 ---
 ### Aug 2020 - Jan 2024 [Alteryx](https://alteryx.com)
@@ -74,7 +74,7 @@ Business Intelligence (BI) Software, Data Analytics, Software
 
 **Technologies & Skills:**
 
-<span title='Keyword'>*a11y*</span>, <span title='Keyword'>*c#*</span>, <span title='Keyword'>*cef*</span>, <span title='Keyword'>*dotnetfx*</span>, <span title='Keyword'>*git*</span>, <span title='Keyword'>*js*</span>, <span title='Keyword'>*mindfusion*</span>, <span title='Keyword'>*mui*</span>, <span title='Keyword'>*react*</span>, <span title=''>*Screen Readers*</span>, <span title='Keyword'>*syncfusion*</span>, <span title='Keyword'>*telerik*</span>, <span title='Keyword'>*uiautomation*</span>, <span title='Keyword'>*wcag*</span>, <span title='Keyword'>*white*</span>, <span title='Keyword'>*winforms*</span>
+<span title='Accessibility'>*A11Y*</span>, <span title='C#'>*C#*</span>, <span title='Chromium Embedded Framework'>*CEF*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='Git Version Control'>*Git*</span>, <span title='JavaScript'>*JS*</span>, <span title='MindFusion UI Components'>*MindFusion*</span>, <span title='Material UI React component library'>*MUI*</span>, <span title='ReactJS'>*React*</span>, <span title=''>**</span>, <span title='Syncfusion UI Components'>*Syncfusion*</span>, <span title='Telerik UI Components'>*Telerik*</span>, <span title='UI Automation'>*UI Automation*</span>, <span title='Web Content Accessibility Guidelines'>*WCAG*</span>, <span title='TestStack.White UI Automation Framework'>*White*</span>, <span title='Windows Forms'>*WinForms*</span>
 
 ---
 ### Apr 2021 - May 2021 [Fremantle Productions](https://fremantle.com/)
@@ -93,7 +93,7 @@ Entertainment, Film & Television, Media Production
 
 **Technologies & Skills:**
 
-<span title='Keyword'>*apiintegration*</span>, <span title='Keyword'>*aspnetcore*</span>, <span title='Keyword'>*aspnetidentity*</span>, <span title='Keyword'>*awsec2*</span>, <span title='Keyword'>*bootstrap*</span>, <span title='Keyword'>*c#*</span>, <span title='Keyword'>*css*</span>, <span title='Keyword'>*dolbyio*</span>, <span title='Keyword'>*dotnet*</span>, <span title='Keyword'>*efcore*</span>, <span title='Keyword'>*git*</span>, <span title='Keyword'>*js*</span>, <span title='Keyword'>*mariadb*</span>, <span title='Keyword'>*millicast*</span>, <span title='Keyword'>*nswag*</span>, <span title='Keyword'>*openapi*</span>, <span title='Keyword'>*razor*</span>, <span title='Keyword'>*webapi*</span>
+<span title='API Integration'>*API Integration*</span>, <span title='ASP.NET Core'>*ASP.NET Core*</span>, <span title='ASP.NET Identity'>*ASP.NET Identity*</span>, <span title='Amazon EC2'>*AWS EC2*</span>, <span title='Bootstrap Framework'>*Bootstrap*</span>, <span title='C#'>*C#*</span>, <span title='Cascading Style Sheets'>*CSS*</span>, <span title='Dolby.io Real-Time Streaming'>*Dolby.io*</span>, <span title='.NET'>*.NET*</span>, <span title='Entity Framework Core'>*EFCore*</span>, <span title='Git Version Control'>*Git*</span>, <span title='JavaScript'>*JS*</span>, <span title='MariaDB Database'>*MariaDb*</span>, <span title='Millicast Real-Time Streaming'>*Millicast*</span>, <span title='NSwag OpenAPI toolchain for .NET'>*NSwag*</span>, <span title='OpenAPI Specification'>*OpenAPI*</span>, <span title='Razor Syntax'>*Razor*</span>, <span title='ASP.NET Web API'>*Web API*</span>
 
 ---
 ### Jul 2020 - Aug 2020 [Reebok CrossFit Games 2020](https://games.crossfit.com)
@@ -113,7 +113,7 @@ Sports, Sports Teams & Leagues
 
 **Technologies & Skills:**
 
-<span title='Keyword'>*aspnetcore*</span>, <span title='Keyword'>*aspnetidentity*</span>, <span title='Keyword'>*awsec2*</span>, <span title='Keyword'>*awss3*</span>, <span title='Keyword'>*bootstrap*</span>, <span title='Keyword'>*c#*</span>, <span title='Keyword'>*css*</span>, <span title='Keyword'>*dotnetcore*</span>, <span title='Keyword'>*efcore*</span>, <span title='Keyword'>*ffmpeg*</span>, <span title='Keyword'>*git*</span>, <span title='Keyword'>*js*</span>, <span title='Keyword'>*mariadb*</span>, <span title='Keyword'>*razor*</span>
+<span title='ASP.NET Core'>*ASP.NET Core*</span>, <span title='ASP.NET Identity'>*ASP.NET Identity*</span>, <span title='Amazon EC2'>*AWS EC2*</span>, <span title='Amazon S3 Storage'>*AWS S3*</span>, <span title='Bootstrap Framework'>*Bootstrap*</span>, <span title='C#'>*C#*</span>, <span title='Cascading Style Sheets'>*CSS*</span>, <span title='.NET Core'>*.NET Core*</span>, <span title='Entity Framework Core'>*EFCore*</span>, <span title='FFmpeg Multimedia Framework'>*FFmpeg*</span>, <span title='Git Version Control'>*Git*</span>, <span title='JavaScript'>*JS*</span>, <span title='MariaDB Database'>*MariaDb*</span>, <span title='Razor Syntax'>*Razor*</span>
 
 ---
 ### Mar 2020 - Aug 2020 [FuneralVue](https://funefalvue.com)
@@ -135,7 +135,7 @@ Audio Streaming, Funeral Homes & Funeral Related Services, Media and content pro
 
 **Technologies & Skills:**
 
-<span title='Keyword'>*awsec2*</span>, <span title='Keyword'>*awss3*</span>, <span title='Keyword'>*bootstrap*</span>, <span title='Keyword'>*c#*</span>, <span title='Keyword'>*cakephp*</span>, <span title='Keyword'>*docker*</span>, <span title='Keyword'>*dotnetfx*</span>, <span title='Keyword'>*dvdiso*</span>, <span title='Keyword'>*ffmpeg*</span>, <span title='Keyword'>*git*</span>, <span title='Keyword'>*js*</span>, <span title='Keyword'>*larix*</span>, <span title='Keyword'>*mysql*</span>, <span title='Keyword'>*pwsh*</span>, <span title='Keyword'>*react*</span>, <span title='Keyword'>*reactrouter*</span>, <span title='Keyword'>*redux*</span>, <span title='Keyword'>*rtmp*</span>, <span title='Keyword'>*stripe*</span>, <span title='Keyword'>*vue*</span>, <span title='Keyword'>*webapi*</span>, <span title='Keyword'>*winforms*</span>, <span title='Keyword'>*winservices*</span>, <span title='Keyword'>*wowza*</span>, <span title='Keyword'>*wpf*</span>, <span title='Keyword'>*xaml*</span>
+<span title='Amazon EC2'>*AWS EC2*</span>, <span title='Amazon S3 Storage'>*AWS S3*</span>, <span title='Bootstrap Framework'>*Bootstrap*</span>, <span title='C#'>*C#*</span>, <span title='CakePHP Framework'>*CakePHP*</span>, <span title='Docker containers'>*Docker*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='DVD ISO image creation'>*DVD/ISO Creation*</span>, <span title='FFmpeg Multimedia Framework'>*FFmpeg*</span>, <span title='Git Version Control'>*Git*</span>, <span title='JavaScript'>*JS*</span>, <span title='Larix Broadcaster Mobile RTMP/RTSP Streaming App'>*Larix*</span>, <span title='MySQL Database'>*MySQL*</span>, <span title='Windows PowerShell'>*Powershell*</span>, <span title='ReactJS'>*React*</span>, <span title='React Router'>*React Router*</span>, <span title='React Redux'>*Redux*</span>, <span title='Real-Time Messaging Protocol'>*RTMP*</span>, <span title='Stripe Payment Gateway'>*Stripe*</span>, <span title='Vue.js'>*Vue*</span>, <span title='ASP.NET Web API'>*Web API*</span>, <span title='Windows Forms'>*WinForms*</span>, <span title='Windows Services'>*Windows Services*</span>, <span title='Wowza Streaming Engine'>*Wowza*</span>, <span title='Windows Presentation Foundation'>*WPF*</span>, <span title='eXtensible Application Markup Language'>*XAML*</span>
 
 ---
 ### Mar 2019 - Jan 2020 [Evolution Software](https://evolutionsoftware.co.za/)
@@ -156,7 +156,7 @@ Custom Software & IT Services
 
 **Technologies & Skills:**
 
-<span title='Keyword'>*adonet*</span>, <span title='Keyword'>*aspnet*</span>, <span title='Keyword'>*c#*</span>, <span title='Keyword'>*dotnetfx*</span>, <span title='Keyword'>*ef*</span>, <span title='Keyword'>*git*</span>, <span title='Keyword'>*js*</span>, <span title='Keyword'>*knockout*</span>, <span title='Keyword'>*mssql*</span>, <span title='Keyword'>*webforms*</span>, <span title='Keyword'>*webservices*</span>
+<span title='ActiveX Data Objects for .NET'>*ADO.NET*</span>, <span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='Entity Framework'>*EF*</span>, <span title='Git Version Control'>*Git*</span>, <span title='JavaScript'>*JS*</span>, <span title='KnockoutJS JavaScript Library'>*KnockoutJS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>
 
 ---
 ### Sep 2015 - Aug 2019 [MDLive, Inc.](https://www.mdlive.com)
@@ -179,7 +179,7 @@ Healthcare Software, Mental Health & Rehabilitation Facilities, Telehealth Servi
 
 **Technologies & Skills:**
 
-<span title='Keyword'>*aspnet*</span>, <span title='Keyword'>*azure*</span>, <span title='Keyword'>*c#*</span>, <span title='Keyword'>*docker*</span>, <span title='Keyword'>*dockerwindows*</span>, <span title='Keyword'>*dotnetfx*</span>, <span title='Keyword'>*ffmpeg*</span>, <span title='Keyword'>*frozenmountain*</span>, <span title='Keyword'>*git*</span>, <span title='Keyword'>*icelink*</span>, <span title='Keyword'>*js*</span>, <span title='Keyword'>*mssql*</span>, <span title='Keyword'>*mvc*</span>, <span title='Keyword'>*objectivec*</span>, <span title='Keyword'>*pwsh*</span>, <span title='Keyword'>*react*</span>, <span title='Keyword'>*ror*</span>, <span title='Keyword'>*ruby*</span>, <span title='Keyword'>*surescripts*</span>, <span title='Keyword'>*webapi*</span>, <span title='Keyword'>*webrtc*</span>, <span title='Keyword'>*Websync*</span>, <span title='Keyword'>*xcode*</span>
+<span title='ASP.NET'>*ASP.NET*</span>, <span title='Microsoft Azure'>*Azure*</span>, <span title='C#'>*C#*</span>, <span title='Docker containers'>*Docker*</span>, <span title='Docker containers for Windows'>*Docker for Windows*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='FFmpeg Multimedia Framework'>*FFmpeg*</span>, <span title='Frozen Mountain Software'>*FrozenMountain*</span>, <span title='Git Version Control'>*Git*</span>, <span title='Icelink WebRTC'>*Icelink*</span>, <span title='JavaScript'>*JS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View Controller'>*MVC*</span>, <span title='Objective-C'>*Objective-C*</span>, <span title='Windows PowerShell'>*Powershell*</span>, <span title='ReactJS'>*React*</span>, <span title='Ruby on Rails'>*RoR*</span>, <span title='Ruby Programming Language'>*Ruby*</span>, <span title='Surescripts Healthcare Network'>*Surescripts*</span>, <span title='ASP.NET Web API'>*Web API*</span>, <span title='Web Real-Time Communication'>*WebRTC*</span>, <span title='Frozen Mountain Websync'>*Websync*</span>, <span title='Xcode IDE'>*Xcode*</span>
 
 ---
 ### Sep 2015 - Aug 2019 [Nearsoft](https://www.encora.com/news/nearsoft-is-now-encora)
@@ -209,7 +209,7 @@ Custom Software & IT Services
 
 **Technologies & Skills:**
 
-<span title='Keyword'>*aspnet*</span>, <span title='Keyword'>*aspnetmvc*</span>, <span title='Keyword'>*bootstrap*</span>, <span title='Keyword'>*c#*</span>, <span title='Keyword'>*css*</span>, <span title='Keyword'>*dotnetfx*</span>, <span title='Keyword'>*ef*</span>, <span title='Keyword'>*git*</span>, <span title='Keyword'>*jquery*</span>, <span title='Keyword'>*js*</span>, <span title='Keyword'>*knockout*</span>, <span title='Keyword'>*mssql*</span>, <span title='Keyword'>*mvc*</span>, <span title='Keyword'>*sass*</span>, <span title='Keyword'>*webapi*</span>
+<span title='ASP.NET'>*ASP.NET*</span>, <span title='ASP.NET MVC'>*ASP.NET MVC*</span>, <span title='Bootstrap Framework'>*Bootstrap*</span>, <span title='C#'>*C#*</span>, <span title='Cascading Style Sheets'>*CSS*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='Entity Framework'>*EF*</span>, <span title='Git Version Control'>*Git*</span>, <span title='jQuery JavaScript Library'>*jQuery*</span>, <span title='JavaScript'>*JS*</span>, <span title='KnockoutJS JavaScript Library'>*KnockoutJS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View Controller'>*MVC*</span>, <span title='Syntactically Awesome Stylesheets'>*Sass*</span>, <span title='ASP.NET Web API'>*Web API*</span>
 
 ---
 ### Oct 2014 - Feb 2015 [arex Rxchange GmbH](https://www.rxchange.co.uk)
@@ -230,7 +230,7 @@ E-Commerce, Pharmaceuticals
 
 **Technologies & Skills:**
 
-<span title='Keyword'>*aspnet*</span>, <span title='Keyword'>*bootstrap*</span>, <span title='Keyword'>*c#*</span>, <span title='Keyword'>*ef*</span>, <span title='Keyword'>*git*</span>, <span title='Keyword'>*jquery*</span>, <span title='Keyword'>*js*</span>, <span title='Keyword'>*mssql*</span>, <span title='Keyword'>*mvc*</span>, <span title='Keyword'>*webapi*</span>
+<span title='ASP.NET'>*ASP.NET*</span>, <span title='Bootstrap Framework'>*Bootstrap*</span>, <span title='C#'>*C#*</span>, <span title='Entity Framework'>*EF*</span>, <span title='Git Version Control'>*Git*</span>, <span title='jQuery JavaScript Library'>*jQuery*</span>, <span title='JavaScript'>*JS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View Controller'>*MVC*</span>, <span title='ASP.NET Web API'>*Web API*</span>
 
 ---
 ### Jan 2013 - Sep 2014 [American Mortgage Consultants](https://www.situsamc.com)
@@ -253,7 +253,7 @@ Custom Software & IT Services, Financial Institutions, Insurance
 
 **Technologies & Skills:**
 
-<span title='Keyword'>*ado*</span>, <span title='Keyword'>*adonet*</span>, <span title='Keyword'>*aspnet*</span>, <span title='Keyword'>*bootstrap*</span>, <span title='Keyword'>*c#*</span>, <span title='Keyword'>*dotnet*</span>, <span title='Keyword'>*jquery*</span>, <span title='Keyword'>*js*</span>, <span title='Keyword'>*knockout*</span>, <span title='Keyword'>*mssql*</span>, <span title='Keyword'>*nettiers*</span>, <span title='Keyword'>*tfs*</span>, <span title='Keyword'>*webforms*</span>, <span title='Keyword'>*webservices*</span>
+<span title='ActiveX Data Objects'>*ADO*</span>, <span title='ActiveX Data Objects for .NET'>*ADO.NET*</span>, <span title='ASP.NET'>*ASP.NET*</span>, <span title='Bootstrap Framework'>*Bootstrap*</span>, <span title='C#'>*C#*</span>, <span title='.NET'>*.NET*</span>, <span title='jQuery JavaScript Library'>*jQuery*</span>, <span title='JavaScript'>*JS*</span>, <span title='KnockoutJS JavaScript Library'>*KnockoutJS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='.netTiers Code Generation Framework'>*.netTiers*</span>, <span title='Team Foundation Server'>*TFS*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>
 
 ---
 ### Oct 2011 - Jan 2013 [Serpico DEV]()
@@ -273,7 +273,7 @@ Custom Software & IT Services
 
 **Technologies & Skills:**
 
-<span title='Keyword'>*aspnet*</span>, <span title='Keyword'>*bootstrap*</span>, <span title='Keyword'>*c#*</span>, <span title='Keyword'>*cakephp*</span>, <span title='Keyword'>*dotnet*</span>, <span title='Keyword'>*ef*</span>, <span title='Keyword'>*git*</span>, <span title='Keyword'>*jquery*</span>, <span title='Keyword'>*jqueryui*</span>, <span title='Keyword'>*js*</span>, <span title='Keyword'>*kendoui*</span>, <span title='Keyword'>*mssql*</span>, <span title='Keyword'>*mvc*</span>, <span title='Keyword'>*mysql*</span>, <span title='Keyword'>*webapi*</span>
+<span title='ASP.NET'>*ASP.NET*</span>, <span title='Bootstrap Framework'>*Bootstrap*</span>, <span title='C#'>*C#*</span>, <span title='CakePHP Framework'>*CakePHP*</span>, <span title='.NET'>*.NET*</span>, <span title='Entity Framework'>*EF*</span>, <span title='Git Version Control'>*Git*</span>, <span title='jQuery JavaScript Library'>*jQuery*</span>, <span title='jQuery User Interface'>*jQuery-UI*</span>, <span title='JavaScript'>*JS*</span>, <span title='Kendo UI Components'>*Kendo UI*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View Controller'>*MVC*</span>, <span title='MySQL Database'>*MySQL*</span>, <span title='ASP.NET Web API'>*Web API*</span>
 
 ---
 ### Mar 2011 - Oct 2011 [Esurance](https://www.esurance.com)
@@ -287,7 +287,7 @@ Custom Software & IT Services, Insurance
 
 **Technologies & Skills:**
 
-<span title='Keyword'>*ado*</span>, <span title='Keyword'>*adonet*</span>, <span title='Keyword'>*asp*</span>, <span title='Keyword'>*aspnet*</span>, <span title='Keyword'>*c#*</span>, <span title='Keyword'>*devexpress*</span>, <span title='Keyword'>*dotnet*</span>, <span title='Keyword'>*jquery*</span>, <span title='Keyword'>*js*</span>, <span title='Keyword'>*linqtosql*</span>, <span title='Keyword'>*mssql*</span>, <span title='Keyword'>*tfs*</span>, <span title='Keyword'>*vbscript*</span>, <span title='Keyword'>*webforms*</span>, <span title='Keyword'>*webservices*</span>
+<span title='ActiveX Data Objects'>*ADO*</span>, <span title='ActiveX Data Objects for .NET'>*ADO.NET*</span>, <span title='Active Server pages'>*ASP*</span>, <span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='DevExpress UI Components'>*DevExpress*</span>, <span title='.NET'>*.NET*</span>, <span title='jQuery JavaScript Library'>*jQuery*</span>, <span title='JavaScript'>*JS*</span>, <span title='Language Integrated Query to SQL'>*LINQ to SQL*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Team Foundation Server'>*TFS*</span>, <span title='Visual Basic Script'>*VBScript*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>
 
 ---
 ### Jul 2010 - Mar 2011 [Nearsoft](https://www.encora.com/news/nearsoft-is-now-encora)
@@ -301,7 +301,7 @@ Custom Software & IT Services, Food Safety, Foodtech
 
 **Technologies & Skills:**
 
-<span title='Keyword'>*adonet*</span>, <span title='Keyword'>*aspnet*</span>, <span title='Keyword'>*c#*</span>, <span title='Keyword'>*dotnet*</span>, <span title='Keyword'>*dotnetce*</span>, <span title='Keyword'>*mssql*</span>, <span title='Keyword'>*mssqlce*</span>, <span title='Keyword'>*mssqlxml*</span>, <span title='Keyword'>*tfs*</span>, <span title='Keyword'>*wcf*</span>, <span title='Keyword'>*webforms*</span>, <span title='Keyword'>*webservices*</span>, <span title='Keyword'>*winforms*</span>, <span title='Keyword'>*winservices*</span>
+<span title='ActiveX Data Objects for .NET'>*ADO.NET*</span>, <span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='.NET'>*.NET*</span>, <span title='.NET Compact Framework'>*.NET CE*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Microsoft SQL Server Compact Edition'>*MSSQL CE*</span>, <span title='Microsoft SQL Server XML Services'>*MSSQL XML*</span>, <span title='Team Foundation Server'>*TFS*</span>, <span title='Windows Communication Foundation'>*WCF*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>, <span title='Windows Forms'>*WinForms*</span>, <span title='Windows Services'>*Windows Services*</span>
 
 ---
 ### Nov 2007 - Jan 2010 [Tiempo Development](https://tiempodev.com)
@@ -322,7 +322,7 @@ Custom Software & IT Services
 
 **Technologies & Skills:**
 
-<span title='Keyword'>*aspnet*</span>, <span title='Keyword'>*c#*</span>, <span title=''>*C++*</span>, <span title='Keyword'>*ef*</span>, <span title='Keyword'>*flypaper*</span>, <span title='Keyword'>*installshield*</span>, <span title='Keyword'>*jquery*</span>, <span title='Keyword'>*js*</span>, <span title='Keyword'>*mssql*</span>, <span title='Keyword'>*mvvm*</span>, <span title='Keyword'>*svn*</span>, <span title='Keyword'>*telerik*</span>, <span title='Keyword'>*webforms*</span>, <span title='Keyword'>*webservices*</span>, <span title='Keyword'>*winforms*</span>, <span title='Keyword'>*wpf*</span>, <span title='Keyword'>*xaml*</span>
+<span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title=''>**</span>, <span title='Entity Framework'>*EF*</span>, <span title='Flypaper Digital Presentation Software'>*Flypaper*</span>, <span title='InstallShield Installer Software'>*InstallShield*</span>, <span title='jQuery JavaScript Library'>*jQuery*</span>, <span title='JavaScript'>*JS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View ViewModel'>*MVVM*</span>, <span title='Apache Subversion'>*SVN*</span>, <span title='Telerik UI Components'>*Telerik*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>, <span title='Windows Forms'>*WinForms*</span>, <span title='Windows Presentation Foundation'>*WPF*</span>, <span title='eXtensible Application Markup Language'>*XAML*</span>
 
 ---
 ### Jan 2006 - Nov 2007 [e-Business Consultores]()
@@ -342,7 +342,7 @@ Custom Software & IT Services, Government Software
 
 **Technologies & Skills:**
 
-<span title='Keyword'>*ado*</span>, <span title='Keyword'>*adonet*</span>, <span title='Keyword'>*asp*</span>, <span title='Keyword'>*aspnet*</span>, <span title='Keyword'>*c#*</span>, <span title='Keyword'>*com+*</span>, <span title='Keyword'>*dotnet*</span>, <span title='Keyword'>*jquery*</span>, <span title='Keyword'>*js*</span>, <span title='Keyword'>*mssql*</span>, <span title='Keyword'>*pki*</span>, <span title='Keyword'>*svn*</span>, <span title='Keyword'>*vbnet*</span>, <span title='Keyword'>*vbscript*</span>, <span title='Keyword'>*webforms*</span>, <span title='Keyword'>*webservices*</span>, <span title=''>*XML*</span>
+<span title='ActiveX Data Objects'>*ADO*</span>, <span title='ActiveX Data Objects for .NET'>*ADO.NET*</span>, <span title='Active Server pages'>*ASP*</span>, <span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='Component Object Model for .NET'>*COM+*</span>, <span title='.NET'>*.NET*</span>, <span title='jQuery JavaScript Library'>*jQuery*</span>, <span title='JavaScript'>*JS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Public Key Infrastructure'>*PKI*</span>, <span title='Apache Subversion'>*SVN*</span>, <span title='Visual Basic .NET'>*VB.NET*</span>, <span title='Visual Basic Script'>*VBScript*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>, <span title=''>**</span>
 
 ---
 ### Oct 2004 - Jan 2006 [Cambio Sonora]()
@@ -361,7 +361,7 @@ Newspapers & News Services
 
 **Technologies & Skills:**
 
-<span title='Keyword'>*ado*</span>, <span title='Keyword'>*asp*</span>, <span title='Keyword'>*js*</span>, <span title='Keyword'>*mssql*</span>, <span title='Keyword'>*vbscript*</span>
+<span title='ActiveX Data Objects'>*ADO*</span>, <span title='Active Server pages'>*ASP*</span>, <span title='JavaScript'>*JS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Visual Basic Script'>*VBScript*</span>
 
 ---
 ### May 2000 - Oct 2004 [Dextro International]()
@@ -380,6 +380,6 @@ Custom Software & IT Services, Web Development, Web Hosting
 
 **Technologies & Skills:**
 
-<span title='Keyword'>*ado*</span>, <span title='Keyword'>*asp*</span>, <span title='Keyword'>*mssql*</span>, <span title='Keyword'>*vbscript*</span>
+<span title='ActiveX Data Objects'>*ADO*</span>, <span title='Active Server pages'>*ASP*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Visual Basic Script'>*VBScript*</span>
 
 
