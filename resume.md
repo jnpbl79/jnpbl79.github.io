@@ -4,19 +4,13 @@ I have great adaptability, the ability to work collaboratively with cross-functi
 
 ## Work Experience
 
-<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
-    <h3><a target="_blank" href="https://www.toptal.com">Toptal</a></h3>
-    <div>Nov 2012 - Present</div>
-</div>
+### <small>Nov 2012 - Present</small> | [Toptal](https://www.toptal.com)
 
 Toptal is a global, remote-first network that connects businesses with vetted freelance professionals, primarily in tech, design, and business fields like software engineering, product management, and project management.
 
 ---
 
-<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
-    <h3><a target="_blank" href="https://www.pokergfx.io">PokerGFX LLC</a></h3>
-    <div>Dec 2024 - Aug 2025</div>
-</div>
+### <small>Dec 2024 - Aug 2025</small> | [PokerGFX LLC](https://www.pokergfx.io)
 
 **Highlights:**
 
@@ -36,10 +30,7 @@ Toptal is a global, remote-first network that connects businesses with vetted fr
 
 ---
 
-<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
-    <h3><a target="_blank" href="https://www.toptal.com">CGi, LLC</a></h3>
-    <div>Jul 2024 - Feb 2025</div>
-</div>
+### <small>Jul 2024 - Feb 2025</small> | [CGi, LLC](https://www.toptal.com)
 
 **Highlights:**
 
@@ -54,10 +45,7 @@ Toptal is a global, remote-first network that connects businesses with vetted fr
 
 ---
 
-<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
-    <h3><a target="_blank" href="https://alteryx.com">Alteryx</a></h3>
-    <div>Aug 2020 - Jan 2024</div>
-</div>
+### <small>Aug 2020 - Jan 2024</small> | [Alteryx](https://alteryx.com)
 
 Implemented accessibility guidelines and screen reader support in flagship desktop and cloud products using Windows Forms and React, going beyond mere compliance by refactoring code and redesigning interfaces for improved usability. Achieved innovation by introducing keyboard navigation, manipulation, and screen reader support to workflow diagrams, a feature previously non-existent on the market.
 
@@ -76,10 +64,7 @@ Implemented accessibility guidelines and screen reader support in flagship deskt
 
 ---
 
-<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
-    <h3><a target="_blank" href="https://fremantle.com/">Fremantle Productions</a></h3>
-    <div>Apr 2021 - May 2021</div>
-</div>
+### <small>Apr 2021 - May 2021</small> | [Fremantle Productions](https://fremantle.com/)
 
 Designed and developed a web application enabling Show Producers to work remotely, maintaining seamless access to live camera streams during TV show broadcasts, despite COVID-19 restrictions.
 
@@ -89,10 +74,7 @@ Designed and developed a web application enabling Show Producers to work remotel
 
 ---
 
-<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
-    <h3><a target="_blank" href="https://games.crossfit.com">Reebok CrossFit Games 2020</a></h3>
-    <div>Jul 2020 - Aug 2020</div>
-</div>
+### <small>Jul 2020 - Aug 2020</small> | [Reebok CrossFit Games 2020](https://games.crossfit.com)
 
 Developed web application tailored for mobile devices, enabling athletes to seamlessly stream or upload their trial and competition videos for review by judges. This platform facilitated remote interaction between athletes and judges, thereby overcoming geographical constraints imposed by the COVID-19  pandemic
 
@@ -102,10 +84,7 @@ Developed web application tailored for mobile devices, enabling athletes to seam
 
 ---
 
-<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
-    <h3><a target="_blank" href="https://funefalvue.com">FuneralVue</a></h3>
-    <div>Mar 2020 - Aug 2020</div>
-</div>
+### <small>Mar 2020 - Aug 2020</small> | [FuneralVue](https://funefalvue.com)
 
 Developed and updated various desktop and web applications to improve customer service, streamline business operations, and automate time-consuming tasks, enhancing overall efficiency and productivity for the organization.
 
@@ -124,10 +103,7 @@ Developed and updated various desktop and web applications to improve customer s
 
 ---
 
-<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
-    <h3><a target="_blank" href="https://evolutionsoftware.co.za/">Evolution Software</a></h3>
-    <div>Mar 2019 - Jan 2020</div>
-</div>
+### <small>Mar 2019 - Jan 2020</small> | [Evolution Software](https://evolutionsoftware.co.za/)
 
 Implemented Entity Framework to streamline database interactions, automating repetitive tasks and reducing code complexity. Optimized database queries and stored procedures for faster results. Developed modules using a custom framework built on top of ASP.NET. Exposed frequently used functionality via Web Services. Replaced server-side controls with client-side rendering and asynchronous requests, enhancing performance and user experience.
 
@@ -137,10 +113,7 @@ Implemented Entity Framework to streamline database interactions, automating rep
 
 ---
 
-<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
-    <h3><a target="_blank" href="https://www.mdlive.com">MDLive, Inc.</a></h3>
-    <div>Sep 2015 - Aug 2019</div>
-</div>
+### <small>Sep 2015 - Aug 2019</small> | [MDLive, Inc.](https://www.mdlive.com)
 
 I was involved and worked alongside product design, UX, DevOps and other development teams to build, integrate and deploy a WebRTC conferencing solution composed of several back and front end services and components.
 
@@ -160,10 +133,7 @@ I was involved and worked alongside product design, UX, DevOps and other develop
 
 ---
 
-<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
-    <h3><a target="_blank" href="https://www.encora.com/news/nearsoft-is-now-encora">Nearsoft</a></h3>
-    <div>Sep 2015 - Aug 2019</div>
-</div>
+### <small>Sep 2015 - Aug 2019</small> | [Nearsoft](https://www.encora.com/news/nearsoft-is-now-encora)
 
 I was involved and worked alongside product design, UX, DevOps and other development teams from MDLive, Inc. to build, integrate and deploy a WebRTC conferencing solution composed of several back and front end services and components.
 
@@ -171,10 +141,7 @@ I was involved and worked alongside product design, UX, DevOps and other develop
 
 ---
 
-<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
-    <h3><a target="_blank" href="http://weared4.com">D4 Software</a></h3>
-    <div>Apr 2015 - Jun 2015</div>
-</div>
+### <small>Apr 2015 - Jun 2015</small> | [D4 Software](http://weared4.com)
 
 Worked on various development projects for ASP.NET MVC websites, focusing on enhancing user experience, email sending and tracking features.
 
@@ -184,10 +151,7 @@ Worked on various development projects for ASP.NET MVC websites, focusing on enh
 
 ---
 
-<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
-    <h3><a target="_blank" href="https://www.rxchange.co.uk">arex Rxchange GmbH</a></h3>
-    <div>Oct 2014 - Feb 2015</div>
-</div>
+### <small>Oct 2014 - Feb 2015</small> | [arex Rxchange GmbH](https://www.rxchange.co.uk)
 
 Worked on ASP.NET MVC components to improve operations within an online B2B marketplace for wholesale dealers in the EU.
 
@@ -197,10 +161,7 @@ Worked on ASP.NET MVC components to improve operations within an online B2B mark
 
 ---
 
-<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
-    <h3><a target="_blank" href="https://www.situsamc.com">American Mortgage Consultants</a></h3>
-    <div>Jan 2013 - Sep 2014</div>
-</div>
+### <small>Jan 2013 - Sep 2014</small> | [American Mortgage Consultants](https://www.situsamc.com)
 
 Designed and developed multiple solutions and components to enhance claims processing efficiency and streamline due diligence activities, thereby optimizing business operations. I developed and enhanced several components within a loan management system, including a rules engine for applying tests to loans and a stipulations manager, both leveraging ASP.NET technologies and KnockoutJS for responsive client-side interactions. I also implemented a claims review module and contributed migrating Classic ASP web applications written with VBScript to ASP.NET Web Forms with C# and data access code migration from ADO.NET to .netTiers. Additionally, I refactored multiple ASP.NET Web Forms to boost performance and optimize resource usage across the application.
 
@@ -210,10 +171,7 @@ Designed and developed multiple solutions and components to enhance claims proce
 
 ---
 
-<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
-    <h3><a target="_blank" href="">Serpico DEV</a></h3>
-    <div>Oct 2011 - Jan 2013</div>
-</div>
+### <small>Oct 2011 - Jan 2013</small> | [Serpico DEV]()
 
 Platform for Career Tutors to manage and review professional profiles created by College Students.  Collaborated with the AppointmentPlus development team to create a Web API and Outlook Plugin.
 
@@ -223,10 +181,7 @@ Platform for Career Tutors to manage and review professional profiles created by
 
 ---
 
-<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
-    <h3><a target="_blank" href="https://www.esurance.com">Esurance</a></h3>
-    <div>Mar 2011 - Oct 2011</div>
-</div>
+### <small>Mar 2011 - Oct 2011</small> | [Esurance](https://www.esurance.com)
 
 Migrated multiple sections of an existing web application used for insurance claim management from ASP to ASP.NET. Additionally, created new components to support additional features.
 
@@ -236,10 +191,7 @@ Migrated multiple sections of an existing web application used for insurance cla
 
 ---
 
-<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
-    <h3><a target="_blank" href="https://www.encora.com/news/nearsoft-is-now-encora">Nearsoft</a></h3>
-    <div>Jul 2010 - Mar 2011</div>
-</div>
+### <small>Jul 2010 - Mar 2011</small> | [Nearsoft](https://www.encora.com/news/nearsoft-is-now-encora)
 
 As part of the YottaMark engineering team, I Developed various components for a traceability software that tracks the origin and freshness of food.
 
@@ -249,10 +201,7 @@ As part of the YottaMark engineering team, I Developed various components for a 
 
 ---
 
-<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
-    <h3><a target="_blank" href="https://tiempodev.com">Tiempo Development</a></h3>
-    <div>Nov 2007 - Jan 2010</div>
-</div>
+### <small>Nov 2007 - Jan 2010</small> | [Tiempo Development](https://tiempodev.com)
 
 Implemented several software components, including synchronization and compression of audio and video content, packaging of presentations into self-contained executables, integration of image and video search APIs with retrieval capabilities and chart components.
 
@@ -262,10 +211,7 @@ Implemented several software components, including synchronization and compressi
 
 ---
 
-<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
-    <h3><a target="_blank" href="">e-Business Consultores</a></h3>
-    <div>Jan 2006 - Nov 2007</div>
-</div>
+### <small>Jan 2006 - Nov 2007</small> | [e-Business Consultores]()
 
 Developed web applications creating a range of solutions that included content management systems, e-learning, e-commerce, task tracking, digital signature integration, and others.
 
@@ -275,10 +221,7 @@ Developed web applications creating a range of solutions that included content m
 
 ---
 
-<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
-    <h3><a target="_blank" href="">Cambio Sonora</a></h3>
-    <div>Oct 2004 - Jan 2006</div>
-</div>
+### <small>Oct 2004 - Jan 2006</small> | [Cambio Sonora]()
 
 Web development for newspaper's website and intranet, while also offering technical support and collaboration with the IT department.
 
@@ -288,10 +231,7 @@ Web development for newspaper's website and intranet, while also offering techni
 
 ---
 
-<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
-    <h3><a target="_blank" href="">Dextro International</a></h3>
-    <div>May 2000 - Oct 2004</div>
-</div>
+### <small>May 2000 - Oct 2004</small> | [Dextro International]()
 
 Designed and developed dynamic websites with e-commerce, content management and other custom solutions.
 

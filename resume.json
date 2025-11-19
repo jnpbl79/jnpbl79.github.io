@@ -1,4 +1,5 @@
 {
+  "lastUpdated": "2025-11-18T16:36:08-07:00",
   "basics": {
     "name": "Pablo L\u00F3pez",
     "label": "Software Developer",
@@ -78,7 +79,8 @@
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
-      "formattedDateEnd": null
+      "formattedDateEnd": null,
+      "showHighlights": true
     },
     {
       "id": "pgfx",
@@ -131,7 +133,8 @@
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
-      "formattedDateEnd": null
+      "formattedDateEnd": null,
+      "showHighlights": true
     },
     {
       "id": "cgi",
@@ -168,7 +171,8 @@
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
-      "formattedDateEnd": null
+      "formattedDateEnd": null,
+      "showHighlights": true
     },
     {
       "id": "alteryx",
@@ -220,7 +224,8 @@
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
-      "formattedDateEnd": null
+      "formattedDateEnd": null,
+      "showHighlights": true
     },
     {
       "id": "fremantle",
@@ -270,7 +275,8 @@
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
-      "formattedDateEnd": null
+      "formattedDateEnd": null,
+      "showHighlights": false
     },
     {
       "id": "reebok",
@@ -316,7 +322,8 @@
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
-      "formattedDateEnd": null
+      "formattedDateEnd": null,
+      "showHighlights": false
     },
     {
       "id": "funeralvue",
@@ -380,7 +387,8 @@
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
-      "formattedDateEnd": null
+      "formattedDateEnd": null,
+      "showHighlights": true
     },
     {
       "id": "evolutionsoftware",
@@ -403,7 +411,7 @@
         "Created modules using their custom framework built on top of ASP.NET for specific clients.",
         "Added an Entity Framework data layer replicating and automating actions taken by their custom data access layer which works with ADO.NET.",
         "Added Web API to reduce full-page postbacks in several commonly used pages and KnockoutJS for client side datagrid processing which greatly improved overall performance and user experience.",
-        "Edited database queries, columns and stored procedures to imporove performance and get faster results."
+        "Edited database queries, columns and stored procedures to improve performance and get faster results."
       ],
       "industries": [
         "Custom Software \u0026 IT Services"
@@ -424,7 +432,8 @@
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
-      "formattedDateEnd": null
+      "formattedDateEnd": null,
+      "showHighlights": false
     },
     {
       "id": "mdlive",
@@ -484,7 +493,8 @@
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
-      "formattedDateEnd": null
+      "formattedDateEnd": null,
+      "showHighlights": true
     },
     {
       "id": "nearsoft-mdlive",
@@ -510,7 +520,8 @@
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
-      "formattedDateEnd": null
+      "formattedDateEnd": null,
+      "showHighlights": true
     },
     {
       "id": "d4",
@@ -557,7 +568,8 @@
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
-      "formattedDateEnd": null
+      "formattedDateEnd": null,
+      "showHighlights": false
     },
     {
       "id": "arex",
@@ -601,7 +613,8 @@
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
-      "formattedDateEnd": null
+      "formattedDateEnd": null,
+      "showHighlights": false
     },
     {
       "id": "amc",
@@ -653,7 +666,8 @@
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
-      "formattedDateEnd": null
+      "formattedDateEnd": null,
+      "showHighlights": false
     },
     {
       "id": "serpicodev",
@@ -700,7 +714,8 @@
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
-      "formattedDateEnd": null
+      "formattedDateEnd": null,
+      "showHighlights": false
     },
     {
       "id": "hildebrando",
@@ -743,7 +758,8 @@
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
-      "formattedDateEnd": null
+      "formattedDateEnd": null,
+      "showHighlights": false
     },
     {
       "id": "nearsoft-yotta",
@@ -786,7 +802,8 @@
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
-      "formattedDateEnd": null
+      "formattedDateEnd": null,
+      "showHighlights": false
     },
     {
       "id": "tiempo",
@@ -835,7 +852,8 @@
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
-      "formattedDateEnd": null
+      "formattedDateEnd": null,
+      "showHighlights": false
     },
     {
       "id": "ebc",
@@ -884,7 +902,8 @@
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
-      "formattedDateEnd": null
+      "formattedDateEnd": null,
+      "showHighlights": false
     },
     {
       "id": "cambio",
@@ -919,7 +938,8 @@
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
-      "formattedDateEnd": null
+      "formattedDateEnd": null,
+      "showHighlights": false
     },
     {
       "id": "dextro",
@@ -956,7 +976,8 @@
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
-      "formattedDateEnd": null
+      "formattedDateEnd": null,
+      "showHighlights": false
     }
   ],
   "certifications": [
@@ -1400,12 +1421,12 @@
   },
   "meta": {
     "FeatherIcons": {
-      "email": "mail",
-      "location": "map-pin",
-      "toptal": "star",
-      "github": "github",
+      "linkedin": "linkedin",
       "phone": "phone",
-      "linkedin": "linkedin"
+      "github": "github",
+      "location": "map-pin",
+      "email": "mail",
+      "toptal": "star"
     }
   }
 }
