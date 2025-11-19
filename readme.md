@@ -4,20 +4,19 @@ I have great adaptability, the ability to work collaboratively with cross-functi
 
 ## Work Experience
 
-<div style='align:bottom;'>
-<div style='float:right;'> Nov 2012 - Present</div>
-<h3><a href='https://www.toptal.com' target='_blank'>Toptal</a></h3>
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
+    <h3><a target="_blank" href="https://www.toptal.com">Toptal</a></h3>
+    <div>Nov 2012 - Present</div>
 </div>
-
 
 Toptal is a global, remote-first network that connects businesses with vetted freelance professionals, primarily in tech, design, and business fields like software engineering, product management, and project management.
 
 ---
-<div style='align:bottom;'>
-<div style='float:right;'> <small><i>Via: Toptal</i></small> Dec 2024 - Aug 2025</div>
-<h3><a href='https://www.pokergfx.io' target='_blank'>PokerGFX LLC</a></h3>
-</div>
 
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
+    <h3><a target="_blank" href="https://www.pokergfx.io">PokerGFX LLC</a></h3>
+    <div>Dec 2024 - Aug 2025</div>
+</div>
 
 **Highlights:**
 
@@ -30,20 +29,17 @@ Toptal is a global, remote-first network that connects businesses with vetted fr
 - Automated the end-to-end build, signing, and publishing process for all PokerGFX projects, reducing manual effort and human error.
 - Added support for continuous integration and deployment using GitLab runners.
 
-**Industries:**
 
-Sports, Video Streaming
+**Industries:** Sports, Video Streaming
 
-**Technologies & Skills:**
-
-<span title='Advanced Installer'>*Advanced Installer*</span>, <span title='API Integration'>*API Integration*</span>, <span title='Amazon S3 Storage'>*AWS S3*</span>, <span title='C#'>*C#*</span>, <span title='.NET'>*.NET*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='Git Version Control'>*Git*</span>, <span title='GitLab CI/CD Runners'>*GitLab Runners*</span>, <span title='Driverless, cross-platform usb dongle security key'>*KEYLOK*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View ViewModel'>*MVVM*</span>, <span title='NetReactor .NET Obfuscator'>*NetReactor*</span>, <span title='Code Obfuscation'>*Obfuscation*</span>, <span title='Windows PowerShell'>*Powershell*</span>, <span title='Windows Forms'>*WinForms*</span>, <span title='Windows Presentation Foundation'>*WPF*</span>, <span title='WPF UI Libraries'>*WPF UI*</span>, <span title='eXtensible Application Markup Language'>*XAML*</span>
+**Technologies & Skills:** <span title='Advanced Installer'>*Advanced Installer*</span>, <span title='API Integration'>*API Integration*</span>, <span title='Amazon S3 Storage'>*AWS S3*</span>, <span title='C#'>*C#*</span>, <span title='.NET'>*.NET*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='Git Version Control'>*Git*</span>, <span title='GitLab CI/CD Runners'>*GitLab Runners*</span>, <span title='Driverless, cross-platform usb dongle security key'>*KEYLOK*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View ViewModel'>*MVVM*</span>, <span title='NetReactor .NET Obfuscator'>*NetReactor*</span>, <span title='Code Obfuscation'>*Obfuscation*</span>, <span title='Windows PowerShell'>*Powershell*</span>, <span title='Windows Forms'>*WinForms*</span>, <span title='Windows Presentation Foundation'>*WPF*</span>, <span title='WPF UI Libraries'>*WPF UI*</span>, <span title='eXtensible Application Markup Language'>*XAML*</span>
 
 ---
-<div style='align:bottom;'>
-<div style='float:right;'> <small><i>Via: Toptal</i></small> Jul 2024 - Feb 2025</div>
-<h3><a href='https://www.toptal.com' target='_blank'>CGi, LLC</a></h3>
-</div>
 
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
+    <h3><a target="_blank" href="https://www.toptal.com">CGi, LLC</a></h3>
+    <div>Jul 2024 - Feb 2025</div>
+</div>
 
 **Highlights:**
 
@@ -51,20 +47,17 @@ Sports, Video Streaming
 - Simplified code around the website and centralized database access while fixing bugs.
 - Made web page updates, replacing text, images, and updating layouts.
 
-**Industries:**
 
-Business Services, Research & Development
+**Industries:** Business Services, Research & Development
 
-**Technologies & Skills:**
-
-<span title='ASP.NET'>*ASP.NET*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='Git Version Control'>*Git*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='MySQL Database'>*MySQL*</span>, <span title='Visual Basic .NET'>*VB.NET*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>
+**Technologies & Skills:** <span title='ASP.NET'>*ASP.NET*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='Git Version Control'>*Git*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='MySQL Database'>*MySQL*</span>, <span title='Visual Basic .NET'>*VB.NET*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>
 
 ---
-<div style='align:bottom;'>
-<div style='float:right;'> <small><i>Via: Toptal</i></small> Aug 2020 - Jan 2024</div>
-<h3><a href='https://alteryx.com' target='_blank'>Alteryx</a></h3>
-</div>
 
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
+    <h3><a target="_blank" href="https://alteryx.com">Alteryx</a></h3>
+    <div>Aug 2020 - Jan 2024</div>
+</div>
 
 Implemented accessibility guidelines and screen reader support in flagship desktop and cloud products using Windows Forms and React, going beyond mere compliance by refactoring code and redesigning interfaces for improved usability. Achieved innovation by introducing keyboard navigation, manipulation, and screen reader support to workflow diagrams, a feature previously non-existent on the market.
 
@@ -76,65 +69,43 @@ Implemented accessibility guidelines and screen reader support in flagship deskt
 - Updated and refactored custom components to better integrate accessibility features and keyboard navigation using Javascript and React.
 - Updated and created new user interface automated tests using C# and White Framework.
 
-**Industries:**
 
-Business Intelligence (BI) Software, Data Analytics, Software
+**Industries:** Business Intelligence (BI) Software, Data Analytics, Software
 
-**Technologies & Skills:**
-
-<span title='Accessibility'>*A11Y*</span>, <span title='C#'>*C#*</span>, <span title='Chromium Embedded Framework'>*CEF*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='Git Version Control'>*Git*</span>, <span title='JavaScript'>*JS*</span>, <span title='MindFusion UI Components'>*MindFusion*</span>, <span title='Material UI React component library'>*MUI*</span>, <span title='ReactJS'>*React*</span>, <span title='Screen Readers'>*Screen Readers*</span>, <span title='Syncfusion UI Components'>*Syncfusion*</span>, <span title='Telerik UI Components'>*Telerik*</span>, <span title='UI Automation'>*UI Automation*</span>, <span title='Web Content Accessibility Guidelines'>*WCAG*</span>, <span title='TestStack.White UI Automation Framework'>*White*</span>, <span title='Windows Forms'>*WinForms*</span>
+**Technologies & Skills:** <span title='Accessibility'>*A11Y*</span>, <span title='C#'>*C#*</span>, <span title='Chromium Embedded Framework'>*CEF*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='Git Version Control'>*Git*</span>, <span title='JavaScript'>*JS*</span>, <span title='MindFusion UI Components'>*MindFusion*</span>, <span title='Material UI React component library'>*MUI*</span>, <span title='ReactJS'>*React*</span>, <span title='Screen Readers'>*Screen Readers*</span>, <span title='Syncfusion UI Components'>*Syncfusion*</span>, <span title='Telerik UI Components'>*Telerik*</span>, <span title='UI Automation'>*UI Automation*</span>, <span title='Web Content Accessibility Guidelines'>*WCAG*</span>, <span title='TestStack.White UI Automation Framework'>*White*</span>, <span title='Windows Forms'>*WinForms*</span>
 
 ---
-<div style='align:bottom;'>
-<div style='float:right;'> Apr 2021 - May 2021</div>
-<h3><a href='https://fremantle.com/' target='_blank'>Fremantle Productions</a></h3>
-</div>
 
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
+    <h3><a target="_blank" href="https://fremantle.com/">Fremantle Productions</a></h3>
+    <div>Apr 2021 - May 2021</div>
+</div>
 
 Designed and developed a web application enabling Show Producers to work remotely, maintaining seamless access to live camera streams during TV show broadcasts, despite COVID-19 restrictions.
 
-**Highlights:**
+**Industries:** Entertainment, Film & Television, Media Production
 
-- Developed millicast Javascript API client to use on website and display video streams.
-- Developed user and role management web interface using ASP.NET Core Identity.
-
-**Industries:**
-
-Entertainment, Film & Television, Media Production
-
-**Technologies & Skills:**
-
-<span title='API Integration'>*API Integration*</span>, <span title='ASP.NET Core'>*ASP.NET Core*</span>, <span title='ASP.NET Identity'>*ASP.NET Identity*</span>, <span title='Amazon EC2'>*AWS EC2*</span>, <span title='Bootstrap Framework'>*Bootstrap*</span>, <span title='C#'>*C#*</span>, <span title='Cascading Style Sheets'>*CSS*</span>, <span title='Dolby.io Real-Time Streaming'>*Dolby.io*</span>, <span title='.NET'>*.NET*</span>, <span title='Entity Framework Core'>*EFCore*</span>, <span title='Git Version Control'>*Git*</span>, <span title='JavaScript'>*JS*</span>, <span title='MariaDB Database'>*MariaDb*</span>, <span title='Millicast Real-Time Streaming'>*Millicast*</span>, <span title='NSwag OpenAPI toolchain for .NET'>*NSwag*</span>, <span title='OpenAPI Specification'>*OpenAPI*</span>, <span title='Razor Syntax'>*Razor*</span>, <span title='ASP.NET Web API'>*Web API*</span>
+**Technologies & Skills:** <span title='API Integration'>*API Integration*</span>, <span title='ASP.NET Core'>*ASP.NET Core*</span>, <span title='ASP.NET Identity'>*ASP.NET Identity*</span>, <span title='Amazon EC2'>*AWS EC2*</span>, <span title='Bootstrap Framework'>*Bootstrap*</span>, <span title='C#'>*C#*</span>, <span title='Cascading Style Sheets'>*CSS*</span>, <span title='Dolby.io Real-Time Streaming'>*Dolby.io*</span>, <span title='.NET'>*.NET*</span>, <span title='Entity Framework Core'>*EFCore*</span>, <span title='Git Version Control'>*Git*</span>, <span title='JavaScript'>*JS*</span>, <span title='MariaDB Database'>*MariaDb*</span>, <span title='Millicast Real-Time Streaming'>*Millicast*</span>, <span title='NSwag OpenAPI toolchain for .NET'>*NSwag*</span>, <span title='OpenAPI Specification'>*OpenAPI*</span>, <span title='Razor Syntax'>*Razor*</span>, <span title='ASP.NET Web API'>*Web API*</span>
 
 ---
-<div style='align:bottom;'>
-<div style='float:right;'> Jul 2020 - Aug 2020</div>
-<h3><a href='https://games.crossfit.com' target='_blank'>Reebok CrossFit Games 2020</a></h3>
-</div>
 
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
+    <h3><a target="_blank" href="https://games.crossfit.com">Reebok CrossFit Games 2020</a></h3>
+    <div>Jul 2020 - Aug 2020</div>
+</div>
 
 Developed web application tailored for mobile devices, enabling athletes to seamlessly stream or upload their trial and competition videos for review by judges. This platform facilitated remote interaction between athletes and judges, thereby overcoming geographical constraints imposed by the COVID-19  pandemic
 
-**Highlights:**
+**Industries:** Sports, Sports Teams & Leagues
 
-- Developed a web application for streaming and uploading trial and competition videos for judges to review using ASP.NET Core Razor Pages.
-- Transcoded user uploaded videos to more compatible format using FFmpeg.
-- Developed user and role management web interface using ASP.NET Core Identity.
-
-**Industries:**
-
-Sports, Sports Teams & Leagues
-
-**Technologies & Skills:**
-
-<span title='ASP.NET Core'>*ASP.NET Core*</span>, <span title='ASP.NET Identity'>*ASP.NET Identity*</span>, <span title='Amazon EC2'>*AWS EC2*</span>, <span title='Amazon S3 Storage'>*AWS S3*</span>, <span title='Bootstrap Framework'>*Bootstrap*</span>, <span title='C#'>*C#*</span>, <span title='Cascading Style Sheets'>*CSS*</span>, <span title='.NET Core'>*.NET Core*</span>, <span title='Entity Framework Core'>*EFCore*</span>, <span title='FFmpeg Multimedia Framework'>*FFmpeg*</span>, <span title='Git Version Control'>*Git*</span>, <span title='JavaScript'>*JS*</span>, <span title='MariaDB Database'>*MariaDb*</span>, <span title='Razor Syntax'>*Razor*</span>
+**Technologies & Skills:** <span title='ASP.NET Core'>*ASP.NET Core*</span>, <span title='ASP.NET Identity'>*ASP.NET Identity*</span>, <span title='Amazon EC2'>*AWS EC2*</span>, <span title='Amazon S3 Storage'>*AWS S3*</span>, <span title='Bootstrap Framework'>*Bootstrap*</span>, <span title='C#'>*C#*</span>, <span title='Cascading Style Sheets'>*CSS*</span>, <span title='.NET Core'>*.NET Core*</span>, <span title='Entity Framework Core'>*EFCore*</span>, <span title='FFmpeg Multimedia Framework'>*FFmpeg*</span>, <span title='Git Version Control'>*Git*</span>, <span title='JavaScript'>*JS*</span>, <span title='MariaDB Database'>*MariaDb*</span>, <span title='Razor Syntax'>*Razor*</span>
 
 ---
-<div style='align:bottom;'>
-<div style='float:right;'> <small><i>Via: Toptal</i></small> Mar 2020 - Aug 2020</div>
-<h3><a href='https://funefalvue.com' target='_blank'>FuneralVue</a></h3>
-</div>
 
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
+    <h3><a target="_blank" href="https://funefalvue.com">FuneralVue</a></h3>
+    <div>Mar 2020 - Aug 2020</div>
+</div>
 
 Developed and updated various desktop and web applications to improve customer service, streamline business operations, and automate time-consuming tasks, enhancing overall efficiency and productivity for the organization.
 
@@ -146,44 +117,30 @@ Developed and updated various desktop and web applications to improve customer s
 - Designed and developed a mobile web app allowing users to stream live events directly from their mobile devices, enhancing customer experience by reducing wait times and enabling on-the-go access to the company's services.
 - Developed an application to automate DVD ISO image creation from MP4 videos, utilizing Windows Services for efficient execution of lengthy tasks, and paired with a WPF desktop app for service management and notification display.
 
-**Industries:**
 
-Audio Streaming, Funeral Homes & Funeral Related Services, Media and content production, Video & Audio Processing, Video Streaming
+**Industries:** Audio Streaming, Funeral Homes & Funeral Related Services, Media and content production, Video & Audio Processing, Video Streaming
 
-**Technologies & Skills:**
-
-<span title='Amazon EC2'>*AWS EC2*</span>, <span title='Amazon S3 Storage'>*AWS S3*</span>, <span title='Bootstrap Framework'>*Bootstrap*</span>, <span title='C#'>*C#*</span>, <span title='CakePHP Framework'>*CakePHP*</span>, <span title='Docker containers'>*Docker*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='DVD ISO image creation'>*DVD/ISO Creation*</span>, <span title='FFmpeg Multimedia Framework'>*FFmpeg*</span>, <span title='Git Version Control'>*Git*</span>, <span title='JavaScript'>*JS*</span>, <span title='Larix Broadcaster Mobile RTMP/RTSP Streaming App'>*Larix*</span>, <span title='MySQL Database'>*MySQL*</span>, <span title='Windows PowerShell'>*Powershell*</span>, <span title='ReactJS'>*React*</span>, <span title='React Router'>*React Router*</span>, <span title='React Redux'>*Redux*</span>, <span title='Real-Time Messaging Protocol'>*RTMP*</span>, <span title='Stripe Payment Gateway'>*Stripe*</span>, <span title='Vue.js'>*Vue*</span>, <span title='ASP.NET Web API'>*Web API*</span>, <span title='Windows Forms'>*WinForms*</span>, <span title='Windows Services'>*Windows Services*</span>, <span title='Wowza Streaming Engine'>*Wowza*</span>, <span title='Windows Presentation Foundation'>*WPF*</span>, <span title='eXtensible Application Markup Language'>*XAML*</span>
+**Technologies & Skills:** <span title='Amazon EC2'>*AWS EC2*</span>, <span title='Amazon S3 Storage'>*AWS S3*</span>, <span title='Bootstrap Framework'>*Bootstrap*</span>, <span title='C#'>*C#*</span>, <span title='CakePHP Framework'>*CakePHP*</span>, <span title='Docker containers'>*Docker*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='DVD ISO image creation'>*DVD/ISO Creation*</span>, <span title='FFmpeg Multimedia Framework'>*FFmpeg*</span>, <span title='Git Version Control'>*Git*</span>, <span title='JavaScript'>*JS*</span>, <span title='Larix Broadcaster Mobile RTMP/RTSP Streaming App'>*Larix*</span>, <span title='MySQL Database'>*MySQL*</span>, <span title='Windows PowerShell'>*Powershell*</span>, <span title='ReactJS'>*React*</span>, <span title='React Router'>*React Router*</span>, <span title='React Redux'>*Redux*</span>, <span title='Real-Time Messaging Protocol'>*RTMP*</span>, <span title='Stripe Payment Gateway'>*Stripe*</span>, <span title='Vue.js'>*Vue*</span>, <span title='ASP.NET Web API'>*Web API*</span>, <span title='Windows Forms'>*WinForms*</span>, <span title='Windows Services'>*Windows Services*</span>, <span title='Wowza Streaming Engine'>*Wowza*</span>, <span title='Windows Presentation Foundation'>*WPF*</span>, <span title='eXtensible Application Markup Language'>*XAML*</span>
 
 ---
-<div style='align:bottom;'>
-<div style='float:right;'> <small><i>Via: Toptal</i></small> Mar 2019 - Jan 2020</div>
-<h3><a href='https://evolutionsoftware.co.za/' target='_blank'>Evolution Software</a></h3>
-</div>
 
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
+    <h3><a target="_blank" href="https://evolutionsoftware.co.za/">Evolution Software</a></h3>
+    <div>Mar 2019 - Jan 2020</div>
+</div>
 
 Implemented Entity Framework to streamline database interactions, automating repetitive tasks and reducing code complexity. Optimized database queries and stored procedures for faster results. Developed modules using a custom framework built on top of ASP.NET. Exposed frequently used functionality via Web Services. Replaced server-side controls with client-side rendering and asynchronous requests, enhancing performance and user experience.
 
-**Highlights:**
+**Industries:** Custom Software & IT Services
 
-- Created modules using their custom framework built on top of ASP.NET for specific clients.
-- Added an Entity Framework data layer replicating and automating actions taken by their custom data access layer which works with ADO.NET.
-- Added Web API to reduce full-page postbacks in several commonly used pages and KnockoutJS for client side datagrid processing which greatly improved overall performance and user experience.
-- Edited database queries, columns and stored procedures to imporove performance and get faster results.
-
-**Industries:**
-
-Custom Software & IT Services
-
-**Technologies & Skills:**
-
-<span title='ActiveX Data Objects for .NET'>*ADO.NET*</span>, <span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='Entity Framework'>*EF*</span>, <span title='Git Version Control'>*Git*</span>, <span title='JavaScript'>*JS*</span>, <span title='KnockoutJS JavaScript Library'>*KnockoutJS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>
+**Technologies & Skills:** <span title='ActiveX Data Objects for .NET'>*ADO.NET*</span>, <span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='Entity Framework'>*EF*</span>, <span title='Git Version Control'>*Git*</span>, <span title='JavaScript'>*JS*</span>, <span title='KnockoutJS JavaScript Library'>*KnockoutJS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>
 
 ---
-<div style='align:bottom;'>
-<div style='float:right;'> <small><i>Via: Nearsoft</i></small> Sep 2015 - Aug 2019</div>
-<h3><a href='https://www.mdlive.com' target='_blank'>MDLive, Inc.</a></h3>
-</div>
 
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
+    <h3><a target="_blank" href="https://www.mdlive.com">MDLive, Inc.</a></h3>
+    <div>Sep 2015 - Aug 2019</div>
+</div>
 
 I was involved and worked alongside product design, UX, DevOps and other development teams to build, integrate and deploy a WebRTC conferencing solution composed of several back and front end services and components.
 
@@ -196,243 +153,152 @@ I was involved and worked alongside product design, UX, DevOps and other develop
 - Worked with DevOps team to help with infrastructure provisioning and deployment of server-side applications on Azure.
 - Worked with offshore team to help debug and deploy a payment gateway written in ASP.NET.
 
-**Industries:**
 
-Healthcare Software, Mental Health & Rehabilitation Facilities, Telehealth Services
+**Industries:** Healthcare Software, Mental Health & Rehabilitation Facilities, Telehealth Services
 
-**Technologies & Skills:**
-
-<span title='ASP.NET'>*ASP.NET*</span>, <span title='Microsoft Azure'>*Azure*</span>, <span title='C#'>*C#*</span>, <span title='Docker containers'>*Docker*</span>, <span title='Docker containers for Windows'>*Docker for Windows*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='FFmpeg Multimedia Framework'>*FFmpeg*</span>, <span title='Frozen Mountain Software'>*FrozenMountain*</span>, <span title='Git Version Control'>*Git*</span>, <span title='Icelink WebRTC'>*Icelink*</span>, <span title='JavaScript'>*JS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View Controller'>*MVC*</span>, <span title='Objective-C'>*Objective-C*</span>, <span title='Windows PowerShell'>*Powershell*</span>, <span title='ReactJS'>*React*</span>, <span title='Ruby on Rails'>*RoR*</span>, <span title='Ruby Programming Language'>*Ruby*</span>, <span title='Surescripts Healthcare Network'>*Surescripts*</span>, <span title='ASP.NET Web API'>*Web API*</span>, <span title='Web Real-Time Communication'>*WebRTC*</span>, <span title='Frozen Mountain Websync'>*Websync*</span>, <span title='Xcode IDE'>*Xcode*</span>
+**Technologies & Skills:** <span title='ASP.NET'>*ASP.NET*</span>, <span title='Microsoft Azure'>*Azure*</span>, <span title='C#'>*C#*</span>, <span title='Docker containers'>*Docker*</span>, <span title='Docker containers for Windows'>*Docker for Windows*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='FFmpeg Multimedia Framework'>*FFmpeg*</span>, <span title='Frozen Mountain Software'>*FrozenMountain*</span>, <span title='Git Version Control'>*Git*</span>, <span title='Icelink WebRTC'>*Icelink*</span>, <span title='JavaScript'>*JS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View Controller'>*MVC*</span>, <span title='Objective-C'>*Objective-C*</span>, <span title='Windows PowerShell'>*Powershell*</span>, <span title='ReactJS'>*React*</span>, <span title='Ruby on Rails'>*RoR*</span>, <span title='Ruby Programming Language'>*Ruby*</span>, <span title='Surescripts Healthcare Network'>*Surescripts*</span>, <span title='ASP.NET Web API'>*Web API*</span>, <span title='Web Real-Time Communication'>*WebRTC*</span>, <span title='Frozen Mountain Websync'>*Websync*</span>, <span title='Xcode IDE'>*Xcode*</span>
 
 ---
-<div style='align:bottom;'>
-<div style='float:right;'> Sep 2015 - Aug 2019</div>
-<h3><a href='https://www.encora.com/news/nearsoft-is-now-encora' target='_blank'>Nearsoft</a></h3>
-</div>
 
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
+    <h3><a target="_blank" href="https://www.encora.com/news/nearsoft-is-now-encora">Nearsoft</a></h3>
+    <div>Sep 2015 - Aug 2019</div>
+</div>
 
 I was involved and worked alongside product design, UX, DevOps and other development teams from MDLive, Inc. to build, integrate and deploy a WebRTC conferencing solution composed of several back and front end services and components.
-**Industries:**
 
-Custom Software & IT Services
+**Industries:** Custom Software & IT Services
 
 ---
-<div style='align:bottom;'>
-<div style='float:right;'> <small><i>Via: Toptal</i></small> Apr 2015 - Jun 2015</div>
-<h3><a href='http://weared4.com' target='_blank'>D4 Software</a></h3>
-</div>
 
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
+    <h3><a target="_blank" href="http://weared4.com">D4 Software</a></h3>
+    <div>Apr 2015 - Jun 2015</div>
+</div>
 
 Worked on various development projects for ASP.NET MVC websites, focusing on enhancing user experience, email sending and tracking features.
 
-**Highlights:**
+**Industries:** Custom Software & IT Services
 
-- Worked with Sass, Twitter Bloodhound, and Entity framework migrations.
-- Created background tasks for sending emails on ASP.NET websites.
-- Implemented email view tracking.
-
-**Industries:**
-
-Custom Software & IT Services
-
-**Technologies & Skills:**
-
-<span title='ASP.NET'>*ASP.NET*</span>, <span title='ASP.NET MVC'>*ASP.NET MVC*</span>, <span title='Bootstrap Framework'>*Bootstrap*</span>, <span title='C#'>*C#*</span>, <span title='Cascading Style Sheets'>*CSS*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='Entity Framework'>*EF*</span>, <span title='Git Version Control'>*Git*</span>, <span title='jQuery JavaScript Library'>*jQuery*</span>, <span title='JavaScript'>*JS*</span>, <span title='KnockoutJS JavaScript Library'>*KnockoutJS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View Controller'>*MVC*</span>, <span title='Syntactically Awesome Stylesheets'>*Sass*</span>, <span title='ASP.NET Web API'>*Web API*</span>
+**Technologies & Skills:** <span title='ASP.NET'>*ASP.NET*</span>, <span title='ASP.NET MVC'>*ASP.NET MVC*</span>, <span title='Bootstrap Framework'>*Bootstrap*</span>, <span title='C#'>*C#*</span>, <span title='Cascading Style Sheets'>*CSS*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='Entity Framework'>*EF*</span>, <span title='Git Version Control'>*Git*</span>, <span title='jQuery JavaScript Library'>*jQuery*</span>, <span title='JavaScript'>*JS*</span>, <span title='KnockoutJS JavaScript Library'>*KnockoutJS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View Controller'>*MVC*</span>, <span title='Syntactically Awesome Stylesheets'>*Sass*</span>, <span title='ASP.NET Web API'>*Web API*</span>
 
 ---
-<div style='align:bottom;'>
-<div style='float:right;'> <small><i>Via: Toptal</i></small> Oct 2014 - Feb 2015</div>
-<h3><a href='https://www.rxchange.co.uk' target='_blank'>arex Rxchange GmbH</a></h3>
-</div>
 
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
+    <h3><a target="_blank" href="https://www.rxchange.co.uk">arex Rxchange GmbH</a></h3>
+    <div>Oct 2014 - Feb 2015</div>
+</div>
 
 Worked on ASP.NET MVC components to improve operations within an online B2B marketplace for wholesale dealers in the EU.
 
-**Highlights:**
+**Industries:** E-Commerce, Pharmaceuticals
 
-- Created user controls to ease access to information across orders.
-- Updated components to view and handle price change requests.
-- Created feature to keep track and process acceptance states for batches in orders.
-- Created a new page to view and handle acceptance state for batches in orders.
-
-**Industries:**
-
-E-Commerce, Pharmaceuticals
-
-**Technologies & Skills:**
-
-<span title='ASP.NET'>*ASP.NET*</span>, <span title='Bootstrap Framework'>*Bootstrap*</span>, <span title='C#'>*C#*</span>, <span title='Entity Framework'>*EF*</span>, <span title='Git Version Control'>*Git*</span>, <span title='jQuery JavaScript Library'>*jQuery*</span>, <span title='JavaScript'>*JS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View Controller'>*MVC*</span>, <span title='ASP.NET Web API'>*Web API*</span>
+**Technologies & Skills:** <span title='ASP.NET'>*ASP.NET*</span>, <span title='Bootstrap Framework'>*Bootstrap*</span>, <span title='C#'>*C#*</span>, <span title='Entity Framework'>*EF*</span>, <span title='Git Version Control'>*Git*</span>, <span title='jQuery JavaScript Library'>*jQuery*</span>, <span title='JavaScript'>*JS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View Controller'>*MVC*</span>, <span title='ASP.NET Web API'>*Web API*</span>
 
 ---
-<div style='align:bottom;'>
-<div style='float:right;'> <small><i>Via: Toptal</i></small> Jan 2013 - Sep 2014</div>
-<h3><a href='https://www.situsamc.com' target='_blank'>American Mortgage Consultants</a></h3>
-</div>
 
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
+    <h3><a target="_blank" href="https://www.situsamc.com">American Mortgage Consultants</a></h3>
+    <div>Jan 2013 - Sep 2014</div>
+</div>
 
 Designed and developed multiple solutions and components to enhance claims processing efficiency and streamline due diligence activities, thereby optimizing business operations. I developed and enhanced several components within a loan management system, including a rules engine for applying tests to loans and a stipulations manager, both leveraging ASP.NET technologies and KnockoutJS for responsive client-side interactions. I also implemented a claims review module and contributed migrating Classic ASP web applications written with VBScript to ASP.NET Web Forms with C# and data access code migration from ADO.NET to .netTiers. Additionally, I refactored multiple ASP.NET Web Forms to boost performance and optimize resource usage across the application.
 
-**Highlights:**
+**Industries:** Custom Software & IT Services, Financial Institutions, Insurance
 
-- ASP/VBScript (Classic ASP) migration to ASP.NET Web Forms and C#.
-- ADO and ADO.NET data access code migration to .netTiers and LINQ to SQL.
-- Simple rules engine tool to apply tests to loans using ASP.NET MVC, Web API and KnockoutJS.
-- Component to manage Loan Stipulations using ASP.NET Web Services and KnockoutJS.
-- Component for reviewing Claims.
-- Updated and refactored several ASP.NET Web Forms to improve performance and resource handling.
-
-**Industries:**
-
-Custom Software & IT Services, Financial Institutions, Insurance
-
-**Technologies & Skills:**
-
-<span title='ActiveX Data Objects'>*ADO*</span>, <span title='ActiveX Data Objects for .NET'>*ADO.NET*</span>, <span title='ASP.NET'>*ASP.NET*</span>, <span title='Bootstrap Framework'>*Bootstrap*</span>, <span title='C#'>*C#*</span>, <span title='.NET'>*.NET*</span>, <span title='jQuery JavaScript Library'>*jQuery*</span>, <span title='JavaScript'>*JS*</span>, <span title='KnockoutJS JavaScript Library'>*KnockoutJS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='.netTiers Code Generation Framework'>*.netTiers*</span>, <span title='Team Foundation Server'>*TFS*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>
+**Technologies & Skills:** <span title='ActiveX Data Objects'>*ADO*</span>, <span title='ActiveX Data Objects for .NET'>*ADO.NET*</span>, <span title='ASP.NET'>*ASP.NET*</span>, <span title='Bootstrap Framework'>*Bootstrap*</span>, <span title='C#'>*C#*</span>, <span title='.NET'>*.NET*</span>, <span title='jQuery JavaScript Library'>*jQuery*</span>, <span title='JavaScript'>*JS*</span>, <span title='KnockoutJS JavaScript Library'>*KnockoutJS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='.netTiers Code Generation Framework'>*.netTiers*</span>, <span title='Team Foundation Server'>*TFS*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>
 
 ---
-<div style='align:bottom;'>
-<div style='float:right;'> Oct 2011 - Jan 2013</div>
-<h3><a href='' target='_blank'>Serpico DEV</a></h3>
-</div>
 
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
+    <h3><a target="_blank" href="">Serpico DEV</a></h3>
+    <div>Oct 2011 - Jan 2013</div>
+</div>
 
 Platform for Career Tutors to manage and review professional profiles created by College Students.  Collaborated with the AppointmentPlus development team to create a Web API and Outlook Plugin.
 
-**Highlights:**
+**Industries:** Custom Software & IT Services
 
-- Web application to help Career Tutors keep track and review professional profiles created by College Students on LinkedIn and provide assistance with job and career placements.
-- Integrated Flypaper presentations into websites using Javascript API clients and Back-end database connectivity.
-- Worked with the AppointmentPlus development team to create a Web API and Outlook Plugin for synchronizing calendar events with AppointmentPlus appointments and contacts.
-
-**Industries:**
-
-Custom Software & IT Services
-
-**Technologies & Skills:**
-
-<span title='ASP.NET'>*ASP.NET*</span>, <span title='Bootstrap Framework'>*Bootstrap*</span>, <span title='C#'>*C#*</span>, <span title='CakePHP Framework'>*CakePHP*</span>, <span title='.NET'>*.NET*</span>, <span title='Entity Framework'>*EF*</span>, <span title='Git Version Control'>*Git*</span>, <span title='jQuery JavaScript Library'>*jQuery*</span>, <span title='jQuery User Interface'>*jQuery-UI*</span>, <span title='JavaScript'>*JS*</span>, <span title='Kendo UI Components'>*Kendo UI*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View Controller'>*MVC*</span>, <span title='MySQL Database'>*MySQL*</span>, <span title='ASP.NET Web API'>*Web API*</span>
+**Technologies & Skills:** <span title='ASP.NET'>*ASP.NET*</span>, <span title='Bootstrap Framework'>*Bootstrap*</span>, <span title='C#'>*C#*</span>, <span title='CakePHP Framework'>*CakePHP*</span>, <span title='.NET'>*.NET*</span>, <span title='Entity Framework'>*EF*</span>, <span title='Git Version Control'>*Git*</span>, <span title='jQuery JavaScript Library'>*jQuery*</span>, <span title='jQuery User Interface'>*jQuery-UI*</span>, <span title='JavaScript'>*JS*</span>, <span title='Kendo UI Components'>*Kendo UI*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View Controller'>*MVC*</span>, <span title='MySQL Database'>*MySQL*</span>, <span title='ASP.NET Web API'>*Web API*</span>
 
 ---
-<div style='align:bottom;'>
-<div style='float:right;'> <small><i>Via: Hildebrando</i></small> Mar 2011 - Oct 2011</div>
-<h3><a href='https://www.esurance.com' target='_blank'>Esurance</a></h3>
-</div>
 
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
+    <h3><a target="_blank" href="https://www.esurance.com">Esurance</a></h3>
+    <div>Mar 2011 - Oct 2011</div>
+</div>
 
 Migrated multiple sections of an existing web application used for insurance claim management from ASP to ASP.NET. Additionally, created new components to support additional features.
-**Industries:**
 
-Custom Software & IT Services, Insurance
+**Industries:** Custom Software & IT Services, Insurance
 
-**Technologies & Skills:**
-
-<span title='ActiveX Data Objects'>*ADO*</span>, <span title='ActiveX Data Objects for .NET'>*ADO.NET*</span>, <span title='Active Server pages'>*ASP*</span>, <span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='DevExpress UI Components'>*DevExpress*</span>, <span title='.NET'>*.NET*</span>, <span title='jQuery JavaScript Library'>*jQuery*</span>, <span title='JavaScript'>*JS*</span>, <span title='Language Integrated Query to SQL'>*LINQ to SQL*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Team Foundation Server'>*TFS*</span>, <span title='Visual Basic Script'>*VBScript*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>
+**Technologies & Skills:** <span title='ActiveX Data Objects'>*ADO*</span>, <span title='ActiveX Data Objects for .NET'>*ADO.NET*</span>, <span title='Active Server pages'>*ASP*</span>, <span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='DevExpress UI Components'>*DevExpress*</span>, <span title='.NET'>*.NET*</span>, <span title='jQuery JavaScript Library'>*jQuery*</span>, <span title='JavaScript'>*JS*</span>, <span title='Language Integrated Query to SQL'>*LINQ to SQL*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Team Foundation Server'>*TFS*</span>, <span title='Visual Basic Script'>*VBScript*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>
 
 ---
-<div style='align:bottom;'>
-<div style='float:right;'> Jul 2010 - Mar 2011</div>
-<h3><a href='https://www.encora.com/news/nearsoft-is-now-encora' target='_blank'>Nearsoft</a></h3>
-</div>
 
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
+    <h3><a target="_blank" href="https://www.encora.com/news/nearsoft-is-now-encora">Nearsoft</a></h3>
+    <div>Jul 2010 - Mar 2011</div>
+</div>
 
 As part of the YottaMark engineering team, I Developed various components for a traceability software that tracks the origin and freshness of food.
-**Industries:**
 
-Custom Software & IT Services, Food Safety, Foodtech
+**Industries:** Custom Software & IT Services, Food Safety, Foodtech
 
-**Technologies & Skills:**
-
-<span title='ActiveX Data Objects for .NET'>*ADO.NET*</span>, <span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='.NET'>*.NET*</span>, <span title='.NET Compact Framework'>*.NET CE*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Microsoft SQL Server Compact Edition'>*MSSQL CE*</span>, <span title='Microsoft SQL Server XML Services'>*MSSQL XML*</span>, <span title='Team Foundation Server'>*TFS*</span>, <span title='Windows Communication Foundation'>*WCF*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>, <span title='Windows Forms'>*WinForms*</span>, <span title='Windows Services'>*Windows Services*</span>
+**Technologies & Skills:** <span title='ActiveX Data Objects for .NET'>*ADO.NET*</span>, <span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='.NET'>*.NET*</span>, <span title='.NET Compact Framework'>*.NET CE*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Microsoft SQL Server Compact Edition'>*MSSQL CE*</span>, <span title='Microsoft SQL Server XML Services'>*MSSQL XML*</span>, <span title='Team Foundation Server'>*TFS*</span>, <span title='Windows Communication Foundation'>*WCF*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>, <span title='Windows Forms'>*WinForms*</span>, <span title='Windows Services'>*Windows Services*</span>
 
 ---
-<div style='align:bottom;'>
-<div style='float:right;'> Nov 2007 - Jan 2010</div>
-<h3><a href='https://tiempodev.com' target='_blank'>Tiempo Development</a></h3>
-</div>
 
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
+    <h3><a target="_blank" href="https://tiempodev.com">Tiempo Development</a></h3>
+    <div>Nov 2007 - Jan 2010</div>
+</div>
 
 Implemented several software components, including synchronization and compression of audio and video content, packaging of presentations into self-contained executables, integration of image and video search APIs with retrieval capabilities and chart components.
 
-**Highlights:**
+**Industries:** Custom Software & IT Services
 
-- Synchronization and compression of audio and video content
-- Packaging of Flash-based presentations into self-contained executable files for seamless delivery
-- Integration with image and video search APIs to enhance media discovery and retrieval capabilities
-- Seamless integration of chart components into Flypaper Studio, a digital presentation platform
-
-**Industries:**
-
-Custom Software & IT Services
-
-**Technologies & Skills:**
-
-<span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='C++'>*C++*</span>, <span title='Entity Framework'>*EF*</span>, <span title='Flypaper Digital Presentation Software'>*Flypaper*</span>, <span title='InstallShield Installer Software'>*InstallShield*</span>, <span title='jQuery JavaScript Library'>*jQuery*</span>, <span title='JavaScript'>*JS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View ViewModel'>*MVVM*</span>, <span title='Apache Subversion'>*SVN*</span>, <span title='Telerik UI Components'>*Telerik*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>, <span title='Windows Forms'>*WinForms*</span>, <span title='Windows Presentation Foundation'>*WPF*</span>, <span title='eXtensible Application Markup Language'>*XAML*</span>
+**Technologies & Skills:** <span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='C++'>*C++*</span>, <span title='Entity Framework'>*EF*</span>, <span title='Flypaper Digital Presentation Software'>*Flypaper*</span>, <span title='InstallShield Installer Software'>*InstallShield*</span>, <span title='jQuery JavaScript Library'>*jQuery*</span>, <span title='JavaScript'>*JS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View ViewModel'>*MVVM*</span>, <span title='Apache Subversion'>*SVN*</span>, <span title='Telerik UI Components'>*Telerik*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>, <span title='Windows Forms'>*WinForms*</span>, <span title='Windows Presentation Foundation'>*WPF*</span>, <span title='eXtensible Application Markup Language'>*XAML*</span>
 
 ---
-<div style='align:bottom;'>
-<div style='float:right;'> Jan 2006 - Nov 2007</div>
-<h3><a href='' target='_blank'>e-Business Consultores</a></h3>
-</div>
 
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
+    <h3><a target="_blank" href="">e-Business Consultores</a></h3>
+    <div>Jan 2006 - Nov 2007</div>
+</div>
 
 Developed web applications creating a range of solutions that included content management systems, e-learning, e-commerce, task tracking, digital signature integration, and others.
 
-**Highlights:**
+**Industries:** Custom Software & IT Services, Government Software
 
-- E-learning website used by Telcel to train resellers using ASP.NET Web Forms and C#.
-- Task tracker for government dependency using digital signatures to secure and validate assigned responsibilities.
-- Websites with content management back-end.
-
-**Industries:**
-
-Custom Software & IT Services, Government Software
-
-**Technologies & Skills:**
-
-<span title='ActiveX Data Objects'>*ADO*</span>, <span title='ActiveX Data Objects for .NET'>*ADO.NET*</span>, <span title='Active Server pages'>*ASP*</span>, <span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='Component Object Model for .NET'>*COM+*</span>, <span title='.NET'>*.NET*</span>, <span title='jQuery JavaScript Library'>*jQuery*</span>, <span title='JavaScript'>*JS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Public Key Infrastructure'>*PKI*</span>, <span title='Apache Subversion'>*SVN*</span>, <span title='Visual Basic .NET'>*VB.NET*</span>, <span title='Visual Basic Script'>*VBScript*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>, <span title='XML'>*XML*</span>
+**Technologies & Skills:** <span title='ActiveX Data Objects'>*ADO*</span>, <span title='ActiveX Data Objects for .NET'>*ADO.NET*</span>, <span title='Active Server pages'>*ASP*</span>, <span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='Component Object Model for .NET'>*COM+*</span>, <span title='.NET'>*.NET*</span>, <span title='jQuery JavaScript Library'>*jQuery*</span>, <span title='JavaScript'>*JS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Public Key Infrastructure'>*PKI*</span>, <span title='Apache Subversion'>*SVN*</span>, <span title='Visual Basic .NET'>*VB.NET*</span>, <span title='Visual Basic Script'>*VBScript*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>, <span title='XML'>*XML*</span>
 
 ---
-<div style='align:bottom;'>
-<div style='float:right;'> Oct 2004 - Jan 2006</div>
-<h3><a href='' target='_blank'>Cambio Sonora</a></h3>
-</div>
 
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
+    <h3><a target="_blank" href="">Cambio Sonora</a></h3>
+    <div>Oct 2004 - Jan 2006</div>
+</div>
 
 Web development for newspaper's website and intranet, while also offering technical support and collaboration with the IT department.
 
-**Highlights:**
+**Industries:** Newspapers & News Services
 
-- Development, maintenance, and renewal of the company's intranet modules and public website.
-- Provided support for the IT department.
-
-**Industries:**
-
-Newspapers & News Services
-
-**Technologies & Skills:**
-
-<span title='ActiveX Data Objects'>*ADO*</span>, <span title='Active Server pages'>*ASP*</span>, <span title='JavaScript'>*JS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Visual Basic Script'>*VBScript*</span>
+**Technologies & Skills:** <span title='ActiveX Data Objects'>*ADO*</span>, <span title='Active Server pages'>*ASP*</span>, <span title='JavaScript'>*JS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Visual Basic Script'>*VBScript*</span>
 
 ---
-<div style='align:bottom;'>
-<div style='float:right;'> May 2000 - Oct 2004</div>
-<h3><a href='' target='_blank'>Dextro International</a></h3>
-</div>
 
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;">
+    <h3><a target="_blank" href="">Dextro International</a></h3>
+    <div>May 2000 - Oct 2004</div>
+</div>
 
 Designed and developed dynamic websites with e-commerce, content management and other custom solutions.
 
-**Highlights:**
+**Industries:** Custom Software & IT Services, Web Development, Web Hosting
 
-- Designed and developed dynamic websites using ASP and VBScript.
-- Handled content management, news publishing, poll management, image galleries, hit counters, product catalogs, shopping carts, online payment processing, and mailing lists.
+**Technologies & Skills:** <span title='ActiveX Data Objects'>*ADO*</span>, <span title='Active Server pages'>*ASP*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Visual Basic Script'>*VBScript*</span>
 
-**Industries:**
-
-Custom Software & IT Services, Web Development, Web Hosting
-
-**Technologies & Skills:**
-
-<span title='ActiveX Data Objects'>*ADO*</span>, <span title='Active Server pages'>*ASP*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Visual Basic Script'>*VBScript*</span>
-
+---
+<p align="right"><i>Last Updated: Nov 18, 2025</i></p>
 
