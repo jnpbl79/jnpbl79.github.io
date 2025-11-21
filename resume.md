@@ -97,7 +97,7 @@ Developed and updated various desktop and web applications to improve customer s
 - Developed an application to automate DVD ISO image creation from MP4 videos, utilizing Windows Services for efficient execution of lengthy tasks, and paired with a WPF desktop app for service management and notification display.
 
 
-**Industries:** Audio Streaming, Funeral Homes & Funeral Related Services, Media and content production, Video & Audio Processing, Video Streaming
+**Industries:** Audio & Video Streaming, Funeral Homes & Funeral Related Services, Media and content production
 
 **Technologies & Skills:** <span title='Amazon EC2'>*AWS EC2*</span>, <span title='Amazon S3 Storage'>*AWS S3*</span>, <span title='Bootstrap Framework'>*Bootstrap*</span>, <span title='C#'>*C#*</span>, <span title='CakePHP Framework'>*CakePHP*</span>, <span title='Docker containers'>*Docker*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='DVD ISO image creation'>*DVD/ISO Creation*</span>, <span title='FFmpeg Multimedia Framework'>*FFmpeg*</span>, <span title='Git Version Control'>*Git*</span>, <span title='JavaScript'>*JS*</span>, <span title='Larix Broadcaster Mobile RTMP/RTSP Streaming App'>*Larix*</span>, <span title='MySQL Database'>*MySQL*</span>, <span title='Windows PowerShell'>*Powershell*</span>, <span title='ReactJS'>*React*</span>, <span title='React Router'>*React Router*</span>, <span title='React Redux'>*Redux*</span>, <span title='Real-Time Messaging Protocol'>*RTMP*</span>, <span title='Stripe Payment Gateway'>*Stripe*</span>, <span title='Vue.js'>*Vue*</span>, <span title='ASP.NET Web API'>*Web API*</span>, <span title='Windows Forms'>*WinForms*</span>, <span title='Windows Services'>*Windows Services*</span>, <span title='Wowza Streaming Engine'>*Wowza*</span>, <span title='Windows Presentation Foundation'>*WPF*</span>, <span title='eXtensible Application Markup Language'>*XAML*</span>
 
@@ -240,5 +240,5 @@ Designed and developed dynamic websites with e-commerce, content management and 
 **Technologies & Skills:** <span title='ActiveX Data Objects'>*ADO*</span>, <span title='Active Server pages'>*ASP*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Visual Basic Script'>*VBScript*</span>
 
 ---
-<p align="right"><i>Last Updated: Nov 18, 2025</i></p>
+<p align="right"><i>Last Updated: Nov 21, 2025</i></p>
 
