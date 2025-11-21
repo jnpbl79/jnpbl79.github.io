@@ -1,5 +1,7 @@
 # Pablo López - Software Developer
 
+[pablo@pablolopez.dev](mailto:pablo@pablolopez.dev)
+
 I have great adaptability, the ability to work collaboratively with cross-functional teams, learn new skills quickly and am always interested in new challenges. I possess good communication skills and can tackle problems and situations with sensitivity and proactively. I consistently contribute to the achievement of both team and personal goals, don't hesitate to ask what I don't know, do the research and get things done.
 
 ## Work Experience
