@@ -1,0 +1,246 @@
+{
+    "items": [
+        {
+            "name": "Tablero magnetico",
+            "description": "VIVO PP-DK24B - Tablero magnético de fijación de acero, 60.96 x 50.8 cm, organizador de accesorios de oficina, colocación por encima o por debajo del computadora, color negro",
+            "price": 700,
+            "amz_link": "https://www.amazon.com.mx/dp/B0BJ16TCMS",
+            "images": [
+                "tablero_magnetico_001.jpg",
+                "tablero_magnetico_002.jpg",
+                "tablero_magnetico_003.jpg",
+                "tablero_magnetico_004.jpg",
+                "tablero_magnetico_005.jpg"
+            ]
+        },
+        {
+            "name": "Soporte teclado",
+            "description": "VIVO MOUNT-KB05ES - Bandeja deslizante para teclado y ratón con abrazadera pequeña para colocar debajo del escritorio, cajón compacto de 20 (26 incluyen abrazaderas) x 11 pulgadas, color negro",
+            "price": 400,
+            "amz_link": "https://www.amazon.com.mx/dp/B082P4VLPD",
+            "images": [
+                "soporte_teclado_001.jpg",
+                "soporte_teclado_002.jpg",
+                "soporte_teclado_003.jpg",
+                "soporte_teclado_004.jpg",
+                "soporte_teclado_005.jpg",
+                "soporte_teclado_006.jpg"
+            ]
+        },
+        {
+            "name": "Soporte vertical para computadora portátil",
+            "description": "Hagibis - Soporte vertical para computadora portátil de computadora para computadora, bloqueo por gravedad",
+            "price": 200,
+            "images": [
+                "soporte_vertical_001.jpg",
+                "soporte_vertical_002.jpg",
+                "soporte_vertical_003.jpg"
+            ]
+        },
+        {
+            "display": false,
+            "name": "Teclado Logitech G915 (en)",
+            "description": "Logitech G G915 X Lightspeed TKL Teclado Gaming Inalámbrico, Low-Profile, Conectividad Tri-Modal, 15 Teclas Programables G, Bluetooth y Opciones Cableadas-Tactile-Negro",
+            "price": 1500,
+            "images": [
+                "teclado_g915_001.jpg",
+                "teclado_g915_002.jpg",
+                "teclado_g915_003.jpg",
+                "teclado_g915_004.jpg",
+                "teclado_g915_005.jpg"
+            ]
+        },
+        {
+            "name": "Teclado Surface (en)",
+            "description": "Microsoft Surface Teclado en Inglés - Gris Platino.",
+            "price": 1000,
+            "images": [
+                "teclado_surface_001.jpg",
+                "teclado_surface_002.jpg"
+            ]
+        },
+        {
+            "name": "Patin de diablo",
+            "description": "Razor - Patinete de Aire A5, Cubierta extralarga, Ruedas de Goma neumáticas de 8 Pulgadas, Plegable, manubrio antisonajero, para Jinetes de hasta 200 Libras",
+            "price": 1000,
+            "images": [
+                "patin_razor_001.jpg",
+                "patin_razor_002.jpg"
+            ]
+        },
+        {
+            "name": "Teclado MS Compact (en)",
+            "description": "Microsoft Designer Compact Keyboard en Ingles - Matte Black. Standalone Wireless Bluetooth Keyboard. Compatible with Bluetooth Enabled PCs/Mac",
+            "price": 600,
+            "images": [
+                "teclado_ms_compact_001.jpg",
+                "teclado_ms_compact_002.jpg",
+                "teclado_ms_compact_003.jpg"
+            ]
+        },
+        {
+            "name": "Teclado ms inalambrico (es)",
+            "description": "Microsoft N9Z-00004 N9Z-00004 Teclado Todo en Uno en Español",
+            "price": 500,
+            "images": [
+                "teclado_ms_001.jpg",
+                "teclado_ms_002.jpg"
+            ]
+        },
+        {
+            "name": "Soportes elevadores",
+            "description": "ELIVED - Paquete de 2 soportes elevadores para monitor, soportes ajustables de 3 niveles de altura para laptop, computadora, impresora, organizador de malla de metal para escritorio",
+            "price": 200,
+            "images": [
+                "soporte_elevador_001.jpg",
+                "soporte_elevador_002.jpg",
+                "soporte_elevador_003.jpg",
+                "soporte_elevador_004.jpg"
+            ]
+        },
+        {
+            "name": "Guitarrita con funda",
+            "description": "Blackstar Carry-On - Guitarra eléctrica",
+            "price": 4000,
+            "images": [
+                "travel_guitar_001.jpg",
+                "travel_guitar_002.jpg",
+                "travel_guitar_003.jpg"
+            ]
+        },
+        {
+            "name": "Mini amplificador",
+            "description": "Blackstar - Amplificador de guitarra amPlug2 FLY sin cable, se conecta directamente a la guitarra, ideal para la práctica en casa, funciona con pilas y efectos integrados",
+            "price": 600,
+            "images": [
+                "blackstar_amp_001.jpg",
+                "blackstar_amp_002.jpg",
+                "blackstar_amp_003.jpg",
+                "blackstar_amp_004.jpg"
+            ]
+        },
+        {
+            "name": "iRig2",
+            "description": "IK Multimedia Adaptador de Interfaz iRig 2 de Guitarra para Dispositivos iOS - Negro",
+            "price": 600,
+            "images": [
+                "irig_001.jpg",
+                "irig_002.jpg",
+                "irig_003.jpg",
+                "irig_004.jpg"
+            ]
+        },
+        {
+            "name": "Alesis Recital",
+            "description": "Alesis Recital - Piano Eléctrico Digital con Teclado de 88 Teclas Semi-Contrapesadas Full Size, Altavoces Integrados y 5 Voces Premium",
+            "price": 4000,
+            "images": [
+                "piano_001.jpg",
+                "piano_002.jpg",
+                "piano_003.jpg",
+                "piano_004.jpg",
+                "piano_005.jpg"
+            ]
+        },
+        {
+            "name": "Monitor portatil 14\"",
+            "description": "JOHNKANG Monitor portátil para laptop, monitor extendido FHD 1080P de 14 pulgadas, con cubierta inteligente, mini HDMI, USB C, altavoces duales, segunda visualización, monitor de juegos para MacBook, laptop, PC, teléfono, Xbox PS5 Switch",
+            "price": 800,
+            "images": [
+                "monitor14_001.jpg",
+                "monitor14_002.jpg",
+                "monitor14_003.jpg"
+            ]
+        },
+        {
+            "name": "TP-Link Mesh Deco M5 WiFi-5 2-Pack",
+            "description": "TP-Link Mesh Deco M5 WiFi-5 2-Pack. Sistema Wi-Fi Mesh Inteligente de Doble Banda AC1300",
+            "price": 1700,
+            "images": [
+                "deco_m5_001.jpg",
+                "deco_m5_002.jpg",
+                "deco_m5_003.jpg"
+            ]
+        },
+        {
+            "name": "TP-Link Mesh Deco XE75 Wifi-6E 1-Pack",
+            "description": "TP-Link Mesh Deco XE75 Wifi-6E. Sistema Wi-Fi 6E Mesh AXE5400 de Triple Banda",
+            "price": 1800,
+            "images": [
+                "deco_xe75_001.jpg",
+                "deco_xe75_002.jpg",
+                "deco_xe75_003.jpg",
+                "deco_xe75_004.jpg"
+            ]
+        },
+        {
+            "name": "KVM switch",
+            "description": "Conmutador KVM USB-C 2 en 4 salidas - 4K @60Hz/120Hz, 8K @30Hz Video/Compartir Ratón Teclado Impresora Compatible con Cable Thunderbolt 3/4, Gris",
+            "price": 500,
+            "images": [
+                "kvm_001.jpg",
+                "kvm_002.jpg",
+                "kvm_003.jpg",
+                "kvm_004.jpg"
+            ]
+        },
+        {
+            "name": "DJI FPV Drone",
+            "description": "Drone con batería Intelligent Flight, cargador y hélices (sin control remoto ni gafas)",
+            "price": 6000,
+            "images": [
+                "dji_fpv_001.jpg",
+                "dji_fpv_002.jpg"
+            ]
+        },
+        {
+            "name": "Caminadora Reebok Jet 100",
+            "description": "",
+            "price": 7000,
+            "images": [
+                "caminadora_001.jpg",
+                "caminadora_002.jpg"
+            ]
+        },
+        {
+            "name": "Monitor LG Ultrawide 34\"",
+            "description": "LG 34WP65C-B UltraWide Monitor de computadora de 34 Pulgadas QHD (3440 x 1440) 160Hz, HDR10, AMD FreeSync Premium, Altavoz Integrado, diseño sin Bordes, Soporte de inclinación/Altura, Puerto HDMI",
+            "price": 5000,
+            "images": [
+                "monitor34_002.jpg",
+                "monitor34_001.jpg"
+            ]
+        },
+        {
+            "name": "Switch Gigabit",
+            "description": "TP-Link LS1008G, Switch Gigabit no administrable, 8 Puertos Gigabit, Diseño de Escritorio, Plug and Play",
+            "price": 200,
+            "images": [
+                "tplink_switch_001.jpg",
+                "tplink_switch_002.jpg",
+                "tplink_switch_003.jpg",
+                "tplink_switch_004.jpg"
+            ]
+        },
+        {
+            "display": false,
+            "name": "Comedor",
+            "description": "",
+            "price": 0,
+            "images": [
+                "",
+                ""
+            ]
+        },
+        {
+            "display": false,
+            "name": "Refrigerador",
+            "description": "",
+            "price": 0,
+            "images": [
+                "",
+                ""
+            ]
+        }
+    ]
+}
