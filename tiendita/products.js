@@ -21,15 +21,18 @@ const initLightbox = () => {
   const lightboxContent = document.getElementById("lightbox-content");
   const lightboxClose = document.getElementById("lightbox-close");
   const triggers = document.querySelectorAll(".lightbox-trigger");
+
   triggers.forEach(trigger => {
     trigger.addEventListener("click", () => {
       lightboxContent.src = trigger.src;
       lightbox.style.display = "block";
     });
   });
+
   lightboxClose.addEventListener("click", () => {
     lightbox.style.display = "none";
   });
+
   lightbox.addEventListener("click", (event) => {
     if (event.target === lightbox) {
       lightbox.style.display = "none";
@@ -50,4 +53,3 @@ createApp({
     }, 500);
   },
 }).mount("#app");
-
