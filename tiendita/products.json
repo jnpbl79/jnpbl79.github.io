@@ -1,5 +1,55 @@
 {
     "items": [
+         {
+            "name": "Caminadora Reebok Jet 100",
+            "description": "Sistema Amortiguación; Velocidad máxima de 16 km/h; Peso maximo Usuario 120 Kg; 80kg de peso; superficie de carrera de 130 x 43 cm; inclinación de 0% a 12%",
+            "price": 7000,
+            "images": [
+                "caminadora_001.jpg",
+                "caminadora_002.jpg"
+            ]
+        },
+        {
+            "name": "Patin de diablo",
+            "description": "Razor - Patinete de Aire A5, Cubierta extralarga, Ruedas de Goma neumáticas de 8 Pulgadas, Plegable, manubrio antisonajero, para Jinetes de hasta 200 Libras",
+            "price": 1000,
+            "images": [
+                "patin_razor_001.jpg",
+                "patin_razor_002.jpg"
+            ]
+        },
+        {
+            "name": "Alesis Recital",
+            "description": "Alesis Recital - Piano Eléctrico Digital con Teclado de 88 Teclas Semi-Contrapesadas Full Size, Altavoces Integrados y 5 Voces Premium",
+            "price": 4000,
+            "images": [
+                "piano_001.jpg",
+                "piano_002.jpg",
+                "piano_003.jpg",
+                "piano_004.jpg",
+                "piano_005.jpg"
+            ]
+        },
+        {
+            "name": "Monitor portatil 14\"",
+            "description": "JOHNKANG Monitor portátil para laptop, monitor extendido FHD 1080P de 14 pulgadas, con cubierta inteligente, mini HDMI, USB C, altavoces duales, segunda visualización, monitor de juegos para MacBook, laptop, PC, teléfono, Xbox PS5 Switch",
+            "price": 800,
+            "images": [
+                "monitor14_001.jpg",
+                "monitor14_002.jpg",
+                "monitor14_003.jpg"
+            ]
+        },
+        {
+            "name": "Guitarrita con funda",
+            "description": "Blackstar Carry-On - Guitarra eléctrica",
+            "price": 4000,
+            "images": [
+                "travel_guitar_001.jpg",
+                "travel_guitar_002.jpg",
+                "travel_guitar_003.jpg"
+            ]
+        },
         {
             "name": "Tablero magnetico",
             "description": "VIVO PP-DK24B - Tablero magnético de fijación de acero, 60.96 x 50.8 cm, organizador de accesorios de oficina, colocación por encima o por debajo del computadora, color negro",
@@ -59,16 +109,9 @@
                 "teclado_surface_002.jpg"
             ]
         },
+        
         {
-            "name": "Patin de diablo",
-            "description": "Razor - Patinete de Aire A5, Cubierta extralarga, Ruedas de Goma neumáticas de 8 Pulgadas, Plegable, manubrio antisonajero, para Jinetes de hasta 200 Libras",
-            "price": 1000,
-            "images": [
-                "patin_razor_001.jpg",
-                "patin_razor_002.jpg"
-            ]
-        },
-        {
+            "display": false,
             "name": "Teclado MS Compact (en)",
             "description": "Microsoft Designer Compact Keyboard en Ingles - Matte Black. Standalone Wireless Bluetooth Keyboard. Compatible with Bluetooth Enabled PCs/Mac",
             "price": 600,
@@ -98,16 +141,7 @@
                 "soporte_elevador_004.jpg"
             ]
         },
-        {
-            "name": "Guitarrita con funda",
-            "description": "Blackstar Carry-On - Guitarra eléctrica",
-            "price": 4000,
-            "images": [
-                "travel_guitar_001.jpg",
-                "travel_guitar_002.jpg",
-                "travel_guitar_003.jpg"
-            ]
-        },
+        
         {
             "name": "Mini amplificador",
             "description": "Blackstar - Amplificador de guitarra amPlug2 FLY sin cable, se conecta directamente a la guitarra, ideal para la práctica en casa, funciona con pilas y efectos integrados",
@@ -130,28 +164,8 @@
                 "irig_004.jpg"
             ]
         },
-        {
-            "name": "Alesis Recital",
-            "description": "Alesis Recital - Piano Eléctrico Digital con Teclado de 88 Teclas Semi-Contrapesadas Full Size, Altavoces Integrados y 5 Voces Premium",
-            "price": 4000,
-            "images": [
-                "piano_001.jpg",
-                "piano_002.jpg",
-                "piano_003.jpg",
-                "piano_004.jpg",
-                "piano_005.jpg"
-            ]
-        },
-        {
-            "name": "Monitor portatil 14\"",
-            "description": "JOHNKANG Monitor portátil para laptop, monitor extendido FHD 1080P de 14 pulgadas, con cubierta inteligente, mini HDMI, USB C, altavoces duales, segunda visualización, monitor de juegos para MacBook, laptop, PC, teléfono, Xbox PS5 Switch",
-            "price": 800,
-            "images": [
-                "monitor14_001.jpg",
-                "monitor14_002.jpg",
-                "monitor14_003.jpg"
-            ]
-        },
+        
+        
         {
             "name": "TP-Link Mesh Deco M5 WiFi-5 2-Pack",
             "description": "TP-Link Mesh Deco M5 WiFi-5 2-Pack. Sistema Wi-Fi Mesh Inteligente de Doble Banda AC1300",
@@ -193,15 +207,7 @@
                 "dji_fpv_002.jpg"
             ]
         },
-        {
-            "name": "Caminadora Reebok Jet 100",
-            "description": "",
-            "price": 7000,
-            "images": [
-                "caminadora_001.jpg",
-                "caminadora_002.jpg"
-            ]
-        },
+       
         {
             "name": "Monitor LG Ultrawide 34\"",
             "description": "LG 34WP65C-B UltraWide Monitor de computadora de 34 Pulgadas QHD (3440 x 1440) 160Hz, HDR10, AMD FreeSync Premium, Altavoz Integrado, diseño sin Bordes, Soporte de inclinación/Altura, Puerto HDMI",

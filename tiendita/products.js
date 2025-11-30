@@ -4,8 +4,10 @@ import {
 } from "https://unpkg.com/vue@3/dist/vue.esm-browser.js";
 
 const data = await fetch("products.json").then((res) => res.json());
-const items = data.items.filter(item => item.name.length > 0 && item.display !== false);
-console.log(items);
+
+const items = data.items
+  .filter(item => item.name.length > 0 && item.display !== false)
+  .sort((a, b) => b.price - a.price);
 
 const priceFormatter = new Intl.NumberFormat('en-US', {
   style: 'currency',
