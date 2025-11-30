@@ -23,7 +23,7 @@
             "description": "Alesis Recital - Piano Eléctrico Digital con Teclado de 88 Teclas Semi-Contrapesadas Full Size, Altavoces Integrados y 5 Voces Premium",
             "price": 4000,
             "images": [
-                "piano_001.jpg",
+                "piano_001_.jpg",
                 "piano_002.jpg",
                 "piano_003.jpg",
                 "piano_004.jpg",
@@ -47,7 +47,7 @@
             "images": [
                 "travel_guitar_001.jpg",
                 "travel_guitar_002.jpg",
-                "travel_guitar_003.jpg"
+                "travel_guitar_003_.jpg"
             ]
         },
         {
@@ -119,7 +119,7 @@
             "images": [
                 "teclado_ms_compact_001.jpg",
                 "teclado_ms_compact_002.jpg",
-                "teclado_ms_compact_003.jpg"
+                "teclado_ms_compact_003_.jpg"
             ]
         },
         {
@@ -127,8 +127,8 @@
             "description": "Microsoft N9Z-00004 N9Z-00004 Teclado Todo en Uno en Español",
             "price": 500,
             "images": [
-                "teclado_ms_001.jpg",
-                "teclado_ms_002.jpg"
+                "teclado_ms_001_.jpg",
+                "teclado_ms_002_.jpg"
             ]
         },
         {
@@ -150,7 +150,7 @@
             "images": [
                 "blackstar_amp_001.jpg",
                 "blackstar_amp_002.jpg",
-                "blackstar_amp_003.jpg",
+                "blackstar_amp_003_.jpg",
                 "blackstar_amp_004.jpg"
             ]
         },
@@ -200,12 +200,14 @@
             ]
         },
         {
-            "name": "DJI FPV Drone",
+            "name": "DJI FPV Drone (sólo drone)",
             "description": "Drone con batería Intelligent Flight, cargador y hélices (sin control remoto ni gafas)",
             "price": 6000,
             "images": [
-                "dji_fpv_001.jpg",
-                "dji_fpv_002.jpg"
+                "dji_fpv_002.jpg",
+                "dji_fpv_005.jpg",
+                "dji_fpv_006.jpg",
+                "dji_fpv_007.webp"
             ]
         },
        
