@@ -240,13 +240,14 @@
             ]
         },
         {
-            "display": false,
-            "name": "Refrigerador",
-            "description": "",
-            "price": 0,
+            "name": "Refrigerador Multi Door 24cu.ft",
+            "description": "Medidas: Ancho: 87.0 Profundidad: 95.0 Altura: 182.0",
+            "price": 8000,
             "images": [
-                "",
-                ""
+                "refrigerador_001.avif",
+                "refrigerador_002.avif",
+                "refrigerador_003.avif",
+                "refrigerador_004.avif"
             ]
         }
     ]
