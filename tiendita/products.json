@@ -200,7 +200,7 @@
             ]
         },
         {
-            "name": "DJI FPV Drone (sólo drone)",
+            "name": "DJI FPV Drone",
             "description": "Drone con batería Intelligent Flight, cargador y hélices (sin control remoto ni gafas)",
             "price": 6000,
             "images": [
