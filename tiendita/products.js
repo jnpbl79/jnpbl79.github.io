@@ -17,9 +17,9 @@ const priceFormatter = new Intl.NumberFormat('en-US', {
 });
 
 window.myData = {
-  allItems: data.items,
-  items,
-  sold
+  all: data.items,
+  shown,
+  sold,
 };
 
 const formatPrice = (price) => priceFormatter.format(price).split('.')[0];
