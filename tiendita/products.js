@@ -22,9 +22,25 @@ const initLightbox = () => {
   const lightboxClose = document.getElementById("lightbox-close");
   const triggers = document.querySelectorAll(".lightbox-trigger");
 
+  const cicle = (evt) => {
+    const data = evt.target.dataset;
+    const itemIndex = parseInt(data.itemIndex);
+    const imgIndex = parseInt(data.imgIndex);
+    const dataItem = items[itemIndex];
+    const nextImgIndex = (imgIndex + 1) % dataItem.images.length;
+    const nextImgSrc = `img/${dataItem.images[nextImgIndex]}`;
+    const nextImg = document.querySelector(`.lightbox-trigger[data-item-index="${itemIndex}"][data-img-index="${nextImgIndex}"]`);
+    nextImg.click();
+  };
+
   triggers.forEach(trigger => {
     trigger.addEventListener("click", () => {
       lightboxContent.src = trigger.src;
+      lightboxContent.alt = trigger.alt;
+      lightboxContent.dataset.itemIndex = trigger.dataset.itemIndex;
+      lightboxContent.dataset.imgIndex = trigger.dataset.imgIndex;
+      lightboxContent.removeEventListener("click", cicle);
+      lightboxContent.addEventListener("click", cicle);
       lightbox.style.display = "block";
     });
   });
