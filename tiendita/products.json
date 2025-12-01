@@ -40,8 +40,8 @@
                 "monitor14_002.jpg",
                 "monitor14_003.jpg"
             ],
-            "vendido": true,
-            "vendido_a": "Raulito"
+            "sold": true,
+            "sold_to": "Raulito"
         },
         {
             "name": "Guitarrita con funda",
@@ -249,7 +249,9 @@
                 "refrigerador_003.avif",
                 "refrigerador_004.avif",
                 "refrigerador_005.jpeg"
-            ]
+            ],
+            "sold": true,
+            "sold_to": "Sobrina Daniel"
         },
         {
             "name": "Nikon Z50 Mirrorless",
