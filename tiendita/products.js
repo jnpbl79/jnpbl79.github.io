@@ -18,7 +18,7 @@ const priceFormatter = new Intl.NumberFormat('en-US', {
 
 window.myData = {
   all: data.items,
-  shown,
+  shown: items,
   sold,
 };
 
