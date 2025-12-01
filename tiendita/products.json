@@ -1,6 +1,6 @@
 {
     "items": [
-         {
+        {
             "name": "Caminadora Reebok Jet 100",
             "description": "Sistema Amortiguación; Velocidad máxima de 16 km/h; Peso maximo Usuario 120 Kg; 80kg de peso; superficie de carrera de 130 x 43 cm; inclinación de 0% a 12%",
             "price": 7000,
@@ -111,7 +111,6 @@
                 "teclado_surface_002.jpg"
             ]
         },
-        
         {
             "display": false,
             "name": "Teclado MS Compact (en)",
@@ -143,7 +142,6 @@
                 "soporte_elevador_004.jpg"
             ]
         },
-        
         {
             "name": "Mini amplificador",
             "description": "Blackstar - Amplificador de guitarra amPlug2 FLY sin cable, se conecta directamente a la guitarra, ideal para la práctica en casa, funciona con pilas y efectos integrados",
@@ -166,8 +164,6 @@
                 "irig_004.jpg"
             ]
         },
-        
-        
         {
             "name": "TP-Link Mesh Deco M5 WiFi-5 2-Pack",
             "description": "TP-Link Mesh Deco M5 WiFi-5 2-Pack. Sistema Wi-Fi Mesh Inteligente de Doble Banda AC1300",
@@ -211,7 +207,6 @@
                 "dji_fpv_007.webp"
             ]
         },
-       
         {
             "name": "Monitor LG Ultrawide 34\"",
             "description": "LG 34WP65C-B UltraWide Monitor de computadora de 34 Pulgadas QHD (3440 x 1440) 160Hz, HDR10, AMD FreeSync Premium, Altavoz Integrado, diseño sin Bordes, Soporte de inclinación/Altura, Puerto HDMI",
@@ -252,6 +247,54 @@
                 "refrigerador_003.avif",
                 "refrigerador_004.avif",
                 "refrigerador_005.jpeg"
+            ]
+        },
+        {
+            "name": "Nikon Z50 Mirrorless",
+            "description": "Camara Nikon Z50 Mirrorless Con Lente 16-55mm + Dx 50-250mm",
+            "price": 20000,
+            "images": [
+                "nikon_001.jpg",
+                "nikon_002.jpg",
+                "nikon_003.jpg",
+                "nikon_004.jpg",
+                "nikon_005.jpg",
+                "nikon_006.jpg",
+                "nikon_007.jpg",
+                "nikon_008.jpg"
+            ]
+        },
+        {
+            "name": "Bolsa para cámara",
+            "description": "Case Logic DCB-306 SLR Bolsa para cámara",
+            "price": 300,
+            "images": [
+                "bolsa_camara_001.jpg",
+                "bolsa_camara_002.jpg",
+                "bolsa_camara_003.jpg"
+            ]
+        },
+        {
+            "name": "Figura RoboCop 1.0",
+            "description": "SQUARE ENIX - Play Arts Kai RoboCop 1.0 Action Figure",
+            "price": 3000,
+            "images": [
+                "robocop_box_001.webp",
+                "robocop_box_002.webp",
+                "robocop_004.webp",
+                "robocop_005.jpg",
+                "robocop_006.jpg"
+            ]
+        },
+        {
+            "name": "Figura Samus Aran",
+            "description": "Figma - Good Smile Metroid: Other M Samus Aran Figma Action Figure",
+            "price": 2500,
+            "images": [
+                "metroid_001.webp",
+                "metroid_002.webp",
+                "metroid_003.jpg",
+                "metroid_004.jpg"
             ]
         }
     ]
