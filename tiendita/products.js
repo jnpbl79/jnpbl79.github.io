@@ -28,7 +28,6 @@ const initLightbox = () => {
     const imgIndex = parseInt(data.imgIndex);
     const dataItem = items[itemIndex];
     const nextImgIndex = (imgIndex + 1) % dataItem.images.length;
-    const nextImgSrc = `img/${dataItem.images[nextImgIndex]}`;
     const nextImg = document.querySelector(`.lightbox-trigger[data-item-index="${itemIndex}"][data-img-index="${nextImgIndex}"]`);
     nextImg.click();
   };
