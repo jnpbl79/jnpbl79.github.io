@@ -39,7 +39,9 @@
                 "monitor14_001.jpg",
                 "monitor14_002.jpg",
                 "monitor14_003.jpg"
-            ]
+            ],
+            "vendido": true,
+            "vendido_a": "Raulito"
         },
         {
             "name": "Guitarrita con funda",
