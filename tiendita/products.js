@@ -9,6 +9,8 @@ const items = data.items
   .filter(item => item.name.length > 0 && item.display !== false && !item.vendido)
   .sort((a, b) => b.price - a.price);
 
+const sold = data.items.filter(item => item.vendido);
+
 const priceFormatter = new Intl.NumberFormat('en-US', {
   style: 'currency',
   currency: 'USD'
@@ -17,6 +19,7 @@ const priceFormatter = new Intl.NumberFormat('en-US', {
 window.myData = {
   allItems: data.items,
   items,
+  sold
 };
 
 const formatPrice = (price) => priceFormatter.format(price).split('.')[0];
