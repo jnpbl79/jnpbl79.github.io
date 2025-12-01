@@ -14,6 +14,11 @@ const priceFormatter = new Intl.NumberFormat('en-US', {
   currency: 'USD'
 });
 
+window.myData = {
+  allItems: data.items,
+  items,
+};
+
 const formatPrice = (price) => priceFormatter.format(price).split('.')[0];
 
 const initLightbox = () => {
