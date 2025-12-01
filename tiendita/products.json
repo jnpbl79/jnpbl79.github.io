@@ -277,7 +277,7 @@
         {
             "name": "Figura RoboCop 1.0",
             "description": "SQUARE ENIX - Play Arts Kai RoboCop 1.0 Action Figure",
-            "price": 3000,
+            "price": 2500,
             "images": [
                 "robocop_box_001.webp",
                 "robocop_box_002.webp",
@@ -289,7 +289,7 @@
         {
             "name": "Figura Samus Aran",
             "description": "Figma - Good Smile Metroid: Other M Samus Aran Figma Action Figure",
-            "price": 2500,
+            "price": 1500,
             "images": [
                 "metroid_001.webp",
                 "metroid_002.webp",
