@@ -22,58 +22,30 @@ window.data = {
 
 const formatPrice = (price) => priceFormatter.format(price).split('.')[0];
 
-const initLightbox = () => {
-  const lightbox = document.getElementById("lightbox");
-  const lightboxContent = document.getElementById("lightbox-content");
-  const lightboxClose = document.getElementById("lightbox-close");
-  const triggers = document.querySelectorAll(".lightbox-trigger");
-
-  const cicle = (evt) => {
-    const data = evt.target.dataset;
-    const itemIndex = parseInt(data.itemIndex);
-    const imgIndex = parseInt(data.imgIndex);
-    const dataItem = items[itemIndex];
-    const nextImgIndex = (imgIndex + 1) % dataItem.images.length;
-    const nextImg = document.querySelector(`.lightbox-trigger[data-item-index="${itemIndex}"][data-img-index="${nextImgIndex}"]`);
-    nextImg.click();
-  };
-
-  triggers.forEach(trigger => {
-    trigger.addEventListener("click", () => {
-      lightboxContent.src = trigger.src;
-      lightboxContent.alt = trigger.alt;
-      lightboxContent.dataset.itemIndex = trigger.dataset.itemIndex;
-      lightboxContent.dataset.imgIndex = trigger.dataset.imgIndex;
-      lightboxContent.removeEventListener("click", cicle);
-      lightboxContent.addEventListener("click", cicle);
-      lightbox.style.display = "block";
-    });
-  });
-
-  lightboxClose.addEventListener("click", () => {
-    lightbox.style.display = "none";
-  });
-
-  lightbox.addEventListener("click", (event) => {
-    if (event.target === lightbox) {
-      lightbox.style.display = "none";
-    }
-  });
-};
-
 createApp({
   setup() {
     const selectedItem = ref(null);
     const selectedImgIndex = ref(0);
 
+    const showDialog = () => document.getElementById("myDialog").showPopover();
+    const hideDialog = () => document.getElementById("myDialog").close();
+    const selectItem = (item, imgIndex = 0) => {
+      selectedItem.value = item;
+      selectedImgIndex.value = imgIndex % item.images.length;
+      document.getElementById("myDialog").showModal();
+      console.log("Selected item:", item, "Image index:", imgIndex);
+    };
+
     return {
       items,
       formatPrice,
+      selectedItem,
+      selectedImgIndex,
+      selectItem,
+      showDialog,
+      hideDialog,
+      nextImage: () => selectedImgIndex.value = (selectedImgIndex.value + 1) % selectedItem.value.images.length,
+      prevImage: () => selectedImgIndex.value = (selectedImgIndex.value - 1 + selectedItem.value.images.length) % selectedItem.value.images.length,
     };
-  },
-  mounted() {
-    setTimeout(() => {
-      initLightbox();
-    }, 500);
   },
 }).mount("#app");

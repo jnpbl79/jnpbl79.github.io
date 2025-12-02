@@ -36,3 +36,16 @@
     cursor: pointer;
     color: #f00;
 }
+
+dialog {
+    position: fixed;
+    top: 50px;
+    left: 20px;
+    margin: 0;
+    padding: 20px !important;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
