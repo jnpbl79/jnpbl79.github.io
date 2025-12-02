@@ -300,6 +300,16 @@
                 "metroid_003.jpg",
                 "metroid_004.jpg"
             ]
+        },
+        {
+            "name": "Nikon FTZ Adaptador",
+            "description": "Adaptador de montaje Nikon FTZ lente de montaje F a cámara de montaje Z",
+            "price": 2500,
+            "images": [
+                "nikon_ftz_001.webp",
+                "nikon_ftz_002.webp",
+                "nikon_ftz_003.webp"
+            ]
         }
     ]
 }
