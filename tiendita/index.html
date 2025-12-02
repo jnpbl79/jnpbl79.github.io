@@ -22,8 +22,10 @@
                 </h3>
                 <p>{{item.description}}</p>
                 <div class="flex gap-4 flex-wrap mt-6 gallery">
-                    <img class="lightbox-trigger" :src="`img/${img}`" v-for="(img, imgIndex) in item.images"
-                        :data-img-index="imgIndex" :data-item-index="itemIndex" data-item="item" :alt="img" />
+                    <picture v-for="(img, imgIndex) in item.images">
+                        <img class="lightbox-trigger" :src="`img/s/${img}`" 
+                            :data-img-index="imgIndex" :data-item-index="itemIndex" data-item="item" :alt="img" />
+                    </picture>
                 </div>
                 <hr class="my-8" />
             </div>

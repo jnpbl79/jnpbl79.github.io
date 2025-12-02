@@ -1,26 +1,23 @@
-import {
-  createApp,
-  ref,
-} from "https://unpkg.com/vue@3/dist/vue.esm-browser.js";
-
-const data = await fetch("products.json").then((res) => res.json());
+import { createApp, ref } from "https://unpkg.com/vue@3/dist/vue.esm-browser.js";
+import data from './products.json' with { type: 'json' };
 
 const items = data.items
   .filter(item => item.name.length > 0 && item.display !== false)
   .sort((a, b) => b.price - a.price);
 
 const sold = data.items.filter(item => item.sold);
+const hidden = data.items.filter(item => item.display === false);
 
 const priceFormatter = new Intl.NumberFormat('en-US', {
   style: 'currency',
   currency: 'USD'
 });
 
-window.myData = {
+window.data = {
   all: data.items,
   shown: items,
   sold,
-  hidden: data.items.filter(item => item.display === false),
+  hidden,
 };
 
 const formatPrice = (price) => priceFormatter.format(price).split('.')[0];
@@ -66,6 +63,9 @@ const initLightbox = () => {
 
 createApp({
   setup() {
+    const selectedItem = ref(null);
+    const selectedImgIndex = ref(0);
+
     return {
       items,
       formatPrice,
