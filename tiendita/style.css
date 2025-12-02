@@ -42,7 +42,7 @@ dialog {
     top: 50px;
     left: 20px;
     margin: 0;
-    padding: 20px !important;
+    max-height: 85%;
 }
 
 dialog::backdrop {
