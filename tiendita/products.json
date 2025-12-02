@@ -310,6 +310,15 @@
                 "nikon_ftz_002.webp",
                 "nikon_ftz_003.webp"
             ]
+        },
+        {
+            "name": "Nikon AF NIKKOR 50MM F/1.8D",
+            "description": "Nikon AF NIKKOR 50MM F/1.8D",
+            "price": 2500,
+            "images": [
+                "nikon_50mm_001.jpg",
+                "nikon_50mm_002.jpg"
+            ]
         }
     ]
 }
