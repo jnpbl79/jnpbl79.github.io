@@ -20,6 +20,7 @@ window.myData = {
   all: data.items,
   shown: items,
   sold,
+  hidden: data.items.filter(item => item.display === false),
 };
 
 const formatPrice = (price) => priceFormatter.format(price).split('.')[0];

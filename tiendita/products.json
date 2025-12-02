@@ -319,6 +319,17 @@
                 "nikon_50mm_001.jpg",
                 "nikon_50mm_002.jpg"
             ]
+        },
+        {
+            "name": "Nikon D60 10,2 MP SLR (solo cuerpo)",
+            "description": "Nikon D60 10,2 MP SLR (solo cuerpo)",
+            "price": 1000,
+            "images": [
+                "nikon_d60_001.webp",
+                "nikon_d60_002.webp",
+                "nikon_d60_003.webp",
+                "nikon_d60_004.webp"
+            ]
         }
     ]
 }
