@@ -255,7 +255,7 @@
         },
         {
             "name": "Nikon Z50 Mirrorless",
-            "description": "Camara Nikon Z50 Mirrorless Con Lente 16-55mm + Dx 50-250mm",
+            "description": "Camara Nikon Z50 Mirrorless Con Lente 16-55mm + Dx 50-250mm; Wireless Remote Control Shutter Release",
             "price": 20000,
             "images": [
                 "nikon_001.jpg",
@@ -265,7 +265,8 @@
                 "nikon_005.jpg",
                 "nikon_006.jpg",
                 "nikon_007.jpg",
-                "nikon_008.jpg"
+                "nikon_008.jpg",
+                "wireless_shutter_rc.jpg"
             ]
         },
         {
