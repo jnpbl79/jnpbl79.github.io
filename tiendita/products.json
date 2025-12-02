@@ -177,9 +177,9 @@
             ]
         },
         {
-            "name": "TP-Link Mesh Deco XE75 Wifi-6E 1-Pack",
+            "name": "TP-Link Mesh Deco XE75 Wifi-6E 2-Pack",
             "description": "TP-Link Mesh Deco XE75 Wifi-6E. Sistema Wi-Fi 6E Mesh AXE5400 de Triple Banda",
-            "price": 1800,
+            "price": 3000,
             "images": [
                 "deco_xe75_001.jpg",
                 "deco_xe75_002.jpg",
@@ -329,6 +329,23 @@
                 "nikon_d60_002.webp",
                 "nikon_d60_003.webp",
                 "nikon_d60_004.webp"
+            ]
+        },
+        {
+            "name": "Cable Rocksmith USB",
+            "description": "Rocksmith Cable de audio USB en tono real [Ubisoft]",
+            "price": 500,
+            "images": [
+                "rocksmith_cable.jpg"
+            ]
+        },
+        {
+            "name": "Máquina masajeadora de piernas",
+            "description": "RENPHO - Máquina masajeadora de piernas con calor, Shiatsu, para pies y pantorrillas",
+            "price": 4000,
+            "images": [
+                "masajeador_001.jpg",
+                "masajeador_002.jpg"
             ]
         }
     ]

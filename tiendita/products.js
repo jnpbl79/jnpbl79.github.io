@@ -6,7 +6,7 @@ import {
 const data = await fetch("products.json").then((res) => res.json());
 
 const items = data.items
-  .filter(item => item.name.length > 0 && item.display !== false && !item.sold)
+  .filter(item => item.name.length > 0 && item.display !== false)
   .sort((a, b) => b.price - a.price);
 
 const sold = data.items.filter(item => item.sold);
