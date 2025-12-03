@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pablo López - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            box-sizing: content-box;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #333;
+        }
+
+        h2 {
+            border-bottom: solid 1px #333;
+        }
+
+        h3 {
+            margin-block-start: 1em;
+            margin-block-end: 0em;
+        }
+
+        h4 {
+            margin-block-end: 0.5em;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 10px;
+        }
+
+        li {
+            margin-left: 0px !important;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .job,
+        .education {
+            margin-bottom: 10px;
+        }
+
+        .job-title {
+            display: flex;
+            align-items: baseline;
+            gap: 10px;
+        }
+
+        .company {
+            font-style: italic;
+        }
+
+        .date {
+            color: #666;
+        }
+
+        .job .description,
+        .job .industries,
+        .job .keywords {
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        .well {
+            min-height: 20px;
+            padding: 12px;
+            margin-bottom: 20px;
+            background-color: #f5f5f5;
+            border: 1px solid #e3e3e3;
+            border-radius: 4px;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        }
+
+        .container {
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                width: 750px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .container {
+                width: 970px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .container {
+                width: 1170px;
+            }
+        }
+
+        abbr.keyworkd {
+            font-style: italic;
+            color: #555;
+            text-decoration: none;
+            margin-right: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app" class="container">
+        <h1>{{resume.basics.name}} - {{resume.basics.label}}</h1>
+        <p>
+            Email: <a v-bind:href="'mailto:'+resume.basics.email">{{resume.basics.email}}</a>
+            | Phone: {{resume.basics.phone}}
+            | Location: {{resume.basics.location.city}}, {{resume.basics.location.countryCode}}
+            | Timezone: {{resume.basics.timezone}}
+        </p>
+
+        <div class="section">
+            <h2>Summary</h2>
+            <p>{{resume.basics.summary}}</p>
+
+            <p class="languages"><b>Languages:</b> {{resume.languages.map(l => l.language).join(', ')}}</p>
+        </div>
+
+        <div class="section">
+            <h2>Experience</h2>
+            <div class='job' v-for="job in resume.work">
+                <div class='job-title'>
+                    <h3><a class='company' :href='job.url' target='_blank' rel='noopener'>{{job.company}}</a></h3>
+                    <div class='company'>
+                        <span class='date'><span class='date'> {{job.formattedDateStart}} -
+                                {{job.formattedDateEnd}}</span>
+                            <span v-if="job.via"> - via {{job.via}}</span>
+                    </div>
+                </div>
+                <p class='description well' v-if="job.description">
+                    {{job.description}}
+                </p>
+                <p class='summary' v-for="summary in job.summary">
+                    {{summary}}
+                </p>
+                <ul v-if="job.highlights && job.highlights.length > 0">
+                    <li v-for="highlight in job.highlights">{{highlight}}</li>
+                </ul>
+                <div class='industries' v-if="job.industries && job.industries.length > 0">
+                    <h4>Industries:</h4>
+                    <div v-html="job.htmlIndustries"></div>
+                </div>
+                <div class='keywords' v-if="job.keywords && job.keywords.length > 0">
+                    <h4>Skills &amp; Technologies: </h4>
+                    <div v-html="job.htmlKeywords"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" v-if="resume.certifications && resume.certifications.length > 0">
+            <h2>Certifications</h2>
+            <ul>
+                <li v-for="c in resume.certifications">{{c.name}} - ({{c.date}})</li>
+            </ul>
+        </div>
+    </div>
+    <script type="module" async>
+        import { createApp, ref } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+
+        const data = await fetch('resume.json').then(res => res.json());
+        console.log(data);
+
+        data.work.forEach(work => {
+            const htmlIndustries = work.industries?.map(i => `<span class="industry">${i}</span>`).join(', ')
+            const htmlKeywords = work.keywords.map(k => `<span class="keyword" title="${data.keywords[k] || ''}">${k}</span>`).join(', ');
+            work.htmlKeywords = htmlKeywords;
+            work.htmlIndustries = htmlIndustries
+        });
+
+        createApp({
+            setup() {
+                const message = ref('Hello Vue!')
+                const resume = ref(data)
+                return {
+                    message,
+                    resume
+                }
+            }
+        }).mount('#app');
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,1461 @@
+{
+  "lastUpdated": "2025-12-02T12:45:33-07:00",
+  "basics": {
+    "name": "Pablo L\u00F3pez",
+    "label": "Software Developer",
+    "email": "pablo@pablolopez.dev",
+    "phone": "\u002B52 66250-89761",
+    "website": "https://resume.pablolopez.dev",
+    "timezone": "(UTC-07:00) America - Hermosillo",
+    "summary": "I have great adaptability, the ability to work collaboratively with cross-functional teams, learn new skills quickly and am always interested in new challenges. I possess good communication skills and can tackle problems and situations with sensitivity and proactively. I consistently contribute to the achievement of both team and personal goals, don\u0027t hesitate to ask what I don\u0027t know, do the research and get things done.",
+    "location": {
+      "city": "Hermosillo",
+      "countryCode": "MX",
+      "countryName": "Mexico",
+      "region": "SON",
+      "regionName": "Sonora"
+    },
+    "profiles": [
+      {
+        "network": "Email",
+        "username": "pablo@pablolopez.dev",
+        "url": "mailto:pablo\u002Bcontact@pablolopez.dev",
+        "display": true
+      },
+      {
+        "network": "Website",
+        "username": "resume.pablolopez.dev",
+        "url": "https://resume.pablolopez.dev",
+        "display": true
+      },
+      {
+        "network": "LinkedIn",
+        "username": "linkedin.com/in/jplopezg",
+        "url": "https://www.linkedin.com/in/jplopezg/",
+        "display": true
+      },
+      {
+        "network": "Github",
+        "username": "github.com/jnpbl79",
+        "url": "https://github.com/jnpbl79",
+        "display": true
+      },
+      {
+        "network": "Toptal",
+        "username": "www.toptal.com/resume/juan-pablo-lopez-garcia",
+        "url": "https://www.toptal.com/resume/juan-pablo-lopez-garcia",
+        "display": false
+      }
+    ]
+  },
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional"
+    }
+  ],
+  "work": [
+    {
+      "id": "toptal",
+      "current": true,
+      "display": true,
+      "via": "",
+      "company": "Toptal",
+      "description": "Toptal is a global, remote-first network that connects businesses with vetted freelance professionals, primarily in tech, design, and business fields like software engineering, product management, and project management.",
+      "dateStart": "2012-11-01",
+      "dateEnd": "",
+      "location": [
+        "Remote"
+      ],
+      "position": "Software Developer",
+      "url": "https://www.toptal.com",
+      "summary": [],
+      "highlights": [],
+      "industries": null,
+      "keywords": [],
+      "parsedDateStart": "0001-01-01T00:00:00",
+      "parsedDateEnd": "0001-01-01T00:00:00",
+      "formattedDateStart": null,
+      "formattedDateEnd": null,
+      "showHighlights": true
+    },
+    {
+      "id": "pgfx",
+      "current": true,
+      "display": true,
+      "via": "Toptal",
+      "company": "PokerGFX LLC",
+      "description": "PokerGFX is the software platform used to generate real-time poker graphics and statistics for live poker broadcasts. It is a Windows-based software suite designed to work seamlessly with PokerGFX RFID hardware. It automates camera switching and overlays animated graphics on live streams.",
+      "dateStart": "2024-12-02",
+      "dateEnd": "2025-08-11",
+      "location": [
+        "Remote"
+      ],
+      "position": "FullStack .NET Developer",
+      "url": "https://www.pokergfx.io",
+      "summary": [],
+      "highlights": [
+        "Migrated projects from .NET 4.5 to .NET 9, enabling access to the latest language features and improving runtime performance.",
+        "Developed a configuration preset feature, allowing users to save, load, and apply over 50 customizable tournament and broadcast settings.",
+        "Optimized startup by deferring non-critical component initialization to background threads, reducing perceived load time.",
+        "Consolidated all PokerGFX applications into a single solution structure, improving maintainability and cross-project integration.",
+        "Refactored the licensing system by separating license logic into focused classes, improving maintainability, increasing testability by introducing license test classes, and simplifying feature access control by exposing clear properties.",
+        "Developed a WPF application to read, write and validate licences to KEYLOK hardware, facilitating offline license management for users.",
+        "Automated the end-to-end build, signing, and publishing process for all PokerGFX projects, reducing manual effort and human error.",
+        "Added support for continuous integration and deployment using GitLab runners."
+      ],
+      "industries": [
+        "Sports",
+        "Video Streaming"
+      ],
+      "keywords": [
+        "advinstaller",
+        "apiintegration",
+        "awss3",
+        "c#",
+        "dotnet",
+        "dotnetfx",
+        "git",
+        "gitlabrunners",
+        "keylok",
+        "mssql",
+        "mvvm",
+        "pwsh",
+        "winforms",
+        "wpf",
+        "wpfui",
+        "xaml"
+      ],
+      "parsedDateStart": "0001-01-01T00:00:00",
+      "parsedDateEnd": "0001-01-01T00:00:00",
+      "formattedDateStart": null,
+      "formattedDateEnd": null,
+      "showHighlights": true
+    },
+    {
+      "id": "cgi",
+      "current": true,
+      "display": true,
+      "via": "Toptal",
+      "company": "CGi, LLC",
+      "description": "CGi is a full-service association and events management company.",
+      "dateStart": "2024-07-19",
+      "dateEnd": "2025-02-01",
+      "location": [
+        "Remote"
+      ],
+      "position": "FullStack .NET Developer",
+      "url": "https://www.toptal.com",
+      "summary": [],
+      "highlights": [
+        "Fixed bugs around the website that were reported by users.",
+        "Simplified code around the website and centralized database access while fixing bugs.",
+        "Made web page updates, replacing text, images, and updating layouts."
+      ],
+      "industries": [
+        "Business Services",
+        "Research \u0026 Development"
+      ],
+      "keywords": [
+        "aspnet",
+        "dotnetfx",
+        "git",
+        "mssql",
+        "mysql",
+        "vbnet",
+        "webforms"
+      ],
+      "parsedDateStart": "0001-01-01T00:00:00",
+      "parsedDateEnd": "0001-01-01T00:00:00",
+      "formattedDateStart": null,
+      "formattedDateEnd": null,
+      "showHighlights": true
+    },
+    {
+      "id": "alteryx",
+      "current": false,
+      "display": true,
+      "via": "Toptal",
+      "company": "Alteryx",
+      "description": "Alteryx is Self-Service Analytics, Data Science \u0026 Process Automation software.",
+      "dateStart": "2020-08-01",
+      "dateEnd": "2024-01-01",
+      "location": [
+        "Broomfield, CO, US",
+        "Remote"
+      ],
+      "position": "Accessibility Software Engineer",
+      "url": "https://alteryx.com",
+      "summary": [
+        "Implemented accessibility guidelines and screen reader support in flagship desktop and cloud products using Windows Forms and React, going beyond mere compliance by refactoring code and redesigning interfaces for improved usability. Achieved innovation by introducing keyboard navigation, manipulation, and screen reader support to workflow diagrams, a feature previously non-existent on the market."
+      ],
+      "highlights": [
+        "Added keyboard navigation, manipulation and screen reader support to workflow diagram components which at the time no one else had and did not exist on the market using C# and Windows Forms.",
+        "Updated, refactored and developed custom accessibility objects for in-house and third-party Windows Forms components to enable screen reader support and keyboard navigation improving usability and overall user experience using C# and Windows Forms.",
+        "Updated, refactored and redesigned a variety of controls and user interfaces to enable accessibility features which included form inputs, multi-level menus, dialogs, tree views, datagrids, toolbars, workflow diagrams, split views, tool selectors and others improving usability and overall user experience.",
+        "Updated and refactored custom components to better integrate accessibility features and keyboard navigation using Javascript and React.",
+        "Updated and created new user interface automated tests using C# and White Framework."
+      ],
+      "industries": [
+        "Data Analytics",
+        "Business Intelligence (BI) Software",
+        "Software"
+      ],
+      "keywords": [
+        "a11y",
+        "c#",
+        "cef",
+        "dotnetfx",
+        "git",
+        "js",
+        "mindfusion",
+        "mui",
+        "react",
+        "Screen Readers",
+        "syncfusion",
+        "telerik",
+        "uiautomation",
+        "wcag",
+        "white",
+        "winforms"
+      ],
+      "parsedDateStart": "0001-01-01T00:00:00",
+      "parsedDateEnd": "0001-01-01T00:00:00",
+      "formattedDateStart": null,
+      "formattedDateEnd": null,
+      "showHighlights": true
+    },
+    {
+      "id": "fremantle",
+      "current": false,
+      "display": true,
+      "via": "",
+      "company": "Fremantle Productions",
+      "description": "Fremantle is a world leader in creating, producing and distributing across entertainment, drama, film and documentary content.",
+      "dateStart": "2021-04-01",
+      "dateEnd": "2021-05-01",
+      "location": [
+        ""
+      ],
+      "position": "Software Developer",
+      "url": "https://fremantle.com/",
+      "summary": [
+        "Designed and developed a web application enabling Show Producers to work remotely, maintaining seamless access to live camera streams during TV show broadcasts, despite COVID-19 restrictions."
+      ],
+      "highlights": [
+        "Developed millicast Javascript API client to use on website and display video streams.",
+        "Developed user and role management web interface using ASP.NET Core Identity."
+      ],
+      "industries": [
+        "Media Production",
+        "Entertainment",
+        "Film \u0026 Television"
+      ],
+      "keywords": [
+        "apiintegration",
+        "aspnetcore",
+        "awsec2",
+        "c#",
+        "dolbyio",
+        "dotnet",
+        "git",
+        "js",
+        "mariadb",
+        "millicast",
+        "nswag",
+        "openapi",
+        "razor",
+        "webapi"
+      ],
+      "parsedDateStart": "0001-01-01T00:00:00",
+      "parsedDateEnd": "0001-01-01T00:00:00",
+      "formattedDateStart": null,
+      "formattedDateEnd": null,
+      "showHighlights": false
+    },
+    {
+      "id": "reebok",
+      "current": false,
+      "display": true,
+      "via": "",
+      "company": "Reebok CrossFit Games 2020",
+      "description": "The Reebok CrossFit Games website, now known as the CrossFit Games, is the official online platform for the \u0022ultimate proving grounds for the Fittest on Earth\u2122,\u0022 where top athletes compete in the annual CrossFit Games. It provides information on the CrossFit Open, a global event where anyone can compete, and offers results, schedules, and details on upcoming events for individuals, teams, and age-group athletes.",
+      "dateStart": "2020-07-01",
+      "dateEnd": "2020-08-01",
+      "location": [
+        ""
+      ],
+      "position": "Software Developer",
+      "url": "https://games.crossfit.com",
+      "summary": [
+        "Developed web application tailored for mobile devices, enabling athletes to seamlessly stream or upload their trial and competition videos for review by judges. This platform facilitated remote interaction between athletes and judges, thereby overcoming geographical constraints imposed by the COVID-19  pandemic"
+      ],
+      "highlights": [
+        "Developed a web application for streaming and uploading trial and competition videos for judges to review using ASP.NET Core Razor Pages.",
+        "Transcoded user uploaded videos to more compatible format using FFmpeg.",
+        "Developed user and role management web interface using ASP.NET Core Identity."
+      ],
+      "industries": [
+        "Sports Teams \u0026 Leagues",
+        "Sports"
+      ],
+      "keywords": [
+        "aspnetcore",
+        "awsec2",
+        "awss3",
+        "c#",
+        "dotnetcore",
+        "ffmpeg",
+        "git",
+        "js",
+        "mariadb",
+        "razor"
+      ],
+      "parsedDateStart": "0001-01-01T00:00:00",
+      "parsedDateEnd": "0001-01-01T00:00:00",
+      "formattedDateStart": null,
+      "formattedDateEnd": null,
+      "showHighlights": false
+    },
+    {
+      "id": "funeralvue",
+      "current": false,
+      "display": true,
+      "via": "Toptal",
+      "company": "FuneralVue",
+      "description": "FuneralVue offers recording and webcasting services to funeral homes around the World.",
+      "dateStart": "2020-03-01",
+      "dateEnd": "2020-08-01",
+      "location": [
+        "Cincinnati, Ohio, US",
+        "Remote"
+      ],
+      "position": "Software Developer",
+      "url": "https://funefalvue.com",
+      "summary": [
+        "Developed and updated various desktop and web applications to improve customer service, streamline business operations, and automate time-consuming tasks, enhancing overall efficiency and productivity for the organization."
+      ],
+      "highlights": [
+        "Updated the client\u0027s primary Windows Forms based application, incorporating their new branding and adding innovative features.",
+        "Updates and enhancements to the company\u0027s management website.",
+        "Created a checkout page with customizable DVD packaging options and integrated Stripe payment processing.",
+        "Designed and developed a mobile web app allowing users to stream live events directly from their mobile devices, enhancing customer experience by reducing wait times and enabling on-the-go access to the company\u0027s services.",
+        "Developed an application to automate DVD ISO image creation from MP4 videos, utilizing Windows Services for efficient execution of lengthy tasks, and paired with a WPF desktop app for service management and notification display."
+      ],
+      "industries": [
+        "Funeral Homes \u0026 Funeral Related Services",
+        "Media and content production",
+        "Audio \u0026 Video Streaming"
+      ],
+      "keywords": [
+        "awsec2",
+        "awss3",
+        "c#",
+        "cakephp",
+        "docker",
+        "dotnetfx",
+        "dvdiso",
+        "ffmpeg",
+        "git",
+        "js",
+        "larix",
+        "mysql",
+        "pwsh",
+        "react",
+        "rtmp",
+        "stripe",
+        "vue",
+        "webapi",
+        "winforms",
+        "winservices",
+        "wowza",
+        "wpf",
+        "xaml"
+      ],
+      "parsedDateStart": "0001-01-01T00:00:00",
+      "parsedDateEnd": "0001-01-01T00:00:00",
+      "formattedDateStart": null,
+      "formattedDateEnd": null,
+      "showHighlights": true
+    },
+    {
+      "id": "evolutionsoftware",
+      "current": false,
+      "display": true,
+      "via": "Toptal",
+      "company": "Evolution Software",
+      "description": "Evolution Software has a web application to visually create web applications which with little to no developer intervention can create custom modules for different customers\u2019 needs.",
+      "dateStart": "2019-03-01",
+      "dateEnd": "2020-01-01",
+      "location": [
+        "Cape Town, South Africa",
+        "Remote"
+      ],
+      "position": "Software Developer",
+      "url": "https://evolutionsoftware.co.za/",
+      "summary": [
+        "Implemented Entity Framework to streamline database interactions, automating repetitive tasks and reducing code complexity. Optimized database queries and stored procedures for faster results. Developed modules using a custom framework built on top of ASP.NET. Exposed frequently used functionality via Web Services. Replaced server-side controls with client-side rendering and asynchronous requests, enhancing performance and user experience."
+      ],
+      "highlights": [
+        "Created modules using their custom framework built on top of ASP.NET for specific clients.",
+        "Added an Entity Framework data layer replicating and automating actions taken by their custom data access layer which works with ADO.NET.",
+        "Added Web API to reduce full-page postbacks in several commonly used pages and KnockoutJS for client side datagrid processing which greatly improved overall performance and user experience.",
+        "Edited database queries, columns and stored procedures to improve performance and get faster results."
+      ],
+      "industries": [
+        "Custom Software \u0026 IT Services"
+      ],
+      "keywords": [
+        "dotnetfx",
+        "aspnet",
+        "c#",
+        "git",
+        "js",
+        "knockout",
+        "mssql",
+        "webforms",
+        "webservices"
+      ],
+      "parsedDateStart": "0001-01-01T00:00:00",
+      "parsedDateEnd": "0001-01-01T00:00:00",
+      "formattedDateStart": null,
+      "formattedDateEnd": null,
+      "showHighlights": false
+    },
+    {
+      "id": "mdlive",
+      "current": false,
+      "display": false,
+      "via": "Nearsoft",
+      "company": "MDLive, Inc.",
+      "description": "MDLIVE is a telehealth provider which provides patients, health plans, health systems and self-insured employers online access to board-certified doctors, pediatricians and licensed therapists.",
+      "dateStart": "2015-09-01",
+      "dateEnd": "2019-08-01",
+      "location": [
+        "Miramar, FL, US",
+        "Remote"
+      ],
+      "position": "Software Developer",
+      "url": "https://www.mdlive.com",
+      "summary": [
+        "I was involved and worked alongside product design, UX, DevOps and other development teams to build, integrate and deploy a WebRTC conferencing solution composed of several back and front end services and components."
+      ],
+      "highlights": [
+        "WebRTC solution with audio recording composed of signaling server, Javascript and C# clients, Azure Storage, Queues and Functions.",
+        "Ruby gem to map Surecript API request and response messages between JSON and XML.",
+        "Added Office 365 authentication to UWP application.",
+        "Worked with iOS and Android development teams to help with integration of video conferencing application",
+        "Worked with DevOps team to help with infrastructure provisioning and deployment of server-side applications on Azure.",
+        "Worked with offshore team to help debug and deploy a payment gateway written in ASP.NET."
+      ],
+      "industries": [
+        "Healthcare Software",
+        "Mental Health \u0026 Rehabilitation Facilities",
+        "Telehealth Services"
+      ],
+      "keywords": [
+        "aspnet",
+        "azure_queues",
+        "azure_storage",
+        "azure_functions",
+        "c#",
+        "docker",
+        "dockerwindows",
+        "dotnetfx",
+        "ffmpeg",
+        "frozenmountain",
+        "git",
+        "icelink",
+        "js",
+        "mssql",
+        "mvc",
+        "objectivec",
+        "pwsh",
+        "react",
+        "ror",
+        "surescripts",
+        "webapi",
+        "webrtc",
+        "Websync",
+        "xcode"
+      ],
+      "parsedDateStart": "0001-01-01T00:00:00",
+      "parsedDateEnd": "0001-01-01T00:00:00",
+      "formattedDateStart": null,
+      "formattedDateEnd": null,
+      "showHighlights": true
+    },
+    {
+      "id": "nearsoft-mdlive",
+      "current": false,
+      "display": true,
+      "via": "",
+      "company": "Nearsoft",
+      "description": "Nearsoft a US-based nearshore software engineering and product development firm that specializes in software development outsourcing and building dedicated engineering teams for software product companies.",
+      "dateStart": "2015-09-01",
+      "dateEnd": "2019-08-01",
+      "location": [
+        "Hermosillo, SON, MX"
+      ],
+      "position": "Software Developer",
+      "url": "https://www.encora.com/news/nearsoft-is-now-encora",
+      "summary": [
+        "As part of the [MDLive Inc](https://www.mdlive.com) team, I was involved and worked alongside product design, UX, DevOps and other development teams to build, integrate and deploy a WebRTC conferencing solution composed of several back and front end services and components."
+      ],
+      "highlights": [
+        "WebRTC solution with audio recording composed of signaling server, Javascript and C# clients, Azure Storage, Queues and Functions.",
+        "Ruby gem to map Surecript API request and response messages between JSON and XML.",
+        "Added Office 365 authentication to UWP application.",
+        "Worked with iOS and Android development teams to help with integration of video conferencing application",
+        "Worked with DevOps team to help with infrastructure provisioning and deployment of server-side applications on Azure.",
+        "Worked with offshore team to help debug and deploy a payment gateway written in ASP.NET."
+      ],
+      "industries": [
+        "Healthcare Software",
+        "Mental Health \u0026 Rehabilitation Facilities",
+        "Telehealth Services"
+      ],
+      "keywords": [
+        "aspnet",
+        "azure_queues",
+        "azure_storage",
+        "azure_functions",
+        "c#",
+        "docker",
+        "dockerwindows",
+        "dotnetfx",
+        "ffmpeg",
+        "frozenmountain",
+        "git",
+        "icelink",
+        "js",
+        "mssql",
+        "mvc",
+        "pwsh",
+        "react",
+        "ror",
+        "surescripts",
+        "webapi",
+        "webrtc",
+        "Websync"
+      ],
+      "parsedDateStart": "0001-01-01T00:00:00",
+      "parsedDateEnd": "0001-01-01T00:00:00",
+      "formattedDateStart": null,
+      "formattedDateEnd": null,
+      "showHighlights": true
+    },
+    {
+      "id": "d4",
+      "current": false,
+      "display": true,
+      "via": "Toptal",
+      "company": "D4 Software",
+      "description": "Software, Big Data \u0026 Analytics.",
+      "dateStart": "2015-04-01",
+      "dateEnd": "2015-06-01",
+      "location": [
+        "Birmingham, UK",
+        "Remote"
+      ],
+      "position": "Software Developer",
+      "url": "http://weared4.com",
+      "summary": [
+        "Worked on various development projects for ASP.NET MVC websites, focusing on enhancing user experience, email sending and tracking features."
+      ],
+      "highlights": [
+        "Worked with Sass, Twitter Bloodhound, and Entity framework migrations.",
+        "Created background tasks for sending emails on ASP.NET websites.",
+        "Implemented email view tracking."
+      ],
+      "industries": [
+        "Custom Software \u0026 IT Services"
+      ],
+      "keywords": [
+        "aspnet",
+        "c#",
+        "dotnetfx",
+        "git",
+        "jquery",
+        "js",
+        "knockout",
+        "mssql",
+        "mvc",
+        "webapi"
+      ],
+      "parsedDateStart": "0001-01-01T00:00:00",
+      "parsedDateEnd": "0001-01-01T00:00:00",
+      "formattedDateStart": null,
+      "formattedDateEnd": null,
+      "showHighlights": false
+    },
+    {
+      "id": "arex",
+      "current": false,
+      "display": true,
+      "via": "Toptal",
+      "company": "arex Rxchange GmbH",
+      "description": "Rxchange is an online marketplace for wholesale dealers located in the EU, trading EU or EU-registered medicinal products.",
+      "dateStart": "2014-10-01",
+      "dateEnd": "2015-02-01",
+      "location": [
+        "Munich, DE",
+        "Remote"
+      ],
+      "position": "Software Developer",
+      "url": "https://www.rxchange.co.uk",
+      "summary": [
+        "Worked on ASP.NET MVC components to improve operations within an online E-Commerce Pharmaceutical B2B marketplace for wholesale dealers in the EU."
+      ],
+      "highlights": [
+        "Created user controls to ease access to information across orders.",
+        "Updated components to view and handle price change requests.",
+        "Created feature to keep track and process acceptance states for batches in orders.",
+        "Created a new page to view and handle acceptance state for batches in orders."
+      ],
+      "industries": [
+        "E-Commerce",
+        "Pharmaceuticals"
+      ],
+      "keywords": [
+        "aspnet",
+        "c#",
+        "dotnetfx",
+        "git",
+        "jquery",
+        "js",
+        "mssql",
+        "mvc",
+        "webapi"
+      ],
+      "parsedDateStart": "0001-01-01T00:00:00",
+      "parsedDateEnd": "0001-01-01T00:00:00",
+      "formattedDateStart": null,
+      "formattedDateEnd": null,
+      "showHighlights": false
+    },
+    {
+      "id": "amc",
+      "current": false,
+      "display": true,
+      "via": "Toptal",
+      "company": "American Mortgage Consultants",
+      "description": "SitusAMC is the leading independent solutions provider to the real estate finance industry, powering opportunity across the lifecycle of commercial and residential real estate lending and investing.",
+      "dateStart": "2013-01-01",
+      "dateEnd": "2014-09-01",
+      "location": [
+        "Tampa, FL, US",
+        "Remote"
+      ],
+      "position": "Software Developer",
+      "url": "https://www.situsamc.com",
+      "summary": [
+        "I developed and enhanced several components within a loan management system, including a rules engine for applying tests to loans and a stipulations manager, both leveraging ASP.NET technologies and KnockoutJS for responsive client-side interactions. I also implemented a claims review module and contributed migrating Classic ASP web applications written with VBScript to ASP.NET Web Forms with C# and data access code migration from ADO.NET to .netTiers. Additionally, I refactored multiple ASP.NET Web Forms to boost performance and optimize resource usage across the application."
+      ],
+      "highlights": [
+        "ASP/VBScript (Classic ASP) migration to ASP.NET Web Forms and C#.",
+        "ADO and ADO.NET data access code migration to .netTiers and LINQ to SQL.",
+        "Simple rules engine tool to apply tests to loans using ASP.NET MVC, Web API and KnockoutJS.",
+        "Component to manage Loan Stipulations using ASP.NET Web Services and KnockoutJS.",
+        "Component for reviewing Claims.",
+        "Updated and refactored several ASP.NET Web Forms to improve performance and resource handling."
+      ],
+      "industries": [
+        "Custom Software \u0026 IT Services",
+        "Financial Institutions",
+        "Insurance"
+      ],
+      "keywords": [
+        "aspnet",
+        "c#",
+        "dotnetfx",
+        "jquery",
+        "js",
+        "knockout",
+        "mssql",
+        "nettiers",
+        "tfs",
+        "webforms",
+        "webservices"
+      ],
+      "parsedDateStart": "0001-01-01T00:00:00",
+      "parsedDateEnd": "0001-01-01T00:00:00",
+      "formattedDateStart": null,
+      "formattedDateEnd": null,
+      "showHighlights": false
+    },
+    {
+      "id": "serpicodev",
+      "current": false,
+      "display": true,
+      "via": "",
+      "company": "Serpico DEV",
+      "description": "SerpicoDEV (now Founders Workshop) was a global software development firm, headquartered in Scottsdale, AZ, that focused on serving entrepreneurs, startups, and small businesses by transforming ideas into market-ready, solutions. The company provided services such as software development, system integration, and legacy system migration, leveraging business strategy, design and product development to deliver human-centered solutions and drive client ventures forward.",
+      "dateStart": "2011-10-01",
+      "dateEnd": "2013-01-01",
+      "location": [
+        "Phoenix, AZ, US",
+        "Remote"
+      ],
+      "position": "Software Developer",
+      "url": "",
+      "summary": [
+        "Platform for Career Tutors to manage and review professional profiles created by College Students.  Collaborated with the AppointmentPlus development team to create a Web API and Outlook Plugin."
+      ],
+      "highlights": [
+        "Web application to help Career Tutors keep track and review professional profiles created by College Students on LinkedIn and provide assistance with job and career placements.",
+        "Integrated Flypaper presentations into websites using Javascript API clients and Back-end database connectivity.",
+        "Worked with the AppointmentPlus development team to create a Web API and Outlook Plugin for synchronizing calendar events with AppointmentPlus appointments and contacts."
+      ],
+      "industries": [
+        "Custom Software \u0026 IT Services"
+      ],
+      "keywords": [
+        "aspnet",
+        "c#",
+        "cakephp",
+        "dotnet",
+        "git",
+        "jquery",
+        "jqueryui",
+        "js",
+        "kendoui",
+        "mssql",
+        "mvc",
+        "mysql",
+        "webapi"
+      ],
+      "parsedDateStart": "0001-01-01T00:00:00",
+      "parsedDateEnd": "0001-01-01T00:00:00",
+      "formattedDateStart": null,
+      "formattedDateEnd": null,
+      "showHighlights": false
+    },
+    {
+      "id": "hildebrando",
+      "current": false,
+      "display": true,
+      "via": "Hildebrando",
+      "company": "Esurance",
+      "description": "Esurance is an online insurance provider, now a subsidiary of Allstate, that sells direct-to-consumer auto, home, renters, and motorcycle insurance through its website and mobile app.",
+      "dateStart": "2011-03-01",
+      "dateEnd": "2011-10-01",
+      "location": [
+        "Guadalajara, JAL, MX"
+      ],
+      "position": "Software Developer",
+      "url": "https://www.esurance.com",
+      "summary": [
+        "Migrated multiple sections of an existing web application used for insurance claim management from ASP to ASP.NET. Additionally, created new components to support additional features."
+      ],
+      "highlights": [],
+      "industries": [
+        "Custom Software \u0026 IT Services",
+        "Insurance"
+      ],
+      "keywords": [
+        "dotnetfx",
+        "aspnet",
+        "asp",
+        "c#",
+        "devexpress",
+        "jquery",
+        "js",
+        "linqtosql",
+        "mssql",
+        "tfs",
+        "vbscript",
+        "webforms",
+        "webservices"
+      ],
+      "parsedDateStart": "0001-01-01T00:00:00",
+      "parsedDateEnd": "0001-01-01T00:00:00",
+      "formattedDateStart": null,
+      "formattedDateEnd": null,
+      "showHighlights": false
+    },
+    {
+      "id": "nearsoft-yotta",
+      "current": false,
+      "display": true,
+      "via": "",
+      "company": "Nearsoft",
+      "description": "Nearsoft is a software development company that builds high-quality software products for startups and established businesses.",
+      "dateStart": "2010-07-01",
+      "dateEnd": "2011-03-01",
+      "location": [
+        "Hermosillo, SON, MX"
+      ],
+      "position": "Software Developer",
+      "url": "https://www.encora.com/news/nearsoft-is-now-encora",
+      "summary": [
+        "As part of the HarvestMark engineering team, I Developed various components for a traceability software that tracks the origin and freshness of food."
+      ],
+      "highlights": [],
+      "industries": [
+        "Custom Software \u0026 IT Services",
+        "Food Safety",
+        "Foodtech"
+      ],
+      "keywords": [
+        "aspnet",
+        "c#",
+        "dotnetfx",
+        "dotnetce",
+        "mssql",
+        "mssqlce",
+        "mssqlxml",
+        "tfs",
+        "wcf",
+        "webforms",
+        "webservices",
+        "winforms",
+        "winservices"
+      ],
+      "parsedDateStart": "0001-01-01T00:00:00",
+      "parsedDateEnd": "0001-01-01T00:00:00",
+      "formattedDateStart": null,
+      "formattedDateEnd": null,
+      "showHighlights": false
+    },
+    {
+      "id": "tiempo",
+      "current": false,
+      "display": true,
+      "via": "",
+      "company": "Tiempo Development",
+      "description": "Tiempo Development is a software development company offering nearshore services, providing software development, deployment, and support to clients in North America, with development centers in Guadalajara, Hermosillo, and Monterrey, Mexico.",
+      "dateStart": "2007-11-01",
+      "dateEnd": "2010-01-01",
+      "location": [
+        "Hermosillo, SON, MX"
+      ],
+      "position": "Software Developer",
+      "url": "https://tiempodev.com",
+      "summary": [
+        "Implemented several software components, including synchronization and compression of audio and video content, packaging of presentations into self-contained executables, integration of image and video search APIs with retrieval capabilities and chart components."
+      ],
+      "highlights": [
+        "Synchronization and compression of audio and video content",
+        "Packaging of Flash-based presentations into self-contained executable files for seamless delivery",
+        "Integration with image and video search APIs to enhance media discovery and retrieval capabilities",
+        "Seamless integration of chart components into Flypaper Studio, a digital presentation platform"
+      ],
+      "industries": [
+        "Custom Software \u0026 IT Services"
+      ],
+      "keywords": [
+        "aspnet",
+        "c#",
+        "C\u002B\u002B",
+        "dotnetfx",
+        "flypaper",
+        "installshield",
+        "jquery",
+        "js",
+        "mssql",
+        "mvvm",
+        "svn",
+        "telerik",
+        "webforms",
+        "webservices",
+        "winforms",
+        "wpf",
+        "xaml"
+      ],
+      "parsedDateStart": "0001-01-01T00:00:00",
+      "parsedDateEnd": "0001-01-01T00:00:00",
+      "formattedDateStart": null,
+      "formattedDateEnd": null,
+      "showHighlights": false
+    },
+    {
+      "id": "ebc",
+      "current": false,
+      "display": true,
+      "via": "",
+      "company": "e-Business Consultores",
+      "description": "",
+      "dateStart": "2006-01-01",
+      "dateEnd": "2007-11-01",
+      "location": [
+        "Hermosillo, SON, MX"
+      ],
+      "position": "Head of Custom Development",
+      "url": "",
+      "summary": [
+        "Developed web applications creating a range of solutions that included content management systems, e-learning, e-commerce, task tracking, digital signature integration, and others."
+      ],
+      "highlights": [
+        "E-learning website used by Telcel to train resellers using ASP.NET Web Forms and C#.",
+        "Task tracker for government dependency using digital signatures to secure and validate assigned responsibilities.",
+        "Websites with content management back-end."
+      ],
+      "industries": [
+        "Custom Software \u0026 IT Services",
+        "Government Software"
+      ],
+      "keywords": [
+        "dotnetfx",
+        "aspnet",
+        "asp",
+        "c#",
+        "com\u002B",
+        "jquery",
+        "js",
+        "mssql",
+        "pki",
+        "svn",
+        "vbnet",
+        "vbscript",
+        "webforms",
+        "webservices",
+        "XML"
+      ],
+      "parsedDateStart": "0001-01-01T00:00:00",
+      "parsedDateEnd": "0001-01-01T00:00:00",
+      "formattedDateStart": null,
+      "formattedDateEnd": null,
+      "showHighlights": false
+    },
+    {
+      "id": "cambio",
+      "current": false,
+      "display": true,
+      "via": "",
+      "company": "Cambio Sonora",
+      "description": "",
+      "dateStart": "2004-10-01",
+      "dateEnd": "2006-01-01",
+      "location": [
+        "Hermosillo, SON, MX"
+      ],
+      "position": "Web Developer",
+      "url": "",
+      "summary": [
+        "Web development for newspaper\u0027s website and intranet, while also offering technical support and collaboration with the IT department."
+      ],
+      "highlights": [
+        "Development, maintenance, and renewal of the company\u0027s intranet modules and public website.",
+        "Provided support for the IT department."
+      ],
+      "industries": [
+        "Newspapers \u0026 News Services"
+      ],
+      "keywords": [
+        "asp",
+        "js",
+        "mssql",
+        "vbscript"
+      ],
+      "parsedDateStart": "0001-01-01T00:00:00",
+      "parsedDateEnd": "0001-01-01T00:00:00",
+      "formattedDateStart": null,
+      "formattedDateEnd": null,
+      "showHighlights": false
+    },
+    {
+      "id": "dextro",
+      "current": false,
+      "display": true,
+      "via": "",
+      "company": "Dextro International",
+      "description": "",
+      "dateStart": "2000-05-01",
+      "dateEnd": "2004-10-01",
+      "location": [
+        "Phoenix, AZ, US",
+        "Remote"
+      ],
+      "position": "Web Developer",
+      "url": "",
+      "summary": [
+        "Designed and developed dynamic websites with e-commerce, content management and other custom solutions."
+      ],
+      "highlights": [
+        "Designed and developed dynamic websites using ASP and VBScript.",
+        "Handled content management, news publishing, poll management, image galleries, hit counters, product catalogs, shopping carts, online payment processing, and mailing lists."
+      ],
+      "industries": [
+        "Custom Software \u0026 IT Services",
+        "Web Hosting",
+        "Web Development"
+      ],
+      "keywords": [
+        "asp",
+        "mssql",
+        "vbscript"
+      ],
+      "parsedDateStart": "0001-01-01T00:00:00",
+      "parsedDateEnd": "0001-01-01T00:00:00",
+      "formattedDateStart": null,
+      "formattedDateEnd": null,
+      "showHighlights": false
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Microsoft\u00AE Certified Technology Specialist: .Net Framework 2.0, Web Applications",
+      "date": "2008-06-16",
+      "issuer": "Microsoft",
+      "summary": ""
+    },
+    {
+      "name": "Microsoft\u00AE Certified Professional Developer: Web Developer",
+      "date": "2008-06-16",
+      "issuer": "Microsoft",
+      "summary": ""
+    },
+    {
+      "name": "Microsoft\u00AE Certified Application Developer: Microsoft .NET",
+      "date": "2006-06-01",
+      "issuer": "Microsoft",
+      "summary": ""
+    },
+    {
+      "name": "Microsoft\u00AE Certified Professional: Microsoft Certified Professional",
+      "date": "2006-05-18",
+      "issuer": "Microsoft",
+      "summary": ""
+    }
+  ],
+  "metatags": {
+    "title": "Pablo L\u00F3pez - Software Developer",
+    "description": "Pablo is a dynamic professional known for his exceptional adaptability and collaboration skills. He consistently drives results and contributes to achieving team goals and is always looking for opportunities to expand his skill set and take on new challenges.",
+    "siteName": "Pablo L\u00F3pez - Software Developer",
+    "url": "https://pablolopez.dev",
+    "type": "website"
+  },
+  "keywords": {
+    "a11y": {
+      "text": "A11Y",
+      "title": "Accessibility"
+    },
+    "ado": {
+      "text": "ADO",
+      "title": "ActiveX Data Objects"
+    },
+    "adonet": {
+      "text": "ADO.NET",
+      "title": "ActiveX Data Objects for .NET"
+    },
+    "advinstaller": {
+      "text": "Advanced Installer",
+      "title": "Advanced Installer"
+    },
+    "apiintegration": {
+      "text": "API Integration",
+      "title": "API Integration"
+    },
+    "asp": {
+      "text": "Classic ASP",
+      "title": "Active Server pages"
+    },
+    "aspnet": {
+      "text": "ASP.NET",
+      "title": "ASP.NET"
+    },
+    "aspnetcore": {
+      "text": "ASP.NET Core",
+      "title": "ASP.NET Core"
+    },
+    "aspnetidentity": {
+      "text": "ASP.NET Identity",
+      "title": "ASP.NET Identity"
+    },
+    "aspnetmvc": {
+      "text": "ASP.NET MVC",
+      "title": "ASP.NET MVC"
+    },
+    "awsec2": {
+      "text": "AWS EC2",
+      "title": "Amazon EC2"
+    },
+    "awss3": {
+      "text": "AWS S3",
+      "title": "Amazon S3 Storage"
+    },
+    "azure": {
+      "text": "Azure",
+      "title": "Microsoft Azure"
+    },
+    "azure_queues": {
+      "text": "Azure Queues",
+      "title": "Azure Queues"
+    },
+    "azure_storage": {
+      "text": "Azure Storage",
+      "title": "Azure Storage"
+    },
+    "azure_functions": {
+      "text": "Azure Functions",
+      "title": "Azure Functions"
+    },
+    "bootstrap": {
+      "text": "Bootstrap",
+      "title": "Bootstrap Framework"
+    },
+    "c#": {
+      "text": "C#",
+      "title": "C#"
+    },
+    "cakephp": {
+      "text": "CakePHP",
+      "title": "CakePHP Framework"
+    },
+    "cef": {
+      "text": "CEF",
+      "title": "Chromium Embedded Framework"
+    },
+    "com\u002B": {
+      "text": "COM\u002B",
+      "title": "Component Object Model for .NET"
+    },
+    "css": {
+      "text": "CSS",
+      "title": "Cascading Style Sheets"
+    },
+    "devexpress": {
+      "text": "DevExpress",
+      "title": "DevExpress UI Components"
+    },
+    "docker": {
+      "text": "Docker",
+      "title": "Docker containers"
+    },
+    "dockerwindows": {
+      "text": "Docker for Windows",
+      "title": "Docker containers for Windows"
+    },
+    "dolbyio": {
+      "text": "Dolby.io",
+      "title": "Dolby.io Real-Time Streaming"
+    },
+    "dotnet": {
+      "text": ".NET",
+      "title": ".NET"
+    },
+    "dotnetce": {
+      "text": ".NET CE",
+      "title": ".NET Compact Framework"
+    },
+    "dotnetcore": {
+      "text": ".NET Core",
+      "title": ".NET Core"
+    },
+    "dotnetfx": {
+      "text": ".NET Framework",
+      "title": ".NET Framework"
+    },
+    "dvdiso": {
+      "text": "DVD/ISO Creation",
+      "title": "DVD ISO image creation"
+    },
+    "ef": {
+      "text": "EF",
+      "title": "Entity Framework"
+    },
+    "efcore": {
+      "text": "EFCore",
+      "title": "Entity Framework Core"
+    },
+    "ffmpeg": {
+      "text": "FFmpeg",
+      "title": "FFmpeg Multimedia Framework"
+    },
+    "flypaper": {
+      "text": "Flypaper",
+      "title": "Flypaper Digital Presentation Software"
+    },
+    "frozenmountain": {
+      "text": "FrozenMountain",
+      "title": "Frozen Mountain Software"
+    },
+    "git": {
+      "text": "Git",
+      "title": "Git Version Control"
+    },
+    "github": {
+      "text": "Github",
+      "title": "GitHub"
+    },
+    "gitlab": {
+      "text": "GitLab",
+      "title": "GitLab"
+    },
+    "gitlabrunners": {
+      "text": "GitLab Runners",
+      "title": "GitLab CI/CD Runners"
+    },
+    "html": {
+      "text": "HTML",
+      "title": "HyperText Markup Language"
+    },
+    "icelink": {
+      "text": "Icelink",
+      "title": "Icelink WebRTC"
+    },
+    "installshield": {
+      "text": "InstallShield",
+      "title": "InstallShield Installer Software"
+    },
+    "jquery": {
+      "text": "jQuery",
+      "title": "jQuery Javascript Library"
+    },
+    "jqueryui": {
+      "text": "jQuery-UI",
+      "title": "jQuery User Interface"
+    },
+    "js": {
+      "text": "Javascript",
+      "title": "Javascript"
+    },
+    "keylok": {
+      "text": "KEYLOK",
+      "title": "Driverless, cross-platform usb dongle security key"
+    },
+    "knockout": {
+      "text": "KnockoutJS",
+      "title": "KnockoutJS JavaScript Library"
+    },
+    "larix": {
+      "text": "Larix",
+      "title": "Larix Broadcaster Mobile RTMP/RTSP Streaming App"
+    },
+    "linqtosql": {
+      "text": "LINQ to SQL",
+      "title": "Language Integrated Query to SQL"
+    },
+    "mariadb": {
+      "text": "MariaDb",
+      "title": "MariaDB Database"
+    },
+    "millicast": {
+      "text": "Millicast",
+      "title": "Millicast Real-Time Streaming"
+    },
+    "mindfusion": {
+      "text": "MindFusion",
+      "title": "MindFusion UI Components"
+    },
+    "mssql": {
+      "text": "MSSQL",
+      "title": "Microsoft SQL Server"
+    },
+    "mssqlce": {
+      "text": "MSSQL CE",
+      "title": "Microsoft SQL Server Compact Edition"
+    },
+    "mssqlxml": {
+      "text": "MSSQL XML",
+      "title": "Microsoft SQL Server XML Services"
+    },
+    "mui": {
+      "text": "MUI",
+      "title": "Material UI React component library"
+    },
+    "mvc": {
+      "text": "MVC",
+      "title": "Model View Controller"
+    },
+    "mvvm": {
+      "text": "MVVM",
+      "title": "Model View ViewModel"
+    },
+    "mysql": {
+      "text": "MySQL",
+      "title": "MySQL Database"
+    },
+    "netreactor": {
+      "text": "NetReactor",
+      "title": "NetReactor .NET Obfuscator"
+    },
+    "nettiers": {
+      "text": ".netTiers",
+      "title": ".netTiers Code Generation Framework"
+    },
+    "nswag": {
+      "text": "NSwag",
+      "title": "NSwag OpenAPI toolchain for .NET"
+    },
+    "obfuscation": {
+      "text": "Obfuscation",
+      "title": "Code Obfuscation"
+    },
+    "objectivec": {
+      "text": "Objective-C",
+      "title": "Objective-C"
+    },
+    "openapi": {
+      "text": "OpenAPI",
+      "title": "OpenAPI Specification"
+    },
+    "pki": {
+      "text": "PKI",
+      "title": "Public Key Infrastructure"
+    },
+    "pwsh": {
+      "text": "Powershell",
+      "title": "Windows PowerShell"
+    },
+    "razor": {
+      "text": "Razor",
+      "title": "Razor Syntax"
+    },
+    "react": {
+      "text": "React",
+      "title": "ReactJS"
+    },
+    "reactrouter": {
+      "text": "React Router",
+      "title": "React Router"
+    },
+    "redux": {
+      "text": "Redux",
+      "title": "React Redux"
+    },
+    "ror": {
+      "text": "Ruby on Rails",
+      "title": "Ruby on Rails"
+    },
+    "rtmp": {
+      "text": "RTMP",
+      "title": "Real-Time Messaging Protocol"
+    },
+    "ruby": {
+      "text": "Ruby",
+      "title": "Ruby Programming Language"
+    },
+    "sass": {
+      "text": "Sass",
+      "title": "Syntactically Awesome Stylesheets"
+    },
+    "stripe": {
+      "text": "Stripe",
+      "title": "Stripe Payment Gateway"
+    },
+    "surescripts": {
+      "text": "Surescripts",
+      "title": "Surescripts Healthcare Network"
+    },
+    "svn": {
+      "text": "SVN",
+      "title": "Apache Subversion"
+    },
+    "syncfusion": {
+      "text": "Syncfusion",
+      "title": "Syncfusion UI Components"
+    },
+    "tdd": {
+      "text": "TDD",
+      "title": "Test Driven Development"
+    },
+    "telerik": {
+      "text": "Telerik",
+      "title": "Telerik UI Components"
+    },
+    "tfs": {
+      "text": "TFS",
+      "title": "Team Foundation Server"
+    },
+    "uiautomation": {
+      "text": "UI Automation",
+      "title": "UI Automation"
+    },
+    "uwp": {
+      "text": "UWP",
+      "title": "Universal Windows Platform"
+    },
+    "vbnet": {
+      "text": "VB.NET",
+      "title": "Visual Basic .NET"
+    },
+    "vbscript": {
+      "text": "VBScript",
+      "title": "Visual Basic Script"
+    },
+    "vue": {
+      "text": "Vue",
+      "title": "Vue.js"
+    },
+    "wcag": {
+      "text": "WCAG",
+      "title": "Web Content Accessibility Guidelines"
+    },
+    "wcf": {
+      "text": "WCF",
+      "title": "Windows Communication Foundation"
+    },
+    "webapi": {
+      "text": "Web API",
+      "title": "ASP.NET Web API"
+    },
+    "webforms": {
+      "text": "WebForms",
+      "title": "ASP.NET Web Forms"
+    },
+    "webrtc": {
+      "text": "WebRTC",
+      "title": "Web Real-Time Communication"
+    },
+    "webservices": {
+      "text": "Web Services",
+      "title": "ASP.NET Web Services"
+    },
+    "websync": {
+      "text": "Websync",
+      "title": "Frozen Mountain Websync"
+    },
+    "white": {
+      "text": "White",
+      "title": "TestStack.White UI Automation Framework"
+    },
+    "winforms": {
+      "text": "WinForms",
+      "title": "Windows Forms"
+    },
+    "winservices": {
+      "text": "Windows Services",
+      "title": "Windows Services"
+    },
+    "wowza": {
+      "text": "Wowza",
+      "title": "Wowza Streaming Engine"
+    },
+    "wpf": {
+      "text": "WPF",
+      "title": "Windows Presentation Foundation"
+    },
+    "wpfui": {
+      "text": "WPF UI",
+      "title": "WPF UI Libraries"
+    },
+    "xaml": {
+      "text": "XAML",
+      "title": "eXtensible Application Markup Language"
+    },
+    "xcode": {
+      "text": "Xcode",
+      "title": "Xcode IDE"
+    },
+    "kendoui": {
+      "text": "Kendo UI",
+      "title": "Kendo UI Components"
+    }
+  },
+  "meta": {
+    "FeatherIcons": {
+      "linkedin": "linkedin",
+      "email": "mail",
+      "phone": "phone",
+      "github": "github",
+      "location": "map-pin",
+      "toptal": "star"
+    }
+  }
+}

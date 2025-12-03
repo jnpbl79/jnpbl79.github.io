@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100" data-bs-theme="auto">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Astro v5.13.2">
+    <title>Starter Template · Bootstrap v5.3</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/starter-template/">
+    <script src="https://getbootstrap.com/docs/5.3/assets/js/color-modes.js"></script>
+    <link href="https://getbootstrap.com/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="apple-touch-icon" href="https://getbootstrap.com/docs/5.3/assets/img/favicons/apple-touch-icon.png"
+        sizes="180x180">
+    <link rel="icon" href="https://getbootstrap.com/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32"
+        type="image/png">
+    <link rel="icon" href="https://getbootstrap.com/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16"
+        type="image/png">
+    <link rel="manifest" href="https://getbootstrap.com/docs/5.3/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="https://getbootstrap.com/docs/5.3/assets/img/favicons/safari-pinned-tab.svg"
+        color="#712cf9">
+    <link rel="icon" href="https://getbootstrap.com/docs/5.3/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#712cf9">
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem
+            }
+        }
+
+        .b-example-divider {
+            width: 100%;
+            height: 3rem;
+            background-color: #0000001a;
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em #0000001a, inset 0 .125em .5em #00000026
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch
+        }
+
+        .btn-bd-primary {
+            --bd-violet-bg: #712cf9;
+            --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+            --bs-btn-font-weight: 600;
+            --bs-btn-color: var(--bs-white);
+            --bs-btn-bg: var(--bd-violet-bg);
+            --bs-btn-border-color: var(--bd-violet-bg);
+            --bs-btn-hover-color: var(--bs-white);
+            --bs-btn-hover-bg: #6528e0;
+            --bs-btn-hover-border-color: #6528e0;
+            --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+            --bs-btn-active-color: var(--bs-btn-hover-color);
+            --bs-btn-active-bg: #5a23c8;
+            --bs-btn-active-border-color: #5a23c8
+        }
+
+        .bd-mode-toggle {
+            z-index: 1500
+        }
+
+        .bd-mode-toggle .bi {
+            width: 1em;
+            height: 1em
+        }
+
+        .bd-mode-toggle .dropdown-menu .active .bi {
+            display: block !important
+        }
+    </style>
+</head>
+
+<body> <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+        <symbol id="check2" viewBox="0 0 16 16">
+            <path
+                d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z">
+            </path>
+        </symbol>
+        <symbol id="circle-half" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path>
+        </symbol>
+        <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+            <path
+                d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z">
+            </path>
+            <path
+                d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z">
+            </path>
+        </symbol>
+        <symbol id="sun-fill" viewBox="0 0 16 16">
+            <path
+                d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z">
+            </path>
+        </symbol>
+    </svg>
+    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle"> <button
+            class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button"
+            aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)"> <svg
+                class="bi my-1 theme-icon-active" aria-hidden="true">
+                <use href="#circle-half"></use>
+            </svg> <span class="visually-hidden" id="bd-theme-text">Toggle theme</span> </button>
+        <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+            <li> <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light"
+                    aria-pressed="false"> <svg class="bi me-2 opacity-50" aria-hidden="true">
+                        <use href="#sun-fill"></use>
+                    </svg>
+                    Light
+                    <svg class="bi ms-auto d-none" aria-hidden="true">
+                        <use href="#check2"></use>
+                    </svg> </button> </li>
+            <li> <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
+                    aria-pressed="false"> <svg class="bi me-2 opacity-50" aria-hidden="true">
+                        <use href="#moon-stars-fill"></use>
+                    </svg>
+                    Dark
+                    <svg class="bi ms-auto d-none" aria-hidden="true">
+                        <use href="#check2"></use>
+                    </svg> </button> </li>
+            <li> <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto"
+                    aria-pressed="true"> <svg class="bi me-2 opacity-50" aria-hidden="true">
+                        <use href="#circle-half"></use>
+                    </svg>
+                    Auto
+                    <svg class="bi ms-auto d-none" aria-hidden="true">
+                        <use href="#check2"></use>
+                    </svg> </button> </li>
+        </ul>
+    </div> <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+        <symbol id="arrow-right-circle" viewBox="0 0 16 16">
+            <path
+                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z">
+            </path>
+        </symbol>
+        <symbol id="bootstrap" viewBox="0 0 118 94">
+            <title>Bootstrap</title>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z">
+            </path>
+        </symbol>
+    </svg>
+    <div class="col-lg-8 mx-auto p-4 py-md-5">
+        <header class="d-flex align-items-center pb-3 mb-5 border-bottom"> <a href="/"
+                class="d-flex align-items-center text-body-emphasis text-decoration-none"> <svg class="bi me-2"
+                    width="40" height="32" role="img" aria-label="Bootstrap">
+                    <use xlink:href="#bootstrap"></use>
+                </svg> <span class="fs-4">Starter template</span> </a> </header>
+        <main>
+            <h1 class="text-body-emphasis">Get started with Bootstrap</h1>
+            <p class="fs-5 col-md-8">Quickly and easily get started with Bootstrap's compiled, production-ready files
+                with this barebones example featuring some basic HTML and helpful links. Download all our examples to
+                get started.</p>
+            <div class="mb-5"> <a href="/docs/5.3/examples" class="btn btn-primary btn-lg px-4">Download examples</a>
+            </div>
+            <hr class="col-3 col-md-2 mb-5">
+            <div class="row g-5">
+                <div class="col-md-6">
+                    <h2 class="text-body-emphasis">Starter projects</h2>
+                    <p>Ready to go beyond the starter template? Check out these open source projects that you can
+                        quickly duplicate to a new GitHub repository.</p>
+                    <ul class="list-unstyled ps-0">
+                        <li> <a class="icon-link mb-1" href="https://github.com/twbs/examples/tree/main/icons-font"
+                                rel="noopener" target="_blank"> <svg class="bi" width="16" height="16"
+                                    aria-hidden="true">
+                                    <use xlink:href="#arrow-right-circle"></use>
+                                </svg>
+                                Bootstrap npm starter
+                            </a> </li>
+                        <li> <a class="icon-link mb-1" href="https://github.com/twbs/examples/tree/main/parcel"
+                                rel="noopener" target="_blank"> <svg class="bi" width="16" height="16"
+                                    aria-hidden="true">
+                                    <use xlink:href="#arrow-right-circle"></use>
+                                </svg>
+                                Bootstrap Parcel starter
+                            </a> </li>
+                        <li> <a class="icon-link mb-1" href="https://github.com/twbs/examples/tree/main/vite"
+                                rel="noopener" target="_blank"> <svg class="bi" width="16" height="16"
+                                    aria-hidden="true">
+                                    <use xlink:href="#arrow-right-circle"></use>
+                                </svg>
+                                Bootstrap Vite starter
+                            </a> </li>
+                        <li> <a class="icon-link mb-1" href="https://github.com/twbs/examples/tree/main/webpack"
+                                rel="noopener" target="_blank"> <svg class="bi" width="16" height="16"
+                                    aria-hidden="true">
+                                    <use xlink:href="#arrow-right-circle"></use>
+                                </svg>
+                                Bootstrap Webpack starter
+                            </a> </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-body-emphasis">Guides</h2>
+                    <p>Read more detailed instructions and documentation on using or contributing to Bootstrap.</p>
+                    <ul class="list-unstyled ps-0">
+                        <li> <a class="icon-link mb-1" href="/docs/5.3/getting-started/introduction"> <svg class="bi"
+                                    width="16" height="16" aria-hidden="true">
+                                    <use xlink:href="#arrow-right-circle"></use>
+                                </svg>
+                                Bootstrap quick start guide
+                            </a> </li>
+                        <li> <a class="icon-link mb-1" href="/docs/5.3/getting-started/webpack"> <svg class="bi"
+                                    width="16" height="16" aria-hidden="true">
+                                    <use xlink:href="#arrow-right-circle"></use>
+                                </svg>
+                                Bootstrap Webpack guide
+                            </a> </li>
+                        <li> <a class="icon-link mb-1" href="/docs/5.3/getting-started/parcel"> <svg class="bi"
+                                    width="16" height="16" aria-hidden="true">
+                                    <use xlink:href="#arrow-right-circle"></use>
+                                </svg>
+                                Bootstrap Parcel guide
+                            </a> </li>
+                        <li> <a class="icon-link mb-1" href="/docs/5.3/getting-started/vite"> <svg class="bi" width="16"
+                                    height="16" aria-hidden="true">
+                                    <use xlink:href="#arrow-right-circle"></use>
+                                </svg>
+                                Bootstrap Vite guide
+                            </a> </li>
+                        <li> <a class="icon-link mb-1" href="/docs/5.3/getting-started/contribute"> <svg class="bi"
+                                    width="16" height="16" aria-hidden="true">
+                                    <use xlink:href="#arrow-right-circle"></use>
+                                </svg>
+                                Contributing to Bootstrap
+                            </a> </li>
+                    </ul>
+                </div>
+            </div>
+
+            <h1>Pablo López - Software Developer</h1>
+<p><a href="mailto:pablo@pablolopez.dev">pablo@pablolopez.dev</a></p>
+<p>I have great adaptability, the ability to work collaboratively with cross-functional teams, learn new skills quickly and am always interested in new challenges. I possess good communication skills and can tackle problems and situations with sensitivity and proactively. I consistently contribute to the achievement of both team and personal goals, don't hesitate to ask what I don't know, do the research and get things done.</p>
+<h2>Work Experience</h2>
+<h3><small>Nov 2012 - Present</small> | <a href="https://www.toptal.com">Toptal</a></h3>
+<p>Toptal is a global, remote-first network that connects businesses with vetted freelance professionals, primarily in tech, design, and business fields like software engineering, product management, and project management.</p>
+<hr/>
+<h3><small>Dec 2024 - Aug 2025</small> | <a href="https://www.pokergfx.io">PokerGFX LLC</a><sub><small><i>via: Toptal</i></small></sub></h3>
+<ul>
+   <li>Migrated projects from .NET 4.5 to .NET 9, enabling access to the latest language features and improving runtime performance.</li>
+   <li>Developed a configuration preset feature, allowing users to save, load, and apply over 50 customizable tournament and broadcast settings.</li>
+   <li>Optimized startup by deferring non-critical component initialization to background threads, reducing perceived load time.</li>
+   <li>Consolidated all PokerGFX applications into a single solution structure, improving maintainability and cross-project integration.</li>
+   <li>Refactored the licensing system by separating license logic into focused classes, improving maintainability, increasing testability by introducing license test classes, and simplifying feature access control by exposing clear properties.</li>
+   <li>Developed a WPF application to read, write and validate licences to KEYLOK hardware, facilitating offline license management for users.</li>
+   <li>Automated the end-to-end build, signing, and publishing process for all PokerGFX projects, reducing manual effort and human error.</li>
+   <li>Added support for continuous integration and deployment using GitLab runners.</li>
+</ul>
+<p><strong>Technologies &amp; Skills:</strong><span title="Advanced Installer"><em>Advanced Installer</em></span>, <span title="API Integration"><em>API Integration</em></span>, <span title="Amazon S3 Storage"><em>AWS S3</em></span>, <span title="C#"><em>C#</em></span>, <span title=".NET"><em>.NET</em></span>, <span title=".NET Framework"><em>.NET Framework</em></span>, <span title="Git Version Control"><em>Git</em></span>, <span title="GitLab CI/CD Runners"><em>GitLab Runners</em></span>, <span title="Driverless, cross-platform usb dongle security key"><em>KEYLOK</em></span>, <span title="Microsoft SQL Server"><em>MSSQL</em></span>, <span title="Model View ViewModel"><em>MVVM</em></span>, <span title="Windows PowerShell"><em>Powershell</em></span>, <span title="Windows Forms"><em>WinForms</em></span>, <span title="Windows Presentation Foundation"><em>WPF</em></span>, <span title="WPF UI Libraries"><em>WPF UI</em></span>, <span title="eXtensible Application Markup Language"><em>XAML</em></span></p>
+<hr/>
+<h3><small>Jul 2024 - Feb 2025</small> | <a href="https://www.toptal.com">CGi, LLC</a><sub><small><i>via: Toptal</i></small></sub></h3>
+<ul>
+   <li>Fixed bugs around the website that were reported by users.</li>
+   <li>Simplified code around the website and centralized database access while fixing bugs.</li>
+   <li>Made web page updates, replacing text, images, and updating layouts.</li>
+</ul>
+<p><strong>Technologies &amp; Skills:</strong><span title="ASP.NET"><em>ASP.NET</em></span>, <span title=".NET Framework"><em>.NET Framework</em></span>, <span title="Git Version Control"><em>Git</em></span>, <span title="Microsoft SQL Server"><em>MSSQL</em></span>, <span title="MySQL Database"><em>MySQL</em></span>, <span title="Visual Basic .NET"><em>VB.NET</em></span>, <span title="ASP.NET Web Forms"><em>WebForms</em></span></p>
+<hr/>
+<h3><small>Aug 2020 - Jan 2024</small> | <a href="https://alteryx.com">Alteryx</a><sub><small><i>via: Toptal</i></small></sub></h3>
+<p>Implemented accessibility guidelines and screen reader support in flagship desktop and cloud products using Windows Forms and React, going beyond mere compliance by refactoring code and redesigning interfaces for improved usability. Achieved innovation by introducing keyboard navigation, manipulation, and screen reader support to workflow diagrams, a feature previously non-existent on the market.</p>
+<ul>
+   <li>Added keyboard navigation, manipulation and screen reader support to workflow diagram components which at the time no one else had and did not exist on the market using C# and Windows Forms.</li>
+   <li>Updated, refactored and developed custom accessibility objects for in-house and third-party Windows Forms components to enable screen reader support and keyboard navigation improving usability and overall user experience using C# and Windows Forms.</li>
+   <li>Updated, refactored and redesigned a variety of controls and user interfaces to enable accessibility features which included form inputs, multi-level menus, dialogs, tree views, datagrids, toolbars, workflow diagrams, split views, tool selectors and others improving usability and overall user experience.</li>
+   <li>Updated and refactored custom components to better integrate accessibility features and keyboard navigation using Javascript and React.</li>
+   <li>Updated and created new user interface automated tests using C# and White Framework.</li>
+</ul>
+<p><strong>Technologies &amp; Skills:</strong><span title="Accessibility"><em>A11Y</em></span>, <span title="C#"><em>C#</em></span>, <span title="Chromium Embedded Framework"><em>CEF</em></span>, <span title=".NET Framework"><em>.NET Framework</em></span>, <span title="Git Version Control"><em>Git</em></span>, <span title="Javascript"><em>Javascript</em></span>, <span title="MindFusion UI Components"><em>MindFusion</em></span>, <span title="Material UI React component library"><em>MUI</em></span>, <span title="ReactJS"><em>React</em></span>, <span title="Screen Readers"><em>Screen Readers</em></span>, <span title="Syncfusion UI Components"><em>Syncfusion</em></span>, <span title="Telerik UI Components"><em>Telerik</em></span>, <span title="UI Automation"><em>UI Automation</em></span>, <span title="Web Content Accessibility Guidelines"><em>WCAG</em></span>, <span title="TestStack.White UI Automation Framework"><em>White</em></span>, <span title="Windows Forms"><em>WinForms</em></span></p>
+<hr/>
+<h3><small>Apr 2021 - May 2021</small> | <a href="https://fremantle.com/">Fremantle Productions</a></h3>
+<p>Designed and developed a web application enabling Show Producers to work remotely, maintaining seamless access to live camera streams during TV show broadcasts, despite COVID-19 restrictions.</p>
+<p><strong>Technologies &amp; Skills:</strong><span title="API Integration"><em>API Integration</em></span>, <span title="ASP.NET Core"><em>ASP.NET Core</em></span>, <span title="Amazon EC2"><em>AWS EC2</em></span>, <span title="C#"><em>C#</em></span>, <span title="Dolby.io Real-Time Streaming"><em>Dolby.io</em></span>, <span title=".NET"><em>.NET</em></span>, <span title="Git Version Control"><em>Git</em></span>, <span title="Javascript"><em>Javascript</em></span>, <span title="MariaDB Database"><em>MariaDb</em></span>, <span title="Millicast Real-Time Streaming"><em>Millicast</em></span>, <span title="NSwag OpenAPI toolchain for .NET"><em>NSwag</em></span>, <span title="OpenAPI Specification"><em>OpenAPI</em></span>, <span title="Razor Syntax"><em>Razor</em></span>, <span title="ASP.NET Web API"><em>Web API</em></span></p>
+<hr/>
+<h3><small>Jul 2020 - Aug 2020</small> | <a href="https://games.crossfit.com">Reebok CrossFit Games 2020</a></h3>
+<p>Developed web application tailored for mobile devices, enabling athletes to seamlessly stream or upload their trial and competition videos for review by judges. This platform facilitated remote interaction between athletes and judges, thereby overcoming geographical constraints imposed by the COVID-19 pandemic</p>
+<p><strong>Technologies &amp; Skills:</strong><span title="ASP.NET Core"><em>ASP.NET Core</em></span>, <span title="Amazon EC2"><em>AWS EC2</em></span>, <span title="Amazon S3 Storage"><em>AWS S3</em></span>, <span title="C#"><em>C#</em></span>, <span title=".NET Core"><em>.NET Core</em></span>, <span title="FFmpeg Multimedia Framework"><em>FFmpeg</em></span>, <span title="Git Version Control"><em>Git</em></span>, <span title="Javascript"><em>Javascript</em></span>, <span title="MariaDB Database"><em>MariaDb</em></span>, <span title="Razor Syntax"><em>Razor</em></span></p>
+<hr/>
+<h3><small>Mar 2020 - Aug 2020</small> | <a href="https://funefalvue.com">FuneralVue</a><sub><small><i>via: Toptal</i></small></sub></h3>
+<p>Developed and updated various desktop and web applications to improve customer service, streamline business operations, and automate time-consuming tasks, enhancing overall efficiency and productivity for the organization.</p>
+<ul>
+   <li>Updated the client's primary Windows Forms based application, incorporating their new branding and adding innovative features.</li>
+   <li>Updates and enhancements to the company's management website.</li>
+   <li>Created a checkout page with customizable DVD packaging options and integrated Stripe payment processing.</li>
+   <li>Designed and developed a mobile web app allowing users to stream live events directly from their mobile devices, enhancing customer experience by reducing wait times and enabling on-the-go access to the company's services.</li>
+   <li>Developed an application to automate DVD ISO image creation from MP4 videos, utilizing Windows Services for efficient execution of lengthy tasks, and paired with a WPF desktop app for service management and notification display.</li>
+</ul>
+<p><strong>Technologies &amp; Skills:</strong><span title="Amazon EC2"><em>AWS EC2</em></span>, <span title="Amazon S3 Storage"><em>AWS S3</em></span>, <span title="C#"><em>C#</em></span>, <span title="CakePHP Framework"><em>CakePHP</em></span>, <span title="Docker containers"><em>Docker</em></span>, <span title=".NET Framework"><em>.NET Framework</em></span>, <span title="DVD ISO image creation"><em>DVD/ISO Creation</em></span>, <span title="FFmpeg Multimedia Framework"><em>FFmpeg</em></span>, <span title="Git Version Control"><em>Git</em></span>, <span title="Javascript"><em>Javascript</em></span>, <span title="Larix Broadcaster Mobile RTMP/RTSP Streaming App"><em>Larix</em></span>, <span title="MySQL Database"><em>MySQL</em></span>, <span title="Windows PowerShell"><em>Powershell</em></span>, <span title="ReactJS"><em>React</em></span>, <span title="Real-Time Messaging Protocol"><em>RTMP</em></span>, <span title="Stripe Payment Gateway"><em>Stripe</em></span>, <span title="Vue.js"><em>Vue</em></span>, <span title="ASP.NET Web API"><em>Web API</em></span>, <span title="Windows Forms"><em>WinForms</em></span>, <span title="Windows Services"><em>Windows Services</em></span>, <span title="Wowza Streaming Engine"><em>Wowza</em></span>, <span title="Windows Presentation Foundation"><em>WPF</em></span>, <span title="eXtensible Application Markup Language"><em>XAML</em></span></p>
+<hr/>
+<h3><small>Mar 2019 - Jan 2020</small> | <a href="https://evolutionsoftware.co.za/">Evolution Software</a><sub><small><i>via: Toptal</i></small></sub></h3>
+<p>Implemented Entity Framework to streamline database interactions, automating repetitive tasks and reducing code complexity. Optimized database queries and stored procedures for faster results. Developed modules using a custom framework built on top of ASP.NET. Exposed frequently used functionality via Web Services. Replaced server-side controls with client-side rendering and asynchronous requests, enhancing performance and user experience.</p>
+<p><strong>Technologies &amp; Skills:</strong><span title="ASP.NET"><em>ASP.NET</em></span>, <span title="C#"><em>C#</em></span>, <span title=".NET Framework"><em>.NET Framework</em></span>, <span title="Git Version Control"><em>Git</em></span>, <span title="Javascript"><em>Javascript</em></span>, <span title="KnockoutJS JavaScript Library"><em>KnockoutJS</em></span>, <span title="Microsoft SQL Server"><em>MSSQL</em></span>, <span title="ASP.NET Web Forms"><em>WebForms</em></span>, <span title="ASP.NET Web Services"><em>Web Services</em></span></p>
+<hr/>
+<h3><small>Sep 2015 - Aug 2019</small> | <a href="https://www.encora.com/news/nearsoft-is-now-encora">Nearsoft</a></h3>
+<p>As part of the <a href="https://www.mdlive.com">MDLive Inc</a> team, I was involved and worked alongside product design, UX, DevOps and other development teams to build, integrate and deploy a WebRTC conferencing solution composed of several back and front end services and components.</p>
+<ul>
+   <li>WebRTC solution with audio recording composed of signaling server, Javascript and C# clients, Azure Storage, Queues and Functions.</li>
+   <li>Ruby gem to map Surecript API request and response messages between JSON and XML.</li>
+   <li>Added Office 365 authentication to UWP application.</li>
+   <li>Worked with iOS and Android development teams to help with integration of video conferencing application</li>
+   <li>Worked with DevOps team to help with infrastructure provisioning and deployment of server-side applications on Azure.</li>
+   <li>Worked with offshore team to help debug and deploy a payment gateway written in ASP.NET.</li>
+</ul>
+<p><strong>Technologies &amp; Skills:</strong><span title="ASP.NET"><em>ASP.NET</em></span>, <span title="Azure Functions"><em>Azure Functions</em></span>, <span title="Azure Queues"><em>Azure Queues</em></span>, <span title="Azure Storage"><em>Azure Storage</em></span>, <span title="C#"><em>C#</em></span>, <span title="Docker containers"><em>Docker</em></span>, <span title="Docker containers for Windows"><em>Docker for Windows</em></span>, <span title=".NET Framework"><em>.NET Framework</em></span>, <span title="FFmpeg Multimedia Framework"><em>FFmpeg</em></span>, <span title="Frozen Mountain Software"><em>FrozenMountain</em></span>, <span title="Git Version Control"><em>Git</em></span>, <span title="Icelink WebRTC"><em>Icelink</em></span>, <span title="Javascript"><em>Javascript</em></span>, <span title="Microsoft SQL Server"><em>MSSQL</em></span>, <span title="Model View Controller"><em>MVC</em></span>, <span title="Windows PowerShell"><em>Powershell</em></span>, <span title="ReactJS"><em>React</em></span>, <span title="Ruby on Rails"><em>Ruby on Rails</em></span>, <span title="Surescripts Healthcare Network"><em>Surescripts</em></span>, <span title="ASP.NET Web API"><em>Web API</em></span>, <span title="Web Real-Time Communication"><em>WebRTC</em></span>, <span title="Frozen Mountain Websync"><em>Websync</em></span></p>
+<hr/>
+<h3><small>Apr 2015 - Jun 2015</small> | <a href="http://weared4.com">D4 Software</a><sub><small><i>via: Toptal</i></small></sub></h3>
+<p>Worked on various development projects for ASP.NET MVC websites, focusing on enhancing user experience, email sending and tracking features.</p>
+<p><strong>Technologies &amp; Skills:</strong><span title="ASP.NET"><em>ASP.NET</em></span>, <span title="C#"><em>C#</em></span>, <span title=".NET Framework"><em>.NET Framework</em></span>, <span title="Git Version Control"><em>Git</em></span>, <span title="jQuery Javascript Library"><em>jQuery</em></span>, <span title="Javascript"><em>Javascript</em></span>, <span title="KnockoutJS JavaScript Library"><em>KnockoutJS</em></span>, <span title="Microsoft SQL Server"><em>MSSQL</em></span>, <span title="Model View Controller"><em>MVC</em></span>, <span title="ASP.NET Web API"><em>Web API</em></span></p>
+<hr/>
+<h3><small>Oct 2014 - Feb 2015</small> | <a href="https://www.rxchange.co.uk">arex Rxchange GmbH</a><sub><small><i>via: Toptal</i></small></sub></h3>
+<p>Worked on ASP.NET MVC components to improve operations within an online E-Commerce Pharmaceutical B2B marketplace for wholesale dealers in the EU.</p>
+<p><strong>Technologies &amp; Skills:</strong><span title="ASP.NET"><em>ASP.NET</em></span>, <span title="C#"><em>C#</em></span>, <span title=".NET Framework"><em>.NET Framework</em></span>, <span title="Git Version Control"><em>Git</em></span>, <span title="jQuery Javascript Library"><em>jQuery</em></span>, <span title="Javascript"><em>Javascript</em></span>, <span title="Microsoft SQL Server"><em>MSSQL</em></span>, <span title="Model View Controller"><em>MVC</em></span>, <span title="ASP.NET Web API"><em>Web API</em></span></p>
+<hr/>
+<h3><small>Jan 2013 - Sep 2014</small> | <a href="https://www.situsamc.com">American Mortgage Consultants</a><sub><small><i>via: Toptal</i></small></sub></h3>
+<p>I developed and enhanced several components within a loan management system, including a rules engine for applying tests to loans and a stipulations manager, both leveraging ASP.NET technologies and KnockoutJS for responsive client-side interactions. I also implemented a claims review module and contributed migrating Classic ASP web applications written with VBScript to ASP.NET Web Forms with C# and data access code migration from ADO.NET to .netTiers. Additionally, I refactored multiple ASP.NET Web Forms to boost performance and optimize resource usage across the application.</p>
+<p><strong>Technologies &amp; Skills:</strong><span title="ASP.NET"><em>ASP.NET</em></span>, <span title="C#"><em>C#</em></span>, <span title=".NET Framework"><em>.NET Framework</em></span>, <span title="jQuery Javascript Library"><em>jQuery</em></span>, <span title="Javascript"><em>Javascript</em></span>, <span title="KnockoutJS JavaScript Library"><em>KnockoutJS</em></span>, <span title="Microsoft SQL Server"><em>MSSQL</em></span>, <span title=".netTiers Code Generation Framework"><em>.netTiers</em></span>, <span title="Team Foundation Server"><em>TFS</em></span>, <span title="ASP.NET Web Forms"><em>WebForms</em></span>, <span title="ASP.NET Web Services"><em>Web Services</em></span></p>
+<hr/>
+<h3><small>Oct 2011 - Jan 2013</small> | <a href="">Serpico DEV</a></h3>
+<p>Platform for Career Tutors to manage and review professional profiles created by College Students. Collaborated with the AppointmentPlus development team to create a Web API and Outlook Plugin.</p>
+<p><strong>Technologies &amp; Skills:</strong><span title="ASP.NET"><em>ASP.NET</em></span>, <span title="C#"><em>C#</em></span>, <span title="CakePHP Framework"><em>CakePHP</em></span>, <span title=".NET"><em>.NET</em></span>, <span title="Git Version Control"><em>Git</em></span>, <span title="jQuery Javascript Library"><em>jQuery</em></span>, <span title="jQuery User Interface"><em>jQuery-UI</em></span>, <span title="Javascript"><em>Javascript</em></span>, <span title="Kendo UI Components"><em>Kendo UI</em></span>, <span title="Microsoft SQL Server"><em>MSSQL</em></span>, <span title="Model View Controller"><em>MVC</em></span>, <span title="MySQL Database"><em>MySQL</em></span>, <span title="ASP.NET Web API"><em>Web API</em></span></p>
+<hr/>
+<h3><small>Mar 2011 - Oct 2011</small> | <a href="https://www.esurance.com">Esurance</a><sub><small><i>via: Hildebrando</i></small></sub></h3>
+<p>Migrated multiple sections of an existing web application used for insurance claim management from ASP to ASP.NET. Additionally, created new components to support additional features.</p>
+<p><strong>Technologies &amp; Skills:</strong><span title="Active Server pages"><em>Classic ASP</em></span>, <span title="ASP.NET"><em>ASP.NET</em></span>, <span title="C#"><em>C#</em></span>, <span title="DevExpress UI Components"><em>DevExpress</em></span>, <span title=".NET Framework"><em>.NET Framework</em></span>, <span title="jQuery Javascript Library"><em>jQuery</em></span>, <span title="Javascript"><em>Javascript</em></span>, <span title="Language Integrated Query to SQL"><em>LINQ to SQL</em></span>, <span title="Microsoft SQL Server"><em>MSSQL</em></span>, <span title="Team Foundation Server"><em>TFS</em></span>, <span title="Visual Basic Script"><em>VBScript</em></span>, <span title="ASP.NET Web Forms"><em>WebForms</em></span>, <span title="ASP.NET Web Services"><em>Web Services</em></span></p>
+<hr/>
+<h3><small>Jul 2010 - Mar 2011</small> | <a href="https://www.encora.com/news/nearsoft-is-now-encora">Nearsoft</a></h3>
+<p>As part of the HarvestMark engineering team, I Developed various components for a traceability software that tracks the origin and freshness of food.</p>
+<p><strong>Technologies &amp; Skills:</strong><span title="ASP.NET"><em>ASP.NET</em></span>, <span title="C#"><em>C#</em></span>, <span title=".NET Compact Framework"><em>.NET CE</em></span>, <span title=".NET Framework"><em>.NET Framework</em></span>, <span title="Microsoft SQL Server"><em>MSSQL</em></span>, <span title="Microsoft SQL Server Compact Edition"><em>MSSQL CE</em></span>, <span title="Microsoft SQL Server XML Services"><em>MSSQL XML</em></span>, <span title="Team Foundation Server"><em>TFS</em></span>, <span title="Windows Communication Foundation"><em>WCF</em></span>, <span title="ASP.NET Web Forms"><em>WebForms</em></span>, <span title="ASP.NET Web Services"><em>Web Services</em></span>, <span title="Windows Forms"><em>WinForms</em></span>, <span title="Windows Services"><em>Windows Services</em></span></p>
+<hr/>
+<h3><small>Nov 2007 - Jan 2010</small> | <a href="https://tiempodev.com">Tiempo Development</a></h3>
+<p>Implemented several software components, including synchronization and compression of audio and video content, packaging of presentations into self-contained executables, integration of image and video search APIs with retrieval capabilities and chart components.</p>
+<p><strong>Technologies &amp; Skills:</strong><span title="ASP.NET"><em>ASP.NET</em></span>, <span title="C#"><em>C#</em></span>, <span title="C++"><em>C++</em></span>, <span title=".NET Framework"><em>.NET Framework</em></span>, <span title="Flypaper Digital Presentation Software"><em>Flypaper</em></span>, <span title="InstallShield Installer Software"><em>InstallShield</em></span>, <span title="jQuery Javascript Library"><em>jQuery</em></span>, <span title="Javascript"><em>Javascript</em></span>, <span title="Microsoft SQL Server"><em>MSSQL</em></span>, <span title="Model View ViewModel"><em>MVVM</em></span>, <span title="Apache Subversion"><em>SVN</em></span>, <span title="Telerik UI Components"><em>Telerik</em></span>, <span title="ASP.NET Web Forms"><em>WebForms</em></span>, <span title="ASP.NET Web Services"><em>Web Services</em></span>, <span title="Windows Forms"><em>WinForms</em></span>, <span title="Windows Presentation Foundation"><em>WPF</em></span>, <span title="eXtensible Application Markup Language"><em>XAML</em></span></p>
+<hr/>
+<h3><small>Jan 2006 - Nov 2007</small> | <a href="">e-Business Consultores</a></h3>
+<p>Developed web applications creating a range of solutions that included content management systems, e-learning, e-commerce, task tracking, digital signature integration, and others.</p>
+<p><strong>Technologies &amp; Skills:</strong><span title="Active Server pages"><em>Classic ASP</em></span>, <span title="ASP.NET"><em>ASP.NET</em></span>, <span title="C#"><em>C#</em></span>, <span title="Component Object Model for .NET"><em>COM+</em></span>, <span title=".NET Framework"><em>.NET Framework</em></span>, <span title="jQuery Javascript Library"><em>jQuery</em></span>, <span title="Javascript"><em>Javascript</em></span>, <span title="Microsoft SQL Server"><em>MSSQL</em></span>, <span title="Public Key Infrastructure"><em>PKI</em></span>, <span title="Apache Subversion"><em>SVN</em></span>, <span title="Visual Basic .NET"><em>VB.NET</em></span>, <span title="Visual Basic Script"><em>VBScript</em></span>, <span title="ASP.NET Web Forms"><em>WebForms</em></span>, <span title="ASP.NET Web Services"><em>Web Services</em></span>, <span title="XML"><em>XML</em></span></p>
+<hr/>
+<h3><small>Oct 2004 - Jan 2006</small> | <a href="">Cambio Sonora</a></h3>
+<p>Web development for newspaper's website and intranet, while also offering technical support and collaboration with the IT department.</p>
+<p><strong>Technologies &amp; Skills:</strong><span title="Active Server pages"><em>Classic ASP</em></span>, <span title="Javascript"><em>Javascript</em></span>, <span title="Microsoft SQL Server"><em>MSSQL</em></span>, <span title="Visual Basic Script"><em>VBScript</em></span></p>
+<hr/>
+<h3><small>May 2000 - Oct 2004</small> | <a href="">Dextro International</a></h3>
+<p>Designed and developed dynamic websites with e-commerce, content management and other custom solutions.</p>
+<p><strong>Technologies &amp; Skills:</strong><span title="Active Server pages"><em>Classic ASP</em></span>, <span title="Microsoft SQL Server"><em>MSSQL</em></span>, <span title="Visual Basic Script"><em>VBScript</em></span></p>
+<hr/>
+<p align="right"><i>Last Updated: Dec 02, 2025</i></p>
+        </main>
+        <footer class="pt-5 my-5 text-body-secondary border-top">
+            Created by the Bootstrap team · © 2025 </footer>
+    </div>
+    <script src="https://getbootstrap.com/docs/5.3/dist/js/bootstrap.bundle.min.js"
+        class="astro-vvvwv3sm"></script>
+</body>
+
+</html>
