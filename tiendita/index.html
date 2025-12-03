@@ -14,7 +14,7 @@
     <div class="bg-white">
         <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
             <h2 class="text-4xl font-bold text-gray-800 mb-4">Caroventas</h2>
-            <div v-for="(item, itemIndex) in items">
+            <div v-for="(item, itemIndex) in items" :class="{ 'opacity-60': item.sold }" :key="itemIndex">
                 <h3 class="text-2xl mt-8 mb-5" :class="{ 'line-through text-red-400': item.sold }">
                     {{item.name}}
                     <span class="float-right" :class="{ 'line-through text-red-400': item.sold }">
