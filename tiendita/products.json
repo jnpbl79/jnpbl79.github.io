@@ -1,8 +1,8 @@
 {
     "items": [
         {
-            "name": "Caminadora Reebok Jet 100",
-            "description": "Sistema Amortiguación; Velocidad máxima de 16 km/h; Peso maximo Usuario 120 Kg; 80kg de peso; superficie de carrera de 130 x 43 cm; inclinación de 0% a 12%",
+            "name": "Reebok Jet 100",
+            "description": "Caminadora Reebok Jet 100. Sistema Amortiguación; Velocidad máxima de 16 km/h; Peso maximo Usuario 120 Kg; 80kg de peso; superficie de carrera de 130 x 43 cm; inclinación de 0% a 12%",
             "price": 7000,
             "images": [
                 "caminadora_001.jpg",
@@ -33,7 +33,7 @@
         },
         {
             "name": "Monitor portatil 14\"",
-            "description": "JOHNKANG Monitor portátil para laptop, monitor extendido FHD 1080P de 14 pulgadas, con cubierta inteligente, mini HDMI, USB C, altavoces duales, segunda visualización, monitor de juegos para MacBook, laptop, PC, teléfono, Xbox PS5 Switch",
+            "description": "JOHNKANG Monitor portátil para laptop, monitor extendido FHD 1080P de 14 pulgadas, con cubierta inteligente, mini HDMI, USB C, altavoces duales.",
             "price": 800,
             "images": [
                 "monitor14_001.jpg",
@@ -177,8 +177,8 @@
             ]
         },
         {
-            "name": "TP-Link Mesh Deco XE75 Wifi-6E 2-Pack",
-            "description": "TP-Link Mesh Deco XE75 Wifi-6E. Sistema Wi-Fi 6E Mesh AXE5400 de Triple Banda",
+            "name": "Deco XE75 Wifi-6E 2-Pack",
+            "description": "2-Pack. Sistema Wi-Fi 6E Mesh AXE5400 TP-Link Mesh Deco XE75 de Triple Banda",
             "price": 3000,
             "images": [
                 "deco_xe75_001.jpg",
@@ -210,8 +210,8 @@
             ]
         },
         {
-            "name": "Monitor LG Ultrawide 34\"",
-            "description": "LG 34WP65C-B UltraWide Monitor de computadora de 34 Pulgadas QHD (3440 x 1440) 160Hz, HDR10, AMD FreeSync Premium, Altavoz Integrado, diseño sin Bordes, Soporte de inclinación/Altura, Puerto HDMI",
+            "name": "Monitor 34\"",
+            "description": "Monitor LG 34WP65C-B UltraWide Monitor de computadora de 34 Pulgadas QHD (3440 x 1440) 160Hz, HDR10, AMD FreeSync Premium, Altavoz Integrado, diseño sin Bordes, Soporte de inclinación/Altura, Puerto HDMI",
             "price": 5000,
             "images": [
                 "monitor34_002.jpg",
@@ -240,8 +240,8 @@
             ]
         },
         {
-            "name": "Refrigerador LG Multi Door 24cu.ft",
-            "description": "Medidas: Ancho: 87.0 Profundidad: 95.0 Altura: 182.0",
+            "name": "Refrigerador LG",
+            "description": "Refrigerador LG Multi Door 24cu.ft. Medidas: Ancho: 87.0 Profundidad: 95.0 Altura: 182.0",
             "price": 8000,
             "images": [
                 "refrigerador_001.avif",
@@ -254,7 +254,7 @@
             "sold_to": "Sobrina Daniel"
         },
         {
-            "name": "Nikon Z50 Mirrorless",
+            "name": "Nikon Z50",
             "description": "Camara Nikon Z50 Mirrorless Con Lente 16-55mm + Dx 50-250mm; Wireless Remote Control Shutter Release; Bolsa Grande para Dispositivos DSLR",
             "price": 20000,
             "images": [
@@ -338,7 +338,7 @@
             ]
         },
         {
-            "name": "Máquina masajeadora de piernas",
+            "name": "Máquina masajeadora",
             "description": "RENPHO - Máquina masajeadora de piernas con calor, Shiatsu, para pies y pantorrillas",
             "price": 4000,
             "images": [
