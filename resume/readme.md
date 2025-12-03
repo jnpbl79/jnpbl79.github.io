@@ -1,11 +1,10 @@
 # Pablo López - Software Developer
 
-**📧** [Email](mailto:pablo+contact@pablolopez.dev) **🌐** [Website](https://resume.pablolopez.dev) **🏢** [LinkedIn](https://www.linkedin.com/in/jplopezg/) **🐙** [Github](https://github.com/jnpbl79)
+**📧** [Email](mailto:pablo+contact@pablolopez.dev) **🌐** [Website](https://resume.pablolopez.dev) **🏢** [LinkedIn](https://www.linkedin.com/in/jplopezg/) **🐙** [Github](https://github.com/jnpbl79) | [📄 Download PDF](./resume.pdf) |
 
 I have great adaptability, the ability to work collaboratively with cross-functional teams, learn new skills quickly and am always interested in new challenges. I possess good communication skills and can tackle problems and situations with sensitivity and proactively. I consistently contribute to the achievement of both team and personal goals, don't hesitate to ask what I don't know, do the research and get things done.
 
-**Languages:**
-Spanish, English  
+**Languages:** Spanish, English
 
 ## Work Experience
 
@@ -27,23 +26,7 @@ Toptal is a global, remote-first network that connects businesses with vetted fr
 - Added support for continuous integration and deployment using GitLab runners.
 
 
-**Technologies & Skills:**
-<span title='Advanced Installer'>*Advanced Installer*</span>,
-<span title='API Integration'>*API Integration*</span>,
-<span title='Amazon S3 Storage'>*AWS S3*</span>,
-<span title='C#'>*C#*</span>,
-<span title='.NET'>*.NET*</span>,
-<span title='.NET Framework'>*.NET Framework*</span>,
-<span title='Git Version Control'>*Git*</span>,
-<span title='GitLab CI/CD Runners'>*GitLab Runners*</span>,
-<span title='Driverless, cross-platform usb dongle security key'>*KEYLOK*</span>,
-<span title='Microsoft SQL Server'>*MSSQL*</span>,
-<span title='Model View ViewModel'>*MVVM*</span>,
-<span title='Windows PowerShell'>*Powershell*</span>,
-<span title='Windows Forms'>*WinForms*</span>,
-<span title='Windows Presentation Foundation'>*WPF*</span>,
-<span title='WPF UI Libraries'>*WPF UI*</span>,
-<span title='eXtensible Application Markup Language'>*XAML*</span>
+**Technologies & Skills:** <span title='Advanced Installer'>*Advanced Installer*</span>, <span title='API Integration'>*API Integration*</span>, <span title='Amazon S3 Storage'>*AWS S3*</span>, <span title='C#'>*C#*</span>, <span title='.NET'>*.NET*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='Git Version Control'>*Git*</span>, <span title='GitLab CI/CD Runners'>*GitLab Runners*</span>, <span title='Driverless, cross-platform usb dongle security key'>*KEYLOK*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View ViewModel'>*MVVM*</span>, <span title='Windows PowerShell'>*Powershell*</span>, <span title='Windows Forms'>*WinForms*</span>, <span title='Windows Presentation Foundation'>*WPF*</span>, <span title='WPF UI Libraries'>*WPF UI*</span>, <span title='eXtensible Application Markup Language'>*XAML*</span>
 
 ---
 
@@ -54,14 +37,7 @@ Toptal is a global, remote-first network that connects businesses with vetted fr
 - Made web page updates, replacing text, images, and updating layouts.
 
 
-**Technologies & Skills:**
-<span title='ASP.NET'>*ASP.NET*</span>,
-<span title='.NET Framework'>*.NET Framework*</span>,
-<span title='Git Version Control'>*Git*</span>,
-<span title='Microsoft SQL Server'>*MSSQL*</span>,
-<span title='MySQL Database'>*MySQL*</span>,
-<span title='Visual Basic .NET'>*VB.NET*</span>,
-<span title='ASP.NET Web Forms'>*WebForms*</span>
+**Technologies & Skills:** <span title='ASP.NET'>*ASP.NET*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='Git Version Control'>*Git*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='MySQL Database'>*MySQL*</span>, <span title='Visual Basic .NET'>*VB.NET*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>
 
 ---
 
@@ -76,23 +52,7 @@ Implemented accessibility guidelines and screen reader support in flagship deskt
 - Updated and created new user interface automated tests using C# and White Framework.
 
 
-**Technologies & Skills:**
-<span title='Accessibility'>*A11Y*</span>,
-<span title='C#'>*C#*</span>,
-<span title='Chromium Embedded Framework'>*CEF*</span>,
-<span title='.NET Framework'>*.NET Framework*</span>,
-<span title='Git Version Control'>*Git*</span>,
-<span title='Javascript'>*Javascript*</span>,
-<span title='MindFusion UI Components'>*MindFusion*</span>,
-<span title='Material UI React component library'>*MUI*</span>,
-<span title='ReactJS'>*React*</span>,
-<span title='Screen Readers'>*Screen Readers*</span>,
-<span title='Syncfusion UI Components'>*Syncfusion*</span>,
-<span title='Telerik UI Components'>*Telerik*</span>,
-<span title='UI Automation'>*UI Automation*</span>,
-<span title='Web Content Accessibility Guidelines'>*WCAG*</span>,
-<span title='TestStack.White UI Automation Framework'>*White*</span>,
-<span title='Windows Forms'>*WinForms*</span>
+**Technologies & Skills:** <span title='Accessibility'>*A11Y*</span>, <span title='C#'>*C#*</span>, <span title='Chromium Embedded Framework'>*CEF*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='Git Version Control'>*Git*</span>, <span title='Javascript'>*Javascript*</span>, <span title='MindFusion UI Components'>*MindFusion*</span>, <span title='Material UI React component library'>*MUI*</span>, <span title='ReactJS'>*React*</span>, <span title='Screen Readers'>*Screen Readers*</span>, <span title='Syncfusion UI Components'>*Syncfusion*</span>, <span title='Telerik UI Components'>*Telerik*</span>, <span title='UI Automation'>*UI Automation*</span>, <span title='Web Content Accessibility Guidelines'>*WCAG*</span>, <span title='TestStack.White UI Automation Framework'>*White*</span>, <span title='Windows Forms'>*WinForms*</span>
 
 ---
 
@@ -100,21 +60,7 @@ Implemented accessibility guidelines and screen reader support in flagship deskt
 
 Designed and developed a web application enabling Show Producers to work remotely, maintaining seamless access to live camera streams during TV show broadcasts, despite COVID-19 restrictions.
 
-**Technologies & Skills:**
-<span title='API Integration'>*API Integration*</span>,
-<span title='ASP.NET Core'>*ASP.NET Core*</span>,
-<span title='Amazon EC2'>*AWS EC2*</span>,
-<span title='C#'>*C#*</span>,
-<span title='Dolby.io Real-Time Streaming'>*Dolby.io*</span>,
-<span title='.NET'>*.NET*</span>,
-<span title='Git Version Control'>*Git*</span>,
-<span title='Javascript'>*Javascript*</span>,
-<span title='MariaDB Database'>*MariaDb*</span>,
-<span title='Millicast Real-Time Streaming'>*Millicast*</span>,
-<span title='NSwag OpenAPI toolchain for .NET'>*NSwag*</span>,
-<span title='OpenAPI Specification'>*OpenAPI*</span>,
-<span title='Razor Syntax'>*Razor*</span>,
-<span title='ASP.NET Web API'>*Web API*</span>
+**Technologies & Skills:** <span title='API Integration'>*API Integration*</span>, <span title='ASP.NET Core'>*ASP.NET Core*</span>, <span title='Amazon EC2'>*AWS EC2*</span>, <span title='C#'>*C#*</span>, <span title='Dolby.io Real-Time Streaming'>*Dolby.io*</span>, <span title='.NET'>*.NET*</span>, <span title='Git Version Control'>*Git*</span>, <span title='Javascript'>*Javascript*</span>, <span title='MariaDB Database'>*MariaDb*</span>, <span title='Millicast Real-Time Streaming'>*Millicast*</span>, <span title='NSwag OpenAPI toolchain for .NET'>*NSwag*</span>, <span title='OpenAPI Specification'>*OpenAPI*</span>, <span title='Razor Syntax'>*Razor*</span>, <span title='ASP.NET Web API'>*Web API*</span>
 
 ---
 
@@ -122,17 +68,7 @@ Designed and developed a web application enabling Show Producers to work remotel
 
 Developed web application tailored for mobile devices, enabling athletes to seamlessly stream or upload their trial and competition videos for review by judges. This platform facilitated remote interaction between athletes and judges, thereby overcoming geographical constraints imposed by the COVID-19  pandemic
 
-**Technologies & Skills:**
-<span title='ASP.NET Core'>*ASP.NET Core*</span>,
-<span title='Amazon EC2'>*AWS EC2*</span>,
-<span title='Amazon S3 Storage'>*AWS S3*</span>,
-<span title='C#'>*C#*</span>,
-<span title='.NET Core'>*.NET Core*</span>,
-<span title='FFmpeg Multimedia Framework'>*FFmpeg*</span>,
-<span title='Git Version Control'>*Git*</span>,
-<span title='Javascript'>*Javascript*</span>,
-<span title='MariaDB Database'>*MariaDb*</span>,
-<span title='Razor Syntax'>*Razor*</span>
+**Technologies & Skills:** <span title='ASP.NET Core'>*ASP.NET Core*</span>, <span title='Amazon EC2'>*AWS EC2*</span>, <span title='Amazon S3 Storage'>*AWS S3*</span>, <span title='C#'>*C#*</span>, <span title='.NET Core'>*.NET Core*</span>, <span title='FFmpeg Multimedia Framework'>*FFmpeg*</span>, <span title='Git Version Control'>*Git*</span>, <span title='Javascript'>*Javascript*</span>, <span title='MariaDB Database'>*MariaDb*</span>, <span title='Razor Syntax'>*Razor*</span>
 
 ---
 
@@ -147,30 +83,7 @@ Developed and updated various desktop and web applications to improve customer s
 - Developed an application to automate DVD ISO image creation from MP4 videos, utilizing Windows Services for efficient execution of lengthy tasks, and paired with a WPF desktop app for service management and notification display.
 
 
-**Technologies & Skills:**
-<span title='Amazon EC2'>*AWS EC2*</span>,
-<span title='Amazon S3 Storage'>*AWS S3*</span>,
-<span title='C#'>*C#*</span>,
-<span title='CakePHP Framework'>*CakePHP*</span>,
-<span title='Docker containers'>*Docker*</span>,
-<span title='.NET Framework'>*.NET Framework*</span>,
-<span title='DVD ISO image creation'>*DVD/ISO Creation*</span>,
-<span title='FFmpeg Multimedia Framework'>*FFmpeg*</span>,
-<span title='Git Version Control'>*Git*</span>,
-<span title='Javascript'>*Javascript*</span>,
-<span title='Larix Broadcaster Mobile RTMP/RTSP Streaming App'>*Larix*</span>,
-<span title='MySQL Database'>*MySQL*</span>,
-<span title='Windows PowerShell'>*Powershell*</span>,
-<span title='ReactJS'>*React*</span>,
-<span title='Real-Time Messaging Protocol'>*RTMP*</span>,
-<span title='Stripe Payment Gateway'>*Stripe*</span>,
-<span title='Vue.js'>*Vue*</span>,
-<span title='ASP.NET Web API'>*Web API*</span>,
-<span title='Windows Forms'>*WinForms*</span>,
-<span title='Windows Services'>*Windows Services*</span>,
-<span title='Wowza Streaming Engine'>*Wowza*</span>,
-<span title='Windows Presentation Foundation'>*WPF*</span>,
-<span title='eXtensible Application Markup Language'>*XAML*</span>
+**Technologies & Skills:** <span title='Amazon EC2'>*AWS EC2*</span>, <span title='Amazon S3 Storage'>*AWS S3*</span>, <span title='C#'>*C#*</span>, <span title='CakePHP Framework'>*CakePHP*</span>, <span title='Docker containers'>*Docker*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='DVD ISO image creation'>*DVD/ISO Creation*</span>, <span title='FFmpeg Multimedia Framework'>*FFmpeg*</span>, <span title='Git Version Control'>*Git*</span>, <span title='Javascript'>*Javascript*</span>, <span title='Larix Broadcaster Mobile RTMP/RTSP Streaming App'>*Larix*</span>, <span title='MySQL Database'>*MySQL*</span>, <span title='Windows PowerShell'>*Powershell*</span>, <span title='ReactJS'>*React*</span>, <span title='Real-Time Messaging Protocol'>*RTMP*</span>, <span title='Stripe Payment Gateway'>*Stripe*</span>, <span title='Vue.js'>*Vue*</span>, <span title='ASP.NET Web API'>*Web API*</span>, <span title='Windows Forms'>*WinForms*</span>, <span title='Windows Services'>*Windows Services*</span>, <span title='Wowza Streaming Engine'>*Wowza*</span>, <span title='Windows Presentation Foundation'>*WPF*</span>, <span title='eXtensible Application Markup Language'>*XAML*</span>
 
 ---
 
@@ -178,16 +91,7 @@ Developed and updated various desktop and web applications to improve customer s
 
 Implemented Entity Framework to streamline database interactions, automating repetitive tasks and reducing code complexity. Optimized database queries and stored procedures for faster results. Developed modules using a custom framework built on top of ASP.NET. Exposed frequently used functionality via Web Services. Replaced server-side controls with client-side rendering and asynchronous requests, enhancing performance and user experience.
 
-**Technologies & Skills:**
-<span title='ASP.NET'>*ASP.NET*</span>,
-<span title='C#'>*C#*</span>,
-<span title='.NET Framework'>*.NET Framework*</span>,
-<span title='Git Version Control'>*Git*</span>,
-<span title='Javascript'>*Javascript*</span>,
-<span title='KnockoutJS JavaScript Library'>*KnockoutJS*</span>,
-<span title='Microsoft SQL Server'>*MSSQL*</span>,
-<span title='ASP.NET Web Forms'>*WebForms*</span>,
-<span title='ASP.NET Web Services'>*Web Services*</span>
+**Technologies & Skills:** <span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='Git Version Control'>*Git*</span>, <span title='Javascript'>*Javascript*</span>, <span title='KnockoutJS JavaScript Library'>*KnockoutJS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>
 
 ---
 
@@ -203,29 +107,7 @@ As part of the [MDLive Inc](https://www.mdlive.com) team, I was involved and wor
 - Worked with offshore team to help debug and deploy a payment gateway written in ASP.NET.
 
 
-**Technologies & Skills:**
-<span title='ASP.NET'>*ASP.NET*</span>,
-<span title='Azure Functions'>*Azure Functions*</span>,
-<span title='Azure Queues'>*Azure Queues*</span>,
-<span title='Azure Storage'>*Azure Storage*</span>,
-<span title='C#'>*C#*</span>,
-<span title='Docker containers'>*Docker*</span>,
-<span title='Docker containers for Windows'>*Docker for Windows*</span>,
-<span title='.NET Framework'>*.NET Framework*</span>,
-<span title='FFmpeg Multimedia Framework'>*FFmpeg*</span>,
-<span title='Frozen Mountain Software'>*FrozenMountain*</span>,
-<span title='Git Version Control'>*Git*</span>,
-<span title='Icelink WebRTC'>*Icelink*</span>,
-<span title='Javascript'>*Javascript*</span>,
-<span title='Microsoft SQL Server'>*MSSQL*</span>,
-<span title='Model View Controller'>*MVC*</span>,
-<span title='Windows PowerShell'>*Powershell*</span>,
-<span title='ReactJS'>*React*</span>,
-<span title='Ruby on Rails'>*Ruby on Rails*</span>,
-<span title='Surescripts Healthcare Network'>*Surescripts*</span>,
-<span title='ASP.NET Web API'>*Web API*</span>,
-<span title='Web Real-Time Communication'>*WebRTC*</span>,
-<span title='Frozen Mountain Websync'>*Websync*</span>
+**Technologies & Skills:** <span title='ASP.NET'>*ASP.NET*</span>, <span title='Azure Functions'>*Azure Functions*</span>, <span title='Azure Queues'>*Azure Queues*</span>, <span title='Azure Storage'>*Azure Storage*</span>, <span title='C#'>*C#*</span>, <span title='Docker containers'>*Docker*</span>, <span title='Docker containers for Windows'>*Docker for Windows*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='FFmpeg Multimedia Framework'>*FFmpeg*</span>, <span title='Frozen Mountain Software'>*FrozenMountain*</span>, <span title='Git Version Control'>*Git*</span>, <span title='Icelink WebRTC'>*Icelink*</span>, <span title='Javascript'>*Javascript*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View Controller'>*MVC*</span>, <span title='Windows PowerShell'>*Powershell*</span>, <span title='ReactJS'>*React*</span>, <span title='Ruby on Rails'>*Ruby on Rails*</span>, <span title='Surescripts Healthcare Network'>*Surescripts*</span>, <span title='ASP.NET Web API'>*Web API*</span>, <span title='Web Real-Time Communication'>*WebRTC*</span>, <span title='Frozen Mountain Websync'>*Websync*</span>
 
 ---
 
@@ -233,17 +115,7 @@ As part of the [MDLive Inc](https://www.mdlive.com) team, I was involved and wor
 
 Worked on various development projects for ASP.NET MVC websites, focusing on enhancing user experience, email sending and tracking features.
 
-**Technologies & Skills:**
-<span title='ASP.NET'>*ASP.NET*</span>,
-<span title='C#'>*C#*</span>,
-<span title='.NET Framework'>*.NET Framework*</span>,
-<span title='Git Version Control'>*Git*</span>,
-<span title='jQuery Javascript Library'>*jQuery*</span>,
-<span title='Javascript'>*Javascript*</span>,
-<span title='KnockoutJS JavaScript Library'>*KnockoutJS*</span>,
-<span title='Microsoft SQL Server'>*MSSQL*</span>,
-<span title='Model View Controller'>*MVC*</span>,
-<span title='ASP.NET Web API'>*Web API*</span>
+**Technologies & Skills:** <span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='Git Version Control'>*Git*</span>, <span title='jQuery Javascript Library'>*jQuery*</span>, <span title='Javascript'>*Javascript*</span>, <span title='KnockoutJS JavaScript Library'>*KnockoutJS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View Controller'>*MVC*</span>, <span title='ASP.NET Web API'>*Web API*</span>
 
 ---
 
@@ -251,16 +123,7 @@ Worked on various development projects for ASP.NET MVC websites, focusing on enh
 
 Worked on ASP.NET MVC components to improve operations within an online E-Commerce Pharmaceutical B2B marketplace for wholesale dealers in the EU.
 
-**Technologies & Skills:**
-<span title='ASP.NET'>*ASP.NET*</span>,
-<span title='C#'>*C#*</span>,
-<span title='.NET Framework'>*.NET Framework*</span>,
-<span title='Git Version Control'>*Git*</span>,
-<span title='jQuery Javascript Library'>*jQuery*</span>,
-<span title='Javascript'>*Javascript*</span>,
-<span title='Microsoft SQL Server'>*MSSQL*</span>,
-<span title='Model View Controller'>*MVC*</span>,
-<span title='ASP.NET Web API'>*Web API*</span>
+**Technologies & Skills:** <span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='Git Version Control'>*Git*</span>, <span title='jQuery Javascript Library'>*jQuery*</span>, <span title='Javascript'>*Javascript*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View Controller'>*MVC*</span>, <span title='ASP.NET Web API'>*Web API*</span>
 
 ---
 
@@ -268,18 +131,7 @@ Worked on ASP.NET MVC components to improve operations within an online E-Commer
 
 I developed and enhanced several components within a loan management system, including a rules engine for applying tests to loans and a stipulations manager, both leveraging ASP.NET technologies and KnockoutJS for responsive client-side interactions. I also implemented a claims review module and contributed migrating Classic ASP web applications written with VBScript to ASP.NET Web Forms with C# and data access code migration from ADO.NET to .netTiers. Additionally, I refactored multiple ASP.NET Web Forms to boost performance and optimize resource usage across the application.
 
-**Technologies & Skills:**
-<span title='ASP.NET'>*ASP.NET*</span>,
-<span title='C#'>*C#*</span>,
-<span title='.NET Framework'>*.NET Framework*</span>,
-<span title='jQuery Javascript Library'>*jQuery*</span>,
-<span title='Javascript'>*Javascript*</span>,
-<span title='KnockoutJS JavaScript Library'>*KnockoutJS*</span>,
-<span title='Microsoft SQL Server'>*MSSQL*</span>,
-<span title='.netTiers Code Generation Framework'>*.netTiers*</span>,
-<span title='Team Foundation Server'>*TFS*</span>,
-<span title='ASP.NET Web Forms'>*WebForms*</span>,
-<span title='ASP.NET Web Services'>*Web Services*</span>
+**Technologies & Skills:** <span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='jQuery Javascript Library'>*jQuery*</span>, <span title='Javascript'>*Javascript*</span>, <span title='KnockoutJS JavaScript Library'>*KnockoutJS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='.netTiers Code Generation Framework'>*.netTiers*</span>, <span title='Team Foundation Server'>*TFS*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>
 
 ---
 
@@ -287,20 +139,7 @@ I developed and enhanced several components within a loan management system, inc
 
 Platform for Career Tutors to manage and review professional profiles created by College Students.  Collaborated with the AppointmentPlus development team to create a Web API and Outlook Plugin.
 
-**Technologies & Skills:**
-<span title='ASP.NET'>*ASP.NET*</span>,
-<span title='C#'>*C#*</span>,
-<span title='CakePHP Framework'>*CakePHP*</span>,
-<span title='.NET'>*.NET*</span>,
-<span title='Git Version Control'>*Git*</span>,
-<span title='jQuery Javascript Library'>*jQuery*</span>,
-<span title='jQuery User Interface'>*jQuery-UI*</span>,
-<span title='Javascript'>*Javascript*</span>,
-<span title='Kendo UI Components'>*Kendo UI*</span>,
-<span title='Microsoft SQL Server'>*MSSQL*</span>,
-<span title='Model View Controller'>*MVC*</span>,
-<span title='MySQL Database'>*MySQL*</span>,
-<span title='ASP.NET Web API'>*Web API*</span>
+**Technologies & Skills:** <span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='CakePHP Framework'>*CakePHP*</span>, <span title='.NET'>*.NET*</span>, <span title='Git Version Control'>*Git*</span>, <span title='jQuery Javascript Library'>*jQuery*</span>, <span title='jQuery User Interface'>*jQuery-UI*</span>, <span title='Javascript'>*Javascript*</span>, <span title='Kendo UI Components'>*Kendo UI*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View Controller'>*MVC*</span>, <span title='MySQL Database'>*MySQL*</span>, <span title='ASP.NET Web API'>*Web API*</span>
 
 ---
 
@@ -308,20 +147,7 @@ Platform for Career Tutors to manage and review professional profiles created by
 
 Migrated multiple sections of an existing web application used for insurance claim management from ASP to ASP.NET. Additionally, created new components to support additional features.
 
-**Technologies & Skills:**
-<span title='Active Server pages'>*Classic ASP*</span>,
-<span title='ASP.NET'>*ASP.NET*</span>,
-<span title='C#'>*C#*</span>,
-<span title='DevExpress UI Components'>*DevExpress*</span>,
-<span title='.NET Framework'>*.NET Framework*</span>,
-<span title='jQuery Javascript Library'>*jQuery*</span>,
-<span title='Javascript'>*Javascript*</span>,
-<span title='Language Integrated Query to SQL'>*LINQ to SQL*</span>,
-<span title='Microsoft SQL Server'>*MSSQL*</span>,
-<span title='Team Foundation Server'>*TFS*</span>,
-<span title='Visual Basic Script'>*VBScript*</span>,
-<span title='ASP.NET Web Forms'>*WebForms*</span>,
-<span title='ASP.NET Web Services'>*Web Services*</span>
+**Technologies & Skills:** <span title='Active Server pages'>*Classic ASP*</span>, <span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='DevExpress UI Components'>*DevExpress*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='jQuery Javascript Library'>*jQuery*</span>, <span title='Javascript'>*Javascript*</span>, <span title='Language Integrated Query to SQL'>*LINQ to SQL*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Team Foundation Server'>*TFS*</span>, <span title='Visual Basic Script'>*VBScript*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>
 
 ---
 
@@ -329,20 +155,7 @@ Migrated multiple sections of an existing web application used for insurance cla
 
 As part of the HarvestMark engineering team, I Developed various components for a traceability software that tracks the origin and freshness of food.
 
-**Technologies & Skills:**
-<span title='ASP.NET'>*ASP.NET*</span>,
-<span title='C#'>*C#*</span>,
-<span title='.NET Compact Framework'>*.NET CE*</span>,
-<span title='.NET Framework'>*.NET Framework*</span>,
-<span title='Microsoft SQL Server'>*MSSQL*</span>,
-<span title='Microsoft SQL Server Compact Edition'>*MSSQL CE*</span>,
-<span title='Microsoft SQL Server XML Services'>*MSSQL XML*</span>,
-<span title='Team Foundation Server'>*TFS*</span>,
-<span title='Windows Communication Foundation'>*WCF*</span>,
-<span title='ASP.NET Web Forms'>*WebForms*</span>,
-<span title='ASP.NET Web Services'>*Web Services*</span>,
-<span title='Windows Forms'>*WinForms*</span>,
-<span title='Windows Services'>*Windows Services*</span>
+**Technologies & Skills:** <span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='.NET Compact Framework'>*.NET CE*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Microsoft SQL Server Compact Edition'>*MSSQL CE*</span>, <span title='Microsoft SQL Server XML Services'>*MSSQL XML*</span>, <span title='Team Foundation Server'>*TFS*</span>, <span title='Windows Communication Foundation'>*WCF*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>, <span title='Windows Forms'>*WinForms*</span>, <span title='Windows Services'>*Windows Services*</span>
 
 ---
 
@@ -350,24 +163,7 @@ As part of the HarvestMark engineering team, I Developed various components for 
 
 Implemented several software components, including synchronization and compression of audio and video content, packaging of presentations into self-contained executables, integration of image and video search APIs with retrieval capabilities and chart components.
 
-**Technologies & Skills:**
-<span title='ASP.NET'>*ASP.NET*</span>,
-<span title='C#'>*C#*</span>,
-<span title='C++'>*C++*</span>,
-<span title='.NET Framework'>*.NET Framework*</span>,
-<span title='Flypaper Digital Presentation Software'>*Flypaper*</span>,
-<span title='InstallShield Installer Software'>*InstallShield*</span>,
-<span title='jQuery Javascript Library'>*jQuery*</span>,
-<span title='Javascript'>*Javascript*</span>,
-<span title='Microsoft SQL Server'>*MSSQL*</span>,
-<span title='Model View ViewModel'>*MVVM*</span>,
-<span title='Apache Subversion'>*SVN*</span>,
-<span title='Telerik UI Components'>*Telerik*</span>,
-<span title='ASP.NET Web Forms'>*WebForms*</span>,
-<span title='ASP.NET Web Services'>*Web Services*</span>,
-<span title='Windows Forms'>*WinForms*</span>,
-<span title='Windows Presentation Foundation'>*WPF*</span>,
-<span title='eXtensible Application Markup Language'>*XAML*</span>
+**Technologies & Skills:** <span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='C++'>*C++*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='Flypaper Digital Presentation Software'>*Flypaper*</span>, <span title='InstallShield Installer Software'>*InstallShield*</span>, <span title='jQuery Javascript Library'>*jQuery*</span>, <span title='Javascript'>*Javascript*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Model View ViewModel'>*MVVM*</span>, <span title='Apache Subversion'>*SVN*</span>, <span title='Telerik UI Components'>*Telerik*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>, <span title='Windows Forms'>*WinForms*</span>, <span title='Windows Presentation Foundation'>*WPF*</span>, <span title='eXtensible Application Markup Language'>*XAML*</span>
 
 ---
 
@@ -375,22 +171,7 @@ Implemented several software components, including synchronization and compressi
 
 Developed web applications creating a range of solutions that included content management systems, e-learning, e-commerce, task tracking, digital signature integration, and others.
 
-**Technologies & Skills:**
-<span title='Active Server pages'>*Classic ASP*</span>,
-<span title='ASP.NET'>*ASP.NET*</span>,
-<span title='C#'>*C#*</span>,
-<span title='Component Object Model for .NET'>*COM+*</span>,
-<span title='.NET Framework'>*.NET Framework*</span>,
-<span title='jQuery Javascript Library'>*jQuery*</span>,
-<span title='Javascript'>*Javascript*</span>,
-<span title='Microsoft SQL Server'>*MSSQL*</span>,
-<span title='Public Key Infrastructure'>*PKI*</span>,
-<span title='Apache Subversion'>*SVN*</span>,
-<span title='Visual Basic .NET'>*VB.NET*</span>,
-<span title='Visual Basic Script'>*VBScript*</span>,
-<span title='ASP.NET Web Forms'>*WebForms*</span>,
-<span title='ASP.NET Web Services'>*Web Services*</span>,
-<span title='XML'>*XML*</span>
+**Technologies & Skills:** <span title='Active Server pages'>*Classic ASP*</span>, <span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='Component Object Model for .NET'>*COM+*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='jQuery Javascript Library'>*jQuery*</span>, <span title='Javascript'>*Javascript*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Public Key Infrastructure'>*PKI*</span>, <span title='Apache Subversion'>*SVN*</span>, <span title='Visual Basic .NET'>*VB.NET*</span>, <span title='Visual Basic Script'>*VBScript*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>, <span title='XML'>*XML*</span>
 
 ---
 
@@ -398,11 +179,7 @@ Developed web applications creating a range of solutions that included content m
 
 Web development for newspaper's website and intranet, while also offering technical support and collaboration with the IT department.
 
-**Technologies & Skills:**
-<span title='Active Server pages'>*Classic ASP*</span>,
-<span title='Javascript'>*Javascript*</span>,
-<span title='Microsoft SQL Server'>*MSSQL*</span>,
-<span title='Visual Basic Script'>*VBScript*</span>
+**Technologies & Skills:** <span title='Active Server pages'>*Classic ASP*</span>, <span title='Javascript'>*Javascript*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Visual Basic Script'>*VBScript*</span>
 
 ---
 
@@ -410,10 +187,7 @@ Web development for newspaper's website and intranet, while also offering techni
 
 Designed and developed dynamic websites with e-commerce, content management and other custom solutions.
 
-**Technologies & Skills:**
-<span title='Active Server pages'>*Classic ASP*</span>,
-<span title='Microsoft SQL Server'>*MSSQL*</span>,
-<span title='Visual Basic Script'>*VBScript*</span>
+**Technologies & Skills:** <span title='Active Server pages'>*Classic ASP*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='Visual Basic Script'>*VBScript*</span>
 
 ---
 

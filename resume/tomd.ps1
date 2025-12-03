@@ -5,18 +5,18 @@ $sb = New-Object System.Text.StringBuilder
 $profiles = ($resume.Profiles.Where({ $_.Display -ne $false }) | ForEach-Object {
     "**$(@($_.MDIcon, $_.Network)[!$_.MDIcon])** [$($_.Network)]($($_.Url))"
 }) -join " "
+$pdfDownload = "| [📄 Download PDF](./resume.pdf) |"
 
 [void]$sb.AppendLine("# $($resume.Basics.Name) - $($resume.Basics.Label)")
 [void]$sb.AppendLine('')
-[void]$sb.AppendLine($profiles)
+[void]$sb.AppendLine("$profiles $pdfDownload")
 [void]$sb.AppendLine('')
 [void]$sb.AppendLine($resume.Basics.Summary)
 [void]$sb.AppendLine('')
 
 if ($resume.Languages) {
-    [void]$sb.AppendLine('**Languages:**')
     $languages = ($resume.Languages | ForEach-Object { "$($_.Language)" }) -join ", "
-    [void]$sb.Append($languages).AppendLine('  ')
+    [void]$sb.AppendLine("**Languages:** $languages")
 }
 
 [void]$sb.AppendLine('')
@@ -59,10 +59,9 @@ foreach ($job in $workItems) {
                     Title = $_
                 }
                 "<span title='$($kw.Title)'>*$($kw.Text)*</span>"
-            }) -join ",`n"
+            }) -join ", "
         [void]$sb.AppendLine()
-        [void]$sb.AppendLine("**Technologies & Skills:**")
-        [void]$sb.AppendLine($keywords)
+        [void]$sb.AppendLine("**Technologies & Skills:** $keywords")
         [void]$sb.AppendLine()
     }
 
