@@ -22,7 +22,7 @@
                     </span>
                 </h3>
                 <p>{{item.description}}</p>
-                <div class="flex gap-4 flex-wrap mt-6 gallery justify-center lg:justify-start">
+                <div class="flex gap-2 flex-wrap mt-6 gallery justify-center lg:justify-start">
                     <img v-for="(img, imgIndex) in item.images"
                         class="lightbox-trigger border rounded-lg h-32 w-32 aspect-auto object-contain hover:opacity-75" :src="`img/s/${img}`"
                         :alt="img" @click="selectItem(item, imgIndex)" />
