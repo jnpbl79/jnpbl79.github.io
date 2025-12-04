@@ -3,9 +3,9 @@
 $sb = New-Object System.Text.StringBuilder
 
 $profiles = ($resume.Profiles.Where({ $_.Display -ne $false }) | ForEach-Object {
-    "**$(@($_.MDIcon, $_.Network)[!$_.MDIcon])** [$($_.Network)]($($_.Url))"
+    "$(@($_.MDIcon, $_.Network)[!$_.MDIcon]) [$($_.Network)]($($_.Url))"
 }) -join " "
-$pdfDownload = "| [📄 Download PDF](./resume.pdf) |"
+$pdfDownload = "[📄 Download PDF](./resume.pdf)"
 
 [void]$sb.AppendLine("# $($resume.Basics.Name) - $($resume.Basics.Label)")
 [void]$sb.AppendLine('')
@@ -24,15 +24,24 @@ if ($resume.Languages) {
 [void]$sb.AppendLine('')
 
 $index = 0
-$workItems = $resume.work.Where({ $_.Display -eq $true })
+$workItems = $resume.work.Where({ $_.Display -eq $true -and $_.Summarized -ne $true })
 
 foreach ($job in $workItems) {
     $dateStart = Get-Date -Date $job.DateStart -Format "MMM yyyy"
     $dateEnd = if ($job.DateEnd) { Get-Date -Date $job.DateEnd -Format "MMM yyyy" } else { "Present" }
     $via = @("", "<sub><small><i>via: $($job.Via)</i></small></sub>")[$job.Via -ne '']
 
-    [void]$sb.AppendLine("### <small>$($dateStart) - $($dateEnd)</small> | [$($job.Company)]($($job.url)) $($via)")
-
+    # [void]$sb.AppendLine("### <small>$($dateStart) - $($dateEnd)</small> | [$($job.Company)]($($job.url)) $($via)")
+    
+    # [void]$sb.AppendLine("### [$($job.Company)]($($job.url)) $($via)  ")
+    # [void]$sb.AppendLine("<small>$($dateStart) - $($dateEnd)</small>")
+    
+    [void]$sb.AppendLine(@"
+<div style='display:flex;justify-content:space-between;align-items:center;'>
+    <h3><a href='' target='_blank'>$($job.Company)</a> $via</h3>
+    <div><i>$($dateStart) - $($dateEnd)</i></div>
+</div>
+"@)
     if ($job.HasDescription() -and $job.Id -eq "toptal") {
         [void]$sb.AppendLine('')
         [void]$sb.AppendLine($job.Description)
@@ -49,7 +58,6 @@ foreach ($job in $workItems) {
         foreach ($highlight in $job.Highlights) {
             [void]$sb.AppendLine("- $highlight")
         }
-        [void]$sb.AppendLine('')
     }
     
     if ($job.keywords) {
@@ -66,10 +74,41 @@ foreach ($job in $workItems) {
     }
 
     if ($index -lt ($workItems.Count - 1)) {
-        [void]$sb.AppendLine('---').AppendLine()
+        # [void]$sb.AppendLine('---').AppendLine()
     }
     $index++
 }
+
+$summarized = $resume.work.Where({ $_.Display -eq $true -and $_.Summarized -eq $true })
+
+[void]$sb.AppendLine("<div style='display:flex;flex-wrap:wrap;gap:25px;'>")
+foreach ($job in $summarized) {
+    $dateStart = Get-Date -Date $job.DateStart -Format "MMM yyyy"
+    $dateEnd = if ($job.DateEnd) { Get-Date -Date $job.DateEnd -Format "MMM yyyy" } else { "Present" }
+    $via = @("", "<sub><small><i>via: $($job.Via)</i></small></sub>")[$job.Via -ne '']
+     $keywords = ($job.keywords | Sort-Object | ForEach-Object { 
+                $kw = $resume.Keywords[$_] ?? [Keyword]@{
+                    Text  = $_
+                    Title = $_
+                }
+                "<span title='$($kw.Title)'>$($kw.Text)</span>"
+            }) -join ", "
+    [void]$sb.AppendLine(@"
+    <div style='flex:48%;margin-bottom:20px;'>
+        <div style='display:flex;justify-content:space-between;align-items:end;margin-bottom:10px;'>
+            <div style='font-style:bold;font-size:large;'><a href='$($job.Url)' target='_blank'>$($job.Company)</a></div>
+            <div style='font-size:small;margin-right:10px;'><i>$($dateStart) - $($dateEnd)</i></div>
+        </div>
+        <p>$($job.Summary)</p>
+    </div>
+"@)
+    # [void]$sb.AppendLine("`t<div style='flex:48%;'>")
+    # [void]$sb.AppendLine("`t`t<h4>$($job.Company)</h4>")
+    # [void]$sb.AppendLine("`t`t<p>$($job.Summary)</p>")
+    # [void]$sb.AppendLine("`t`t<div><b>Tools:</b> <i><small>$($keywords)</small></i></div>")
+    # [void]$sb.AppendLine("`t</div>")   
+}
+[void]$sb.AppendLine("</div>")
 
 # $allKeywords = $resume.Work | ForEach-Object { $_.Keywords } | Sort-Object -Unique
 

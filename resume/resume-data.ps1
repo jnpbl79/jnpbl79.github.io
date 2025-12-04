@@ -51,6 +51,7 @@ class Work {
     [string[]]$Highlights
     [string[]]$Industries
     [string[]]$Keywords
+    [bool]$Summarized = $false
 
     [datetime]$ParsedDateStart
     [datetime]$ParsedDateEnd
@@ -133,7 +134,7 @@ class Resume {
 
 $resume = [Resume]@{
     # LastUpdated    = Get-Date -Date (Get-Item $PSCommandPath | Select-Object -ExpandProperty LastWriteTime) -Format u
-    LastUpdated = Get-Date -Date "2025-12-03 10:14:18Z"
+    LastUpdated    = Get-Date -Date "2025-12-03 10:14:18Z"
     Basics         = [Basics]@{
         Name           = "Pablo López"
         Label          = "Software Developer"
@@ -188,7 +189,7 @@ $resume = [Resume]@{
             Username = "github.com/jnpbl79"
             Url      = "https://github.com/jnpbl79"
             MDIcon   = "🐙"
-            Display  = $true
+            Display  = $false
         },
         [Profile]@{
             Network  = "Toptal"
@@ -230,7 +231,7 @@ $resume = [Resume]@{
                 "Developed a configuration preset feature, allowing users to save, load, and apply over 50 customizable tournament and broadcast settings.",
                 "Optimized startup by deferring non-critical component initialization to background threads, reducing perceived load time.",
                 
-                "Consolidated all PokerGFX applications into a single solution structure, improving maintainability and cross-project integration.",
+                # "Consolidated all PokerGFX applications into a single solution structure, improving maintainability and cross-project integration.",
                 "Refactored the licensing system by separating license logic into focused classes, improving maintainability, increasing testability by introducing license test classes, and simplifying feature access control by exposing clear properties.",
                 "Developed a WPF application to read, write and validate licences to KEYLOK hardware, facilitating offline license management for users.",
                 "Automated the end-to-end build, signing, and publishing process for all PokerGFX projects, reducing manual effort and human error.",
@@ -768,7 +769,8 @@ $resume = [Resume]@{
             DateEnd        = "2013-01-01"
             Location       = @("Phoenix, AZ, US", "Remote")
             Position       = "Software Developer"
-            Url            = ""
+            Url            = "https://foundersworkshop.com/"
+            Summarized     = $true
             Summary        = @(
                 "Platform for Career Tutors to manage and review professional profiles created by College Students.  Collaborated with the AppointmentPlus development team to create a Web API and Outlook Plugin."
             )
@@ -810,6 +812,7 @@ $resume = [Resume]@{
             Location       = @("Guadalajara, JAL, MX")
             Position       = "Software Developer"
             Url            = "https://www.esurance.com"
+            Summarized     = $true
             Summary        = @(
                 "Migrated multiple sections of an existing web application used for insurance claim management from ASP to ASP.NET. Additionally, created new components to support additional features."
             )
@@ -850,6 +853,7 @@ $resume = [Resume]@{
             Location       = @("Hermosillo, SON, MX")
             Position       = "Software Developer"
             Url            = "https://www.encora.com/news/nearsoft-is-now-encora"
+             Summarized     = $true
             Summary        = @(
                 "As part of the HarvestMark engineering team, I Developed various components for a traceability software that tracks the origin and freshness of food."
             )
@@ -890,8 +894,10 @@ $resume = [Resume]@{
             Location       = @("Hermosillo, SON, MX")
             Position       = "Software Developer"
             Url            = "https://tiempodev.com"
+             Summarized     = $true
             Summary        = @(
-                "Implemented several software components, including synchronization and compression of audio and video content, packaging of presentations into self-contained executables, integration of image and video search APIs with retrieval capabilities and chart components."
+                # "Implemented several software components, including synchronization and compression of audio and video content, packaging of presentations into self-contained executables, integration of image and video search APIs with retrieval capabilities and chart components.",
+                "Implemented several software components, including synchronization and compression of audio and video content, packaging of presentations into self-contained executables, integration of image and video search APIs and chart components."
             )
             Highlights     = @(
                 "Synchronization and compression of audio and video content",
@@ -934,7 +940,8 @@ $resume = [Resume]@{
             DateEnd        = "2007-11-01"
             Location       = @("Hermosillo, SON, MX")
             Position       = "Head of Custom Development"
-            Url            = ""
+            Url            = "#"
+            Summarized     = $true
             Summary        = @(
                 "Developed web applications creating a range of solutions that included content management systems, e-learning, e-commerce, task tracking, digital signature integration, and others."
             )
@@ -978,7 +985,8 @@ $resume = [Resume]@{
             DateEnd        = "2006-01-01"
             Location       = @("Hermosillo, SON, MX")
             Position       = "Web Developer"
-            Url            = ""
+            Url            = "#"
+            Summarized     = $true
             Summary        = @(
                 "Web development for newspaper's website and intranet, while also offering technical support and collaboration with the IT department."
             )
@@ -1008,7 +1016,8 @@ $resume = [Resume]@{
             DateEnd        = "2004-10-01"
             Location       = @("Phoenix, AZ, US", "Remote")
             Position       = "Web Developer"
-            Url            = ""
+            Url            = "#"
+            Summarized     = $true
             Summary        = @(
                 "Designed and developed dynamic websites with e-commerce, content management and other custom solutions."
             )
