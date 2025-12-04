@@ -53,7 +53,9 @@
                 "travel_guitar_001.jpg",
                 "travel_guitar_002_.jpg",
                 "travel_guitar_003_.jpg"
-            ]
+            ],
+            "sold": false,
+            "sold_to": "Manu Uribe"
         },
         {
             "display": false,
@@ -107,7 +109,7 @@
             ]
         },
         {
-            "name": "Teclado Surface (en)",
+            "name": "Teclado Microsoft Surface (en)",
             "description": "Microsoft Surface Teclado en Inglés - Gris Platino.",
             "price": 1000,
             "images": [
@@ -127,7 +129,7 @@
             ]
         },
         {
-            "name": "Teclado ms inalambrico (es)",
+            "name": "Teclado Microsoft Inalambrico (es)",
             "description": "Microsoft N9Z-00004 N9Z-00004 Teclado Todo en Uno en Español",
             "price": 500,
             "images": [
