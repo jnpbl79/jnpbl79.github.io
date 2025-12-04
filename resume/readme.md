@@ -141,50 +141,50 @@ I developed and enhanced several components within a loan management system, inc
 
 **Technologies & Skills:** <span title='ASP.NET'>*ASP.NET*</span>, <span title='C#'>*C#*</span>, <span title='.NET Framework'>*.NET Framework*</span>, <span title='jQuery Javascript Library'>*jQuery*</span>, <span title='Javascript'>*Javascript*</span>, <span title='KnockoutJS JavaScript Library'>*KnockoutJS*</span>, <span title='Microsoft SQL Server'>*MSSQL*</span>, <span title='.netTiers Code Generation Framework'>*.netTiers*</span>, <span title='Team Foundation Server'>*TFS*</span>, <span title='ASP.NET Web Forms'>*WebForms*</span>, <span title='ASP.NET Web Services'>*Web Services*</span>
 
-<div style='display:flex;flex-wrap:wrap;gap:25px;'>
-    <div style='flex:48%;margin-bottom:20px;'>
+<div style='display:flex;flex-wrap:wrap;gap:25px;margin-top:40px;'>
+    <div style='flex:48%;margin-bottom:10px;'>
         <div style='display:flex;justify-content:space-between;align-items:end;margin-bottom:10px;'>
             <div style='font-style:bold;font-size:large;'><a href='https://foundersworkshop.com/' target='_blank'>Serpico DEV</a></div>
             <div style='font-size:small;margin-right:10px;'><i>Oct 2011 - Jan 2013</i></div>
         </div>
         <p>Platform for Career Tutors to manage and review professional profiles created by College Students.  Collaborated with the AppointmentPlus development team to create a Web API and Outlook Plugin.</p>
     </div>
-    <div style='flex:48%;margin-bottom:20px;'>
+    <div style='flex:48%;margin-bottom:10px;'>
         <div style='display:flex;justify-content:space-between;align-items:end;margin-bottom:10px;'>
             <div style='font-style:bold;font-size:large;'><a href='https://www.esurance.com' target='_blank'>Esurance</a></div>
             <div style='font-size:small;margin-right:10px;'><i>Mar 2011 - Oct 2011</i></div>
         </div>
         <p>Migrated multiple sections of an existing web application used for insurance claim management from ASP to ASP.NET. Additionally, created new components to support additional features.</p>
     </div>
-    <div style='flex:48%;margin-bottom:20px;'>
+    <div style='flex:48%;margin-bottom:10px;'>
         <div style='display:flex;justify-content:space-between;align-items:end;margin-bottom:10px;'>
             <div style='font-style:bold;font-size:large;'><a href='https://www.encora.com/news/nearsoft-is-now-encora' target='_blank'>Nearsoft</a></div>
             <div style='font-size:small;margin-right:10px;'><i>Jul 2010 - Mar 2011</i></div>
         </div>
         <p>As part of the HarvestMark engineering team, I Developed various components for a traceability software that tracks the origin and freshness of food.</p>
     </div>
-    <div style='flex:48%;margin-bottom:20px;'>
+    <div style='flex:48%;margin-bottom:10px;'>
         <div style='display:flex;justify-content:space-between;align-items:end;margin-bottom:10px;'>
             <div style='font-style:bold;font-size:large;'><a href='https://tiempodev.com' target='_blank'>Tiempo Development</a></div>
             <div style='font-size:small;margin-right:10px;'><i>Nov 2007 - Jan 2010</i></div>
         </div>
         <p>Implemented several software components, including synchronization and compression of audio and video content, packaging of presentations into self-contained executables, integration of image and video search APIs and chart components.</p>
     </div>
-    <div style='flex:48%;margin-bottom:20px;'>
+    <div style='flex:48%;margin-bottom:10px;'>
         <div style='display:flex;justify-content:space-between;align-items:end;margin-bottom:10px;'>
             <div style='font-style:bold;font-size:large;'><a href='#' target='_blank'>e-Business Consultores</a></div>
             <div style='font-size:small;margin-right:10px;'><i>Jan 2006 - Nov 2007</i></div>
         </div>
         <p>Developed web applications creating a range of solutions that included content management systems, e-learning, e-commerce, task tracking, digital signature integration, and others.</p>
     </div>
-    <div style='flex:48%;margin-bottom:20px;'>
+    <div style='flex:48%;margin-bottom:10px;'>
         <div style='display:flex;justify-content:space-between;align-items:end;margin-bottom:10px;'>
             <div style='font-style:bold;font-size:large;'><a href='#' target='_blank'>Cambio Sonora</a></div>
             <div style='font-size:small;margin-right:10px;'><i>Oct 2004 - Jan 2006</i></div>
         </div>
         <p>Web development for newspaper's website and intranet, while also offering technical support and collaboration with the IT department.</p>
     </div>
-    <div style='flex:48%;margin-bottom:20px;'>
+    <div style='flex:48%;margin-bottom:10px;'>
         <div style='display:flex;justify-content:space-between;align-items:end;margin-bottom:10px;'>
             <div style='font-style:bold;font-size:large;'><a href='#' target='_blank'>Dextro International</a></div>
             <div style='font-size:small;margin-right:10px;'><i>May 2000 - Oct 2004</i></div>

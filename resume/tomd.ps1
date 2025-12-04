@@ -81,7 +81,7 @@ foreach ($job in $workItems) {
 
 $summarized = $resume.work.Where({ $_.Display -eq $true -and $_.Summarized -eq $true })
 
-[void]$sb.AppendLine("<div style='display:flex;flex-wrap:wrap;gap:25px;'>")
+[void]$sb.AppendLine("<div style='display:flex;flex-wrap:wrap;gap:25px;margin-top:40px;'>")
 foreach ($job in $summarized) {
     $dateStart = Get-Date -Date $job.DateStart -Format "MMM yyyy"
     $dateEnd = if ($job.DateEnd) { Get-Date -Date $job.DateEnd -Format "MMM yyyy" } else { "Present" }
@@ -94,7 +94,7 @@ foreach ($job in $summarized) {
                 "<span title='$($kw.Title)'>$($kw.Text)</span>"
             }) -join ", "
     [void]$sb.AppendLine(@"
-    <div style='flex:48%;margin-bottom:20px;'>
+    <div style='flex:48%;margin-bottom:10px;'>
         <div style='display:flex;justify-content:space-between;align-items:end;margin-bottom:10px;'>
             <div style='font-style:bold;font-size:large;'><a href='$($job.Url)' target='_blank'>$($job.Company)</a></div>
             <div style='font-size:small;margin-right:10px;'><i>$($dateStart) - $($dateEnd)</i></div>
