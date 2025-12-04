@@ -13,7 +13,14 @@
 
     <div class="bg-white">
         <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-            <h2 class="text-4xl font-bold text-gray-800 mb-4">Caroventas</h2>
+            <div class="flex flex-wrap justify-between items-center">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Caroventas</h2>
+                <a href="https://wa.me/526625089761" target="_blank">
+                    <img src="whatsapp_Inline_Green.png" alt="WhatsApp"
+                        class="h-6 mr-2 hover:opacity-75 inline-block" />
+                </a>
+            </div>
+
             <div v-for="(item, itemIndex) in items" :class="{ 'opacity-60': item.sold }" :key="itemIndex">
                 <h3 class="text-2xl mt-8 mb-5" :class="{ 'line-through text-red-400': item.sold }">
                     {{item.name}}
@@ -24,8 +31,8 @@
                 <p>{{item.description}}</p>
                 <div class="flex gap-2 flex-wrap mt-6 gallery justify-center lg:justify-start">
                     <img v-for="(img, imgIndex) in item.images"
-                        class="lightbox-trigger border rounded-lg h-32 w-32 aspect-auto object-contain hover:opacity-75" :src="`img/s/${img}`"
-                        :alt="img" @click="selectItem(item, imgIndex)" />
+                        class="lightbox-trigger border rounded-lg h-32 w-32 aspect-auto object-contain hover:opacity-75"
+                        :src="`img/s/${img}`" :alt="img" @click="selectItem(item, imgIndex)" />
                 </div>
                 <hr class="my-8" />
             </div>
