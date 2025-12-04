@@ -24,6 +24,8 @@ const formatPrice = (price) => priceFormatter.format(price).split('.')[0];
 
 createApp({
   setup() {
+    const title = ref(data.title);
+    const wa_link = ref(data.wa_link);
     const selectedItem = ref(null);
     const selectedImgIndex = ref(0);
 
@@ -37,6 +39,8 @@ createApp({
     };
 
     return {
+      title,
+      wa_link,
       items,
       formatPrice,
       selectedItem,
