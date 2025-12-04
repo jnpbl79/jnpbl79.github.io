@@ -53,3 +53,7 @@ createApp({
     };
   },
 }).mount("#app");
+
+window.showSold = () => {document.querySelector('.vendido').style.display = 'block';};
+window.hideSold = () => {document.querySelector('.vendido').style.display = 'none';};
+  
