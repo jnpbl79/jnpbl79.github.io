@@ -22,7 +22,7 @@
                 </a>
             </div>
 
-            <div v-for="(item, itemIndex) in items" :class="{ 'opacity-60': item.sold }" :key="itemIndex">
+            <div v-for="(item, itemIndex) in items" :class="{ 'opacity-60 vendido': item.sold }" :key="itemIndex">
                 <h3 class="text-2xl mt-8 mb-5" :class="{ 'line-through text-red-400': item.sold }">
                     {{item.name}}
                     <span class="float-right" :class="{ 'line-through text-red-400': item.sold }">
