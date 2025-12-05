@@ -35,7 +35,6 @@ createApp({
       selectedItem.value = item;
       selectedImgIndex.value = imgIndex % item.images.length;
       document.getElementById("myDialog").showModal();
-      console.log("Selected item:", item, "Image index:", imgIndex);
     };
 
     return {
