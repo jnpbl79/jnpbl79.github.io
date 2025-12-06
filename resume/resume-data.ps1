@@ -522,7 +522,7 @@ $resume = [Resume]@{
         [Work]@{
             Id          = "mdlive"
             Current     = $false
-            Display     = $false
+            Display     = $true
             Via         = "Nearsoft"
             Company     = "MDLive, Inc."
             Description = "MDLIVE is a telehealth provider which provides patients, health plans, health systems and self-insured employers online access to board-certified doctors, pediatricians and licensed therapists."
@@ -564,7 +564,7 @@ $resume = [Resume]@{
                 "js",
                 "mssql",
                 "mvc",
-                "objectivec",
+                # "objectivec",
                 "pwsh",
                 "react",
                 "ror",
@@ -572,13 +572,14 @@ $resume = [Resume]@{
                 "surescripts",
                 "webapi",
                 "webrtc",
-                "Websync",
-                "xcode"
+                "Websync"
+                # "xcode"
             )
         },
         [Work]@{
             Id          = "nearsoft-mdlive"
             Current     = $false
+            Display     = $false
             Via         = ""
             Company     = "Nearsoft"
             Description = "Nearsoft a US-based nearshore software engineering and product development firm that specializes in software development outsourcing and building dedicated engineering teams for software product companies."
@@ -768,7 +769,7 @@ $resume = [Resume]@{
             DateStart      = "2011-10-01"
             DateEnd        = "2013-01-01"
             Location       = @("Phoenix, AZ, US", "Remote")
-            Position       = "Software Developer"
+            Position       = "Web Developer"
             Url            = "https://foundersworkshop.com/"
             Summarized     = $true
             Summary        = @(
@@ -873,7 +874,7 @@ $resume = [Resume]@{
                 "dotnetce",
                 "mssql",
                 "mssqlce",
-                "mssqlxml",
+                # "mssqlxml",
                 "tfs",
                 "wcf",
                 "webforms",
@@ -1134,8 +1135,8 @@ $resume = [Resume]@{
         "mariadb"         = [Keyword]@{ Text = "MariaDb"; Title = "MariaDB Database" }
         "millicast"       = [Keyword]@{ Text = "Millicast"; Title = "Millicast Real-Time Streaming" }
         "mindfusion"      = [Keyword]@{ Text = "MindFusion"; Title = "MindFusion UI Components" }
-        "mssql"           = [Keyword]@{ Text = "MSSQL"; Title = "Microsoft SQL Server" }
-        "mssqlce"         = [Keyword]@{ Text = "MSSQL CE"; Title = "Microsoft SQL Server Compact Edition" }
+        "mssql"           = [Keyword]@{ Text = "SQL Server"; Title = "Microsoft SQL Server" }
+        "mssqlce"         = [Keyword]@{ Text = "MS SQL Server CE"; Title = "Microsoft SQL Server Compact Edition" }
         "mssqlxml"        = [Keyword]@{ Text = "MSSQL XML"; Title = "Microsoft SQL Server XML Services" }
         "mui"             = [Keyword]@{ Text = "MUI"; Title = "Material UI React component library" }
         "mvc"             = [Keyword]@{ Text = "MVC"; Title = "Model View Controller" }

@@ -3,8 +3,8 @@
 $sb = New-Object System.Text.StringBuilder
 
 $profiles = ($resume.Profiles.Where({ $_.Display -ne $false }) | ForEach-Object {
-    "$(@($_.MDIcon, $_.Network)[!$_.MDIcon]) [$($_.Network)]($($_.Url))"
-}) -join " "
+        "$(@($_.MDIcon, $_.Network)[!$_.MDIcon]) [$($_.Network)]($($_.Url))"
+    }) -join " "
 $pdfDownload = "[📄 Download PDF](./resume.pdf)"
 
 [void]$sb.AppendLine("# $($resume.Basics.Name) - $($resume.Basics.Label)")
@@ -23,25 +23,21 @@ if ($resume.Languages) {
 [void]$sb.AppendLine('## Work Experience')
 [void]$sb.AppendLine('')
 
-$index = 0
-$workItems = $resume.work.Where({ $_.Display -eq $true -and $_.Summarized -ne $true })
+$workItems = $resume.work.Where({ $_.Display -eq $true })
 
 foreach ($job in $workItems) {
     $dateStart = Get-Date -Date $job.DateStart -Format "MMM yyyy"
     $dateEnd = if ($job.DateEnd) { Get-Date -Date $job.DateEnd -Format "MMM yyyy" } else { "Present" }
-    $via = @("", "<sub><small><i>via: $($job.Via)</i></small></sub>")[$job.Via -ne '']
+    $via = @("", "<sub><small><i>via $($job.Via)</i></small></sub>")[$job.Via -ne '']
 
-    # [void]$sb.AppendLine("### <small>$($dateStart) - $($dateEnd)</small> | [$($job.Company)]($($job.url)) $($via)")
+    # with linked company name
+    # [void]$sb.AppendLine("### [$($job.Company)]($($job.url)) $($via)")
+
+    # without linked company name
+    [void]$sb.AppendLine("### $($job.Company) $($via)")
+
+    [void]$sb.AppendLine("<small>$($dateStart) - $($dateEnd)</small>")
     
-    # [void]$sb.AppendLine("### [$($job.Company)]($($job.url)) $($via)  ")
-    # [void]$sb.AppendLine("<small>$($dateStart) - $($dateEnd)</small>")
-    
-    [void]$sb.AppendLine(@"
-<div style='display:flex;justify-content:space-between;align-items:center;'>
-    <h3><a href='' target='_blank'>$($job.Company)</a> $via</h3>
-    <div><i>$($dateStart) - $($dateEnd)</i></div>
-</div>
-"@)
     if ($job.HasDescription() -and $job.Id -eq "toptal") {
         [void]$sb.AppendLine('')
         [void]$sb.AppendLine($job.Description)
@@ -72,43 +68,10 @@ foreach ($job in $workItems) {
         [void]$sb.AppendLine("**Technologies & Skills:** $keywords")
         [void]$sb.AppendLine()
     }
-
-    if ($index -lt ($workItems.Count - 1)) {
-        # [void]$sb.AppendLine('---').AppendLine()
-    }
-    $index++
+    
+    [void]$sb.AppendLine('---')
+    [void]$sb.AppendLine()
 }
-
-$summarized = $resume.work.Where({ $_.Display -eq $true -and $_.Summarized -eq $true })
-
-[void]$sb.AppendLine("<div style='display:flex;flex-wrap:wrap;gap:25px;margin-top:40px;'>")
-foreach ($job in $summarized) {
-    $dateStart = Get-Date -Date $job.DateStart -Format "MMM yyyy"
-    $dateEnd = if ($job.DateEnd) { Get-Date -Date $job.DateEnd -Format "MMM yyyy" } else { "Present" }
-    $via = @("", "<sub><small><i>via: $($job.Via)</i></small></sub>")[$job.Via -ne '']
-     $keywords = ($job.keywords | Sort-Object | ForEach-Object { 
-                $kw = $resume.Keywords[$_] ?? [Keyword]@{
-                    Text  = $_
-                    Title = $_
-                }
-                "<span title='$($kw.Title)'>$($kw.Text)</span>"
-            }) -join ", "
-    [void]$sb.AppendLine(@"
-    <div style='flex:48%;margin-bottom:10px;'>
-        <div style='display:flex;justify-content:space-between;align-items:end;margin-bottom:10px;'>
-            <div style='font-style:bold;font-size:large;'><a href='$($job.Url)' target='_blank'>$($job.Company)</a></div>
-            <div style='font-size:small;margin-right:10px;'><i>$($dateStart) - $($dateEnd)</i></div>
-        </div>
-        <p>$($job.Summary)</p>
-    </div>
-"@)
-    # [void]$sb.AppendLine("`t<div style='flex:48%;'>")
-    # [void]$sb.AppendLine("`t`t<h4>$($job.Company)</h4>")
-    # [void]$sb.AppendLine("`t`t<p>$($job.Summary)</p>")
-    # [void]$sb.AppendLine("`t`t<div><b>Tools:</b> <i><small>$($keywords)</small></i></div>")
-    # [void]$sb.AppendLine("`t</div>")   
-}
-[void]$sb.AppendLine("</div>")
 
 # $allKeywords = $resume.Work | ForEach-Object { $_.Keywords } | Sort-Object -Unique
 
@@ -122,10 +85,10 @@ foreach ($job in $summarized) {
 # [void]$sb.AppendLine('```')
 
 # Get-Date -Date (Get-Item $PSCommandPath | Select-Object -ExpandProperty LastWriteTime) -Format u
-$lastWriteTime = Get-Date -Date (Get-Item .\resume-data.ps1).LastWriteTime -Format "MMM dd, yyyy"
-[void]$sb.AppendLine("---")
-[void]$sb.AppendLine()
-[void]$sb.AppendLine("*Last Updated: $($lastWriteTime)*")
+$lastUpdated = Get-Date -Date ($resume.LastUpdated) -Format "MMMM yyyy"
+# [void]$sb.AppendLine("---")
+# [void]$sb.AppendLine()
+[void]$sb.AppendLine("*Last Updated: $($lastUpdated)*")
 
 $sb.ToString() | Set-Content '.\resume.md' -Force -Encoding UTF8
 Copy-Item '.\resume.md' '.\readme.md' -Force
