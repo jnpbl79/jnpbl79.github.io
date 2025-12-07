@@ -220,7 +220,9 @@
             "images": [
                 "monitor34_002.jpg",
                 "monitor34_001.jpg"
-            ]
+            ],
+            "sold": false,
+            "sold_to": "Dante, Feli compa neto"
         },
         {
             "name": "Switch Gigabit",
@@ -278,7 +280,9 @@
                 "bolsa_camara_001.jpg",
                 "bolsa_camara_002.jpg",
                 "bolsa_camara_003.jpg"
-            ]
+            ],
+            "sold": false,
+            "sold_to": "Neto Moreno"
         },
         {
             "name": "Figura RoboCop 1.0",
@@ -301,7 +305,9 @@
                 "metroid_002.webp",
                 "metroid_003.jpg",
                 "metroid_004.jpg"
-            ]
+            ],
+            "sold": false,
+            "sold_to": "Fili compa neto"
         },
         {
             "name": "Nikon FTZ Adaptador",
