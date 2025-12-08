@@ -367,6 +367,16 @@
                 "speedlight_002.webp",
                 "speedlight_003.webp"
             ]
+        },
+        {
+            "name": "Escalera plegable",
+            "description": "Pretul ESTU-2PB, Escalera tubular, plegable, 2 peldaños con barandal",
+            "price": 400,
+            "images": [
+                "escalera_001.jpg",
+                "escalera_002.jpg",
+                "escalera_003.jpg"
+            ]
         }
     ]
 }
