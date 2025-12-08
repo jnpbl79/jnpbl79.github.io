@@ -189,7 +189,9 @@
                 "deco_xe75_002.jpg",
                 "deco_xe75_003.jpg",
                 "deco_xe75_004.jpg"
-            ]
+            ],
+            "sold": false,
+            "sold_to": "Feli compa neto"
         },
         {
             "name": "KVM switch",
@@ -222,7 +224,7 @@
                 "monitor34_001.jpg"
             ],
             "sold": false,
-            "sold_to": "Dante, Feli compa neto"
+            "sold_to": "Feli compa neto"
         },
         {
             "name": "Switch Gigabit",
@@ -307,7 +309,7 @@
                 "metroid_004.jpg"
             ],
             "sold": false,
-            "sold_to": "Fili compa neto"
+            "sold_to": "Feli compa neto"
         },
         {
             "name": "Nikon FTZ Adaptador",
