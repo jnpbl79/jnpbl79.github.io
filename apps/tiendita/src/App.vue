@@ -5,7 +5,7 @@ import data from './products.json' with { type: 'json' }
 import ItemDialog from './components/ItemDialog.vue';
 // import Item from './components/Item.vue';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import { faGrinHearts, faShop, faCat } from '@fortawesome/free-solid-svg-icons';
+import { faShop, faCat } from '@fortawesome/free-solid-svg-icons';
 
 const priceFormatter = new Intl.NumberFormat('en-US', {
   style: 'currency',
@@ -93,15 +93,13 @@ function countClick() {
     <div>
       <article class="product-item" v-for="product in sorted" :key="product.name" :class="{
         sold: !!product.sold,
-        // dibs: !!product.dibs,
         hide: product.display === false
       }">
         <header class="item-header">
-          <h2 class="item-header pico-color-azure-400" :class="{ 'pico-color-green-500': product.dibs }">
+          <h2 class="item-header pico-color-azure-400">
             {{ product.name }}
-            <FontAwesomeIcon :icon="faGrinHearts" v-if="product.dibs" />
           </h2>
-          <b class="item-price pico-color-azure-300" :class="{ 'pico-color-green-500': product.dibs }">{{
+          <b class="item-price pico-color-azure-300">{{
             formatPrice(product.price) }}</b>
         </header>
         <div>{{ product.description }}</div>
