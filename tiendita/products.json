@@ -377,6 +377,16 @@
                 "escalera_002.jpg",
                 "escalera_003.jpg"
             ]
+        },
+        {
+            "name": "Escalón Aerobics Fitness",
+            "description": "Aerobic Step con 2 Alturas",
+            "price": 400,
+            "images": [
+                "aerobic_step_001.jpg",
+                "aerobic_step_002.jpg",
+                "aerobic_step_003.jpg"
+            ]
         }
     ]
 }
