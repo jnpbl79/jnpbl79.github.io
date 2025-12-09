@@ -1,0 +1,412 @@
+{
+    "title": "Artículos en venta",
+    "wa_link": "https://wa.me/526625089761",
+    "contact_email": "jnpbl79+tiendita@gmail.com",
+    "items": [
+        {
+            "name": "Reebok Jet 100",
+            "description": "Caminadora Reebok Jet 100. Sistema Amortiguación; Velocidad máxima de 16 km/h; Peso maximo Usuario 120 Kg; 80kg de peso; superficie de carrera de 130 x 43 cm; inclinación de 0% a 12%",
+            "price": 7000,
+            "images": [
+                "caminadora_001.jpg",
+                "caminadora_002.jpg"
+            ]
+        },
+        {
+            "name": "Patin de diablo",
+            "description": "Razor - Patinete de Aire A5, Cubierta extralarga, Ruedas de Goma neumáticas de 8 Pulgadas, Plegable, manubrio antisonajero, para Jinetes de hasta 200 Libras",
+            "price": 1000,
+            "images": [
+                "patin_razor_001.jpg",
+                "patin_razor_002.jpg"
+            ]
+        },
+        {
+            "name": "Alesis Recital",
+            "description": "Alesis Recital - Piano Eléctrico Digital con Teclado de 88 Teclas Semi-Contrapesadas Full Size, Altavoces Integrados y 5 Voces Premium con cubierta y soporte.",
+            "price": 4000,
+            "images": [
+                "piano_001_.jpg",
+                "piano_002.jpg",
+                "piano_003.jpg",
+                "piano_004.jpg",
+                "piano_005.jpg",
+                "piano_006.jpg",
+                "piano_007.jpg",
+                "piano_008.jpg"
+            ]
+        },
+        {
+            "name": "Monitor portatil 14\"",
+            "description": "JOHNKANG Monitor portátil para laptop, monitor extendido FHD 1080P de 14 pulgadas, con cubierta inteligente, mini HDMI, USB C, altavoces duales.",
+            "price": 800,
+            "images": [
+                "monitor14_001.jpg",
+                "monitor14_002.jpg",
+                "monitor14_003.jpg"
+            ],
+            "sold": false,
+            "sold_to": "Raulito",
+            "dibs": "Raulito"
+        },
+        {
+            "name": "Guitarrita con funda",
+            "description": "Blackstar Carry-On - Guitarra eléctrica",
+            "price": 4000,
+            "images": [
+                "travel_guitar_001.jpg",
+                "travel_guitar_002_.jpg",
+                "travel_guitar_003_.jpg"
+            ],
+            "sold": false,
+            "sold_to": "Manu Uribe",
+            "dibs": "Manu Uribe"
+        },
+        {
+            "display": false,
+            "name": "Tablero magnetico",
+            "description": "VIVO PP-DK24B - Tablero magnético de fijación de acero, 60.96 x 50.8 cm, organizador de accesorios de oficina, colocación por encima o por debajo del computadora, color negro",
+            "price": 700,
+            "amz_link": "https://www.amazon.com.mx/dp/B0BJ16TCMS",
+            "images": [
+                "tablero_magnetico_001.jpg",
+                "tablero_magnetico_002.jpg",
+                "tablero_magnetico_003.jpg",
+                "tablero_magnetico_004.jpg",
+                "tablero_magnetico_005.jpg"
+            ]
+        },
+        {
+            "name": "Soporte teclado",
+            "description": "VIVO MOUNT-KB05ES - Bandeja deslizante para teclado y ratón con abrazadera pequeña para colocar debajo del escritorio, cajón compacto de 20 (26 incluyen abrazaderas) x 11 pulgadas, color negro",
+            "price": 400,
+            "amz_link": "https://www.amazon.com.mx/dp/B082P4VLPD",
+            "images": [
+                "soporte_teclado_001.jpg",
+                "soporte_teclado_002.jpg",
+                "soporte_teclado_003.jpg",
+                "soporte_teclado_004.jpg",
+                "soporte_teclado_005.jpg",
+                "soporte_teclado_006.jpg"
+            ]
+        },
+        {
+            "name": "Soporte vertical para computadora portátil",
+            "description": "Hagibis - Soporte vertical para computadora portátil de computadora para computadora, bloqueo por gravedad",
+            "price": 200,
+            "images": [
+                "soporte_vertical_001.jpg",
+                "soporte_vertical_002.jpg",
+                "soporte_vertical_003.jpg"
+            ]
+        },
+        {
+            "display": false,
+            "name": "Teclado Logitech G915 (en)",
+            "description": "Logitech G G915 X Lightspeed TKL Teclado Gaming Inalámbrico, Low-Profile, Conectividad Tri-Modal, 15 Teclas Programables G, Bluetooth y Opciones Cableadas-Tactile-Negro",
+            "price": 1500,
+            "images": [
+                "teclado_g915_001.jpg",
+                "teclado_g915_002.jpg",
+                "teclado_g915_003.jpg",
+                "teclado_g915_004.jpg",
+                "teclado_g915_005.jpg"
+            ]
+        },
+        {
+            "name": "Teclado Microsoft Surface (en)",
+            "description": "Microsoft Surface Teclado en Inglés - Gris Platino.",
+            "price": 1000,
+            "images": [
+                "teclado_surface_001.jpg",
+                "teclado_surface_002.jpg"
+            ]
+        },
+        {
+            "display": false,
+            "name": "Teclado MS Compact (en)",
+            "description": "Microsoft Designer Compact Keyboard en Ingles - Matte Black. Standalone Wireless Bluetooth Keyboard. Compatible with Bluetooth Enabled PCs/Mac",
+            "price": 600,
+            "images": [
+                "teclado_ms_compact_001.jpg",
+                "teclado_ms_compact_002.jpg",
+                "teclado_ms_compact_003_.jpg"
+            ]
+        },
+        {
+            "name": "Teclado Microsoft Inalambrico (es)",
+            "description": "Microsoft N9Z-00004 N9Z-00004 Teclado Todo en Uno en Español",
+            "price": 500,
+            "images": [
+                "teclado_ms_001_.jpg",
+                "teclado_ms_002_.jpg"
+            ]
+        },
+        {
+            "name": "Soportes elevadores",
+            "description": "ELIVED - Paquete de 2 soportes elevadores para monitor, soportes ajustables de 3 niveles de altura para laptop, computadora, impresora, organizador de malla de metal para escritorio",
+            "price": 200,
+            "images": [
+                "soporte_elevador_001.jpg",
+                "soporte_elevador_002.jpg",
+                "soporte_elevador_003.jpg",
+                "soporte_elevador_004.jpg"
+            ]
+        },
+        {
+            "name": "Mini amplificador",
+            "description": "Blackstar - Amplificador de guitarra amPlug2 FLY sin cable, se conecta directamente a la guitarra, ideal para la práctica en casa, funciona con pilas y efectos integrados",
+            "price": 600,
+            "images": [
+                "blackstar_amp_001.jpg",
+                "blackstar_amp_002.jpg",
+                "blackstar_amp_003_.jpg",
+                "blackstar_amp_004.jpg"
+            ]
+        },
+        {
+            "name": "iRig2",
+            "description": "IK Multimedia Adaptador de Interfaz iRig 2 de Guitarra para Dispositivos iOS - Negro",
+            "price": 600,
+            "images": [
+                "irig_001.jpg",
+                "irig_002.jpg",
+                "irig_003.jpg",
+                "irig_004.jpg"
+            ]
+        },
+        {
+            "name": "TP-Link Mesh Deco M5 2-Pack",
+            "description": "TP-Link Mesh Deco M5 2-Pack. Sistema Wi-Fi Mesh Inteligente de Doble Banda AC1300",
+            "price": 1700,
+            "images": [
+                "deco_m5_001.jpg",
+                "deco_m5_002.jpg",
+                "deco_m5_003.jpg"
+            ]
+        },
+        {
+            "name": "Deco XE75 Wifi-6E 2-Pack",
+            "description": "2-Pack. Sistema Wi-Fi 6E Mesh AXE5400 TP-Link Mesh Deco XE75 de Triple Banda",
+            "price": 3000,
+            "images": [
+                "deco_xe75_001.jpg",
+                "deco_xe75_002.jpg",
+                "deco_xe75_003.jpg",
+                "deco_xe75_004.jpg"
+            ],
+            "sold": false,
+            "sold_to": "",
+            "dibs": ""
+        },
+        {
+            "name": "KVM switch",
+            "description": "Conmutador KVM USB-C 2 en 4 salidas - 4K @60Hz/120Hz, 8K @30Hz Video/Compartir Ratón Teclado Impresora Compatible con Cable Thunderbolt 3/4, Gris",
+            "price": 500,
+            "images": [
+                "kvm_001.jpg",
+                "kvm_002.jpg",
+                "kvm_003.jpg",
+                "kvm_004.jpg"
+            ]
+        },
+        {
+            "name": "DJI FPV Drone",
+            "description": "Drone con batería Intelligent Flight, cargador y hélices (sin control remoto ni gafas)",
+            "price": 6000,
+            "images": [
+                "dji_fpv_002.jpg",
+                "dji_fpv_005.jpg",
+                "dji_fpv_006.jpg",
+                "dji_fpv_007.webp"
+            ]
+        },
+        {
+            "name": "Monitor 34\"",
+            "description": "Monitor LG 34WP65C-B UltraWide Monitor de computadora de 34 Pulgadas QHD (3440 x 1440) 160Hz, HDR10, AMD FreeSync Premium, Altavoz Integrado, diseño sin Bordes, Soporte de inclinación/Altura, Puerto HDMI",
+            "price": 5000,
+            "images": [
+                "monitor34_002.jpg",
+                "monitor34_001.jpg"
+            ],
+            "sold": false,
+            "sold_to": "",
+            "dibs": ""
+        },
+        {
+            "name": "Switch Gigabit",
+            "description": "TP-Link LS1008G, Switch Gigabit no administrable, 8 Puertos Gigabit, Diseño de Escritorio, Plug and Play",
+            "price": 200,
+            "images": [
+                "tplink_switch_001.jpg",
+                "tplink_switch_002.jpg",
+                "tplink_switch_003.jpg",
+                "tplink_switch_004.jpg"
+            ]
+        },
+        {
+            "display": false,
+            "name": "Comedor",
+            "description": "",
+            "price": 0,
+            "images": [
+                "",
+                ""
+            ]
+        },
+        {
+            "name": "Refrigerador LG",
+            "description": "Refrigerador LG Multi Door 24cu.ft. Medidas: Ancho: 87.0 Profundidad: 95.0 Altura: 182.0",
+            "price": 8000,
+            "images": [
+                "refrigerador_001.avif",
+                "refrigerador_002.avif",
+                "refrigerador_003.avif",
+                "refrigerador_004.avif",
+                "refrigerador_005.jpeg"
+            ],
+            "sold": true,
+            "sold_to": "Sobrina Daniel"
+        },
+        {
+            "name": "Nikon Z50",
+            "description": "Camara Nikon Z50 Mirrorless Con Lente 16-55mm + Dx 50-250mm; Wireless Remote Control Shutter Release; Bolsa Grande para Dispositivos DSLR",
+            "price": 20000,
+            "images": [
+                "nikon_001.jpg",
+                "nikon_002.jpg",
+                "nikon_003.jpg",
+                "wireless_shutter_rc.jpg",
+                "dslr_bag_001.jpg",
+                "dslr_bag_002.jpg"
+            ]
+        },
+        {
+            "name": "Bolsa para cámara",
+            "description": "Case Logic DCB-306 SLR Bolsa para cámara",
+            "price": 300,
+            "images": [
+                "bolsa_camara_001.jpg",
+                "bolsa_camara_002.jpg",
+                "bolsa_camara_003.jpg"
+            ],
+            "sold": false,
+            "sold_to": "Neto Moreno",
+            "dibs": "Neto Moreno"
+        },
+        {
+            "name": "Figura RoboCop 1.0",
+            "description": "SQUARE ENIX - Play Arts Kai RoboCop 1.0 Action Figure",
+            "price": 2500,
+            "images": [
+                "robocop_box_001.webp",
+                "robocop_box_002.webp",
+                "robocop_004.webp",
+                "robocop_005.jpg",
+                "robocop_006.jpg"
+            ]
+        },
+        {
+            "name": "Figura Samus Aran",
+            "description": "Figma - Good Smile Metroid: Other M Samus Aran Figma Action Figure",
+            "price": 1500,
+            "images": [
+                "metroid_001.webp",
+                "metroid_002.webp",
+                "metroid_003.jpg",
+                "metroid_004.jpg"
+            ],
+            "sold": false,
+            "sold_to": "",
+            "dibs": ""
+        },
+        {
+            "name": "Nikon FTZ Adaptador",
+            "description": "Adaptador de montaje Nikon FTZ lente de montaje F a cámara de montaje Z",
+            "price": 2500,
+            "images": [
+                "nikon_ftz_001.webp",
+                "nikon_ftz_002.webp",
+                "nikon_ftz_003.webp"
+            ]
+        },
+        {
+            "name": "Nikon AF NIKKOR 50MM F/1.8D",
+            "description": "Nikon AF NIKKOR 50MM F/1.8D",
+            "price": 2500,
+            "images": [
+                "nikon_50mm_001.jpg",
+                "nikon_50mm_002.jpg"
+            ]
+        },
+        {
+            "name": "Nikon D60 10,2 MP SLR (solo cuerpo)",
+            "description": "Nikon D60 10,2 MP SLR (solo cuerpo)",
+            "price": 1000,
+            "images": [
+                "nikon_d60_001.webp",
+                "nikon_d60_002.webp",
+                "nikon_d60_003.webp",
+                "nikon_d60_004.webp"
+            ]
+        },
+        {
+            "name": "Cable Rocksmith USB",
+            "description": "Rocksmith Cable de audio USB en tono real [Ubisoft]",
+            "price": 500,
+            "images": [
+                "rocksmith_cable.jpg"
+            ]
+        },
+        {
+            "name": "Máquina masajeadora",
+            "description": "RENPHO - Máquina masajeadora de piernas con calor, Shiatsu, para pies y pantorrillas",
+            "price": 4000,
+            "images": [
+                "masajeador_001.jpg",
+                "masajeador_002.jpg"
+            ]
+        },
+        {
+            "name": "YONGNUO Digital Speedlite YN560-II",
+            "description": "YONGNUO Digital Speedlite YN560-II",
+            "price": 300,
+            "images": [
+                "speedlight_001.webp",
+                "speedlight_002.webp",
+                "speedlight_003.webp"
+            ]
+        },
+        {
+            "name": "Escalera plegable",
+            "description": "Pretul ESTU-2PB, Escalera tubular, plegable, 2 peldaños con barandal",
+            "price": 400,
+            "images": [
+                "escalera_001.jpg",
+                "escalera_002.jpg",
+                "escalera_003.jpg"
+            ]
+        },
+        {
+            "name": "Escalón Aerobics Fitness",
+            "description": "Aerobic Step con 2 Alturas",
+            "price": 400,
+            "images": [
+                "aerobic_step_001.jpg",
+                "aerobic_step_002.jpg",
+                "aerobic_step_003.jpg"
+            ]
+        },
+        {
+            "name": "Lámpara de Monitor",
+            "description": "Quntis Basic Pro Lámpara de Monitor con Control Remoto 40CM, 2 Modo de Operación, Diminución Automática, Luz de Escritorio con Alta Reproducción de Color, Luz USB, Luz de Barra LED",
+            "price": 500,
+            "images": [
+                "lampara_monitor_001.jpg",
+                "lampara_monitor_002.jpg",
+                "lampara_monitor_003.jpg",
+                "lampara_monitor_004.jpg"
+            ]
+        }
+    ]
+}
