@@ -23,9 +23,11 @@ if ($resume.Languages) {
 [void]$sb.AppendLine('## Work Experience')
 [void]$sb.AppendLine('')
 
-$workItems = $resume.work.Where({ $_.Display -eq $true })
-
+$workItems = $resume.Work | Where-Object -Property Display -NE $false
 foreach ($job in $workItems) {
+    if ($job.Display -ne $true) {
+        continue
+    }
     $dateStart = Get-Date -Date $job.DateStart -Format "MMM yyyy"
     $dateEnd = if ($job.DateEnd) { Get-Date -Date $job.DateEnd -Format "MMM yyyy" } else { "Present" }
     $via = @("", "<sub><small><i>via $($job.Via)</i></small></sub>")[$job.Via -ne '']

@@ -634,6 +634,7 @@ $resume = [Resume]@{
             )
         },
         [Work]@{
+            Display        = $false
             Id             = "d4"
             Current        = $false
             Via            = "Toptal"
@@ -675,6 +676,7 @@ $resume = [Resume]@{
             ShowHighlights = $false
         },
         [Work]@{
+            Display        = $false
             Id             = "arex"
             Current        = $false
             Via            = "Toptal"
@@ -714,6 +716,7 @@ $resume = [Resume]@{
             ShowHighlights = $false
         },
         [Work]@{
+            Display        = $false
             Id             = "amc"
             Current        = $false
             Via            = "Toptal"
@@ -761,6 +764,7 @@ $resume = [Resume]@{
             ShowHighlights = $false
         },
         [Work]@{
+            Display        = $false
             Id             = "serpicodev"
             Current        = $false
             Via            = ""
@@ -803,6 +807,7 @@ $resume = [Resume]@{
             ShowHighlights = $false
         },
         [Work]@{
+            Display        = $false
             Id             = "hildebrando"
             Current        = $false
             Via            = "Hildebrando"
@@ -844,6 +849,7 @@ $resume = [Resume]@{
             ShowHighlights = $false
         },
         [Work]@{
+            Display        = $false
             Id             = "nearsoft-yotta"
             Current        = $false
             Via            = ""
@@ -854,7 +860,7 @@ $resume = [Resume]@{
             Location       = @("Hermosillo, SON, MX")
             Position       = "Software Developer"
             Url            = "https://www.encora.com/news/nearsoft-is-now-encora"
-             Summarized     = $true
+            Summarized     = $true
             Summary        = @(
                 "As part of the HarvestMark engineering team, I Developed various components for a traceability software that tracks the origin and freshness of food."
             )
@@ -885,6 +891,7 @@ $resume = [Resume]@{
             ShowHighlights = $false
         },
         [Work]@{
+            Display        = $false
             Id             = "tiempo"
             Current        = $false
             Via            = ""
@@ -895,7 +902,7 @@ $resume = [Resume]@{
             Location       = @("Hermosillo, SON, MX")
             Position       = "Software Developer"
             Url            = "https://tiempodev.com"
-             Summarized     = $true
+            Summarized     = $true
             Summary        = @(
                 # "Implemented several software components, including synchronization and compression of audio and video content, packaging of presentations into self-contained executables, integration of image and video search APIs with retrieval capabilities and chart components.",
                 "Implemented several software components, including synchronization and compression of audio and video content, packaging of presentations into self-contained executables, integration of image and video search APIs and chart components."
@@ -932,6 +939,7 @@ $resume = [Resume]@{
             ShowHighlights = $false
         },
         [Work]@{
+            Display        = $false
             Id             = "ebc"
             Current        = $false
             Via            = ""
@@ -977,6 +985,7 @@ $resume = [Resume]@{
             ShowHighlights = $false
         },
         [Work]@{
+            Display        = $false
             Id             = "cambio"
             Current        = $false
             Via            = ""
@@ -1008,6 +1017,7 @@ $resume = [Resume]@{
             ShowHighlights = $false
         },
         [Work]@{
+            Display        = $false
             Id             = "dextro"
             Current        = $false
             Via            = ""
