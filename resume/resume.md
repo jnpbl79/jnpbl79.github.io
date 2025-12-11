@@ -1,6 +1,6 @@
 # Pablo López - Software Developer
 
-📧 [Email](mailto:pablo+contact@pablolopez.dev) 🌐 [Website](https://resume.pablolopez.dev) 🏢 [LinkedIn](https://www.linkedin.com/in/jplopezg/) [📄 Download PDF](./resume.pdf)
+📧 [Email](mailto:jnpbl79+resume@gmail.com) 🌐 [Website](https://resume.pablolopez.dev) 🏢 [LinkedIn](https://www.linkedin.com/in/jplopezg/) [📄 Download PDF](./resume.pdf)
 
 I have great adaptability, the ability to work collaboratively with cross-functional teams, learn new skills quickly and am always interested in new challenges. I possess good communication skills and can tackle problems and situations with sensitivity and proactively. I consistently contribute to the achievement of both team and personal goals, don't hesitate to ask what I don't know, do the research and get things done.
 

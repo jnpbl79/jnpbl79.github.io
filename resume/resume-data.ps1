@@ -163,10 +163,17 @@ $resume = [Resume]@{
         }
     )
     Profiles       = @(
+        # [Profile]@{
+        #     Network  = "Email"
+        #     Username = "pablo@pablolopez.dev"
+        #     Url      = "mailto:pablo+contact@pablolopez.dev"
+        #     MDIcon   = "📧"
+        #     Display  = $true
+        # },
         [Profile]@{
             Network  = "Email"
-            Username = "pablo@pablolopez.dev"
-            Url      = "mailto:pablo+contact@pablolopez.dev"
+            Username = "jnpbl79@gmail.com"
+            Url      = "mailto:jnpbl79+resume@gmail.com"
             MDIcon   = "📧"
             Display  = $true
         },
