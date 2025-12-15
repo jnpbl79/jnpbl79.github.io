@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-02T12:45:33-07:00",
+  "lastUpdated": "2025-12-03T03:14:18-07:00",
   "basics": {
     "name": "Pablo L\u00F3pez",
     "label": "Software Developer",
@@ -8,45 +8,14 @@
     "website": "https://resume.pablolopez.dev",
     "timezone": "(UTC-07:00) America - Hermosillo",
     "summary": "I have great adaptability, the ability to work collaboratively with cross-functional teams, learn new skills quickly and am always interested in new challenges. I possess good communication skills and can tackle problems and situations with sensitivity and proactively. I consistently contribute to the achievement of both team and personal goals, don\u0027t hesitate to ask what I don\u0027t know, do the research and get things done.",
+    "locationString": "Hermosillo, Sonora, Mexico",
     "location": {
       "city": "Hermosillo",
       "countryCode": "MX",
       "countryName": "Mexico",
       "region": "SON",
       "regionName": "Sonora"
-    },
-    "profiles": [
-      {
-        "network": "Email",
-        "username": "pablo@pablolopez.dev",
-        "url": "mailto:pablo\u002Bcontact@pablolopez.dev",
-        "display": true
-      },
-      {
-        "network": "Website",
-        "username": "resume.pablolopez.dev",
-        "url": "https://resume.pablolopez.dev",
-        "display": true
-      },
-      {
-        "network": "LinkedIn",
-        "username": "linkedin.com/in/jplopezg",
-        "url": "https://www.linkedin.com/in/jplopezg/",
-        "display": true
-      },
-      {
-        "network": "Github",
-        "username": "github.com/jnpbl79",
-        "url": "https://github.com/jnpbl79",
-        "display": true
-      },
-      {
-        "network": "Toptal",
-        "username": "www.toptal.com/resume/juan-pablo-lopez-garcia",
-        "url": "https://www.toptal.com/resume/juan-pablo-lopez-garcia",
-        "display": false
-      }
-    ]
+    }
   },
   "languages": [
     {
@@ -56,6 +25,43 @@
     {
       "language": "English",
       "fluency": "Professional"
+    }
+  ],
+  "profiles": [
+    {
+      "network": "Email",
+      "username": "jnpbl79@gmail.com",
+      "url": "mailto:jnpbl79\u002Bresume@gmail.com",
+      "mdIcon": "\uD83D\uDCE7",
+      "display": true
+    },
+    {
+      "network": "Website",
+      "username": "resume.pablolopez.dev",
+      "url": "https://resume.pablolopez.dev",
+      "mdIcon": "\uD83C\uDF10",
+      "display": true
+    },
+    {
+      "network": "LinkedIn",
+      "username": "linkedin.com/in/jplopezg",
+      "url": "https://www.linkedin.com/in/jplopezg/",
+      "mdIcon": "\uD83C\uDFE2",
+      "display": true
+    },
+    {
+      "network": "Github",
+      "username": "github.com/jnpbl79",
+      "url": "https://github.com/jnpbl79",
+      "mdIcon": "\uD83D\uDC19",
+      "display": false
+    },
+    {
+      "network": "Toptal",
+      "username": "www.toptal.com/resume/juan-pablo-lopez-garcia",
+      "url": "https://www.toptal.com/resume/juan-pablo-lopez-garcia",
+      "mdIcon": null,
+      "display": false
     }
   ],
   "work": [
@@ -77,6 +83,7 @@
       "highlights": [],
       "industries": null,
       "keywords": [],
+      "summarized": false,
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
@@ -102,7 +109,6 @@
         "Migrated projects from .NET 4.5 to .NET 9, enabling access to the latest language features and improving runtime performance.",
         "Developed a configuration preset feature, allowing users to save, load, and apply over 50 customizable tournament and broadcast settings.",
         "Optimized startup by deferring non-critical component initialization to background threads, reducing perceived load time.",
-        "Consolidated all PokerGFX applications into a single solution structure, improving maintainability and cross-project integration.",
         "Refactored the licensing system by separating license logic into focused classes, improving maintainability, increasing testability by introducing license test classes, and simplifying feature access control by exposing clear properties.",
         "Developed a WPF application to read, write and validate licences to KEYLOK hardware, facilitating offline license management for users.",
         "Automated the end-to-end build, signing, and publishing process for all PokerGFX projects, reducing manual effort and human error.",
@@ -130,6 +136,7 @@
         "wpfui",
         "xaml"
       ],
+      "summarized": false,
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
@@ -169,6 +176,7 @@
         "vbnet",
         "webforms"
       ],
+      "summarized": false,
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
@@ -215,7 +223,7 @@
         "mindfusion",
         "mui",
         "react",
-        "Screen Readers",
+        "screenreaders",
         "syncfusion",
         "telerik",
         "uiautomation",
@@ -223,6 +231,7 @@
         "white",
         "winforms"
       ],
+      "summarized": false,
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
@@ -271,6 +280,7 @@
         "razor",
         "webapi"
       ],
+      "summarized": false,
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
@@ -315,6 +325,7 @@
         "mariadb",
         "razor"
       ],
+      "summarized": false,
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
@@ -376,6 +387,7 @@
         "wpf",
         "xaml"
       ],
+      "summarized": false,
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
@@ -420,6 +432,7 @@
         "webforms",
         "webservices"
       ],
+      "summarized": false,
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
@@ -429,7 +442,7 @@
     {
       "id": "mdlive",
       "current": false,
-      "display": false,
+      "display": true,
       "via": "Nearsoft",
       "company": "MDLive, Inc.",
       "description": "MDLIVE is a telehealth provider which provides patients, health plans, health systems and self-insured employers online access to board-certified doctors, pediatricians and licensed therapists.",
@@ -473,76 +486,15 @@
         "js",
         "mssql",
         "mvc",
-        "objectivec",
         "pwsh",
         "react",
         "ror",
         "surescripts",
         "webapi",
         "webrtc",
-        "Websync",
-        "xcode"
+        "websync"
       ],
-      "parsedDateStart": "0001-01-01T00:00:00",
-      "parsedDateEnd": "0001-01-01T00:00:00",
-      "formattedDateStart": null,
-      "formattedDateEnd": null,
-      "showHighlights": true
-    },
-    {
-      "id": "nearsoft-mdlive",
-      "current": false,
-      "display": true,
-      "via": "",
-      "company": "Nearsoft",
-      "description": "Nearsoft a US-based nearshore software engineering and product development firm that specializes in software development outsourcing and building dedicated engineering teams for software product companies.",
-      "dateStart": "2015-09-01",
-      "dateEnd": "2019-08-01",
-      "location": [
-        "Hermosillo, SON, MX"
-      ],
-      "position": "Software Developer",
-      "url": "https://www.encora.com/news/nearsoft-is-now-encora",
-      "summary": [
-        "As part of the [MDLive Inc](https://www.mdlive.com) team, I was involved and worked alongside product design, UX, DevOps and other development teams to build, integrate and deploy a WebRTC conferencing solution composed of several back and front end services and components."
-      ],
-      "highlights": [
-        "WebRTC solution with audio recording composed of signaling server, Javascript and C# clients, Azure Storage, Queues and Functions.",
-        "Ruby gem to map Surecript API request and response messages between JSON and XML.",
-        "Added Office 365 authentication to UWP application.",
-        "Worked with iOS and Android development teams to help with integration of video conferencing application",
-        "Worked with DevOps team to help with infrastructure provisioning and deployment of server-side applications on Azure.",
-        "Worked with offshore team to help debug and deploy a payment gateway written in ASP.NET."
-      ],
-      "industries": [
-        "Healthcare Software",
-        "Mental Health \u0026 Rehabilitation Facilities",
-        "Telehealth Services"
-      ],
-      "keywords": [
-        "aspnet",
-        "azure_queues",
-        "azure_storage",
-        "azure_functions",
-        "c#",
-        "docker",
-        "dockerwindows",
-        "dotnetfx",
-        "ffmpeg",
-        "frozenmountain",
-        "git",
-        "icelink",
-        "js",
-        "mssql",
-        "mvc",
-        "pwsh",
-        "react",
-        "ror",
-        "surescripts",
-        "webapi",
-        "webrtc",
-        "Websync"
-      ],
+      "summarized": false,
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
@@ -552,7 +504,7 @@
     {
       "id": "d4",
       "current": false,
-      "display": true,
+      "display": false,
       "via": "Toptal",
       "company": "D4 Software",
       "description": "Software, Big Data \u0026 Analytics.",
@@ -587,6 +539,7 @@
         "mvc",
         "webapi"
       ],
+      "summarized": false,
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
@@ -596,7 +549,7 @@
     {
       "id": "arex",
       "current": false,
-      "display": true,
+      "display": false,
       "via": "Toptal",
       "company": "arex Rxchange GmbH",
       "description": "Rxchange is an online marketplace for wholesale dealers located in the EU, trading EU or EU-registered medicinal products.",
@@ -632,6 +585,7 @@
         "mvc",
         "webapi"
       ],
+      "summarized": false,
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
@@ -641,7 +595,7 @@
     {
       "id": "amc",
       "current": false,
-      "display": true,
+      "display": false,
       "via": "Toptal",
       "company": "American Mortgage Consultants",
       "description": "SitusAMC is the leading independent solutions provider to the real estate finance industry, powering opportunity across the lifecycle of commercial and residential real estate lending and investing.",
@@ -682,6 +636,7 @@
         "webforms",
         "webservices"
       ],
+      "summarized": false,
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
@@ -691,7 +646,7 @@
     {
       "id": "serpicodev",
       "current": false,
-      "display": true,
+      "display": false,
       "via": "",
       "company": "Serpico DEV",
       "description": "SerpicoDEV (now Founders Workshop) was a global software development firm, headquartered in Scottsdale, AZ, that focused on serving entrepreneurs, startups, and small businesses by transforming ideas into market-ready, solutions. The company provided services such as software development, system integration, and legacy system migration, leveraging business strategy, design and product development to deliver human-centered solutions and drive client ventures forward.",
@@ -701,8 +656,8 @@
         "Phoenix, AZ, US",
         "Remote"
       ],
-      "position": "Software Developer",
-      "url": "",
+      "position": "Web Developer",
+      "url": "https://foundersworkshop.com/",
       "summary": [
         "Platform for Career Tutors to manage and review professional profiles created by College Students.  Collaborated with the AppointmentPlus development team to create a Web API and Outlook Plugin."
       ],
@@ -729,6 +684,7 @@
         "mysql",
         "webapi"
       ],
+      "summarized": true,
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
@@ -738,7 +694,7 @@
     {
       "id": "hildebrando",
       "current": false,
-      "display": true,
+      "display": false,
       "via": "Hildebrando",
       "company": "Esurance",
       "description": "Esurance is an online insurance provider, now a subsidiary of Allstate, that sells direct-to-consumer auto, home, renters, and motorcycle insurance through its website and mobile app.",
@@ -772,6 +728,7 @@
         "webforms",
         "webservices"
       ],
+      "summarized": true,
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
@@ -781,7 +738,7 @@
     {
       "id": "nearsoft-yotta",
       "current": false,
-      "display": true,
+      "display": false,
       "via": "",
       "company": "Nearsoft",
       "description": "Nearsoft is a software development company that builds high-quality software products for startups and established businesses.",
@@ -808,7 +765,6 @@
         "dotnetce",
         "mssql",
         "mssqlce",
-        "mssqlxml",
         "tfs",
         "wcf",
         "webforms",
@@ -816,6 +772,7 @@
         "winforms",
         "winservices"
       ],
+      "summarized": true,
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
@@ -825,7 +782,7 @@
     {
       "id": "tiempo",
       "current": false,
-      "display": true,
+      "display": false,
       "via": "",
       "company": "Tiempo Development",
       "description": "Tiempo Development is a software development company offering nearshore services, providing software development, deployment, and support to clients in North America, with development centers in Guadalajara, Hermosillo, and Monterrey, Mexico.",
@@ -837,7 +794,7 @@
       "position": "Software Developer",
       "url": "https://tiempodev.com",
       "summary": [
-        "Implemented several software components, including synchronization and compression of audio and video content, packaging of presentations into self-contained executables, integration of image and video search APIs with retrieval capabilities and chart components."
+        "Implemented several software components, including synchronization and compression of audio and video content, packaging of presentations into self-contained executables, integration of image and video search APIs and chart components."
       ],
       "highlights": [
         "Synchronization and compression of audio and video content",
@@ -867,6 +824,7 @@
         "wpf",
         "xaml"
       ],
+      "summarized": true,
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
@@ -876,7 +834,7 @@
     {
       "id": "ebc",
       "current": false,
-      "display": true,
+      "display": false,
       "via": "",
       "company": "e-Business Consultores",
       "description": "",
@@ -886,7 +844,7 @@
         "Hermosillo, SON, MX"
       ],
       "position": "Head of Custom Development",
-      "url": "",
+      "url": "#",
       "summary": [
         "Developed web applications creating a range of solutions that included content management systems, e-learning, e-commerce, task tracking, digital signature integration, and others."
       ],
@@ -916,6 +874,7 @@
         "webservices",
         "XML"
       ],
+      "summarized": true,
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
@@ -925,7 +884,7 @@
     {
       "id": "cambio",
       "current": false,
-      "display": true,
+      "display": false,
       "via": "",
       "company": "Cambio Sonora",
       "description": "",
@@ -935,7 +894,7 @@
         "Hermosillo, SON, MX"
       ],
       "position": "Web Developer",
-      "url": "",
+      "url": "#",
       "summary": [
         "Web development for newspaper\u0027s website and intranet, while also offering technical support and collaboration with the IT department."
       ],
@@ -952,6 +911,7 @@
         "mssql",
         "vbscript"
       ],
+      "summarized": true,
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
@@ -961,7 +921,7 @@
     {
       "id": "dextro",
       "current": false,
-      "display": true,
+      "display": false,
       "via": "",
       "company": "Dextro International",
       "description": "",
@@ -972,7 +932,7 @@
         "Remote"
       ],
       "position": "Web Developer",
-      "url": "",
+      "url": "#",
       "summary": [
         "Designed and developed dynamic websites with e-commerce, content management and other custom solutions."
       ],
@@ -990,6 +950,7 @@
         "mssql",
         "vbscript"
       ],
+      "summarized": true,
       "parsedDateStart": "0001-01-01T00:00:00",
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
@@ -1244,11 +1205,11 @@
       "title": "MindFusion UI Components"
     },
     "mssql": {
-      "text": "MSSQL",
+      "text": "SQL Server",
       "title": "Microsoft SQL Server"
     },
     "mssqlce": {
-      "text": "MSSQL CE",
+      "text": "MS SQL Server CE",
       "title": "Microsoft SQL Server Compact Edition"
     },
     "mssqlxml": {
@@ -1331,6 +1292,10 @@
       "text": "Ruby",
       "title": "Ruby Programming Language"
     },
+    "screenreaders": {
+      "text": "Screen Readers",
+      "title": "Screen Readers"
+    },
     "sass": {
       "text": "Sass",
       "title": "Syntactically Awesome Stylesheets"
@@ -1408,8 +1373,8 @@
       "title": "ASP.NET Web Services"
     },
     "websync": {
-      "text": "Websync",
-      "title": "Frozen Mountain Websync"
+      "text": "WebSync",
+      "title": "WebRTC Signalling, Text Chat and Pub/Sub"
     },
     "white": {
       "text": "White",
@@ -1450,12 +1415,12 @@
   },
   "meta": {
     "FeatherIcons": {
-      "linkedin": "linkedin",
-      "email": "mail",
       "phone": "phone",
+      "toptal": "star",
       "github": "github",
+      "email": "mail",
       "location": "map-pin",
-      "toptal": "star"
+      "linkedin": "linkedin"
     }
   }
 }

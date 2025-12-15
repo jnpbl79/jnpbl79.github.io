@@ -93,4 +93,4 @@ $lastUpdated = Get-Date -Date ($resume.LastUpdated) -Format "MMMM yyyy"
 [void]$sb.AppendLine("*Last Updated: $($lastUpdated)*")
 
 $sb.ToString() | Set-Content '.\resume.md' -Force -Encoding UTF8
-Copy-Item '.\resume.md' '.\readme.md' -Force
+# Copy-Item '.\resume.md' '.\readme.md' -Force
