@@ -88,7 +88,8 @@
       "parsedDateEnd": "0001-01-01T00:00:00",
       "formattedDateStart": null,
       "formattedDateEnd": null,
-      "showHighlights": true
+      "showHighlights": true,
+      "showDescription": true
     },
     {
       "id": "pgfx",

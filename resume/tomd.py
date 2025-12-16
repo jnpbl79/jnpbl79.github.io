@@ -4,7 +4,6 @@ import json
 import os
 from types import SimpleNamespace
 from datetime import datetime
-import yaml
 
 md_string = []
 # Simple script to print a message
@@ -95,16 +94,5 @@ print(md_content)
 
 with open('resume_py.md', 'w', encoding='utf-8') as file:
     file.write(md_content)
-
-with open('resume.json', 'r') as file:
-   python_dict = json.load(file)
-
-# Convert the Python dictionary to a YAML string
-# default_flow_style=False ensures a human-readable, multi-line output
-yaml_string = yaml.dump(python_dict, default_flow_style=False, sort_keys=False)
-
-# Write to a YAML file
-with open('resume.yaml', 'w') as f:
-    f.write(yaml_string)
 
 print("> END OF LINE.")
