@@ -27,26 +27,22 @@ for p in [p for p in data.profiles if p.display == True]:
     profiles.append(f"{p.mdIcon} [{p.network}]({p.url})")
 profiles.append("[📄 Download PDF](./resume.pdf)")
 
-md_string.append(f"# {data.basics.name} - {data.basics.label}")
-md_string.append("")
-md_string.append(" | ".join(profiles))
-md_string.append("")
-md_string.append(data.basics.locationString)
-md_string.append("")
-md_string.append(data.basics.summary)
-md_string.append("")
-
 langs = []
 for lang in data.languages:
     langs.append(lang.language)
 
-md_string.append(f"**Languages:** {", ".join(langs)}")
+md_string.append(f"""
+# {data.basics.name} - {data.basics.label}
 
-md_string.append("")
-md_string.append("## Work Experience")
-md_string.append("")
+**Contact:** {data.basics.email}  
+**Location:** {data.basics.locationString}  
+**Languages:** {", ".join(langs)}
 
-# work = [w for w in data.work if w.display == True]
+{data.basics.summary}
+
+## Work Experience
+""")
+
 jobs = []
 # for job in [w for w in data.work if w.display == True]:
 for job in data.work:
@@ -55,7 +51,7 @@ for job in data.work:
     date_start = datetime.strptime(job.dateStart, format_string).date().strftime("%b %Y")
     date_end = datetime.strptime(job.dateEnd, format_string).date().strftime("%b %Y") if job.dateEnd else "Present"
     via = f"<sub><small>via {job.via}</small></sub>" if job.via else ""
-
+    startEnd = f"<small>{date_start} - {date_end}</small>"
     job_item.append(f"### {job.company} {via}")
     job_item.append("")
     job_item.append(f"<small>{date_start} - {date_end}</small>")
@@ -87,7 +83,6 @@ for job in data.work:
     jobs.append("\n".join(job_item))
 
 md_string.append(f"\n\n---\n\n".join(jobs))
-
 md_string.append("")
 md_string.append("---")
 md_string.append("")
