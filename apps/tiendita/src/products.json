@@ -222,6 +222,7 @@
             ]
         },
         {
+            "display": false,
             "name": "Monitor 34\"",
             "description": "Monitor LG 34WP65C-B UltraWide Monitor de computadora de 34 Pulgadas QHD (3440 x 1440) 160Hz, HDR10, AMD FreeSync Premium, Altavoz Integrado, diseño sin Bordes, Soporte de inclinación/Altura, Puerto HDMI",
             "price": 5000,
