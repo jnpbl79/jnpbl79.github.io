@@ -144,6 +144,7 @@
             ]
         },
         {
+            "display": false,
             "name": "Soportes elevadores",
             "description": "ELIVED - Paquete de 2 soportes elevadores para monitor, soportes ajustables de 3 niveles de altura para laptop, computadora, impresora, organizador de malla de metal para escritorio",
             "price": 200,
