@@ -45,7 +45,7 @@
                 "monitor14_002.jpg",
                 "monitor14_003.jpg"
             ],
-            "sold": false,
+            "sold": true,
             "sold_to": "Raulito",
             "dibs": "Raulito"
         },
