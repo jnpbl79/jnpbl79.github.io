@@ -50,6 +50,7 @@
             "dibs": "Raulito"
         },
         {
+            "display": false,
             "name": "Guitarrita con funda",
             "description": "Blackstar Carry-On - Guitarra eléctrica",
             "price": 4000,
@@ -92,6 +93,7 @@
             ]
         },
         {
+            "display": false,
             "name": "Soporte vertical para computadora portátil",
             "description": "Hagibis - Soporte vertical para computadora portátil de computadora para computadora, bloqueo por gravedad",
             "price": 200,
@@ -115,6 +117,7 @@
             ]
         },
         {
+            "display": false,
             "name": "Teclado Microsoft Surface (en)",
             "description": "Microsoft Surface Teclado en Inglés - Gris Platino.",
             "price": 1000,
@@ -156,6 +159,7 @@
             ]
         },
         {
+            "display": false,
             "name": "Mini amplificador",
             "description": "Blackstar - Amplificador de guitarra amPlug2 FLY sin cable, se conecta directamente a la guitarra, ideal para la práctica en casa, funciona con pilas y efectos integrados",
             "price": 600,
@@ -167,6 +171,7 @@
             ]
         },
         {
+            "display": false,
             "name": "iRig2",
             "description": "IK Multimedia Adaptador de Interfaz iRig 2 de Guitarra para Dispositivos iOS - Negro",
             "price": 600,
@@ -298,6 +303,7 @@
             "dibs": "Neto Moreno"
         },
         {
+            "display": false,
             "name": "Figura RoboCop 1.0",
             "description": "SQUARE ENIX - Play Arts Kai RoboCop 1.0 Action Figure",
             "price": 2500,
@@ -310,6 +316,7 @@
             ]
         },
         {
+            "display": false,
             "name": "Figura Samus Aran",
             "description": "Figma - Good Smile Metroid: Other M Samus Aran Figma Action Figure",
             "price": 1500,
@@ -362,6 +369,7 @@
             ]
         },
         {
+            "display": false,
             "name": "Máquina masajeadora",
             "description": "RENPHO - Máquina masajeadora de piernas con calor, Shiatsu, para pies y pantorrillas",
             "price": 4000,
@@ -401,6 +409,7 @@
             ]
         },
         {
+            "display": false,
             "name": "Lámpara de Monitor",
             "description": "Quntis Basic Pro Lámpara de Monitor con Control Remoto 40CM, 2 Modo de Operación, Diminución Automática, Luz de Escritorio con Alta Reproducción de Color, Luz USB, Luz de Barra LED",
             "price": 500,
