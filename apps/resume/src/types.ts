@@ -1,3 +1,28 @@
+export interface IResume {
+    basics: IBasics;
+    work: WorkItem[];
+}
+
+export interface IBasics {
+    name: string;
+    label: string;
+    picture: string;
+    email: string;
+    phone: string;
+    website: string;
+    timezone: string;
+    summary: string;
+    locationString: string;
+}
+
+export interface IProfile {
+    network: string;
+    username: string;
+    url: string;
+    display: boolean;
+    mdIcon: string;
+}
+
 export interface WorkItem {
     id: string;
     current?: boolean;

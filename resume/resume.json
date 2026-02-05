@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-03T03:14:18-07:00",
+  "lastUpdated": "2026-01-31",
   "basics": {
     "name": "Pablo L\u00F3pez",
     "label": "Software Developer",
@@ -33,6 +33,7 @@
       "username": "jnpbl79@gmail.com",
       "url": "mailto:jnpbl79\u002Bresume@gmail.com",
       "mdIcon": "\uD83D\uDCE7",
+      "faIcon": "fa-regular fa-envelope",
       "display": true
     },
     {
@@ -40,6 +41,7 @@
       "username": "resume.pablolopez.dev",
       "url": "https://resume.pablolopez.dev",
       "mdIcon": "\uD83C\uDF10",
+      "faIcon": "fa-solid fa-globe",
       "display": true
     },
     {
@@ -47,6 +49,7 @@
       "username": "linkedin.com/in/jplopezg",
       "url": "https://www.linkedin.com/in/jplopezg/",
       "mdIcon": "\uD83C\uDFE2",
+      "faIcon": "fa-brands fa-linkedin-in",
       "display": true
     },
     {
@@ -54,21 +57,58 @@
       "username": "github.com/jnpbl79",
       "url": "https://github.com/jnpbl79",
       "mdIcon": "\uD83D\uDC19",
-      "display": false
+      "faIcon": "fa-brands fa-github",
+      "display": true
     },
     {
       "network": "Toptal",
       "username": "www.toptal.com/resume/juan-pablo-lopez-garcia",
       "url": "https://www.toptal.com/resume/juan-pablo-lopez-garcia",
       "mdIcon": null,
+      "faIcon": "fa-solid fa-earth-americas",
       "display": false
+    },
+    {
+      "network": "Hermosillo, Sonora, Mexico",
+      "username": "Hermosillo, Sonora, Mexico",
+      "url": "https://www.toptal.com/resume/juan-pablo-lopez-garcia",
+      "mdIcon": null,
+      "faIcon": "fa-solid fa-location-dot",
+      "display": true
     }
   ],
   "work": [
     {
+      "id": "vail",
+      "display": true,
+      "full": true,
+      "current": true,
+      "company": "Vail Resorts",
+      "via": "Genpact",
+      "viaUrl": "https://www.genpact.com",
+      "location": [
+        "Remote"
+      ],
+      "description": "42 MOUNTAIN RESORTS, CONNECTED",
+      "position": "Principal Consultant",
+      "url": "https://www.vailresorts.com",
+      "dateStart": "2026-01-12",
+      "dateEnd": "",
+      "showDescription": true,
+      "summary": [],
+      "highlights": [],
+      "keywords": [
+        "C#",
+        "Git",
+        "MSSQL",
+        ".NET",
+        "Azure Container Apps"
+      ]
+    },
+    {
       "id": "toptal",
       "current": true,
-      "display": true,
+      "display": false,
       "via": "",
       "company": "Toptal",
       "description": "Toptal is a global, remote-first network that connects businesses with vetted freelance professionals, primarily in tech, design, and business fields like software engineering, product management, and project management.",
@@ -84,22 +124,19 @@
       "industries": null,
       "keywords": [],
       "summarized": false,
-      "parsedDateStart": "0001-01-01T00:00:00",
-      "parsedDateEnd": "0001-01-01T00:00:00",
-      "formattedDateStart": null,
-      "formattedDateEnd": null,
       "showHighlights": true,
       "showDescription": true
     },
     {
       "id": "pgfx",
-      "current": true,
       "display": true,
       "via": "Toptal",
+      "viaUrl": "https://www.toptal.com",
       "company": "PokerGFX LLC",
       "description": "PokerGFX is the software platform used to generate real-time poker graphics and statistics for live poker broadcasts. It is a Windows-based software suite designed to work seamlessly with PokerGFX RFID hardware. It automates camera switching and overlays animated graphics on live streams.",
       "dateStart": "2024-12-02",
       "dateEnd": "2025-08-11",
+      "full": true,
       "location": [
         "Remote"
       ],
@@ -138,10 +175,6 @@
         "xaml"
       ],
       "summarized": false,
-      "parsedDateStart": "0001-01-01T00:00:00",
-      "parsedDateEnd": "0001-01-01T00:00:00",
-      "formattedDateStart": null,
-      "formattedDateEnd": null,
       "showHighlights": true
     },
     {
@@ -149,10 +182,12 @@
       "current": true,
       "display": true,
       "via": "Toptal",
+      "viaUrl": "https://www.toptal.com",
       "company": "CGi, LLC",
       "description": "CGi is a full-service association and events management company.",
       "dateStart": "2024-07-19",
       "dateEnd": "2025-02-01",
+      "full": true,
       "location": [
         "Remote"
       ],
@@ -178,21 +213,18 @@
         "webforms"
       ],
       "summarized": false,
-      "parsedDateStart": "0001-01-01T00:00:00",
-      "parsedDateEnd": "0001-01-01T00:00:00",
-      "formattedDateStart": null,
-      "formattedDateEnd": null,
       "showHighlights": true
     },
     {
       "id": "alteryx",
-      "current": false,
       "display": true,
       "via": "Toptal",
+      "viaUrl": "https://www.toptal.com",
       "company": "Alteryx",
       "description": "Alteryx is Self-Service Analytics, Data Science \u0026 Process Automation software.",
       "dateStart": "2020-08-01",
       "dateEnd": "2024-01-01",
+      "full": true,
       "location": [
         "Broomfield, CO, US",
         "Remote"
@@ -233,21 +265,17 @@
         "winforms"
       ],
       "summarized": false,
-      "parsedDateStart": "0001-01-01T00:00:00",
-      "parsedDateEnd": "0001-01-01T00:00:00",
-      "formattedDateStart": null,
-      "formattedDateEnd": null,
       "showHighlights": true
     },
     {
       "id": "fremantle",
-      "current": false,
       "display": true,
       "via": "",
       "company": "Fremantle Productions",
       "description": "Fremantle is a world leader in creating, producing and distributing across entertainment, drama, film and documentary content.",
       "dateStart": "2021-04-01",
       "dateEnd": "2021-05-01",
+      "full": true,
       "location": [
         ""
       ],
@@ -282,21 +310,17 @@
         "webapi"
       ],
       "summarized": false,
-      "parsedDateStart": "0001-01-01T00:00:00",
-      "parsedDateEnd": "0001-01-01T00:00:00",
-      "formattedDateStart": null,
-      "formattedDateEnd": null,
       "showHighlights": false
     },
     {
       "id": "reebok",
-      "current": false,
       "display": true,
       "via": "",
       "company": "Reebok CrossFit Games 2020",
       "description": "The Reebok CrossFit Games website, now known as the CrossFit Games, is the official online platform for the \u0022ultimate proving grounds for the Fittest on Earth\u2122,\u0022 where top athletes compete in the annual CrossFit Games. It provides information on the CrossFit Open, a global event where anyone can compete, and offers results, schedules, and details on upcoming events for individuals, teams, and age-group athletes.",
       "dateStart": "2020-07-01",
       "dateEnd": "2020-08-01",
+      "full": true,
       "location": [
         ""
       ],
@@ -327,21 +351,18 @@
         "razor"
       ],
       "summarized": false,
-      "parsedDateStart": "0001-01-01T00:00:00",
-      "parsedDateEnd": "0001-01-01T00:00:00",
-      "formattedDateStart": null,
-      "formattedDateEnd": null,
       "showHighlights": false
     },
     {
       "id": "funeralvue",
-      "current": false,
       "display": true,
       "via": "Toptal",
+      "viaUrl": "https://www.toptal.com",
       "company": "FuneralVue",
       "description": "FuneralVue offers recording and webcasting services to funeral homes around the World.",
       "dateStart": "2020-03-01",
       "dateEnd": "2020-08-01",
+      "full": true,
       "location": [
         "Cincinnati, Ohio, US",
         "Remote"
@@ -389,21 +410,18 @@
         "xaml"
       ],
       "summarized": false,
-      "parsedDateStart": "0001-01-01T00:00:00",
-      "parsedDateEnd": "0001-01-01T00:00:00",
-      "formattedDateStart": null,
-      "formattedDateEnd": null,
       "showHighlights": true
     },
     {
       "id": "evolutionsoftware",
-      "current": false,
       "display": true,
       "via": "Toptal",
+      "viaUrl": "https://www.toptal.com",
       "company": "Evolution Software",
       "description": "Evolution Software has a web application to visually create web applications which with little to no developer intervention can create custom modules for different customers\u2019 needs.",
       "dateStart": "2019-03-01",
       "dateEnd": "2020-01-01",
+      "full": true,
       "location": [
         "Cape Town, South Africa",
         "Remote"
@@ -434,21 +452,18 @@
         "webservices"
       ],
       "summarized": false,
-      "parsedDateStart": "0001-01-01T00:00:00",
-      "parsedDateEnd": "0001-01-01T00:00:00",
-      "formattedDateStart": null,
-      "formattedDateEnd": null,
       "showHighlights": false
     },
     {
       "id": "mdlive",
-      "current": false,
       "display": true,
       "via": "Nearsoft",
+      "viaUrl": "https://www.encora.com/news/nearsoft-is-now-encora",
       "company": "MDLive, Inc.",
       "description": "MDLIVE is a telehealth provider which provides patients, health plans, health systems and self-insured employers online access to board-certified doctors, pediatricians and licensed therapists.",
       "dateStart": "2015-09-01",
       "dateEnd": "2019-08-01",
+      "full": true,
       "location": [
         "Miramar, FL, US",
         "Remote"
@@ -496,17 +511,13 @@
         "websync"
       ],
       "summarized": false,
-      "parsedDateStart": "0001-01-01T00:00:00",
-      "parsedDateEnd": "0001-01-01T00:00:00",
-      "formattedDateStart": null,
-      "formattedDateEnd": null,
       "showHighlights": true
     },
     {
       "id": "d4",
-      "current": false,
-      "display": false,
+      "display": true,
       "via": "Toptal",
+      "viaUrl": "https://www.toptal.com",
       "company": "D4 Software",
       "description": "Software, Big Data \u0026 Analytics.",
       "dateStart": "2015-04-01",
@@ -518,7 +529,7 @@
       "position": "Software Developer",
       "url": "http://weared4.com",
       "summary": [
-        "Worked on various development projects for ASP.NET MVC websites, focusing on enhancing user experience, email sending and tracking features."
+        "Worked on various development projects for ASP.NET MVC websites, focusing on enhancing user experience and email sending and tracking features."
       ],
       "highlights": [
         "Worked with Sass, Twitter Bloodhound, and Entity framework migrations.",
@@ -541,17 +552,13 @@
         "webapi"
       ],
       "summarized": false,
-      "parsedDateStart": "0001-01-01T00:00:00",
-      "parsedDateEnd": "0001-01-01T00:00:00",
-      "formattedDateStart": null,
-      "formattedDateEnd": null,
       "showHighlights": false
     },
     {
       "id": "arex",
-      "current": false,
-      "display": false,
+      "display": true,
       "via": "Toptal",
+      "viaUrl": "https://www.toptal.com",
       "company": "arex Rxchange GmbH",
       "description": "Rxchange is an online marketplace for wholesale dealers located in the EU, trading EU or EU-registered medicinal products.",
       "dateStart": "2014-10-01",
@@ -563,7 +570,7 @@
       "position": "Software Developer",
       "url": "https://www.rxchange.co.uk",
       "summary": [
-        "Worked on ASP.NET MVC components to improve operations within an online E-Commerce Pharmaceutical B2B marketplace for wholesale dealers in the EU."
+        "Worked on ASP.NET MVC components to improve operations within an online B2B marketplace for wholesale dealers in the EU."
       ],
       "highlights": [
         "Created user controls to ease access to information across orders.",
@@ -587,17 +594,13 @@
         "webapi"
       ],
       "summarized": false,
-      "parsedDateStart": "0001-01-01T00:00:00",
-      "parsedDateEnd": "0001-01-01T00:00:00",
-      "formattedDateStart": null,
-      "formattedDateEnd": null,
       "showHighlights": false
     },
     {
       "id": "amc",
-      "current": false,
-      "display": false,
+      "display": true,
       "via": "Toptal",
+      "viaUrl": "https://www.toptal.com",
       "company": "American Mortgage Consultants",
       "description": "SitusAMC is the leading independent solutions provider to the real estate finance industry, powering opportunity across the lifecycle of commercial and residential real estate lending and investing.",
       "dateStart": "2013-01-01",
@@ -608,8 +611,11 @@
       ],
       "position": "Software Developer",
       "url": "https://www.situsamc.com",
-      "summary": [
+      "_summary": [
         "I developed and enhanced several components within a loan management system, including a rules engine for applying tests to loans and a stipulations manager, both leveraging ASP.NET technologies and KnockoutJS for responsive client-side interactions. I also implemented a claims review module and contributed migrating Classic ASP web applications written with VBScript to ASP.NET Web Forms with C# and data access code migration from ADO.NET to .netTiers. Additionally, I refactored multiple ASP.NET Web Forms to boost performance and optimize resource usage across the application."
+      ],
+      "summary": [
+        "Designed and developed multiple solutions and components to enhance claims processing efficiency and streamline due diligence activities, thereby optimizing business operations."
       ],
       "highlights": [
         "ASP/VBScript (Classic ASP) migration to ASP.NET Web Forms and C#.",
@@ -638,16 +644,11 @@
         "webservices"
       ],
       "summarized": false,
-      "parsedDateStart": "0001-01-01T00:00:00",
-      "parsedDateEnd": "0001-01-01T00:00:00",
-      "formattedDateStart": null,
-      "formattedDateEnd": null,
       "showHighlights": false
     },
     {
       "id": "serpicodev",
-      "current": false,
-      "display": false,
+      "display": true,
       "via": "",
       "company": "Serpico DEV",
       "description": "SerpicoDEV (now Founders Workshop) was a global software development firm, headquartered in Scottsdale, AZ, that focused on serving entrepreneurs, startups, and small businesses by transforming ideas into market-ready, solutions. The company provided services such as software development, system integration, and legacy system migration, leveraging business strategy, design and product development to deliver human-centered solutions and drive client ventures forward.",
@@ -686,17 +687,13 @@
         "webapi"
       ],
       "summarized": true,
-      "parsedDateStart": "0001-01-01T00:00:00",
-      "parsedDateEnd": "0001-01-01T00:00:00",
-      "formattedDateStart": null,
-      "formattedDateEnd": null,
       "showHighlights": false
     },
     {
       "id": "hildebrando",
-      "current": false,
-      "display": false,
+      "display": true,
       "via": "Hildebrando",
+      "viaUrl": "https://www.linkedin.com/company/hildebrando/?originalSubdomain=mx",
       "company": "Esurance",
       "description": "Esurance is an online insurance provider, now a subsidiary of Allstate, that sells direct-to-consumer auto, home, renters, and motorcycle insurance through its website and mobile app.",
       "dateStart": "2011-03-01",
@@ -730,16 +727,11 @@
         "webservices"
       ],
       "summarized": true,
-      "parsedDateStart": "0001-01-01T00:00:00",
-      "parsedDateEnd": "0001-01-01T00:00:00",
-      "formattedDateStart": null,
-      "formattedDateEnd": null,
       "showHighlights": false
     },
     {
       "id": "nearsoft-yotta",
-      "current": false,
-      "display": false,
+      "display": true,
       "via": "",
       "company": "Nearsoft",
       "description": "Nearsoft is a software development company that builds high-quality software products for startups and established businesses.",
@@ -774,16 +766,11 @@
         "winservices"
       ],
       "summarized": true,
-      "parsedDateStart": "0001-01-01T00:00:00",
-      "parsedDateEnd": "0001-01-01T00:00:00",
-      "formattedDateStart": null,
-      "formattedDateEnd": null,
       "showHighlights": false
     },
     {
       "id": "tiempo",
-      "current": false,
-      "display": false,
+      "display": true,
       "via": "",
       "company": "Tiempo Development",
       "description": "Tiempo Development is a software development company offering nearshore services, providing software development, deployment, and support to clients in North America, with development centers in Guadalajara, Hermosillo, and Monterrey, Mexico.",
@@ -826,16 +813,11 @@
         "xaml"
       ],
       "summarized": true,
-      "parsedDateStart": "0001-01-01T00:00:00",
-      "parsedDateEnd": "0001-01-01T00:00:00",
-      "formattedDateStart": null,
-      "formattedDateEnd": null,
       "showHighlights": false
     },
     {
       "id": "ebc",
-      "current": false,
-      "display": false,
+      "display": true,
       "via": "",
       "company": "e-Business Consultores",
       "description": "",
@@ -845,7 +827,7 @@
         "Hermosillo, SON, MX"
       ],
       "position": "Head of Custom Development",
-      "url": "#",
+      "url": "",
       "summary": [
         "Developed web applications creating a range of solutions that included content management systems, e-learning, e-commerce, task tracking, digital signature integration, and others."
       ],
@@ -876,16 +858,11 @@
         "XML"
       ],
       "summarized": true,
-      "parsedDateStart": "0001-01-01T00:00:00",
-      "parsedDateEnd": "0001-01-01T00:00:00",
-      "formattedDateStart": null,
-      "formattedDateEnd": null,
       "showHighlights": false
     },
     {
       "id": "cambio",
-      "current": false,
-      "display": false,
+      "display": true,
       "via": "",
       "company": "Cambio Sonora",
       "description": "",
@@ -913,16 +890,11 @@
         "vbscript"
       ],
       "summarized": true,
-      "parsedDateStart": "0001-01-01T00:00:00",
-      "parsedDateEnd": "0001-01-01T00:00:00",
-      "formattedDateStart": null,
-      "formattedDateEnd": null,
       "showHighlights": false
     },
     {
       "id": "dextro",
-      "current": false,
-      "display": false,
+      "display": true,
       "via": "",
       "company": "Dextro International",
       "description": "",
@@ -952,10 +924,6 @@
         "vbscript"
       ],
       "summarized": true,
-      "parsedDateStart": "0001-01-01T00:00:00",
-      "parsedDateEnd": "0001-01-01T00:00:00",
-      "formattedDateStart": null,
-      "formattedDateEnd": null,
       "showHighlights": false
     }
   ],
